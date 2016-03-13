@@ -1,1 +1,43 @@
-Hello World!
+---
+layout: default
+title: Jots
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="start">
+
+  {% include browser-upgrade.html %}
+
+  <header class="header">
+    <h1 class="title">
+      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </h1>
+    <div class="subtitle">{{ site.description }}</div>
+  </header>
+
+  <section class="content">
+    <ul>
+      {% for jot in site.jots reversed %}
+        <li>
+          <a class="jot" href="{{ jot.reference }}" target="_blank" title="{{ jot.title }}">
+            <blockquote class="body" cite="{{ jot.reference }}">
+              {{ jot.content }}
+            </blockquote>
+            <div class="source">{{ jot.author }} in <cite>{{ jot.title }}</cite>, from <cite>{{ jot.source }}</cite>. Retrieved on {{ jot.date | date: "%d.%m.%Y" }}.</div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+{% include footer.html %}
+
+{% include scripts.html %}
+
+</body>
+
+</html>

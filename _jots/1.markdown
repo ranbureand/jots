@@ -1,0 +1,9 @@
+---
+title: "Dysfunctional Products Come from Dysfunctional Organizations"
+author: "Jon Kolko"
+source: "Harward Business Review"
+reference: "https://hbr.org/2015/01/dysfunctional-products-come-from-dysfunctional-organizations"
+date: 2016-03-12 12:00:00
+---
+
+The dysfunction in the organization became the dysfunction in the product, and that was passed on to the customers.
