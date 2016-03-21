@@ -2,7 +2,7 @@
 title: "Pragmatism Is Poison"
 author: "Einar W. Høst"
 source: "Ample Code"
-reference: "https://einarwh.wordpress.com/2016/03/10/pragmatism-is-poison/"
+source-url: "https://einarwh.wordpress.com/2016/03/10/pragmatism-is-poison/"
 date: 2016-03-12 12:00:00
 ---
 

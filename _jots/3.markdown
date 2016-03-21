@@ -1,8 +1,8 @@
 ---
 title: "Jackie Chan — How to Do Action Comedy"
-author: "Tony Zhou"
+author: "Jackie Chan, Tony Zhou"
 source: "Every Frame a Painting"
-reference: "https://www.youtube.com/watch?v=Z1PCtIaM_GQ"
+source-url: "https://www.youtube.com/watch?v=Z1PCtIaM_GQ"
 date: 2016-03-12 12:00:00
 ---
 

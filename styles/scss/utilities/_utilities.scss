@@ -1,0 +1,175 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Font sizes and line heights
+*/
+
+$m-large-size: 20px;
+$m-large-line: 2.8;
+
+$d-large-size: 32px;
+$d-large-line: 4.0;
+
+$m-medium-size: 16px;
+$m-medium-line: 2.4;
+
+$d-medium-size: 30px;
+$d-medium-line: 3.6;
+
+$m-small-size: 14px;
+$m-small-line: 2.0;
+
+$d-small-size: 14px;
+$d-small-line: 2.0;
+
+/*
+** Base font sizes and line heights
+*/
+
+$base-font-size: $m-medium-size;
+$base-line-height: 10px;
+
+/*
+** Font weights
+*/
+
+$bold: 500;
+$normal: 400;
+
+/*
+** Grid
+** col(2) > width: 144px
+** col(3) > width: 216px
+** col(6) > width: 432px
+** col(8) > width: 576px
+** col(12) > width: 864px
+** col(16) > width: 1152px
+** col(24) > width: 1728px
+*/
+
+$column-width: 72px;
+
+/*
+** Guts and indents
+*/
+
+$m-gut: 32px;
+$m-indent: $m-gut/2;
+$d-gut: 24px;
+$d-indent: $d-gut;
+
+/*
+** Border widths
+*/
+
+$border-width: 4px;
+$border-radius: 4px;
+$field-border-width: 2px;
+$button-medium-border-width: 2px;
+$button-small-border-width: 1px;
+
+/*
+** Strip units
+*/
+
+@function strip($number) {
+	@return $number / ($number * 0 + 1);
+}
+
+/*
+** Convert pxs to ems
+*/
+
+@function em($px, $base: $base-font-size) {
+	@return strip($px / $base) * 1em;
+}
+
+/*
+** Column-width function, in ems
+*/
+
+@function col($number-columns, $base: $base-font-size) {
+	@return em($column-width * $number-columns, $base);
+}
+
+/*
+** Column-width function, in pxs
+*/
+
+@function col-px($number-columns) {
+	@return $column-width * $number-columns * 1px;
+}
+
+/*
+** Typefaces
+*/
+
+@mixin face($status: sans) {
+	@if $status == "sans" {
+		font-family: "Cooper Hewitt", "Helvetica Neue", Arial, sans-serif;
+	} @else if $status == "serif" {
+		font-family: Georgia, serif;
+	} @else if $status == "mono" {
+		font-family: "Roboto Mono", "Andale Mono", "Monaco", monospace;
+	} @else if $status == "condensed" {
+		font-family: "Roboto Condensed", "Monaco", monospace;
+	}
+}
+
+/*
+** Clearfix
+*/
+
+@mixin clearfix {
+	&:before, &:after {
+		display: table;
+
+		content: " ";
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+/*
+** Align
+*/
+
+@mixin align($status: center) {
+	@if $status == "center" {
+		margin-right: auto;
+		margin-left: auto;
+	} @else if $status == "left" {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+/*
+** Link
+*/
+
+@mixin link($status: link) {
+	@if $status == "link" {
+		//border-bottom: 1px solid $st-type-color;
+		//box-shadow: 0 -1px 0 $st-type-color inset;
+
+		@include text-shadow($background-color 1px 1px 0, $background-color -1px 1px 0, $background-color 2px 0 0, $background-color -2px 0 0);
+		@include box-shadow($background-color 0 0 0 0 inset, $st-type-color 0 -2px 0 0 inset);
+		&:hover, &:active {
+			//border-bottom: 1px solid $st-type-color;
+			//box-shadow: 0 -1px 0 $st-type-color inset;
+		}
+	} @else if $status == "inverted-link" {
+		@include link-colors($strong-type-inverted-color, $strong-type-color, $strong-type-color);
+		@include text-shadow($st-background-color 1px 1px 0, $st-background-color -1px 1px 0, $st-background-color 2px 0 0, $st-background-color -2px 0 0);
+		@include box-shadow($st-background-color 0 0 0 0 inset, $strong-type-inverted-color 0 -2px 0 0 inset);
+	} @else if $status == "none" {
+		border-bottom: none;
+		box-shadow: none;
+		&:hover, &:active {
+			border-bottom: none;
+			box-shadow: none;
+		}
+	}
+}

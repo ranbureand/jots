@@ -1,0 +1,46 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Body
+*/
+
+.body {
+	position: relative;
+
+	width: 100%;
+	padding-bottom: rhythm($m-medium-line*4);
+
+	@extend %column-gut;
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+	}
+	h2 {
+		span {
+			display: block;
+			color: $light-type-color;
+			@include face(sans);
+			@include adjust-font-size-to($m-small-size, $m-small-line, $m-extra-large-size);
+			text-transform: none;
+			font-weight: $normal;
+		}
+	}
+	@include min-screen(col(8)) {
+		padding-bottom: rhythm($d-medium-line*4);
+	}
+	@include min-screen(col(12)) {
+		width: col(8);
+		margin-right: -100%;
+		margin-left: 0;
+		h1, h2, h3, h4, h5, h6 {
+			text-align: left;
+		}
+		h2 {
+			span {
+				@include adjust-font-size-to($d-small-size, $d-small-line, $d-extra-large-size);
+			}
+		}
+	}
+	@include min-screen(col(12)) {
+		float: left;
+	}
+}

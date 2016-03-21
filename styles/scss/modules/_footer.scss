@@ -1,0 +1,133 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Footer
+*/
+
+.footer {
+	position: relative;
+	z-index: 1;
+
+	overflow: hidden;
+
+	width: 100%;
+	padding-top: rhythm($m-large-line*2);
+	padding-bottom: rhythm($m-large-line*2);
+
+	color: $strong-type-inverted-color;
+
+	@include align(center);
+	a {
+		font-weight: $bold;
+		@include link(inverted-link);
+	}
+	.planum, .logo {
+		padding-top: rhythm($m-medium-line);
+		padding-right: em($m-gut/2);
+		padding-bottom: rhythm($m-medium-line + $m-medium-line - $m-small-line);
+		padding-left: em($m-gut/2);
+	}
+	.logo {
+		svg {
+			width: em(64px);
+			height: em(64px);
+			display: block;
+			@include align(center);
+			fill: $light-type-color;
+		}
+	}
+	[class*="toe"] {
+		padding-top: rhythm($m-small-line);
+		padding-right: em($m-gut/2);
+		padding-bottom: rhythm($m-small-line);
+		padding-left: em($m-gut/2);
+
+		text-align: center;
+		p {
+			@include adjust-font-size-to($m-small-size, $m-small-line);
+		}
+	}
+	.toe-credits {
+		margin-top: rhythm(-$m-small-line*2);
+	}
+	@include min-screen(col(8)) {
+		padding-top: rhythm($d-large-line*2);
+		padding-bottom: rhythm($d-large-line*2);
+		.planum, .logo {
+			padding-top: rhythm($d-medium-line);
+			padding-right: em($d-gut/2);
+			padding-bottom: rhythm($d-medium-line + $d-medium-line - $d-small-line);
+			padding-left: em($d-gut/2);
+		}
+		.logo {
+			svg {
+				width: em(64px);
+				height: em(64px);
+			}
+		}
+		[class*="toe"] {
+			padding-top: rhythm($d-small-line);
+			padding-right: em($d-gut/2);
+			padding-bottom: rhythm($d-small-line);
+			padding-left: em($d-gut/2);
+			p {
+				@include adjust-font-size-to($d-small-size, $d-small-line);
+			}
+		}
+		.toe-credits {
+			margin-top: rhythm(-$d-small-line*2);
+		}
+	}
+	@include min-screen(col(12)) {
+		padding-top: rhythm($d-small-line);
+		[class*="toe"] {
+			float: left;
+
+			text-align: left;
+		}
+		.planum {
+			padding-bottom: rhythm($d-medium-line*2);
+			float: left;
+			width: col(8);
+			margin-right: -100%;
+			margin-left: col(4);
+		}
+		.logo {
+			float: left;
+			padding-bottom: rhythm($d-medium-line*2);
+			width: col(4);
+			margin-right: -100%;
+			margin-left: 0;
+			text-align: left;
+			svg {
+				margin-left: 0;
+			}
+		}
+		.toe-copy {
+			clear: left;
+
+			width: col(4);
+			margin-right: -100%;
+			margin-left: 0;
+		}
+		.toe-credits {
+			width: col(8);
+			margin-top: 0;
+			margin-right: -100%;
+			margin-left: col(4);
+		}
+		.toe-scroll {
+			width: col(4);
+			margin-top: 0;
+			margin-right: -100%;
+			margin-left: col(8);
+
+			text-align: right;
+		}
+	}
+	@include min-screen(col(16)) {
+		.toe-scroll {
+			margin-left: col(12);
+		}
+	}
+}

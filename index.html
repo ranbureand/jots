@@ -12,23 +12,16 @@ title: Jots
 
   {% include browser-upgrade.html %}
 
-  <header class="header">
-    <h1 class="title">
-      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </h1>
-    <div class="subtitle">{{ site.description }}</div>
-  </header>
-
   <section class="content">
-    <ul>
+    <ul class="jots">
       {% for jot in site.jots reversed %}
-        <li>
-          <a class="jot" href="{{ jot.reference }}" target="_blank" title="{{ jot.title }}">
-            <blockquote class="body" cite="{{ jot.reference }}">
-              {{ jot.content }}
-            </blockquote>
-            <div class="source">{{ jot.author }} in <cite>{{ jot.title }}</cite>, from <cite>{{ jot.source }}</cite>. Retrieved on {{ jot.date | date: "%d.%m.%Y" }}.</div>
-          </a>
+        <li class="jot">
+          <div class="number">№ 00</div>
+          <blockquote class="body typo-l" cite="{{ jot.source-url }}">
+            {{ jot.content }}
+          </blockquote>
+          <div class="reference"><span class="author">{{ jot.author }}</span> in <a href="{{ jot.source-url }}" target="_blank" title="{{ jot.title }}"><cite class="title">{{ jot.title }}</cite></a>, from <cite class="source">{{ jot.source }}</cite>.</div>
+          <div class="date">Retrieved on the <time class="">{{ jot.date | date: "%d.%m.%Y" }}</time>.</div>
         </li>
       {% endfor %}
     </ul>

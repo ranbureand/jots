@@ -1,0 +1,68 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Colors
+** 0 1 | 2 3 | 4 5 | 6 7 | 8 9 | a b | c d | e f
+*/
+
+$black: #000;
+$white: #fff;
+
+//$st-color: hsl(240, 100, 80);
+//$st-color: hsl(80, 100, 70);
+$st-color: hsl(260, 100, 70);
+
+$canvas: hsl(260, 60, 98);
+
+/*
+** Typography
+*/
+
+$strong-type-color: rgba($black, 0.90);
+$type-color: rgba($black, 0.80);
+$light-type-color: rgba($black, 0.40);
+
+$strong-type-inverted-color: rgba($white, 0.90);
+$type-inverted-color: rgba($black, 0.60);
+$light-type-inverted-color: rgba($black, 0.40);
+
+$st-type-color: rgba($st-color, 1.00);
+$st-light-type-color: rgba($st-color, 0.40);
+
+$placeholder-type-color: rgba($st-color, 0.15);
+
+$selected-type-color: $strong-type-color;
+
+/*
+** Backgrounds
+*/
+
+$background-color: $canvas;
+$st-background-color: $st-color;
+$background-st-color: $st-color;
+
+/*$strong-background-color: darken($canvas, 3%);
+$background-color: $canvas;
+$light-background-color: lighten($canvas, 6%);*/
+
+$strong-background-color: darken($canvas, 6%);
+
+$light-background-color: lighten($canvas, 6%);
+
+$selected-background-color: rgba($st-color, 0.10);
+$code-background-color: lighten($canvas, 3%);
+
+/*
+** Borders
+*/
+
+$border-color: rgba($white, 0.30);
+$light-border-color: rgba($white, 0.15);
+
+/*
+** Pictures
+*/
+
+$picture-background-color: darken($background-color, 4%);
+
+$picture-shadow-color: darken($background-color, 4%);

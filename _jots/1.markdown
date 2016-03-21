@@ -2,7 +2,7 @@
 title: "Dysfunctional Products Come from Dysfunctional Organizations"
 author: "Jon Kolko"
 source: "Harward Business Review"
-reference: "https://hbr.org/2015/01/dysfunctional-products-come-from-dysfunctional-organizations"
+source-url: "https://hbr.org/2015/01/dysfunctional-products-come-from-dysfunctional-organizations"
 date: 2016-03-12 12:00:00
 ---
 

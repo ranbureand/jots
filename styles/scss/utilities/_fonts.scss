@@ -1,0 +1,13 @@
+/* (c) 2014 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Fonts
+*/
+
+@include font-face("Cooper Hewitt", font-files("CooperHewitt-Book.woff", "CooperHewitt-Book.otf", "CooperHewitt-Book.svg"), "CooperHewitt-Book.eot", 400, normal);
+
+@include font-face("Cooper Hewitt", font-files("CooperHewitt-BookItalic.woff", "CooperHewitt-BookItalic.otf", "CooperHewitt-BookItalic.svg"), "CooperHewitt-BookItalic.eot", 400, italic);
+
+@include font-face("Cooper Hewitt", font-files("CooperHewitt-Semibold.woff", "CooperHewitt-Semibold.otf", "CooperHewitt-Semibold.svg"), "CooperHewitt-Semibold.eot", 500, normal);
+
+@include font-face("Cooper Hewitt", font-files("CooperHewitt-SemiboldItalic.woff", "CooperHewitt-SemiboldItalic.otf", "CooperHewitt-SemiboldItalic.svg"), "CooperHewitt-SemiboldItalic.eot", 500, italic);

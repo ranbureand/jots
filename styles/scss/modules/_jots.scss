@@ -1,0 +1,177 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Jots
+*/
+
+.jots {
+	width: 100%;
+	margin-right: auto;
+	//overflow: auto;
+	margin-left: auto;
+
+	@include min-screen(col(8)) {
+		width: col(8);
+	}
+	@include min-screen(col(12)) {
+		width: col(12);
+	}
+	@include min-screen(col(16)) {
+		width: col(16);
+	}
+}
+
+.jot {
+	display: block;
+
+	position: relative;
+
+	a {
+		@include link;
+	}
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: rhythm($m-large-line);
+		right: 0;
+		border-top: 4px solid $st-type-color;
+		width: em($m-gut*2);
+	}
+
+	padding-top: rhythm($m-large-line*2);
+	padding-bottom: rhythm($m-large-line*2);
+
+	@include min-screen(col(8)) {
+		&:before {
+			top: rhythm($d-large-line);
+			width: em($d-gut*4);
+		}
+	}
+
+	@include min-screen(col(12)) {
+		padding-top: rhythm($d-large-line*2);
+		padding-bottom: rhythm($d-large-line*2);
+	}
+	@include min-screen(col(16)) {
+		overflow: auto;
+		&:before {
+			right: auto;
+			left: 0;
+		}
+	}
+}
+
+.number {
+	font-weight: $bold;
+	text-align: right;
+	margin-bottom: rhythm($m-large-line, $m-large-size);
+	padding-right: em($m-gut/2, $m-large-size);
+	padding-left: em($m-gut/2, $m-large-size);
+
+	@include adjust-font-size-to($m-large-size, $m-large-line);
+	@include min-screen(col(8)) {
+		margin-bottom: rhythm($d-large-line, $d-large-size);
+		padding-right: em($d-gut/2, $d-large-size);
+		padding-left: em($d-gut/2, $d-large-size);
+
+		@include adjust-font-size-to($d-large-size, $d-large-line);
+	}
+	@include min-screen(col(16)) {
+		float: left;
+		text-align: left;
+		width: 1/4*1*100%;
+		margin-right: -1*100%;
+		margin-left: 0;
+	}
+}
+
+.body {
+	font-weight: $bold;
+
+	margin-bottom: rhythm($m-large-line*2);
+	padding-right: em($m-gut/2);
+	padding-left: em($m-gut/2);
+
+	border-left: 4px solid $st-type-color;
+
+	@include min-screen(col(8)) {
+		padding-right: em($d-gut/2);
+		padding-left: em($d-gut);
+	}
+	@include min-screen(col(16)) {
+		float: left;
+
+		width: 1/4*3*100%;
+		margin-right: -1*100%;
+		margin-bottom: rhythm($d-large-line*2);
+		margin-left: 1/4*100%;
+	}
+}
+
+.reference {
+	margin-bottom: rhythm($m-small-line/2, $m-small-size);
+	padding-right: em($m-gut/2, $m-small-size);
+	padding-left: em($m-gut/2, $m-small-size);
+
+	@include adjust-font-size-to($m-small-size, $m-small-line);
+	&:before {
+		float: left;
+
+		width: em($m-gut*3/4, $m-small-size);
+
+		content: "—";
+	}
+	.author, .title, .source {
+		font-weight: $bold;
+	}
+
+	@include min-screen(col(8)) {
+		margin-bottom: rhythm($d-small-line/2, $d-small-size);
+		padding-right: em($d-gut/2, $d-small-size);
+		padding-left: em($d-gut/2, $d-small-size);
+
+		@include adjust-font-size-to($d-small-size, $d-small-line);
+		&:before {
+			width: em($d-gut*3/4, $d-small-size);
+		}
+	}
+	@include min-screen(col(12)) {
+
+	}
+	@include min-screen(col(16)) {
+		float: left;
+		clear: left;
+
+		width: 1/4*3*100%;
+		margin-right: -1*100%;
+		margin-left: 1/4*100%;
+	}
+}
+
+.date {
+	margin-bottom: rhythm($m-small-line/2, $m-small-size);
+	padding-right: em($m-gut/2, $m-small-size);
+	padding-left: em($m-gut/2, $m-small-size);
+
+	@include adjust-font-size-to($m-small-size, $m-small-line);
+	.time {
+		font-weight: $bold;
+	}
+	@include min-screen(col(8)) {
+		margin-bottom: rhythm($d-small-line/2, $d-small-size);
+		padding-right: em($d-gut/2, $d-small-size);
+		padding-left: em($d-gut/2, $d-small-size);
+
+		@include adjust-font-size-to($d-small-size, $d-small-line);
+	}
+	@include min-screen(col(12)) {
+	}
+	@include min-screen(col(16)) {
+		float: left;
+
+		width: 1/4*1*100%;
+		margin-right: -1*100%;
+		margin-left: 0;
+	}
+}
