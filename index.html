@@ -21,7 +21,7 @@ title: Jots
             {{ jot.content }}
           </blockquote>
           <div class="reference"><span class="author">{{ jot.author }}</span> in <a href="{{ jot.source-url }}" target="_blank" title="{{ jot.title }}"><cite class="title">{{ jot.title }}</cite></a>, from <cite class="source">{{ jot.source }}</cite>.</div>
-          <div class="date">Retrieved on the <time class="">{{ jot.date | date: "%d.%m.%Y" }}</time>.</div>
+          <div class="date">Retrieved on the <time class="">{% assign d = jot.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %} of {{ jot.date | date: "%B" }} {{ jot.date | date: "%Y" }}</time>.</div>
         </li>
       {% endfor %}
     </ul>
