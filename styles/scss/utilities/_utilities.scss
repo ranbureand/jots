@@ -151,7 +151,7 @@ $button-small-border-width: 1px;
 
 @mixin link($status: link) {
 	@if $status == "link" {
-		//border-bottom: 1px solid $st-type-color;
+		border-bottom: 1px solid $st-type-color;
 		//box-shadow: 0 -1px 0 $st-type-color inset;
 
 		@include text-shadow($background-color 1px 1px 0, $background-color -1px 1px 0, $background-color 2px 0 0, $background-color -2px 0 0);

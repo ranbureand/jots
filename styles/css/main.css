@@ -31,26 +31,26 @@ $light-background-color: lighten($canvas, 6%);*/
 */
 @font-face {
   font-family: "Cooper Hewitt";
-  src: url('/fonts/CooperHewitt-Book.eot?1402049368');
-  src: url('/fonts/CooperHewitt-Book.eot?&1402049368#iefix') format('embedded-opentype'), url('/fonts/CooperHewitt-Book.woff?1402049368') format('woff'), url('/fonts/CooperHewitt-Book.otf?1402046994') format('opentype'), url('/fonts/CooperHewitt-Book.svg?1402049370') format('svg');
+  src: url('../../fonts/CooperHewitt-Book.eot?1402049368');
+  src: url('../../fonts/CooperHewitt-Book.eot?&1402049368#iefix') format('embedded-opentype'), url('../../fonts/CooperHewitt-Book.woff?1402049368') format('woff'), url('../../fonts/CooperHewitt-Book.otf?1402046994') format('opentype'), url('../../fonts/CooperHewitt-Book.svg?1402049370') format('svg');
   font-weight: 400;
   font-style: normal; }
 @font-face {
   font-family: "Cooper Hewitt";
-  src: url('/fonts/CooperHewitt-BookItalic.eot?1402049372');
-  src: url('/fonts/CooperHewitt-BookItalic.eot?&1402049372#iefix') format('embedded-opentype'), url('/fonts/CooperHewitt-BookItalic.woff?1402049372') format('woff'), url('/fonts/CooperHewitt-BookItalic.otf?1402046994') format('opentype'), url('/fonts/CooperHewitt-BookItalic.svg?1402049372') format('svg');
+  src: url('../../fonts/CooperHewitt-BookItalic.eot?1402049372');
+  src: url('../../fonts/CooperHewitt-BookItalic.eot?&1402049372#iefix') format('embedded-opentype'), url('../../fonts/CooperHewitt-BookItalic.woff?1402049372') format('woff'), url('../../fonts/CooperHewitt-BookItalic.otf?1402046994') format('opentype'), url('../../fonts/CooperHewitt-BookItalic.svg?1402049372') format('svg');
   font-weight: 400;
   font-style: italic; }
 @font-face {
   font-family: "Cooper Hewitt";
-  src: url('/fonts/CooperHewitt-Semibold.eot?1402049388');
-  src: url('/fonts/CooperHewitt-Semibold.eot?&1402049388#iefix') format('embedded-opentype'), url('/fonts/CooperHewitt-Semibold.woff?1402049388') format('woff'), url('/fonts/CooperHewitt-Semibold.otf?1402047000') format('opentype'), url('/fonts/CooperHewitt-Semibold.svg?1402049390') format('svg');
+  src: url('../../fonts/CooperHewitt-Semibold.eot?1402049388');
+  src: url('../../fonts/CooperHewitt-Semibold.eot?&1402049388#iefix') format('embedded-opentype'), url('../../fonts/CooperHewitt-Semibold.woff?1402049388') format('woff'), url('../../fonts/CooperHewitt-Semibold.otf?1402047000') format('opentype'), url('../../fonts/CooperHewitt-Semibold.svg?1402049390') format('svg');
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: "Cooper Hewitt";
-  src: url('/fonts/CooperHewitt-SemiboldItalic.eot?1402049390');
-  src: url('/fonts/CooperHewitt-SemiboldItalic.eot?&1402049390#iefix') format('embedded-opentype'), url('/fonts/CooperHewitt-SemiboldItalic.woff?1402049390') format('woff'), url('/fonts/CooperHewitt-SemiboldItalic.otf?1402047000') format('opentype'), url('/fonts/CooperHewitt-SemiboldItalic.svg?1402049392') format('svg');
+  src: url('../../fonts/CooperHewitt-SemiboldItalic.eot?1402049390');
+  src: url('../../fonts/CooperHewitt-SemiboldItalic.eot?&1402049390#iefix') format('embedded-opentype'), url('../../fonts/CooperHewitt-SemiboldItalic.woff?1402049390') format('woff'), url('../../fonts/CooperHewitt-SemiboldItalic.otf?1402047000') format('opentype'), url('../../fonts/CooperHewitt-SemiboldItalic.svg?1402049392') format('svg');
   font-weight: 500;
   font-style: italic; }
 /* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
@@ -129,12 +129,12 @@ pre {
 */
 ::-moz-selection {
   color: rgba(0, 0, 0, 0.9);
-  background-color: rgba(153, 102, 255, 0.1);
+  background-color: rgba(153, 102, 255, 0.2);
   text-shadow: none; }
 
 ::selection {
   color: rgba(0, 0, 0, 0.9);
-  background-color: rgba(153, 102, 255, 0.1);
+  background-color: rgba(153, 102, 255, 0.2);
   text-shadow: none; }
 
 img::-moz-selection {
@@ -427,6 +427,7 @@ svg:not(:root) {
     border-left-width: 4px;
     border-left-style: solid; }
   [class*="typo"] a {
+    border-bottom: 1px solid #9966ff;
     text-shadow: #f9f7fd 1px 1px 0, #f9f7fd -1px 1px 0, #f9f7fd 2px 0 0, #f9f7fd -2px 0 0;
     -moz-box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
     -webkit-box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
@@ -892,6 +893,7 @@ svg:not(:root) {
   padding-top: 3.5em;
   padding-bottom: 3.5em; }
   .jot a {
+    border-bottom: 1px solid #9966ff;
     text-shadow: #f9f7fd 1px 1px 0, #f9f7fd -1px 1px 0, #f9f7fd 2px 0 0, #f9f7fd -2px 0 0;
     -moz-box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
     -webkit-box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
