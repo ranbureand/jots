@@ -30,13 +30,19 @@
 		@include link;
 	}
 
-	&:before {
+	/*&:before {
 		content: "";
 		position: absolute;
-		top: rhythm($m-large-line);
-		right: 0;
-		border-top: 4px solid $st-type-color;
-		width: em($m-gut*2);
+		top: 0;
+		//top: rhythm($m-large-line);
+		//right: 0;
+		border-top: 1px solid $light-type-color;
+		width: 100%;
+		//width: em($m-gut*2);
+	}*/
+
+	&:not(:first-child) {
+		border-top: 1px solid $border-color;
 	}
 
 	padding-top: rhythm($m-large-line*2);
@@ -44,8 +50,8 @@
 
 	@include min-screen(col(8)) {
 		&:before {
-			top: rhythm($d-large-line);
-			width: em($d-gut*4);
+			//top: rhythm($d-large-line);
+			//width: em($d-gut*4);
 		}
 	}
 
@@ -56,8 +62,8 @@
 	@include min-screen(col(16)) {
 		overflow: auto;
 		&:before {
-			right: auto;
-			left: 0;
+			//right: auto;
+			//left: 0;
 		}
 	}
 }
@@ -91,13 +97,13 @@
 
 	margin-bottom: rhythm($m-large-line*2);
 	padding-right: em($m-gut/2);
-	padding-left: em($m-gut/2);
+	padding-left: em($m-gut/2 - 4px);
 
 	border-left: 4px solid $st-type-color;
 
 	@include min-screen(col(8)) {
 		padding-right: em($d-gut/2);
-		padding-left: em($d-gut);
+		padding-left: em($d-gut - 4px);
 	}
 	@include min-screen(col(16)) {
 		float: left;
