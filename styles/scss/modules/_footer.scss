@@ -41,7 +41,7 @@
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
 	.toe-scroll {
-		margin-top: rhythm($m-small-line*2, $m-small-size);
+		margin-top: rhythm($m-small-line*4, $m-small-size);
 		text-align: right;
 		margin-bottom: 0;
 	}
@@ -70,7 +70,7 @@
 			margin-top: rhythm($d-small-line/2, $d-small-size);
 		}
 		.toe-scroll {
-			margin-top: rhythm($d-small-line*2, $d-small-size);
+			margin-top: rhythm($d-small-line*4, $d-small-size);
 			margin-bottom: 0;
 		}
 	}

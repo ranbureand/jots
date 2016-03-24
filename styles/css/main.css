@@ -807,7 +807,7 @@ svg:not(:root) {
     font-size: 0.875em;
     line-height: 1.42857em; }
   .footer .toe-scroll {
-    margin-top: 2.85714em;
+    margin-top: 5.71429em;
     text-align: right;
     margin-bottom: 0; }
   @media screen and (min-width: 36em) {
@@ -833,7 +833,7 @@ svg:not(:root) {
       .footer .toe-author {
         margin-top: 0.71429em; }
       .footer .toe-scroll {
-        margin-top: 2.85714em;
+        margin-top: 5.71429em;
         margin-bottom: 0; } }
   @media screen and (min-width: 54em) {
     .footer {
