@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Jots
 ---
 
@@ -12,11 +11,14 @@ title: Jots
 
   {% include browser-upgrade.html %}
 
+  {% assign counter = site.jots | size | plus: 1 %}
+
   <section class="content">
     <ul class="jots">
       {% for jot in site.jots reversed %}
+        {% assign counter = counter | minus: 1 %}
         <li class="jot">
-          <div class="number">№ 00</div>
+          <div class="number">№ {{ counter }}</div>
           <blockquote class="body typo-l" cite="{{ jot.source-url }}">
             {{ jot.content }}
           </blockquote>

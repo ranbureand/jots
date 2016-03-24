@@ -212,18 +212,18 @@ audio:not([controls]) {
 a {
   text-decoration: none;
   background-color: transparent;
-  -moz-transition-property: color, border-color, box-shadow;
-  -o-transition-property: color, border-color, box-shadow;
-  -webkit-transition-property: color, border-color, box-shadow;
-  transition-property: color, border-color, box-shadow;
-  -moz-transition-duration: 0.2s, 0.2s, 0.2s;
-  -o-transition-duration: 0.2s, 0.2s, 0.2s;
-  -webkit-transition-duration: 0.2s, 0.2s, 0.2s;
-  transition-duration: 0.2s, 0.2s, 0.2s;
-  -moz-transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
-  -o-transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
-  -webkit-transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
-  transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+  -moz-transition-property: color, border-color, box-shadow, text-shadow;
+  -o-transition-property: color, border-color, box-shadow, text-shadow;
+  -webkit-transition-property: color, border-color, box-shadow, text-shadow;
+  transition-property: color, border-color, box-shadow, text-shadow;
+  -moz-transition-duration: 0.3s, 0.2s, 0.2s, 0.2s;
+  -o-transition-duration: 0.3s, 0.2s, 0.2s, 0.2s;
+  -webkit-transition-duration: 0.3s, 0.2s, 0.2s, 0.2s;
+  transition-duration: 0.3s, 0.2s, 0.2s, 0.2s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  -o-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
   color: rgba(0, 0, 0, 0.9);
   text-decoration: none; }
   a:hover {
@@ -427,11 +427,14 @@ svg:not(:root) {
     border-left-width: 4px;
     border-left-style: solid; }
   [class*="typo"] a {
-    border-bottom: 1px solid #9966ff;
     text-shadow: #f9f7fd 1px 1px 0, #f9f7fd -1px 1px 0, #f9f7fd 2px 0 0, #f9f7fd -2px 0 0;
     -moz-box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
     -webkit-box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
     box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset; }
+    [class*="typo"] a:hover, [class*="typo"] a:active {
+      -moz-box-shadow: #f9f7fd 0 0 0 0 inset, #f9f7fd 0 -2px 0 0 inset;
+      -webkit-box-shadow: #f9f7fd 0 0 0 0 inset, #f9f7fd 0 -2px 0 0 inset;
+      box-shadow: #f9f7fd 0 0 0 0 inset, #f9f7fd 0 -2px 0 0 inset; }
   [class*="typo"] a[href*="#sn:"], [class*="typo"] a[href*="#fn:"] {
     margin-left: 0.1em;
     border-bottom: none;
@@ -783,6 +786,10 @@ svg:not(:root) {
       color: rgba(0, 0, 0, 0.9); }
     .footer a:active {
       color: rgba(0, 0, 0, 0.9); }
+    .footer a:hover, .footer a:active {
+      -moz-box-shadow: #9966ff 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
+      -webkit-box-shadow: #9966ff 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
+      box-shadow: #9966ff 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset; }
   .footer .planum, .footer .logo {
     padding-top: 1.5em;
     padding-right: 1em;
@@ -903,11 +910,14 @@ svg:not(:root) {
   padding-top: 3.5em;
   padding-bottom: 3.5em; }
   .jot a {
-    border-bottom: 1px solid #9966ff;
     text-shadow: #f9f7fd 1px 1px 0, #f9f7fd -1px 1px 0, #f9f7fd 2px 0 0, #f9f7fd -2px 0 0;
     -moz-box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
     -webkit-box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
     box-shadow: #f9f7fd 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset; }
+    .jot a:hover, .jot a:active {
+      -moz-box-shadow: #f9f7fd 0 0 0 0 inset, #f9f7fd 0 -2px 0 0 inset;
+      -webkit-box-shadow: #f9f7fd 0 0 0 0 inset, #f9f7fd 0 -2px 0 0 inset;
+      box-shadow: #f9f7fd 0 0 0 0 inset, #f9f7fd 0 -2px 0 0 inset; }
   .jot:not(:first-child) {
     border-top: 1px solid rgba(0, 0, 0, 0.2); }
   @media screen and (min-width: 54em) {

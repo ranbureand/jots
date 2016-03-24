@@ -151,19 +151,18 @@ $button-small-border-width: 1px;
 
 @mixin link($status: link) {
 	@if $status == "link" {
-		border-bottom: 1px solid $st-type-color;
-		//box-shadow: 0 -1px 0 $st-type-color inset;
-
 		@include text-shadow($background-color 1px 1px 0, $background-color -1px 1px 0, $background-color 2px 0 0, $background-color -2px 0 0);
 		@include box-shadow($background-color 0 0 0 0 inset, $st-type-color 0 -2px 0 0 inset);
 		&:hover, &:active {
-			//border-bottom: 1px solid $st-type-color;
-			//box-shadow: 0 -1px 0 $st-type-color inset;
+			@include box-shadow($background-color 0 0 0 0 inset, $background-color 0 -2px 0 0 inset);
 		}
 	} @else if $status == "inverted-link" {
 		@include link-colors($strong-type-inverted-color, $strong-type-color, $strong-type-color);
 		@include text-shadow($st-background-color 1px 1px 0, $st-background-color -1px 1px 0, $st-background-color 2px 0 0, $st-background-color -2px 0 0);
 		@include box-shadow($st-background-color 0 0 0 0 inset, $strong-type-inverted-color 0 -2px 0 0 inset);
+		&:hover, &:active {
+			@include box-shadow($st-background-color 0 0 0 0 inset, $st-background-color 0 -2px 0 0 inset);
+		}
 	} @else if $status == "none" {
 		border-bottom: none;
 		box-shadow: none;
