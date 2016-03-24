@@ -21,113 +21,97 @@
 		font-weight: $bold;
 		@include link(inverted-link);
 	}
-	.planum, .logo {
-		padding-top: rhythm($m-medium-line);
-		padding-right: em($m-gut/2);
-		padding-bottom: rhythm($m-medium-line + $m-medium-line - $m-small-line);
-		padding-left: em($m-gut/2);
+	.title, .description {
+		padding-right: em($m-gut/2, $m-large-size);
+		padding-left: em($m-gut/2, $m-large-size);
+		font-weight: $bold;
+		@include adjust-font-size-to($m-large-size, $m-large-line);
 	}
-	.logo {
-		svg {
-			width: em(64px);
-			height: em(64px);
-			display: block;
-			@include align(center);
-			fill: $light-type-color;
-		}
+	.title {
+		margin-bottom: rhythm($m-large-line, $m-large-size);
+	}
+	.description {
+		margin-bottom: rhythm($m-large-line*4, $m-large-size);
 	}
 	[class*="toe"] {
-		padding-top: rhythm($m-small-line);
-		padding-right: em($m-gut/2);
-		padding-bottom: rhythm($m-small-line);
-		padding-left: em($m-gut/2);
+		padding-right: em($m-gut/2, $m-small-size);
+		margin-bottom: rhythm($m-small-line/2, $m-small-size);
+		padding-left: em($m-gut/2, $m-small-size);
 
-		text-align: center;
-		p {
-			@include adjust-font-size-to($m-small-size, $m-small-line);
-		}
+		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
-	.toe-credits {
-		margin-top: rhythm(-$m-small-line*2);
+	.toe-scroll {
+		margin-top: rhythm($m-small-line*2, $m-small-size);
+		text-align: right;
+		margin-bottom: 0;
 	}
 	@include min-screen(col(8)) {
+		width: col(8);
 		padding-top: rhythm($d-large-line*2);
 		padding-bottom: rhythm($d-large-line*2);
-		.planum, .logo {
-			padding-top: rhythm($d-medium-line);
-			padding-right: em($d-gut/2);
-			padding-bottom: rhythm($d-medium-line + $d-medium-line - $d-small-line);
-			padding-left: em($d-gut/2);
+		.title, .description {
+			padding-right: em($d-gut/2, $d-large-size);
+			padding-left: em($d-gut/2, $d-large-size);
+			@include adjust-font-size-to($d-large-size, $d-large-line);
 		}
-		.logo {
-			svg {
-				width: em(64px);
-				height: em(64px);
-			}
+		.title {
+			margin-bottom: rhythm($d-large-line, $d-large-size);
+		}
+		.description {
+			margin-bottom: rhythm($d-large-line*2, $d-large-size);
 		}
 		[class*="toe"] {
-			padding-top: rhythm($d-small-line);
-			padding-right: em($d-gut/2);
-			padding-bottom: rhythm($d-small-line);
-			padding-left: em($d-gut/2);
-			p {
-				@include adjust-font-size-to($d-small-size, $d-small-line);
-			}
+			padding-right: em($d-gut/2, $d-small-size);
+			margin-bottom: rhythm($d-small-line/2, $d-small-size);
+			padding-left: em($d-gut/2, $d-small-size);
+			@include adjust-font-size-to($d-small-size, $d-small-line);
 		}
-		.toe-credits {
-			margin-top: rhythm(-$d-small-line*2);
+		.toe-author {
+			margin-top: rhythm($d-small-line/2, $d-small-size);
+		}
+		.toe-scroll {
+			margin-top: rhythm($d-small-line*2, $d-small-size);
+			margin-bottom: 0;
 		}
 	}
 	@include min-screen(col(12)) {
-		padding-top: rhythm($d-small-line);
-		[class*="toe"] {
-			float: left;
-
-			text-align: left;
-		}
-		.planum {
-			padding-bottom: rhythm($d-medium-line*2);
-			float: left;
-			width: col(8);
-			margin-right: -100%;
-			margin-left: col(4);
-		}
-		.logo {
-			float: left;
-			padding-bottom: rhythm($d-medium-line*2);
-			width: col(4);
-			margin-right: -100%;
-			margin-left: 0;
-			text-align: left;
-			svg {
-				margin-left: 0;
-			}
-		}
-		.toe-copy {
-			clear: left;
-
-			width: col(4);
-			margin-right: -100%;
-			margin-left: 0;
-		}
-		.toe-credits {
-			width: col(8);
-			margin-top: 0;
-			margin-right: -100%;
-			margin-left: col(4);
-		}
-		.toe-scroll {
-			width: col(4);
-			margin-top: 0;
-			margin-right: -100%;
-			margin-left: col(8);
-
-			text-align: right;
-		}
+		width: col(12);
 	}
 	@include min-screen(col(16)) {
+		width: col(16);
+		.title {
+			float: left;
+			width: 1/4*100%;
+			margin-right: -1*100%;
+			margin-left: 0;
+		}
+		.description {
+			float: left;
+
+			width: 1/4*3*100%;
+			margin-right: -1*100%;
+			margin-left: 1/4*100%;
+			margin-bottom: rhythm($d-large-line*4, $d-large-size);
+		}
+		[class*="toe"] {
+			float: left;
+			width: 1/4*100%;
+			margin-right: -1*100%;
+		}
+		.toe-author {
+			clear: left;
+			margin-left: 1/4*1*100%;
+		}
+		.toe-credits {
+			margin-left: 1/4*2*100%;
+		}
+		.toe-copy {
+			margin-left: 0;
+		}
 		.toe-scroll {
-			margin-left: col(12);
+			margin-top: 0;
+			margin-left: 1/4*3*100%;
+			margin-bottom: rhythm($d-small-line/2, $d-small-size);
 		}
 	}
 }

@@ -11,10 +11,9 @@ title: Jots
 
   {% include browser-upgrade.html %}
 
-  {% assign counter = site.jots | size | plus: 1 %}
-
   <section class="content">
     <ul class="jots">
+      {% assign counter = site.jots | size | plus: 1 %}
       {% for jot in site.jots reversed %}
         {% assign counter = counter | minus: 1 %}
         <li class="jot">

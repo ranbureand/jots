@@ -216,10 +216,10 @@ a {
   -o-transition-property: color, border-color, box-shadow, text-shadow;
   -webkit-transition-property: color, border-color, box-shadow, text-shadow;
   transition-property: color, border-color, box-shadow, text-shadow;
-  -moz-transition-duration: 0.3s, 0.2s, 0.2s, 0.2s;
-  -o-transition-duration: 0.3s, 0.2s, 0.2s, 0.2s;
-  -webkit-transition-duration: 0.3s, 0.2s, 0.2s, 0.2s;
-  transition-duration: 0.3s, 0.2s, 0.2s, 0.2s;
+  -moz-transition-duration: 0.2s, 0.2s, 0.2s, 0.2s;
+  -o-transition-duration: 0.2s, 0.2s, 0.2s, 0.2s;
+  -webkit-transition-duration: 0.2s, 0.2s, 0.2s, 0.2s;
+  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s;
   -moz-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
   -o-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
   -webkit-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
@@ -790,91 +790,83 @@ svg:not(:root) {
       -moz-box-shadow: #9966ff 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
       -webkit-box-shadow: #9966ff 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset;
       box-shadow: #9966ff 0 0 0 0 inset, #9966ff 0 -2px 0 0 inset; }
-  .footer .planum, .footer .logo {
-    padding-top: 1.5em;
-    padding-right: 1em;
-    padding-bottom: 1.75em;
-    padding-left: 1em; }
-  .footer .logo svg {
-    width: 4em;
-    height: 4em;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    fill: rgba(0, 0, 0, 0.4); }
+  .footer .title, .footer .description {
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 1.4em; }
+  .footer .title {
+    margin-bottom: 1.4em; }
+  .footer .description {
+    margin-bottom: 5.6em; }
   .footer [class*="toe"] {
-    padding-top: 1.25em;
-    padding-right: 1em;
-    padding-bottom: 1.25em;
-    padding-left: 1em;
-    text-align: center; }
-    .footer [class*="toe"] p {
-      font-size: 0.875em;
-      line-height: 1.42857em; }
-  .footer .toe-credits {
-    margin-top: -2.5em; }
+    padding-right: 1.14286em;
+    margin-bottom: 0.71429em;
+    padding-left: 1.14286em;
+    font-size: 0.875em;
+    line-height: 1.42857em; }
+  .footer .toe-scroll {
+    margin-top: 2.85714em;
+    text-align: right;
+    margin-bottom: 0; }
   @media screen and (min-width: 36em) {
     .footer {
+      width: 36em;
       padding-top: 5em;
       padding-bottom: 5em; }
-      .footer .planum, .footer .logo {
-        padding-top: 2.25em;
-        padding-right: 0.75em;
-        padding-bottom: 3.25em;
-        padding-left: 0.75em; }
-      .footer .logo svg {
-        width: 4em;
-        height: 4em; }
+      .footer .title, .footer .description {
+        padding-right: 0.375em;
+        padding-left: 0.375em;
+        font-size: 2em;
+        line-height: 1.25em; }
+      .footer .title {
+        margin-bottom: 1.25em; }
+      .footer .description {
+        margin-bottom: 2.5em; }
       .footer [class*="toe"] {
-        padding-top: 1.25em;
-        padding-right: 0.75em;
-        padding-bottom: 1.25em;
-        padding-left: 0.75em; }
-        .footer [class*="toe"] p {
-          font-size: 0.875em;
-          line-height: 1.42857em; }
-      .footer .toe-credits {
-        margin-top: -2.5em; } }
+        padding-right: 0.85714em;
+        margin-bottom: 0.71429em;
+        padding-left: 0.85714em;
+        font-size: 0.875em;
+        line-height: 1.42857em; }
+      .footer .toe-author {
+        margin-top: 0.71429em; }
+      .footer .toe-scroll {
+        margin-top: 2.85714em;
+        margin-bottom: 0; } }
   @media screen and (min-width: 54em) {
     .footer {
-      padding-top: 1.25em; }
-      .footer [class*="toe"] {
+      width: 54em; } }
+  @media screen and (min-width: 72em) {
+    .footer {
+      width: 72em; }
+      .footer .title {
         float: left;
-        text-align: left; }
-      .footer .planum {
-        padding-bottom: 4.5em;
-        float: left;
-        width: 36em;
-        margin-right: -100%;
-        margin-left: 18em; }
-      .footer .logo {
-        float: left;
-        padding-bottom: 4.5em;
-        width: 18em;
-        margin-right: -100%;
-        margin-left: 0;
-        text-align: left; }
-        .footer .logo svg {
-          margin-left: 0; }
-      .footer .toe-copy {
-        clear: left;
-        width: 18em;
+        width: 25%;
         margin-right: -100%;
         margin-left: 0; }
+      .footer .description {
+        float: left;
+        width: 75%;
+        margin-right: -100%;
+        margin-left: 25%;
+        margin-bottom: 5em; }
+      .footer [class*="toe"] {
+        float: left;
+        width: 25%;
+        margin-right: -100%; }
+      .footer .toe-author {
+        clear: left;
+        margin-left: 25%; }
       .footer .toe-credits {
-        width: 36em;
-        margin-top: 0;
-        margin-right: -100%;
-        margin-left: 18em; }
+        margin-left: 50%; }
+      .footer .toe-copy {
+        margin-left: 0; }
       .footer .toe-scroll {
-        width: 18em;
         margin-top: 0;
-        margin-right: -100%;
-        margin-left: 36em;
-        text-align: right; } }
-  @media screen and (min-width: 72em) {
-    .footer .toe-scroll {
-      margin-left: 54em; } }
+        margin-left: 75%;
+        margin-bottom: 0.71429em; } }
 
 /* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
 /*
@@ -883,10 +875,12 @@ svg:not(:root) {
 .jots {
   width: 100%;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  padding-bottom: 3.5em; }
   @media screen and (min-width: 36em) {
     .jots {
-      width: 36em; } }
+      width: 36em;
+      padding-bottom: 5em; } }
   @media screen and (min-width: 54em) {
     .jots {
       width: 54em; } }
@@ -930,7 +924,6 @@ svg:not(:root) {
 
 .number {
   font-weight: 500;
-  text-align: right;
   margin-bottom: 1.4em;
   padding-right: 0.8em;
   padding-left: 0.8em;
@@ -946,7 +939,6 @@ svg:not(:root) {
   @media screen and (min-width: 72em) {
     .number {
       float: left;
-      text-align: left;
       width: 25%;
       margin-right: -100%;
       margin-left: 0; } }
@@ -999,7 +991,6 @@ svg:not(:root) {
       margin-left: 25%; } }
 
 .date {
-  margin-bottom: 0.71429em;
   padding-right: 1.14286em;
   padding-left: 1.14286em;
   font-size: 0.875em;
@@ -1008,7 +999,6 @@ svg:not(:root) {
     font-weight: 500; }
   @media screen and (min-width: 36em) {
     .date {
-      margin-bottom: 0.71429em;
       padding-right: 0.85714em;
       padding-left: 0.85714em;
       font-size: 0.875em;
