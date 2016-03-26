@@ -39,6 +39,9 @@
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
+	.toe-credits {
+		margin-top: rhythm($m-small-line/2, $m-small-size);
+	}
 	.toe-scroll {
 		margin-top: rhythm($m-small-line*4, $m-small-size);
 		margin-bottom: 0;
@@ -68,7 +71,7 @@
 
 			@include adjust-font-size-to($d-small-size, $d-small-line);
 		}
-		.toe-author {
+		.toe-credits {
 			margin-top: rhythm($d-small-line/2, $d-small-size);
 		}
 		.toe-scroll {
@@ -101,14 +104,11 @@
 			width: 1/4*100%;
 			margin-right: -1*100%;
 		}
-		.toe-author {
-			clear: left;
-
-			margin-top: 0;
-			margin-left: 1/4*1*100%;
-		}
 		.toe-credits {
-			margin-left: 1/4*2*100%;
+			clear: left;
+			margin-top: 0;
+			width: 1/4*2*100%;
+			margin-left: 1/4*1*100%;
 		}
 		.toe-copy {
 			margin-left: 0;

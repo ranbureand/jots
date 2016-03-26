@@ -1,0 +1,10 @@
+---
+title: "Peopleware, Productive Projects and Teams, Third Edition"
+author: "Tom DeMarco, Timothy Lister"
+
+page: "18"
+publisher: "Addison-Wesley"
+year: "2013"
+---
+
+People under time pressure don’t work better—they just work faster.
