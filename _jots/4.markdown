@@ -1,8 +1,9 @@
 ---
 title: "Firing People"
 author: "Zach Holman"
-source: "zachholman.com"
-source-url: "https://zachholman.com/talk/firing-people"
+
+site: "zachholman.com"
+address: "https://zachholman.com/talk/firing-people"
 date: 2016-03-24 12:00:00
 ---
 

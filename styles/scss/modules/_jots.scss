@@ -7,7 +7,6 @@
 .jots {
 	width: 100%;
 	margin-right: auto;
-	//overflow: auto;
 	margin-left: auto;
 	padding-bottom: rhythm($m-large-line*2);
 	@include min-screen(col(8)) {
@@ -31,17 +30,6 @@
 		@include link;
 	}
 
-	/*&:before {
-		content: "";
-		position: absolute;
-		top: 0;
-		//top: rhythm($m-large-line);
-		//right: 0;
-		border-top: 1px solid $light-type-color;
-		width: 100%;
-		//width: em($m-gut*2);
-	}*/
-
 	&:not(:first-child) {
 		border-top: 1px solid $border-color;
 	}
@@ -50,22 +38,11 @@
 	padding-bottom: rhythm($m-large-line*2);
 
 	@include min-screen(col(8)) {
-		&:before {
-			//top: rhythm($d-large-line);
-			//width: em($d-gut*4);
-		}
-	}
-
-	@include min-screen(col(12)) {
 		padding-top: rhythm($d-large-line*2);
 		padding-bottom: rhythm($d-large-line*2);
 	}
 	@include min-screen(col(16)) {
 		overflow: auto;
-		&:before {
-			//right: auto;
-			//left: 0;
-		}
 	}
 }
 
@@ -76,6 +53,10 @@
 	padding-left: em($m-gut/2, $m-large-size);
 
 	@include adjust-font-size-to($m-large-size, $m-large-line);
+
+	a {
+		@include link(none);
+	}
 	@include min-screen(col(8)) {
 		margin-bottom: rhythm($d-large-line, $d-large-size);
 		padding-right: em($d-gut/2, $d-large-size);
@@ -129,6 +110,7 @@
 	}
 	.author, .title, .source {
 		font-weight: $bold;
+		color: $strong-type-color;
 	}
 
 	@include min-screen(col(8)) {

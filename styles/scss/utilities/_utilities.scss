@@ -132,20 +132,6 @@ $button-small-border-width: 1px;
 }
 
 /*
-** Align
-*/
-
-@mixin align($status: center) {
-	@if $status == "center" {
-		margin-right: auto;
-		margin-left: auto;
-	} @else if $status == "left" {
-		margin-right: 0;
-		margin-left: 0;
-	}
-}
-
-/*
 ** Link
 */
 

@@ -65,7 +65,8 @@
 		width: 50%;
 		//width: em($column-width*4 - $m-indent);
 
-		@include align();
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.source {
 		em {

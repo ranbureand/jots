@@ -8,8 +8,6 @@
 $black: #000;
 $white: #fff;
 
-//$st-color: hsl(240, 100, 80);
-//$st-color: hsl(80, 100, 70);
 $st-color: hsl(260, 100, 70);
 
 $canvas: hsl(260, 60, 98);
@@ -23,13 +21,11 @@ $type-color: rgba($black, 0.80);
 $light-type-color: rgba($black, 0.40);
 
 $strong-type-inverted-color: rgba($white, 0.90);
-$type-inverted-color: rgba($black, 0.60);
-$light-type-inverted-color: rgba($black, 0.40);
+$type-inverted-color: rgba($white, 0.80);
+$light-type-inverted-color: rgba($white, 0.40);
 
 $st-type-color: rgba($st-color, 1.00);
-$st-light-type-color: rgba($st-color, 0.40);
-
-$placeholder-type-color: rgba($st-color, 0.15);
+$st-light-type-color: rgba($st-color, 0.20);
 
 $selected-type-color: $strong-type-color;
 
@@ -40,10 +36,6 @@ $selected-type-color: $strong-type-color;
 $background-color: $canvas;
 $st-background-color: $st-color;
 $background-st-color: $st-color;
-
-/*$strong-background-color: darken($canvas, 3%);
-$background-color: $canvas;
-$light-background-color: lighten($canvas, 6%);*/
 
 $strong-background-color: darken($canvas, 6%);
 

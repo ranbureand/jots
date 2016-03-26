@@ -268,7 +268,7 @@ pre {
 	background-color: $code-background-color;
 
 	@include border-radius(2px, 2px);
-	@extend %column-gut;
+
 	code {
 		display: block;
 
