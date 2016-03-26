@@ -77,7 +77,7 @@ body {
 
 	counter-reset: footnotes figures ordered-list;
 
-	background-color: $background-st-color;
+	background-color: $st-background-color;
 
 	@include min-screen(col(12)) {
 		display: table;

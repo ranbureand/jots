@@ -27,8 +27,11 @@
 	position: relative;
 
 	a {
+		font-weight: $bold;
+
 		@include link;
 	}
+
 
 	&:not(:first-child) {
 		border-top: 1px solid $border-color;
@@ -108,7 +111,7 @@
 
 		content: "—";
 	}
-	.author, .title, .source {
+	span {
 		font-weight: $bold;
 		color: $strong-type-color;
 	}
@@ -141,9 +144,6 @@
 	padding-left: em($m-gut/2, $m-small-size);
 
 	@include adjust-font-size-to($m-small-size, $m-small-line);
-	.time {
-		font-weight: $bold;
-	}
 	@include min-screen(col(8)) {
 		padding-right: em($d-gut/2, $d-small-size);
 		padding-left: em($d-gut/2, $d-small-size);

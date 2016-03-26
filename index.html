@@ -22,10 +22,10 @@ title: Jots
             {{ jot.content }}
           </blockquote>
           {% if jot.site %}
-            <div class="reference"><span class="author">{{ jot.author }}</span> in {% if jot.address %}<a href="{{ jot.address }}" target="_blank" title="{{ jot.title }}"><cite class="title">{{ jot.title }}</cite></a>{% else %}<cite class="title">{{ jot.title }}</cite>{% endif %}, from <span class="source">{{ jot.site }}</span>.</div>
-            <div class="date">Retrieved on <time class="">{{ jot.date | date: "%B" }} {% assign d = jot.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %}, {{ jot.date | date: "%Y" }}</time>.</div>
+            <div class="reference"><span>{{ jot.author }}</span> in {% if jot.address %}<a href="{{ jot.address }}" target="_blank" title="{{ jot.title }}"><cite>{{ jot.title }}</cite></a>{% else %}<span><cite>{{ jot.title }}</cite></span>{% endif %}, from <span>{{ jot.site }}</span>.</div>
+            <div class="date">Retrieved on <time>{{ jot.date | date: "%B" }} {% assign d = jot.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %}, {{ jot.date | date: "%Y" }}</time>.</div>
           {% else %}
-            <div class="reference"><span class="author">{{ jot.author }}</span> in <cite class="title">{{ jot.title }}</cite>{% if jot.page %}, p. <span class="source">{{ jot.page }}</span>{% elsif jot.pages %}, pp. <span class="source">{{ jot.pages }}</span>{% endif %}.</div>
+            <div class="reference"><span>{{ jot.author }}</span> in <span><cite>{{ jot.title }}</cite></span>{% if jot.page %}, p. <span>{{ jot.page }}</span>{% elsif jot.pages %}, pp. <span>{{ jot.pages }}</span>{% endif %}.</div>
             <div class="date"><span class="publisher">{{ jot.publisher }}</span>, <span class="year">{{ jot.year }}</span>.</div>
           {% endif %}
         </li>

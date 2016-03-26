@@ -10,7 +10,7 @@ $white: #fff;
 
 $st-color: hsl(260, 100, 70);
 
-$canvas: hsl(260, 60, 98);
+$canvas: #fafafa;
 
 /*
 ** Typography
@@ -33,13 +33,11 @@ $selected-type-color: $strong-type-color;
 ** Backgrounds
 */
 
-$background-color: $canvas;
-$st-background-color: $st-color;
-$background-st-color: $st-color;
-
 $strong-background-color: darken($canvas, 6%);
-
+$background-color: $canvas;
 $light-background-color: lighten($canvas, 6%);
+
+$st-background-color: $st-color;
 
 $selected-background-color: rgba($st-color, 0.20);
 $code-background-color: lighten($canvas, 3%);
@@ -49,7 +47,6 @@ $code-background-color: lighten($canvas, 3%);
 */
 
 $border-color: rgba($black, 0.20);
-$light-border-color: rgba($white, 0.15);
 
 /*
 ** Pictures
