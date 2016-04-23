@@ -1,4 +1,6 @@
 ---
+number: 7
+
 title: "Shields Down"
 author: "Michael Lopp"
 

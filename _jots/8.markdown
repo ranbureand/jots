@@ -1,4 +1,6 @@
 ---
+number: 8
+
 title: "Prototyping for Physical and Digital Products"
 author: "Kathryn McElroy"
 

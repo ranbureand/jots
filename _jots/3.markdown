@@ -1,4 +1,6 @@
 ---
+number: 3
+
 title: "Jackie Chan — How to Do Action Comedy"
 author: "Jackie Chan, Tony Zhou"
 

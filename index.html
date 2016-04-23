@@ -13,12 +13,10 @@ title: Jots
 
   <section class="content">
     <ul class="jots">
-      {% assign counter = site.jots | size | plus: 1 %}
-      {% assign sorted_jots = (site.jots | sort: 'url') %}
-      {% for jot in sorted_jots reversed %}
-        {% assign counter = counter | minus: 1 %}
-        <li class="jot" id="quotation-{{ counter }}">
-          <div class="number"><a href="#quotation-{{ counter }}">№ {{ counter }}</a></div>
+      {% assign jotList = site.jots | sort: 'number' %}
+      {% for jot in jotList reversed %}
+        <li class="jot" id="quotation-{{ jot.number }}">
+          <div class="number"><a href="#quotation-{{ jot.number }}">№ {{ jot.number }}</a></div>
           <blockquote class="body typo-l"{% if jot.address %} cite="{{ jot.address }}"{% endif %}>
             {{ jot.content }}
           </blockquote>

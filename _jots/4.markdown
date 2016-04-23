@@ -1,4 +1,6 @@
 ---
+number: 4
+
 title: "Firing People"
 author: "Zach Holman"
 

@@ -1,4 +1,6 @@
 ---
+number: 1
+
 title: "Dysfunctional Products Come from Dysfunctional Organizations"
 author: "Jon Kolko"
 

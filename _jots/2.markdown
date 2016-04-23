@@ -1,4 +1,6 @@
 ---
+number: 2
+
 title: "Pragmatism Is Poison"
 author: "Einar W. Høst"
 

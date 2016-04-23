@@ -1,10 +1,12 @@
 ---
-title: "When to Rewrite from Scratch — Autopsy of a Failed Software"
+number: 10
+
+title: "When to Rewrite form Scratch — Autopsy of a Failed Software"
 author: "Umer Mansoor"
 
 site: "Code Ahoy"
 address: "http://codeahoy.com/2016/04/21/when-to-rewrite-from-scratch-autopsy-of-a-failed-software/"
-date: 2016-04-23 17:40:00
+date: 2016-04-23 12:00:00
 ---
 
 If you are embarking on a rewrite journey, all the power to you, but make sure you do it for the right reasons, understand the risks and plan for it.
