@@ -9,9 +9,16 @@
 	margin-right: auto;
 	margin-left: auto;
 	padding-bottom: rhythm($m-large-line*2);
+
 	@include min-screen(col(8)) {
 		width: col(8);
 		padding-bottom: rhythm($d-large-line*2);
+
+		@include display-flex(flex);
+		@include flex-flow(row wrap);
+		@include justify-content(left);
+		@include align-items(flex-start);
+		@include align-content(flex-start);
 	}
 	@include min-screen(col(12)) {
 		width: col(12);
@@ -22,79 +29,128 @@
 }
 
 .jot {
+	position: relative;
+
 	display: block;
 
-	position: relative;
+	width: 100%;
+	padding-top: rhythm($m-large-line*2);
+	padding-bottom: rhythm($m-large-line*2);
 
 	a {
 		font-weight: $bold;
 
 		@include link;
 	}
-
-
-	&:not(:first-child) {
-		border-top: 1px solid $border-color;
-	}
-
-	padding-top: rhythm($m-large-line*2);
-	padding-bottom: rhythm($m-large-line*2);
-
 	@include min-screen(col(8)) {
+		width: 1/2*1*100%;
 		padding-top: rhythm($d-large-line*2);
 		padding-bottom: rhythm($d-large-line*2);
+
+		@include flex-grow(0);
+		@include flex-shrink(1);
+	}
+	@include min-screen(col(12)) {
+		width: 1/3*1*100%;
+	}
+	@include min-screen(col(16)) {
+		width: 1/4*1*100%;
+	}
+}
+
+.jot:nth-child(-n+6) {
+	width: 100%;
+
+	.number {
+		margin-bottom: rhythm($m-large-line, $m-large-size);
+		padding-right: em($m-gut/2, $m-large-size);
+		padding-left: em($m-gut/2, $m-large-size);
+
+		@include adjust-font-size-to($m-large-size, $m-large-line);
+	}
+	.body {
+		margin-bottom: rhythm($m-large-line*2);
+	}
+	@include min-screen(col(8)) {
+		.number {
+			margin-bottom: rhythm($d-large-line, $d-large-size);
+			padding-right: em($d-gut/2, $d-large-size);
+			padding-left: em($d-gut/2, $d-large-size);
+
+			@include adjust-font-size-to($d-large-size, $d-large-line);
+		}
+		.body {
+			margin-bottom: rhythm($d-large-line*2);
+		}
 	}
 	@include min-screen(col(16)) {
 		overflow: auto;
+		.number {
+			float: left;
+
+			width: 1/4*1*100%;
+			margin-right: -1*100%;
+			margin-left: 0;
+		}
+		.body {
+			float: left;
+
+			width: 1/4*3*100%;
+			margin-right: -1*100%;
+			margin-left: 1/4*100%;
+		}
+		.reference {
+			float: left;
+			clear: left;
+
+			width: 1/4*3*100%;
+			margin-right: -1*100%;
+			margin-left: 1/4*100%;
+		}
+		.date {
+			float: left;
+
+			width: 1/4*1*100%;
+			margin-right: -1*100%;
+			margin-left: 0;
+		}
 	}
 }
 
 .number {
 	font-weight: $bold;
-	margin-bottom: rhythm($m-large-line, $m-large-size);
-	padding-right: em($m-gut/2, $m-large-size);
-	padding-left: em($m-gut/2, $m-large-size);
 
-	@include adjust-font-size-to($m-large-size, $m-large-line);
+	margin-bottom: rhythm($m-medium-line, $m-medium-size);
+	padding-right: em($m-gut/2, $m-medium-size);
+	padding-left: em($m-gut/2, $m-medium-size);
+
+	@include adjust-font-size-to($m-medium-size, $m-medium-line);
 
 	a {
 		@include link(none);
 	}
 	@include min-screen(col(8)) {
-		margin-bottom: rhythm($d-large-line, $d-large-size);
-		padding-right: em($d-gut/2, $d-large-size);
-		padding-left: em($d-gut/2, $d-large-size);
+		margin-bottom: rhythm($d-medium-line, $d-medium-size);
+		padding-right: em($d-gut/2, $d-medium-size);
+		padding-left: em($d-gut/2, $d-medium-size);
 
-		@include adjust-font-size-to($d-large-size, $d-large-line);
-	}
-	@include min-screen(col(16)) {
-		float: left;
-		width: 1/4*1*100%;
-		margin-right: -1*100%;
-		margin-left: 0;
+		@include adjust-font-size-to($d-medium-size, $d-medium-line);
 	}
 }
 
 .body {
 	font-weight: $bold;
 
-	margin-bottom: rhythm($m-large-line*2);
+	margin-bottom: rhythm($m-medium-line*2);
 	padding-right: em($m-gut/2);
 	padding-left: em($m-gut/2 - 4px);
 
 	border-left: 4px solid $st-type-color;
 
 	@include min-screen(col(8)) {
+		margin-bottom: rhythm($d-medium-line*2);
 		padding-right: em($d-gut/2);
 		padding-left: em($d-gut - 4px);
-	}
-	@include min-screen(col(16)) {
-		float: left;
-
-		width: 1/4*3*100%;
-		margin-right: -1*100%;
-		margin-bottom: rhythm($d-large-line*2);
-		margin-left: 1/4*100%;
 	}
 }
 
@@ -104,6 +160,7 @@
 	padding-left: em($m-gut/2, $m-small-size);
 
 	@include adjust-font-size-to($m-small-size, $m-small-line);
+
 	&:before {
 		float: left;
 
@@ -113,9 +170,9 @@
 	}
 	span {
 		font-weight: $bold;
+
 		color: $strong-type-color;
 	}
-
 	@include min-screen(col(8)) {
 		margin-bottom: rhythm($d-small-line/2, $d-small-size);
 		padding-right: em($d-gut/2, $d-small-size);
@@ -125,17 +182,6 @@
 		&:before {
 			width: em($d-gut*3/4, $d-small-size);
 		}
-	}
-	@include min-screen(col(12)) {
-
-	}
-	@include min-screen(col(16)) {
-		float: left;
-		clear: left;
-
-		width: 1/4*3*100%;
-		margin-right: -1*100%;
-		margin-left: 1/4*100%;
 	}
 }
 
@@ -149,14 +195,5 @@
 		padding-left: em($d-gut/2, $d-small-size);
 
 		@include adjust-font-size-to($d-small-size, $d-small-line);
-	}
-	@include min-screen(col(12)) {
-	}
-	@include min-screen(col(16)) {
-		float: left;
-
-		width: 1/4*1*100%;
-		margin-right: -1*100%;
-		margin-left: 0;
 	}
 }

@@ -92,22 +92,10 @@
 }
 
 .typo-l {
-	h1, h2, h3, h4, h5, p, dd {
+	p, dd {
 		margin-bottom: rhythm($m-large-line/2, $m-large-size);
 
 		@include adjust-font-size-to($m-large-size, $m-large-line);
-	}
-	h3 {
-		margin-top: rhythm($m-large-line*2, $m-large-size);
-	}
-	h4, h5 {
-		margin-top: rhythm($m-large-line*2, $m-large-size);
-	}
-	h6 {
-		margin-top: rhythm($m-small-line*2, $m-small-size);
-		margin-bottom: rhythm($m-small-line/2, $m-small-size);
-
-		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
 	ul, ol, blockquote {
 		margin-bottom: rhythm($m-small-line/2);
@@ -144,22 +132,10 @@
 		@include leading-border($border-width/2, $m-large-line);
 	}
 	@include min-screen(col(8)) {
-		h1, h2, h3, h4, h5, p, dd {
+		p, dd {
 			margin-bottom: rhythm($d-large-line/2, $d-large-size);
 
 			@include adjust-font-size-to($d-large-size, $d-large-line);
-		}
-		h3 {
-			margin-top: rhythm($d-large-line*2, $d-large-size);
-		}
-		h4, h5 {
-			margin-top: rhythm($d-large-line*2, $d-large-size);
-		}
-		h6 {
-			margin-top: rhythm($d-small-line*2, $d-small-size);
-			margin-bottom: rhythm($d-small-line/2, $d-small-size);
-
-			@include adjust-font-size-to($d-small-size, $d-small-line);
 		}
 		ul, ol, blockquote {
 			margin-bottom: rhythm($d-small-line/2);
@@ -185,7 +161,6 @@
 			@include adjust-font-size-to($d-large-size, $d-large-line);
 			@include rhythm($d-large-line, $d-large-line/2, $d-large-line/2, $d-large-line, $d-large-size);
 		}
-
 		img {
 			margin-top: rhythm($d-large-line, $d-small-size);
 			margin-bottom: rhythm($d-large-line, $d-small-size);
@@ -195,6 +170,89 @@
 		hr {
 			@include rhythm-margins($d-large-line/2, $d-large-line/2);
 			@include leading-border($border-width/2, $d-large-line);
+		}
+	}
+}
+
+.typo-m {
+	p, dd {
+		margin-bottom: rhythm($m-medium-line/2, $m-medium-size);
+
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+	}
+	ul, ol, blockquote {
+		margin-bottom: rhythm($m-small-line/2);
+	}
+	li, dt {
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+	}
+	li {
+		&:before {
+			width: em($m-indent, $m-medium-size);
+			margin-left: em(-$m-indent, $m-medium-size);
+		}
+		li {
+			font-size: 1em;
+		}
+	}
+	pre {
+		margin-right: em(-$m-gut/2, $m-medium-size);
+		margin-left: em(-$m-gut/2, $m-medium-size);
+		padding-right: em($m-gut/2, $m-medium-size);
+		padding-left: em($m-gut/2, $m-medium-size);
+
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+		@include rhythm($m-medium-line, $m-medium-line/2, $m-medium-line/2, $m-medium-line, $d-medium-size);
+	}
+	img {
+		margin-top: rhythm($m-medium-line, $m-small-size);
+		margin-bottom: rhythm($m-medium-line, $m-small-size);
+
+		@include adjust-font-size-to($m-small-size, $m-small-line);
+	}
+	hr {
+		@include rhythm-margins($m-medium-line/2, $m-medium-line/2);
+		@include leading-border($border-width/2, $m-medium-line);
+	}
+	@include min-screen(col(8)) {
+		p, dd {
+			margin-bottom: rhythm($d-medium-line/2, $d-medium-size);
+
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
+		}
+		ul, ol, blockquote {
+			margin-bottom: rhythm($d-small-line/2);
+		}
+		li, dt {
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
+		}
+		li {
+			&:before {
+				width: em($d-indent, $d-medium-size);
+				margin-left: em(-$d-indent, $d-medium-size);
+			}
+			li {
+				font-size: 1em;
+			}
+		}
+		pre {
+			margin-right: em(-$d-gut/2, $d-medium-size);
+			margin-left: em(-$d-gut/2, $d-medium-size);
+			padding-right: em($d-gut/2, $d-medium-size);
+			padding-left: em($d-gut/2, $d-medium-size);
+
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
+			@include rhythm($d-medium-line, $d-medium-line/2, $d-medium-line/2, $d-medium-line, $d-medium-size);
+		}
+		img {
+			margin-top: rhythm($d-medium-line, $d-small-size);
+			margin-bottom: rhythm($d-medium-line, $d-small-size);
+
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+		}
+		hr {
+			@include rhythm-margins($d-medium-line/2, $d-medium-line/2);
+			@include leading-border($border-width/2, $d-medium-line);
 		}
 	}
 }
