@@ -15,7 +15,7 @@ title: Jots
     <ul class="jots">
       {% assign jotList = site.jots | sort: 'number' %}
       {% for jot in jotList reversed %}
-        {% assign reference = jotList.size | minus: 6 %}
+        {% assign reference = jotList.size | minus: 4 %}
         <li class="jot" id="jot-{{ jot.number }}">
           <div class="number"><a href="#jot-{{ jot.number }}">№ {{ jot.number }}</a></div>
           <blockquote {% if jot.number > reference %}class="body typo-l"{% else %}class="body typo-m"{% endif %} {% if jot.address %} cite="{{ jot.address }}"{% endif %}>
