@@ -1,0 +1,12 @@
+---
+number: 14
+
+title: "Succeeding by Eliminating the Smells of Waste"
+author: "Paul Hepworth"
+
+site: "UserTesting Engineering"
+address: "http://engineering.usertesting.com/2016/05/eliminating-the-smell-of-waste/"
+date: 2016-05-08 12:00:00
+---
+
+Although handoffs are difficult to avoid completely, the more they happen the dumber an organization gets resulting in failure. Individuals who are are handed off work take longer to get up to speed through (relearning) and crucial knowledge is lost.
