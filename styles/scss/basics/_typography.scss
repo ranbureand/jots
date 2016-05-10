@@ -92,7 +92,7 @@
 }
 
 .typo-l {
-	p, dd {
+	/*p, dd {
 		margin-bottom: rhythm($m-large-line/2, $m-large-size);
 
 		@include adjust-font-size-to($m-large-size, $m-large-line);
@@ -130,6 +130,45 @@
 	hr {
 		@include rhythm-margins($m-large-line/2, $m-large-line/2);
 		@include leading-border($border-width/2, $m-large-line);
+	}*/
+	p, dd {
+		margin-bottom: rhythm($m-medium-line/2, $m-medium-size);
+
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+	}
+	ul, ol, blockquote {
+		margin-bottom: rhythm($m-small-line/2);
+	}
+	li, dt {
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+	}
+	li {
+		&:before {
+			width: em($m-indent, $m-medium-size);
+			margin-left: em(-$m-indent, $m-medium-size);
+		}
+		li {
+			font-size: 1em;
+		}
+	}
+	pre {
+		margin-right: em(-$m-gut/2, $m-medium-size);
+		margin-left: em(-$m-gut/2, $m-medium-size);
+		padding-right: em($m-gut/2, $m-medium-size);
+		padding-left: em($m-gut/2, $m-medium-size);
+
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+		@include rhythm($m-medium-line, $m-medium-line/2, $m-medium-line/2, $m-medium-line, $d-medium-size);
+	}
+	img {
+		margin-top: rhythm($m-medium-line, $m-small-size);
+		margin-bottom: rhythm($m-medium-line, $m-small-size);
+
+		@include adjust-font-size-to($m-small-size, $m-small-line);
+	}
+	hr {
+		@include rhythm-margins($m-medium-line/2, $m-medium-line/2);
+		@include leading-border($border-width/2, $m-medium-line);
 	}
 	@include min-screen(col(8)) {
 		p, dd {

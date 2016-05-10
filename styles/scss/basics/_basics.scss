@@ -281,20 +281,9 @@ pre {
 }
 
 blockquote {
-	//font-style: italic;
-
 	margin: 0;
 
 	border-color: $border-color;
-	em {
-		font-style: normal;
-	}
-	cite {
-		font-style: normal;
-		em {
-			font-style: italic;
-		}
-	}
 }
 
 quote {

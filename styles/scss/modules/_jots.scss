@@ -61,7 +61,7 @@
 .jot:nth-child(-n+4) {
 	width: 100%;
 
-	.number {
+	/*.number {
 		margin-bottom: rhythm($m-large-line, $m-large-size);
 		padding-right: em($m-gut/2, $m-large-size);
 		padding-left: em($m-gut/2, $m-large-size);
@@ -70,7 +70,7 @@
 	}
 	.body {
 		margin-bottom: rhythm($m-large-line*2);
-	}
+	}*/
 	@include min-screen(col(8)) {
 		.number {
 			margin-bottom: rhythm($d-large-line, $d-large-size);
