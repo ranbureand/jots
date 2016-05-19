@@ -15,8 +15,8 @@
 .content {
 	padding-top: rhythm($m-medium-line*4);
 
-	border-top: 4px solid $st-light-type-color;
-	border-bottom: 4px solid $st-light-type-color;
+	//border-top: 4px solid $st-light-type-color;
+	//border-bottom: 4px solid $st-light-type-color;
 	background-color: $background-color;
 
 	@include min-screen(col(8)) {

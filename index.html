@@ -12,8 +12,14 @@ title: Jots
   {% include browser-upgrade.html %}
 
   <section class="content">
+    {% assign jotList = site.jots | sort: 'number' %}
+    <nav class="toc">
+      {% for jot in jotList reversed %}
+        <a href="#jot-{{ jot.number }}" title="Jot № {{ jot.number }}">Jot № {{ jot.number }}</a>
+      {% endfor %}
+    </nav>
     <ul class="jots">
-      {% assign jotList = site.jots | sort: 'number' %}
+      
       {% for jot in jotList reversed %}
         {% assign reference = jotList.size | minus: 4 %}
         <li class="jot" id="jot-{{ jot.number }}">
