@@ -64,13 +64,6 @@ nav {
 				@include transition-duration(0.0s, 0.0s);
 			}
 		}
-		&:focus {
-			&:after {
-				background-color: $strong-type-color;
-
-				@include transform(scale(1));
-			}
-		}
 	}
 	@include min-screen(col(8)) {
 		width: col(8);
