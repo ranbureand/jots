@@ -1,0 +1,12 @@
+---
+number: 18
+
+title: "The career advice I wish I had at 25"
+author: "Shane RodgersShane Rodgers"
+
+site: "LinkedIn"
+address: "https://www.linkedin.com/pulse/career-advice-i-wish-had-25-shane-rodgers"
+date: 2016-06-14 11:35:00
+---
+
+A re-invigorated broken employee is a corporation’s most powerful force.
