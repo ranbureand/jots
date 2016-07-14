@@ -1,7 +1,7 @@
 ---
 number: 18
 
-title: "The career advice I wish I had at 25"
+title: "The Career Advice I Wish I Had at 25"
 author: "Shane Rodgers"
 
 site: "LinkedIn"
