@@ -1,0 +1,12 @@
+---
+number: 19
+
+title: "The Conjoined Triangles of Senior-Level Development"
+author: "Brandon Hays "
+
+site: "The Frontside"
+address: "http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html"
+date: 2016-07-25 10:20:00
+---
+
+[…] and I realized that we’d stumbled onto one of the biggest problems in our entire company: we had no idea how to define the role we’re trying to hire for and grow our developers toward.
