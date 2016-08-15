@@ -1,0 +1,12 @@
+---
+number: 21
+
+title: "Is This My Interface or Yours?"
+author: "John Saito"
+
+site: "Medium"
+address: "https://medium.com/@jsaito/is-this-my-interface-or-yours-b09a7a795256#.holpmm4my"
+date: 2016-08-15 13:40:00
+---
+
+Why do products sometimes label things as my stuff, and sometimes label things as your stuff?
