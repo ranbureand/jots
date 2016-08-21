@@ -9,4 +9,4 @@ address: "https://deardesignstudent.com/10-things-you-need-to-learn-in-design-sc
 date: 2016-08-21 22:30:00
 ---
 
-[…] All those things will fail. And those failures will be on you. As a designer it’s on you to do the job to the best of your ability. Learn how to protect yourself by saying no.
+[…] You’ll be asked to design things counter to goals. You’ll be asked to design according to whims. All those things will fail. And those failures will be on you. As a designer it’s on you to do the job to the best of your ability. Learn how to protect yourself by saying no.
