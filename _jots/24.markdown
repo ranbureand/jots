@@ -1,0 +1,12 @@
+---
+number: 24
+
+title: "Why Does Hollywood Always Use the Same Classical Music?"
+author: "Slate Magazine"
+
+site: "YouTube"
+address: "https://youtu.be/URPRBukgsx0"
+date: 2016-08-30 21:30:00
+---
+
+[…] certain pieces too easily fall into favor and repeated use. They quickly become fix tropes of a specific mood or environment, so much so that eventually there is no room for mobility and experimentation.
