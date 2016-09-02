@@ -1,0 +1,12 @@
+---
+number: 25
+
+title: "How Bad Features Are Born"
+author: "James Gill"
+
+site: "GoSquared"
+address: "https://www.gosquared.com/blog/how-bad-features-are-born"
+date: 2016-09-02 10:00:00
+---
+
+If you’re embarking on a new feature primarily because you’ve seen a competitor release something similar, then you probably haven’t thoroughly considered or even identified the problem you’re trying to solve.
