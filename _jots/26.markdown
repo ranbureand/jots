@@ -1,0 +1,12 @@
+---
+number: 26
+
+title: "Designing Interface Animation"
+author: "Val Head"
+
+site: "A List Apart"
+address: "http://alistapart.com/article/designing-interface-animation"
+date: 2016-09-19 10:20:00
+---
+
+For existing projects that already use animation, you can start with a motion audit to find all the instances and ways you’re currently using animation.
