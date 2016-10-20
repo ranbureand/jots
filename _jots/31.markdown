@@ -1,0 +1,12 @@
+---
+number: 31
+
+title: "Designing Grids"
+author: "Zell Liew"
+
+site: "Zell Liew’s Blog"
+address: "https://zellwk.com/blog/designing-grids/"
+date: 2016-10-20 10:00:00
+---
+
+I prefer the fixed-gutter approach instead. One of the things I learned from typography was the importance of ensuring whitespace remain consistent. This leads me to believe that gutters, which are whitespaces that separate columns of content, should be kept the same.
