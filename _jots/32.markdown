@@ -1,0 +1,12 @@
+---
+number: 32
+
+title: "wish you would step back from that ledge my friend"
+author: "Garann Means"
+
+site: "totes profesh"
+address: "http://garann.com/dev/2016/wish-you-would-step-back-from-that-ledge-my-friend/"
+date: 2016-10-18 22:50:00
+---
+
+I want you to know that no matter how invested, how entrenched, how indispensible you might feel within the tech industry, it chews people up and spits them out every day.
