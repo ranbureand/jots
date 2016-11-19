@@ -1,0 +1,12 @@
+---
+number: 33
+
+title: "You Are Not Paid to Write Code"
+author: "Tyler Treat"
+
+site: "Brave New Geek"
+address: "http://bravenewgeek.com/you-are-not-paid-to-write-code/"
+date: 2016-11-19 17:50:00
+---
+
+Gall’s Fundamental Theorem of Systems is that new systems mean new problems. I think the same can safely be said of code—more code, more problems. Do it without a new system if you can.
