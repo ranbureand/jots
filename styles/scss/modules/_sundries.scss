@@ -13,13 +13,16 @@
 }
 
 main {
-	padding-top: rhythm($m-medium-line*4);
+	padding-top: rhythm($m-medium-line*2);
 
 	//border-top: 4px solid $st-light-type-color;
 	//border-bottom: 4px solid $st-light-type-color;
 	background-color: $background-color;
 
 	@include min-screen(col(8)) {
+		padding-top: rhythm($d-medium-line*2);
+	}
+	@include min-screen(col(16)) {
 		padding-top: rhythm($d-medium-line*4);
 	}
 }

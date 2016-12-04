@@ -34,17 +34,20 @@
 	display: block;
 
 	width: 100%;
-	padding-top: rhythm($m-large-line*2);
+	padding-top: rhythm($m-large-line*2 - $m-small-line);
 	padding-bottom: rhythm($m-large-line*2);
 
-	a {
-		font-weight: $bold;
-
-		@include link;
+	&:target {
+		.number {
+			a {
+				background-color: $st-type-color;
+				cursor: default;
+			}
+		}
 	}
 	@include min-screen(col(8)) {
 		width: 1/2*1*100%;
-		padding-top: rhythm($d-large-line*2);
+		padding-top: rhythm($d-large-line*2 - $d-small-line);
 		padding-bottom: rhythm($d-large-line*2);
 
 		@include flex-grow(0);
@@ -72,18 +75,30 @@
 		margin-bottom: rhythm($m-large-line*2);
 	}*/
 	@include min-screen(col(8)) {
+		padding-top: rhythm($d-large-line*2 - $d-medium-line);
 		.number {
-			margin-bottom: rhythm($d-large-line, $d-large-size);
-			padding-right: em($d-gut/2, $d-large-size);
-			padding-left: em($d-gut/2, $d-large-size);
+			margin-bottom: rhythm($d-medium-line*2, $d-medium-size);
+			padding-right: em($d-gut/2, $d-medium-size);
+			padding-left: em($d-gut/2, $d-medium-size);
 
-			@include adjust-font-size-to($d-large-size, $d-large-line);
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
+			a {
+				min-width: rhythm($d-medium-line*2, $d-medium-size);
+				height: rhythm($d-medium-line*2, $d-medium-size);
+				padding-top: rhythm($d-medium-line/2 + 0.4, $d-medium-size);
+				padding-right: em($d-gut/4, $d-medium-size);
+				padding-bottom: rhythm($d-medium-line/2 - 0.4, $d-medium-size);
+				padding-left: em($d-gut/4, $d-medium-size);
+
+				@include border-radius(rhythm($d-medium-line, $d-medium-size));
+			}
 		}
 		.body {
 			margin-bottom: rhythm($d-large-line*2);
 		}
 	}
 	@include min-screen(col(16)) {
+		padding-top: rhythm($d-large-line*2);
 		overflow: auto;
 		.number {
 			float: left;
@@ -120,25 +135,66 @@
 .number {
 	font-weight: $bold;
 
-	margin-bottom: rhythm($m-medium-line, $m-medium-size);
-	padding-right: em($m-gut/2, $m-medium-size);
-	padding-left: em($m-gut/2, $m-medium-size);
+	overflow: hidden;
 
-	@include adjust-font-size-to($m-medium-size, $m-medium-line);
+	margin-bottom: rhythm($m-small-line*2, $m-small-size);
+	padding-right: em($m-gut/2, $m-small-size);
+	padding-left: em($m-gut/2, $m-small-size);
 
+	@include adjust-font-size-to($m-small-size, $m-small-line);
 	a {
-		@include link(none);
+		display: block;
+		float: left;
+
+		min-width: rhythm($m-small-line*2, $m-small-size);
+		height: rhythm($m-small-line*2, $m-small-size);
+		padding-top: rhythm($m-small-line/2 + 0.2, $m-small-size);
+		padding-right: em($m-gut/4, $m-small-size);
+		padding-bottom: rhythm($m-small-line/2 - 0.2, $m-small-size);
+		padding-left: em($m-gut/4, $m-small-size);
+
+		text-align: center;
+
+		background-color: $light-type-color;
+
+		@include border-radius(rhythm($m-small-line, $m-small-size));
+		@include link-colors($strong-type-inverted-color);
+		&:hover {
+			background-color: $st-type-color;
+		}
+		&:active {
+			background-color: $st-type-color;
+		}
+		&:focus {
+			background-color: $st-type-color;
+		}
 	}
 	@include min-screen(col(8)) {
-		margin-bottom: rhythm($d-medium-line, $d-medium-size);
-		padding-right: em($d-gut/2, $d-medium-size);
-		padding-left: em($d-gut/2, $d-medium-size);
+		margin-bottom: rhythm($d-small-line*2, $d-small-size);
+		padding-right: em($d-gut/2, $d-small-size);
+		padding-left: em($d-gut/2, $d-small-size);
 
-		@include adjust-font-size-to($d-medium-size, $d-medium-line);
+		@include adjust-font-size-to($d-small-size, $d-small-line);
+		a {
+			min-width: rhythm($d-small-line*2, $d-small-size);
+			height: rhythm($d-small-line*2, $d-small-size);
+			padding-top: rhythm($d-small-line/2 + 0.2, $d-small-size);
+			padding-right: em($d-gut/4, $d-small-size);
+			padding-bottom: rhythm($d-small-line/2 - 0.2, $d-small-size);
+			padding-left: em($d-gut/4, $d-small-size);
+
+			@include border-radius(rhythm($d-small-line, $d-small-size));
+		}
 	}
 }
 
+
 .body {
+	a {
+		font-weight: $bold;
+
+		@include link;
+	}
 	font-weight: $bold;
 
 	margin-bottom: rhythm($m-medium-line*2);
@@ -160,13 +216,17 @@
 	padding-left: em($m-gut/2, $m-small-size);
 
 	@include adjust-font-size-to($m-small-size, $m-small-line);
-
 	&:before {
 		float: left;
 
 		width: em($m-gut*3/4, $m-small-size);
 
 		content: "—";
+	}
+	a {
+		font-weight: $bold;
+
+		@include link;
 	}
 	span {
 		font-weight: $bold;
@@ -184,6 +244,7 @@
 		}
 	}
 }
+
 
 .date {
 	padding-right: em($m-gut/2, $m-small-size);

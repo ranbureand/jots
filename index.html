@@ -13,17 +13,17 @@ title: Jots
 
   <main>
     {% assign jotList = site.jots | sort: 'number' %}
-    <nav>
+    <!--<nav>
       {% for jot in jotList reversed %}
         <a href="#jot-{{ jot.number }}" title="Jot № {{ jot.number }}">Jot № {{ jot.number }}</a>
       {% endfor %}
-    </nav>
+    </nav>-->
 
     <ul class="jots">
       {% for jot in jotList reversed %}
         {% assign reference = jotList.size | minus: 4 %}
         <li class="jot" id="jot-{{ jot.number }}">
-          <div class="number"><a href="#jot-{{ jot.number }}">№ {{ jot.number }}</a></div>
+          <div class="number"><a href="#jot-{{ jot.number }}">{{ jot.number }}</a></div>
           <blockquote {% if jot.number > reference %}class="body typo-l"{% else %}class="body typo-m"{% endif %} {% if jot.address %} cite="{{ jot.address }}"{% endif %}>
             {{ jot.content }}
           </blockquote>
