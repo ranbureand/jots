@@ -30,13 +30,13 @@
 
 @include keyframes(number-pulse) {
 	0% {
-		@include box-shadow($st-light-type-color 0 0 0 0.4em);
+		@include box-shadow($st-light-type-color 0 0 0 0.5em);
 	}
 	50% {
-		@include box-shadow($st-light-type-color 0 0 0 0.2em);
+		@include box-shadow($st-light-type-color 0 0 0 0.3em);
 	}
 	100% {
-		@include box-shadow($st-light-type-color 0 0 0 0.4em);
+		@include box-shadow($st-light-type-color 0 0 0 0.5em);
 	}
 }
 
