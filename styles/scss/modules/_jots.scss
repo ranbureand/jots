@@ -28,6 +28,18 @@
 	}
 }
 
+@include keyframes(number-pulse) {
+	0% {
+		@include box-shadow($st-light-type-color 0 0 0 0.4em);
+	}
+	50% {
+		@include box-shadow($st-light-type-color 0 0 0 0.2em);
+	}
+	100% {
+		@include box-shadow($st-light-type-color 0 0 0 0.4em);
+	}
+}
+
 .jot {
 	position: relative;
 
@@ -40,8 +52,11 @@
 	&:target {
 		.number {
 			a {
-				background-color: $st-type-color;
 				cursor: default;
+
+				background-color: $st-type-color;
+
+				@include animation(number-pulse 2.5s infinite ease);
 			}
 		}
 	}
@@ -64,16 +79,6 @@
 .jot:nth-child(-n+4) {
 	width: 100%;
 
-	/*.number {
-		margin-bottom: rhythm($m-large-line, $m-large-size);
-		padding-right: em($m-gut/2, $m-large-size);
-		padding-left: em($m-gut/2, $m-large-size);
-
-		@include adjust-font-size-to($m-large-size, $m-large-line);
-	}
-	.body {
-		margin-bottom: rhythm($m-large-line*2);
-	}*/
 	@include min-screen(col(8)) {
 		padding-top: rhythm($d-large-line*2 - $d-medium-line);
 		.number {
@@ -98,8 +103,9 @@
 		}
 	}
 	@include min-screen(col(16)) {
-		padding-top: rhythm($d-large-line*2);
 		overflow: auto;
+
+		padding-top: rhythm($d-large-line*2);
 		.number {
 			float: left;
 
@@ -135,16 +141,13 @@
 .number {
 	font-weight: $bold;
 
-	overflow: hidden;
-
 	margin-bottom: rhythm($m-small-line*2, $m-small-size);
 	padding-right: em($m-gut/2, $m-small-size);
 	padding-left: em($m-gut/2, $m-small-size);
 
 	@include adjust-font-size-to($m-small-size, $m-small-line);
 	a {
-		display: block;
-		float: left;
+		display: inline-block;
 
 		min-width: rhythm($m-small-line*2, $m-small-size);
 		height: rhythm($m-small-line*2, $m-small-size);
@@ -155,18 +158,14 @@
 
 		text-align: center;
 
-		background-color: $light-type-color;
+		background-color: $st-type-color;
 
 		@include border-radius(rhythm($m-small-line, $m-small-size));
 		@include link-colors($strong-type-inverted-color);
-		&:hover {
+		&:hover, &:active, &:focus {
 			background-color: $st-type-color;
-		}
-		&:active {
-			background-color: $st-type-color;
-		}
-		&:focus {
-			background-color: $st-type-color;
+
+			@include box-shadow($st-light-type-color 0 0 0 0.4em);
 		}
 	}
 	@include min-screen(col(8)) {
@@ -190,11 +189,6 @@
 
 
 .body {
-	a {
-		font-weight: $bold;
-
-		@include link;
-	}
 	font-weight: $bold;
 
 	margin-bottom: rhythm($m-medium-line*2);
@@ -207,6 +201,11 @@
 		margin-bottom: rhythm($d-medium-line*2);
 		padding-right: em($d-gut/2);
 		padding-left: em($d-gut - 4px);
+	}
+	a {
+		font-weight: $bold;
+
+		@include link;
 	}
 }
 
