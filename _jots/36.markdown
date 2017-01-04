@@ -1,0 +1,12 @@
+---
+number: 36
+
+title: "Has the Internet Killed Curly Quotes?"
+author: "Glenn Fleishman"
+
+site: "The Atlantic"
+address: "https://www.theatlantic.com/technology/archive/2016/12/quotation-mark-wars/511766/"
+date: 2017-01-04 17:30:00
+---
+
+“They sure do look nicer to old people like you and me, but frankly do they actually add any magical semantic value to a given text? Not really.”
