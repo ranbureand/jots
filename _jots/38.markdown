@@ -1,0 +1,12 @@
+---
+number: 38
+
+title: "How to ask good questions"
+author: "Julia Evans"
+
+site: "Julia Evans’s Site"
+address: "https://jvns.ca/blog/good-questions/"
+date: 2017-01-14 09:25:00
+---
+
+Being able to stop someone and say “hey, what does that mean?” is a super important skill.
