@@ -1,0 +1,12 @@
+---
+number: 41
+
+title: "Avoiding burn out at a tech company"
+author: "Matt Bond"
+
+site: "UXDESIGN.CC"
+address: "https://uxdesign.cc/avoiding-burn-out-at-a-tech-company-f00529c8fd72#.4y24tsl4q"
+date: 2017-02-12 23:50:00
+---
+
+To be effective, I believe designers should be spending around 50–60% of their time on a single (but big and impactful) project in order to really focus on it. With too many projects, you’ll be rushing your process, and likely making incremental progress in 50 different directions.
