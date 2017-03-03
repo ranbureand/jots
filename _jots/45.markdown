@@ -1,0 +1,12 @@
+---
+number: 44
+
+title: "Long-Term Design: Rewriting the Design Sales Pitch"
+author: "Jarrod Drysdale"
+
+site: "A List Apart"
+address: "https://alistapart.com/article/long-term-design-rewriting-the-design-sales-pitch"
+date: 2017-03-03 12:20:00
+---
+
+And if you think about that even further, this “cycle of redesign” makes design less valuable. In other words, if design is only valuable when new, it isn’t very valuable in the first place.
