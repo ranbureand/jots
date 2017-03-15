@@ -9,4 +9,4 @@ address: "https://en.wiktionary.org/wiki/la_gatta_frettolosa_fece_i_gattini_ciec
 date: 2017-03-15 18:10:00
 ---
 
-La gatta frettolosa fece i gattini ciechi.
+*La gatta frettolosa fece i gattini ciechi.*
