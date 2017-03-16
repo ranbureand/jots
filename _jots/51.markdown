@@ -1,0 +1,12 @@
+---
+number: 51
+
+title: "People’s Names That Break Websites"
+author: "Chris Coyier"
+
+site: "CSS-Tricks"
+address: "https://css-tricks.com/peoples-names-break-websites/"
+date: 2017-03-16 09:50:00
+---
+
+[…] people that have names that websites and computers don't seem to like - for example, we spoke to a guy named William Test, and a woman named Katie Test, both of whom can't seem to keep a hotel or airplane booking because the name "test" is flagged by internal systems.
