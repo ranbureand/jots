@@ -9,4 +9,4 @@ address: "https://www.smashingmagazine.com/2017/02/improving-ui-design-skills-co
 date: 2017-02-16 22:30:00
 ---
 
-I think copywork is subject to diminishing returns — so, no, you don’t have to copy perfectly. But (and this is important) you can’t copy it worse than the original. You have to achieve something that you view as equal or better, even if the details don’t totally line up.
+I think copywork is subject to diminishing returns—so, no, you don’t have to copy perfectly. But (and this is important) you can’t copy it worse than the original. You have to achieve something that you view as equal or better, even if the details don’t totally line up.
