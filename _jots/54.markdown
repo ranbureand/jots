@@ -1,0 +1,12 @@
+---
+number: 54
+
+title: "The Talk on Talks"
+author: "Zach Holman"
+
+site: "BACON: things developers love"
+address: "https://vimeo.com/96692937"
+date: 2017-04-02 13:20:00
+---
+
+Start early. […] Talk preparation will expand to fill all available time. […] It will take a lot of time to do your talk, way more thank you think.
