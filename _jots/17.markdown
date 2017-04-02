@@ -9,4 +9,4 @@ address: "https://medium.com/@billjordan1/the-quiet-crisis-unfolding-in-software
 date: 2016-06-12 12:00:00
 ---
 
-Don’t make your (often shy) natural leaders ask for a promotion — just do it. The icing on the cake for you — as their manager — is the loyalty you’ll receive in return.
+Don’t make your (often shy) natural leaders ask for a promotion—just do it. The icing on the cake for you—as their manager—is the loyalty you’ll receive in return.
