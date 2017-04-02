@@ -1,0 +1,12 @@
+---
+number: 55
+
+title: "Horizon: Zero Dawn—A review of the UI and 2D graphics"
+author: "Revui"
+
+site: "YouTube"
+address: "https://www.youtube.com/watch?v=AjVONwTRtUE"
+date: 2017-04-02 14:50:00
+---
+
+[…] and what we’re left with for the most part is a polished UI that can’t quite stand toe-to-toe  with the world it’s framing.
