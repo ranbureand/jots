@@ -1,0 +1,12 @@
+---
+number: 56
+
+title: "Form Design for Complex Applications"
+author: "Andrew Coyle"
+
+site: "Medium"
+address: "https://uxdesign.cc/form-design-for-complex-applications-d8a1d025eba6"
+date: 2017-04-04 14:10:00
+---
+
+The form — in its many manifestations — provides a gateway for user submission.
