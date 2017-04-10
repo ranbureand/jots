@@ -23,6 +23,9 @@ header {
 
 	height: rhythm($m-small-line*3);
 
+	circle {
+		fill: $st-type-color;
+	}
 	[class*="head"] {
 		padding-top: rhythm($m-small-line, $m-small-size);
 		padding-right: em($m-gut/2, $m-small-size);
