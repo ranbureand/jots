@@ -67,7 +67,6 @@ html {
 }
 
 body {
-	scroll-behavior: smooth;
 	font-weight: $normal;
 
 	position: relative;
@@ -80,6 +79,7 @@ body {
 
 	background-color: $st-background-color;
 
+	scroll-behavior: smooth;
 	@include min-screen(col(12)) {
 		display: table;
 	}
@@ -144,8 +144,6 @@ a[href^="mailto"] {
 */
 
 h1, h2, h3, h4, h5, h6 {
-	text-transform: uppercase;
-	@include face(condensed);
 	font-size: 1em; // normalize.css
 	margin: 0;
 

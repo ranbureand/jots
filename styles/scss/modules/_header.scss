@@ -1,0 +1,211 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Toc
+*/
+
+header {
+	width: 100%;
+	margin-top: rhythm($m-small-line/4);
+
+	background-color: $background-color;
+
+	@include min-screen(col(8)) {
+		margin-top: rhythm($d-small-line/4);
+	}
+}
+
+.head {
+	overflow: auto;
+
+	margin-right: auto;
+	margin-left: auto;
+
+	height: rhythm($m-small-line*3);
+
+	[class*="head"] {
+		padding-top: rhythm($m-small-line, $m-small-size);
+		padding-right: em($m-gut/2, $m-small-size);
+		padding-bottom: rhythm($m-small-line, $m-small-size);
+		padding-left: em($m-gut/2, $m-small-size);
+
+		@include adjust-font-size-to($m-small-size, $m-small-line);
+
+		float: left;
+
+		margin-right: -1*100%;
+	}
+	.head-logo {
+		width: rhythm($m-small-line*3, $m-small-size);
+		height: rhythm($m-small-line*3, $m-small-size);
+	}
+	.head-title {
+		width: 1/3*2*100%;
+		margin-left: rhythm($m-small-line*3, $m-small-size);
+		padding-top: rhythm($m-small-line, $m-small-size);
+		padding-right: em($m-gut/2, $m-large-size);
+		padding-bottom: rhythm($m-small-line, $m-small-size);
+		padding-left: em($m-gut/2, $m-large-size);
+		font-weight: $normal;
+		span {
+			font-weight: $bold;
+		}
+	}
+	.head-motto {
+		display: none;
+		text-align: right;
+	}
+	@include min-screen(col(8)) {
+		width: col(8);
+		height: rhythm($d-small-line*3);
+		[class*="head"] {
+			padding-top: rhythm($d-small-line, $d-small-size);
+			padding-right: em($d-gut/2, $d-small-size);
+			padding-bottom: rhythm($d-small-line, $d-small-size);
+			padding-left: em($d-gut/2, $d-small-size);
+
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+		}
+		.head-logo {
+			width: rhythm($d-small-line*3, $d-small-size);
+			height: rhythm($d-small-line*3, $d-small-size);
+		}
+		.head-title {
+			width: 1/3*2*100%;
+			margin-left: rhythm($d-small-line*3, $d-small-size);
+		}
+	}
+	@include min-screen(col(12)) {
+		width: col(12);
+		.head-title {
+			width: 1/3*2*100%;
+		}
+		.head-motto {
+			display: block;
+			width: 1/3*100%;
+			margin-left: 2/3*100%;
+		}
+	}
+	@include min-screen(col(16)) {
+		width: col(16);
+		[class*="head"] {
+			float: left;
+
+			margin-right: -1*100%;
+		}
+		.head-title {
+			width: 1/4*3*100%;
+			margin-left: 1/4*100%;
+		}
+		.head-motto {
+			width: 1/4*100%;
+			margin-left: 1/4*3*100%;
+		}
+	}
+}
+
+nav {
+	padding-top: rhythm($m-large-line);
+	padding-bottom: rhythm($m-large-line);
+
+	@include display-flex(flex);
+	@include flex-flow(row-reverse wrap);
+	@include justify-content(center);
+	@include align-items(flex-start);
+	@include align-content(flex-start);
+	a {
+		font-weight: $bold;
+		@include adjust-font-size-to($m-small-size, $m-small-line);
+		display: inline-block;
+
+		min-width: rhythm($m-small-line*2, $m-small-size);
+		height: rhythm($m-small-line*2, $m-small-size);
+		margin: em($m-gut/2, $m-small-size);
+		padding-top: rhythm($m-small-line/2 + 0.2, $m-small-size);
+		padding-right: em($m-gut/4, $m-small-size);
+		padding-bottom: rhythm($m-small-line/2 - 0.2, $m-small-size);
+		padding-left: em($m-gut/4, $m-small-size);
+
+		text-align: center;
+
+		background-color: $background-color;
+
+		@include border-radius(rhythm($m-small-line, $m-small-size));
+		@include link-colors($st-type-color);
+		&:hover, &:active, &:focus {
+			@include box-shadow($light-type-inverted-color 0 0 0 0.4em);
+		}
+	}
+
+	/*a {
+		position: relative;
+
+		display: block;
+		overflow: hidden;
+
+		width: 8px;
+		height: 8px;
+
+		text-indent: -100%;
+
+		@include flex-grow(0);
+		@include flex-shrink(1);
+		&:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			display: block;
+
+			width: 100%;
+			height: 100%;
+
+			content: "";
+
+			background-color: $st-type-color;
+
+			@include transition-property(background-color, transform);
+			@include transition-duration(0.2s, 0.2s);
+			@include transition-timing-function(ease-in-out, ease-in-out);
+			@include transform(scale(0.5));
+		}
+		&:hover {
+			&:after {
+				background-color: $strong-type-color;
+
+				@include transform(scale(1));
+			}
+		}
+		&:active {
+			&:after {
+				background-color: $strong-type-color;
+
+				@include transform(scale(1));
+				@include transition-duration(0.0s, 0.0s);
+			}
+		}
+	}*/
+	@include min-screen(col(8)) {
+		width: col(8);
+		padding-top: rhythm($d-large-line);
+		padding-bottom: rhythm($d-large-line);
+		a {
+			margin: em($d-gut/2, $d-small-size);
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+			min-width: rhythm($d-small-line*2, $d-small-size);
+			height: rhythm($d-small-line*2, $d-small-size);
+			padding-top: rhythm($d-small-line/2 + 0.2, $d-small-size);
+			padding-right: em($d-gut/4, $d-small-size);
+			padding-bottom: rhythm($d-small-line/2 - 0.2, $d-small-size);
+			padding-left: em($d-gut/4, $d-small-size);
+
+			@include border-radius(rhythm($d-small-line, $d-small-size));
+		}
+	}
+	@include min-screen(col(12)) {
+		width: col(12);
+	}
+	@include min-screen(col(16)) {
+		width: col(16);
+	}
+}

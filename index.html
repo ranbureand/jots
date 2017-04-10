@@ -7,18 +7,26 @@ title: Jots
 
 {% include head.html %}
 
+{% assign jotList = site.jots | sort: 'number' %}
+
 <body id="start">
 
   {% include browser-upgrade.html %}
 
-  <main>
-    {% assign jotList = site.jots | sort: 'number' %}
+  <header>
     <!--<nav>
       {% for jot in jotList reversed %}
-        <a href="#jot-{{ jot.number }}" title="Jot № {{ jot.number }}">Jot № {{ jot.number }}</a>
+        <a href="#jot-{{ jot.number }}" title="Jot № {{ jot.number }}">{{ jot.number }}</a>
       {% endfor %}
     </nav>-->
+    <div class="head">
+      <div class="head-logo"><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><circle cx="3" cy="3" r="1.5"/><circle cx="3" cy="9" r="1.5"/><circle cx="3" cy="15" r="1.5"/><circle cx="3" cy="21" r="1.5"/><circle cx="9" cy="3" r="1.5"/><circle cx="9" cy="9" r="1.5"/><circle cx="9" cy="15" r="1.5"/><circle cx="9" cy="21" r="1.5"/><circle cx="15" cy="3" r="1.5"/><circle cx="15" cy="9" r="1.5"/><circle cx="15" cy="15" r="1.5"/><circle cx="15" cy="21" r="1.5"/><circle cx="21" cy="3" r="1.5"/><circle cx="21" cy="9" r="1.5"/><circle cx="21" cy="15" r="1.5"/><circle cx="21" cy="21" r="1.5"/></g></svg></div>
+      <h1 class="head-title"><span>{{ site.title }}</span> is a collection of bits from inspiring pieces.</h1>
+      <div class="head-motto">Happy {{ 'now' | date: "%A" }}!</div>
+    </div>
+  </header>
 
+  <main>
     <ul class="jots">
       {% for jot in jotList reversed %}
         {% assign reference = jotList.size | minus: 4 %}
@@ -37,12 +45,11 @@ title: Jots
         </li>
       {% endfor %}
     </ul>
-
   </main>
 
 {% include footer.html %}
 
-{% include scripts.html %}
+<!--{% include scripts.html %}-->
 
 </body>
 

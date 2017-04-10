@@ -163,8 +163,6 @@
 		@include border-radius(rhythm($m-small-line, $m-small-size));
 		@include link-colors($strong-type-inverted-color);
 		&:hover, &:active, &:focus {
-			background-color: $st-type-color;
-
 			@include box-shadow($st-light-type-color 0 0 0 0.4em);
 		}
 	}
@@ -186,7 +184,6 @@
 		}
 	}
 }
-
 
 .body {
 	font-weight: $bold;

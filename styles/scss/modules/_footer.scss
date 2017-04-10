@@ -11,7 +11,7 @@ footer {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: rhythm($m-large-line*2);
+	padding-top: rhythm($m-large-line*4);
 	padding-bottom: rhythm($m-large-line*2);
 
 	color: $type-inverted-color;
@@ -19,18 +19,21 @@ footer {
 		@include link(inverted-link);
 		font-weight: $bold;
 	}
+	strong {
+		color: $strong-type-inverted-color;
+	}
 	[class*="foot"] {
-		font-weight: $bold;
-		padding-right: em($m-gut/2, $m-large-size);
-		padding-left: em($m-gut/2, $m-large-size);
+		padding-right: em($m-gut/2, $m-medium-size);
+		padding-left: em($m-gut/2, $m-medium-size);
 
-		@include adjust-font-size-to($m-large-size, $m-large-line);
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+
 	}
-	.foot-title {
-		margin-bottom: rhythm($m-large-line, $m-large-size);
+	.foot-explanation {
+		margin-bottom: rhythm($m-medium-line, $m-medium-size);
 	}
-	.foot-description {
-		margin-bottom: rhythm($m-large-line*4, $m-large-size);
+	.foot-count {
+		margin-bottom: rhythm($m-medium-line*4, $m-medium-size);
 	}
 	[class*="toe"] {
 		margin-bottom: rhythm($m-small-line/2, $m-small-size);
@@ -50,19 +53,19 @@ footer {
 	}
 	@include min-screen(col(8)) {
 		width: col(8);
-		padding-top: rhythm($d-large-line*2);
+		padding-top: rhythm($d-large-line*4);
 		padding-bottom: rhythm($d-large-line*2);
 		[class*="foot"] {
-			padding-right: em($d-gut/2, $d-large-size);
-			padding-left: em($d-gut/2, $d-large-size);
+			padding-right: em($d-gut/2, $d-medium-size);
+			padding-left: em($d-gut/2, $d-medium-size);
 
-			@include adjust-font-size-to($d-large-size, $d-large-line);
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
 		}
-		.foot-title {
-			margin-bottom: rhythm($d-large-line, $d-large-size);
+		.foot-explanation {
+			margin-bottom: rhythm($d-medium-line, $d-medium-size);
 		}
-		.foot-description {
-			margin-bottom: rhythm($d-large-line*2, $d-large-size);
+		.foot-count {
+			margin-bottom: rhythm($d-medium-line*4, $d-medium-size);
 		}
 		[class*="toe"] {
 			margin-bottom: rhythm($d-small-line/2, $d-small-size);
@@ -81,6 +84,27 @@ footer {
 	}
 	@include min-screen(col(12)) {
 		width: col(12);
+		[class*="toe"] {
+			float: left;
+			margin-right: -1*100%;
+		}
+		.toe-credits {
+			clear: left;
+			margin-top: 0;
+			margin-left: 0;
+			width: 1/3*2*100%;
+		}
+		.toe-copy {
+			clear: left;
+			margin-left: 0;
+			width: 1/3*100%;
+		}
+		.toe-scroll {
+			margin-top: 0;
+			width: 1/3*100%;
+			margin-bottom: rhythm($d-small-line/2, $d-small-size);
+			margin-left: 1/3*2*100%;
+		}
 	}
 	@include min-screen(col(16)) {
 		width: col(16);
@@ -89,33 +113,25 @@ footer {
 
 			margin-right: -1*100%;
 		}
-		.foot-title {
+		.foot-explanation {
+			width: 1/4*3*100%;
+			margin-left: 1/4*100%;
+			margin-bottom: rhythm($d-medium-line*4, $d-medium-size);
+		}
+		.foot-count {
 			width: 1/4*100%;
 			margin-left: 0;
 		}
-		.foot-description {
-			width: 1/4*3*100%;
-			margin-bottom: rhythm($d-large-line*4, $d-large-size);
-			margin-left: 1/4*100%;
-		}
-		[class*="toe"] {
-			float: left;
-
-			width: 1/4*100%;
-			margin-right: -1*100%;
-		}
 		.toe-credits {
-			clear: left;
-			margin-top: 0;
 			width: 1/4*2*100%;
 			margin-left: 1/4*1*100%;
 		}
 		.toe-copy {
-			margin-left: 0;
+			clear: none;
+			width: 1/4*100%;
 		}
 		.toe-scroll {
-			margin-top: 0;
-			margin-bottom: rhythm($d-small-line/2, $d-small-size);
+			width: 1/4*100%;
 			margin-left: 1/4*3*100%;
 		}
 	}

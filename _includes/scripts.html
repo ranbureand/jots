@@ -1,1 +1,10 @@
-<!--<script type="text/javascript" src="{{ site.baseurl }}/scripts/js/min/main-min.js"></script>-->
+<script type="text/javascript">
+  (function() {
+    var header = document.getElementsByTagName('header');
+    if (!header.length) return; // exit if there is no header element
+    if (window.scrollY) return; // exit if user has already scrolled
+
+    var top = header[0].clientHeight;
+    setTimeout(function() { window.scrollTo(0, top); }, 0);
+  })()
+</script>

@@ -1,6 +1,6 @@
 # Site settings
 title: "Jots"
-description: "An ongoing collection of inspiring bits and pieces."
+description: "An ongoing collection of bits from inspiring pieces."
 author: Andrea Buran
 exclude: ['README.md']
 
