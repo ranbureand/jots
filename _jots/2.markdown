@@ -3,6 +3,10 @@ number: 2
 
 title: "Pragmatism Is Poison"
 author: "Einar W. Høst"
+tags:
+- dogmatism
+- pragmatism
+
 
 site: "Ample Code"
 address: "https://einarwh.wordpress.com/2016/03/10/pragmatism-is-poison/"

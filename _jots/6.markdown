@@ -3,6 +3,9 @@ number: 6
 
 title: "Peopleware, Productive Projects and Teams, Third Edition"
 author: "Tom DeMarco, Timothy Lister"
+tags:
+- pressure
+- quality
 
 page: "18"
 publisher: "Addison-Wesley"

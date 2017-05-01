@@ -3,6 +3,9 @@ number: 11
 
 title: "Curing Our Slack Addiction"
 author: "Dave Teare"
+tags:
+- addiction
+- Slack
 
 site: "Agile Bits, Blog"
 address: "https://blog.agilebits.com/2016/04/19/curing-our-slack-addiction/"

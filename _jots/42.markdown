@@ -3,6 +3,9 @@ number: 42
 
 title: "Copy If You Can: Improving Your UI Design Skills With Copywork"
 author: "Erik Kennedy"
+tags:
+- copywork
+- improvement
 
 site: "Smashing Magazine"
 address: "https://www.smashingmagazine.com/2017/02/improving-ui-design-skills-copywork/"

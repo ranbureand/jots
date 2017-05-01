@@ -3,6 +3,8 @@ number: 36
 
 title: "Has the Internet Killed Curly Quotes?"
 author: "Glenn Fleishman"
+tags:
+- quotation marks
 
 site: "The Atlantic"
 address: "https://www.theatlantic.com/technology/archive/2016/12/quotation-mark-wars/511766/"

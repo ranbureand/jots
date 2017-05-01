@@ -3,6 +3,9 @@ number: 45
 
 title: "Long-Term Design: Rewriting the Design Sales Pitch"
 author: "Jarrod Drysdale"
+tags:
+- pitches
+- redesign
 
 site: "A List Apart"
 address: "https://alistapart.com/article/long-term-design-rewriting-the-design-sales-pitch"

@@ -3,6 +3,9 @@ number: 17
 
 title: "The Quiet Crisis unfolding in Software Development"
 author: "Bill Jordan"
+tags:
+- leader
+- recognition
 
 site: "Medium"
 address: "https://medium.com/@billjordan1/the-quiet-crisis-unfolding-in-software-development-cffbdafbf450"

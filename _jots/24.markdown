@@ -3,6 +3,9 @@ number: 24
 
 title: "Why Does Hollywood Always Use the Same Classical Music?"
 author: "Slate Magazine"
+tags:
+- Hollywood
+- music
 
 site: "YouTube"
 address: "https://youtu.be/URPRBukgsx0"

@@ -3,6 +3,9 @@ number: 18
 
 title: "The Career Advice I Wish I Had at 25"
 author: "Shane Rodgers"
+tags:
+- advices
+- career
 
 site: "LinkedIn"
 address: "https://www.linkedin.com/pulse/career-advice-i-wish-had-25-shane-rodgers"

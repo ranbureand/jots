@@ -3,6 +3,9 @@ number: 49
 
 title: "La gatta frettolosa fece i gattini ciechi"
 author: "Unknown Author"
+tags:
+- fretta
+- gatta
 
 site: "Wiktionary"
 address: "https://en.wiktionary.org/wiki/la_gatta_frettolosa_fece_i_gattini_ciechi"

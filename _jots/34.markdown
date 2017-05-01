@@ -3,6 +3,9 @@ number: 34
 
 title: "Jurassic Park: Trespasser CG Source Code Review"
 author: "Fabien Sanglard"
+tags:
+- bullying
+- Trespasser
 
 site: "Fabien Sanglard’s Website"
 address: "http://fabiensanglard.net/trespasser/index.php"

@@ -75,7 +75,7 @@ body {
 	height: 100%;
 	margin: 0; // normalize.css
 
-	counter-reset: footnotes figures ordered-list;
+	counter-reset: tags;
 
 	background-color: $st-background-color;
 
@@ -120,7 +120,7 @@ a {
 
 	@include transition-property(color, background-color, border-color, box-shadow, text-shadow);
 	@include transition-duration(0.2s, 0.2s, 0.2s, 0.2s, 0.2s);
-	@include transition-timing-function(ease-in-out,ease-in-out, ease-in-out, ease-in-out, ease-in-out);
+	@include transition-timing-function(ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out);
 	//@include transition-delay(0s);
 	@include link-colors($strong-type-color, $st-type-color, $st-type-color);
 	text-decoration: none;

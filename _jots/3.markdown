@@ -3,6 +3,9 @@ number: 3
 
 title: "Jackie Chan — How to Do Action Comedy"
 author: "Jackie Chan, Tony Zhou"
+tags:
+- patience
+- perseverance
 
 site: "Every Frame a Painting"
 address: "https://www.youtube.com/watch?v=Z1PCtIaM_GQ"

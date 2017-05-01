@@ -3,6 +3,9 @@ number: 50
 
 title: "How To Kill Your Phone Addiction with 4 Settings, 1 Hair Band, and a Post-It Note"
 author: "Brad Soroka"
+tags:
+- phone
+- Post-It
 
 site: "Digital Telepathy"
 address: "http://www.dtelepathy.com/blog/productivity/how-to-kill-your-phone-addiction-with-4-settings-1-hair-band-and-a-post-it-note"

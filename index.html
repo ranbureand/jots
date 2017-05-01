@@ -9,20 +9,17 @@ title: Jots
 
 {% assign jotList = site.jots | sort: 'number' %}
 
-<body id="start">
+<body>
 
   {% include browser-upgrade.html %}
 
   <header>
-    <!--<nav>
-      {% for jot in jotList reversed %}
-        <a href="#jot-{{ jot.number }}" title="Jot № {{ jot.number }}">{{ jot.number }}</a>
-      {% endfor %}
-    </nav>-->
-    <div class="head">
-      <div class="head-logo"><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><circle cx="4.5" cy="4.5" r="1.5"/><circle cx="4.5" cy="9.5" r="1.5"/><circle cx="4.5" cy="14.5" r="1.5"/><circle cx="4.5" cy="19.5" r="1.5"/><circle cx="9.5" cy="4.5" r="1.5"/><circle cx="9.5" cy="9.5" r="1.5"/><circle cx="9.5" cy="14.5" r="1.5"/><circle cx="9.5" cy="19.5" r="1.5"/><circle cx="14.5" cy="4.5" r="1.5"/><circle cx="14.5" cy="9.5" r="1.5"/><circle cx="14.5" cy="14.5" r="1.5"/><circle cx="14.5" cy="19.5" r="1.5"/><circle cx="19.5" cy="4.5" r="1.5"/><circle cx="19.5" cy="9.5" r="1.5"/><circle cx="19.5" cy="14.5" r="1.5"/><circle cx="19.5" cy="19.5" r="1.5"/></g></svg></div>
-      <h1 class="head-title"><span>{{ site.title }}</span> is a collection of bits from inspiring pieces.</h1>
-      <div class="head-motto">Happy {{ 'now' | date: "%A" }}!</div>
+    <div class="head-container" id="start">
+      <div class="head">
+        <div class="head-logo"><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><circle cx="4.5" cy="4.5" r="1.5"/><circle cx="4.5" cy="9.5" r="1.5"/><circle cx="4.5" cy="14.5" r="1.5"/><circle cx="4.5" cy="19.5" r="1.5"/><circle cx="9.5" cy="4.5" r="1.5"/><circle cx="9.5" cy="9.5" r="1.5"/><circle cx="9.5" cy="14.5" r="1.5"/><circle cx="9.5" cy="19.5" r="1.5"/><circle cx="14.5" cy="4.5" r="1.5"/><circle cx="14.5" cy="9.5" r="1.5"/><circle cx="14.5" cy="14.5" r="1.5"/><circle cx="14.5" cy="19.5" r="1.5"/><circle cx="19.5" cy="4.5" r="1.5"/><circle cx="19.5" cy="9.5" r="1.5"/><circle cx="19.5" cy="14.5" r="1.5"/><circle cx="19.5" cy="19.5" r="1.5"/></g></svg></div>
+        <h1 class="head-title"><span>{{ site.title }}</span> is a collection of bits from inspiring pieces.</h1>
+        <div class="head-motto">Happy {{ 'now' | date: "%A" }}!</div>
+      </div>
     </div>
   </header>
 
@@ -30,7 +27,7 @@ title: Jots
     <ul class="jots">
       {% for jot in jotList reversed %}
         {% assign reference = jotList.size | minus: 4 %}
-        <li class="jot" id="jot-{{ jot.number }}">
+        <li class="jot" id="jot-{{ jot.number }}" data-tag="{{ jot.tag }}">
           <div class="number"><a href="#jot-{{ jot.number }}">{{ jot.number }}</a></div>
           <blockquote {% if jot.number > reference %}class="body typo-l"{% else %}class="body typo-m"{% endif %} {% if jot.address %} cite="{{ jot.address }}"{% endif %}>
             {{ jot.content }}
@@ -49,7 +46,8 @@ title: Jots
 
 {% include footer.html %}
 
-<!--{% include scripts.html %}-->
+<!--<script type="text/javascript" src="{{ site.baseurl }}/scripts/min/main-min.js"></script>-->
+<!--<script type="text/javascript" src="{{ site.baseurl }}/scripts/main.js"></script>-->
 
 </body>
 

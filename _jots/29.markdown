@@ -3,6 +3,9 @@ number: 29
 
 title: "How To Design Error States For Mobile Apps"
 author: "Nick Babich"
+tags:
+- errors
+- states
 
 site: "Smashing Magazine"
 address: "https://www.smashingmagazine.com/2016/09/how-to-design-error-states-for-mobile-apps/"

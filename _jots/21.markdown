@@ -3,6 +3,9 @@ number: 21
 
 title: "Is This My Interface or Yours?"
 author: "John Saito"
+tags:
+- interface
+- labels
 
 site: "Medium"
 address: "https://medium.com/@jsaito/is-this-my-interface-or-yours-b09a7a795256#.holpmm4my"

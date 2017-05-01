@@ -3,6 +3,9 @@ number: 5
 
 title: "On Writing Well, The Classic Guide to Writing Nonfiction, 30<sup>th</sup> Anniversary Edition"
 author: "William Zinsser"
+tags:
+- clutter
+- language
 
 page: "20"
 publisher: "Harper Collins"

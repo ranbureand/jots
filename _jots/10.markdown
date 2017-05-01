@@ -3,6 +3,9 @@ number: 10
 
 title: "When to Rewrite form Scratch — Autopsy of a Failed Software"
 author: "Umer Mansoor"
+tags:
+- fail
+- rewrite
 
 site: "Code Ahoy"
 address: "http://codeahoy.com/2016/04/21/when-to-rewrite-from-scratch-autopsy-of-a-failed-software/"

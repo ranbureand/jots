@@ -3,6 +3,9 @@ number: 41
 
 title: "Avoiding burn out at a tech company"
 author: "Matt Bond"
+tags:
+- focus
+- time
 
 site: "UXDESIGN.CC"
 address: "https://uxdesign.cc/avoiding-burn-out-at-a-tech-company-f00529c8fd72#.4y24tsl4q"

@@ -3,6 +3,9 @@ number: 26
 
 title: "Designing Interface Animation"
 author: "Val Head"
+tags:
+- motion
+- audit
 
 site: "A List Apart"
 address: "http://alistapart.com/article/designing-interface-animation"

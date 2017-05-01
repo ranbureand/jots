@@ -3,6 +3,9 @@ number: 8
 
 title: "Prototyping for Physical and Digital Products"
 author: "Kathryn McElroy"
+tags:
+- process
+- visual design
 
 page: "22"
 publisher: "O’Reilly Media"

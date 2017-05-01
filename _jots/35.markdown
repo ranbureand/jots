@@ -3,6 +3,9 @@ number: 35
 
 title: "Postmortem: DreamWorks Interactive’s Trespasser"
 author: "Richard Wyckoff"
+tags:
+- management
+- Trespasser
 
 site: "Gamasutra"
 address: "http://www.gamasutra.com/view/feature/131746/postmortem_dreamworks_.php"

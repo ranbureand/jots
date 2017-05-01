@@ -3,6 +3,9 @@ number: 25
 
 title: "How Bad Features Are Born"
 author: "James Gill"
+tags:
+- bad
+- features
 
 site: "GoSquared"
 address: "https://www.gosquared.com/blog/how-bad-features-are-born"

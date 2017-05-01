@@ -3,6 +3,9 @@ number: 37
 
 title: "Ten Thousand Years"
 author: "99pi"
+tags:
+- ray cats
+- communication
 
 site: "99% Invisible"
 address: "http://99percentinvisible.org/episode/ten-thousand-years/"

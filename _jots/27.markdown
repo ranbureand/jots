@@ -3,6 +3,9 @@ number: 27
 
 title: "Designing Interface Animation: an Interview with Val Head"
 author: "Mica McPheeters, Caren Litherland"
+tags:
+- animations
+- experience
 
 site: "A List Apart"
 address: "http://alistapart.com/article/designing-interface-animation-interview-with-val-headn"

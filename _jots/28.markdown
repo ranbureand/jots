@@ -3,6 +3,9 @@ number: 28
 
 title: "The Road Through Britain: Roger W. Smith"
 author: "Arthur Touchot, Will Holloway, Mauro Bellanova"
+tags:
+- success
+- watches
 
 site: "Vimeo"
 address: "https://vimeo.com/182413829"

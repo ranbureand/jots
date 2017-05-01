@@ -3,6 +3,8 @@ number: 23
 
 title: "10 Things You Need to Learn in Design School if You’re Tired of Wasting Your Money"
 author: "Mike Monteiro"
+tags:
+- refusal
 
 site: "Medium"
 address: "https://deardesignstudent.com/10-things-you-need-to-learn-in-design-school-if-you-re-tired-of-wasting-your-money-64aaa0bc3994#.an1tqdhfu"

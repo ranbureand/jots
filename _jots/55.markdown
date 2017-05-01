@@ -3,6 +3,9 @@ number: 55
 
 title: "Horizon: Zero Dawn—A review of the UI and 2D graphics"
 author: "Revui"
+tags:
+- videogames
+- VUI
 
 site: "YouTube"
 address: "https://www.youtube.com/watch?v=AjVONwTRtUE"

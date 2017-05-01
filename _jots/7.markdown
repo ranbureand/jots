@@ -3,6 +3,9 @@ number: 7
 
 title: "Shields Down"
 author: "Michael Lopp"
+tags:
+- resignation
+- shields down
 
 site: "Rands in Repose"
 address: "http://randsinrepose.com/archives/shields-down/"

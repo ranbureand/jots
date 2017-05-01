@@ -3,6 +3,9 @@ number: 38
 
 title: "How to ask good questions"
 author: "Julia Evans"
+tags:
+- questioning
+- meaning
 
 site: "Julia Evans’s Site"
 address: "https://jvns.ca/blog/good-questions/"
