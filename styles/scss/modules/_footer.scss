@@ -90,6 +90,7 @@
 	@include align-items(flex-start);
 	@include align-content(flex-start);
 	a {
+		position: relative;
 		width: 100%;
 		font-weight: $bold;
 
@@ -127,6 +128,20 @@
 			@include transition-timing-function(ease-in-out, ease-in-out);
 			@include box-shadow($light-type-inverted-color 0 0 0 0);
 		}
+		&:after {
+			position: absolute;
+			right: em($m-gut/2, $m-small-size);
+			bottom: 0;
+			left: em($m-gut/2, $m-small-size);
+
+			display: block;
+
+			height: 1px;
+
+			content: "";
+
+			border-bottom: 1px solid $light-type-color;
+		}
 		&:hover, &:active, &:focus {
 			color: $strong-type-color;
 			&:before {
@@ -156,6 +171,10 @@
 				padding-bottom: rhythm($d-extra-small-line/2 - 0.15, $d-extra-small-size);
 
 				@include adjust-font-size-to($d-extra-small-size, $d-extra-small-line, $d-small-size);
+			}
+			&:after {
+				right: em($d-gut/2, $d-small-size);
+				left: em($d-gut/2, $d-small-size);
 			}
 		}
 	}
