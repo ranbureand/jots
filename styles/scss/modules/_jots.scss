@@ -30,13 +30,13 @@
 
 @include keyframes(number-pulse) {
 	0% {
-		@include box-shadow($st-light-type-color 0 0 0 0.5em);
+		@include box-shadow($light-type-color 0 0 0 0.5em);
 	}
 	50% {
-		@include box-shadow($st-light-type-color 0 0 0 0.3em);
+		@include box-shadow($light-type-color 0 0 0 0.3em);
 	}
 	100% {
-		@include box-shadow($st-light-type-color 0 0 0 0.5em);
+		@include box-shadow($light-type-color 0 0 0 0.5em);
 	}
 }
 
@@ -54,7 +54,7 @@
 			a {
 				cursor: default;
 
-				background-color: $st-type-color;
+				background-color: $type-color;
 
 				@include animation(number-pulse 2.5s infinite ease);
 			}
@@ -192,6 +192,7 @@
 	padding-right: em($m-gut/2);
 	padding-left: em($m-gut/2 - 4px);
 
+	color: $strong-type-color;
 	border-left: 4px solid $st-type-color;
 
 	@include min-screen(col(8)) {

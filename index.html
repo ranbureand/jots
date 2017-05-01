@@ -9,17 +9,20 @@ title: Jots
 
 {% assign jotList = site.jots | sort: 'number' %}
 
+{% for jot in jotList %}
+   {% capture jotCount %} {{ jotCount | plus: 1 }} {% endcapture %}
+{% endfor %}
+
 <body>
 
   {% include browser-upgrade.html %}
 
-  <header>
-    <div class="head-container" id="start">
-      <div class="head">
-        <div class="head-logo"><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><circle cx="4.5" cy="4.5" r="1.5"/><circle cx="4.5" cy="9.5" r="1.5"/><circle cx="4.5" cy="14.5" r="1.5"/><circle cx="4.5" cy="19.5" r="1.5"/><circle cx="9.5" cy="4.5" r="1.5"/><circle cx="9.5" cy="9.5" r="1.5"/><circle cx="9.5" cy="14.5" r="1.5"/><circle cx="9.5" cy="19.5" r="1.5"/><circle cx="14.5" cy="4.5" r="1.5"/><circle cx="14.5" cy="9.5" r="1.5"/><circle cx="14.5" cy="14.5" r="1.5"/><circle cx="14.5" cy="19.5" r="1.5"/><circle cx="19.5" cy="4.5" r="1.5"/><circle cx="19.5" cy="9.5" r="1.5"/><circle cx="19.5" cy="14.5" r="1.5"/><circle cx="19.5" cy="19.5" r="1.5"/></g></svg></div>
-        <h1 class="head-title"><span>{{ site.title }}</span> is a collection of bits from inspiring pieces.</h1>
-        <div class="head-motto">Happy {{ 'now' | date: "%A" }}!</div>
-      </div>
+  <header class=header id="start">
+    <div class="head">
+      <!--<div class="head-logo"><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><circle cx="4.5" cy="4.5" r="1.5"/><circle cx="4.5" cy="9.5" r="1.5"/><circle cx="4.5" cy="14.5" r="1.5"/><circle cx="4.5" cy="19.5" r="1.5"/><circle cx="9.5" cy="4.5" r="1.5"/><circle cx="9.5" cy="9.5" r="1.5"/><circle cx="9.5" cy="14.5" r="1.5"/><circle cx="9.5" cy="19.5" r="1.5"/><circle cx="14.5" cy="4.5" r="1.5"/><circle cx="14.5" cy="9.5" r="1.5"/><circle cx="14.5" cy="14.5" r="1.5"/><circle cx="14.5" cy="19.5" r="1.5"/><circle cx="19.5" cy="4.5" r="1.5"/><circle cx="19.5" cy="9.5" r="1.5"/><circle cx="19.5" cy="14.5" r="1.5"/><circle cx="19.5" cy="19.5" r="1.5"/></g></svg></div>-->
+      <h1 class="head-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a> is a collection of bits from inspiring pieces.</h1>
+      <div class="head-count">{{ jotCount }} bits—and counting.</div>
+      <div class="head-motto">Happy {{ 'now' | date: "%A" }}!</div>
     </div>
   </header>
 
