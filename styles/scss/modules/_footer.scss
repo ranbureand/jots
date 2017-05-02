@@ -119,7 +119,7 @@
 			text-align: center;
 
 			color: $st-type-color;
-			background-color: $background-color;
+			background-color: $type-inverted-color;
 
 			@include adjust-font-size-to($m-extra-small-size, $m-extra-small-line, $m-small-size);
 			@include border-radius(50%);
@@ -145,9 +145,14 @@
 		&:hover, &:active, &:focus {
 			color: $strong-type-color;
 			&:before {
-				background-color: $strong-type-color;
+				background-color: $type-color;
 
 				@include box-shadow($light-type-color 0 0 0 0.4em);
+			}
+		}
+		&:active {
+			&:before {
+				@include transition-duration(0, 0);
 			}
 		}
 	}
