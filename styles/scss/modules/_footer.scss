@@ -152,7 +152,7 @@
 		}
 		&:active {
 			&:before {
-				@include transition-duration(0, 0);
+				@include transition-duration(0.0s, 0.0s);
 			}
 		}
 	}
