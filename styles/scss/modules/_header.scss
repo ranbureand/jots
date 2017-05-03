@@ -33,6 +33,9 @@
 		padding-left: em($m-gut/2, $m-small-size);
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
+		a {
+			font-weight: $bold;
+		}
 	}
 	/*.head-logo {
 		width: rhythm($m-small-line*3, $m-small-size);
@@ -48,14 +51,13 @@
 		padding-left: em($m-gut/2, $m-large-size);
 
 		color: $type-color;
-		a {
-			font-weight: $bold;
-		}
 	}
-	.head-count, .head-motto {
+	.head-count {
 		display: none;
-
+	}
+	.head-index {
 		text-align: right;
+		width: 100%;
 	}
 	@include min-screen(col(8)) {
 		width: col(8);
@@ -72,21 +74,13 @@
 			width: rhythm($d-small-line*3, $d-small-size);
 			height: rhythm($d-small-line*3, $d-small-size);
 		}*/
-		.head-title {
-			width: 100%;
-		}
-		.head-count {
-			display: block;
-
-			width: 100%;
-		}
 	}
 	@include min-screen(col(12)) {
 		width: col(12);
 		.head-title {
 			width: 1/3*2*100%;
 		}
-		.head-count {
+		.head-index {
 			width: 1/3*100%;
 			margin-left: 2/3*100%;
 		}
@@ -99,6 +93,7 @@
 			margin-right: -1*100%;
 		}
 		.head-count {
+			display: block;
 			width: 1/4*100%;
 			margin-left: 0;
 
@@ -108,8 +103,7 @@
 			width: 1/4*3*100%;
 			margin-left: 1/4*100%;
 		}
-		.head-motto {
-			display: block;
+		.head-index {
 
 			width: 1/4*100%;
 			margin-left: 1/4*3*100%;

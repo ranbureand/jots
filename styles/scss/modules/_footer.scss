@@ -13,6 +13,11 @@
 
 	color: $type-inverted-color;
 
+	a {
+		font-weight: $bold;
+
+		@include link-colors($strong-type-inverted-color, $strong-type-color, $strong-type-color);
+	}
 	strong {
 		color: $strong-type-inverted-color;
 	}
@@ -29,14 +34,10 @@
 	}
 }
 
+
 .foot {
 	overflow: auto;
 
-	a {
-		font-weight: $bold;
-
-		@include link(inverted-link);
-	}
 	[class*="foot"] {
 		padding-right: em($m-gut/2, $m-medium-size);
 		padding-left: em($m-gut/2, $m-medium-size);
@@ -92,7 +93,6 @@
 	a {
 		position: relative;
 		width: 100%;
-		font-weight: $bold;
 
 		display: block;
 
@@ -102,7 +102,6 @@
 		padding-left: em($m-gut/2, $m-small-size);
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
-		@include link-colors($strong-type-inverted-color);
 		&:before {
 			float: left;
 
@@ -143,7 +142,6 @@
 			border-bottom: 1px solid $light-type-color;
 		}
 		&:hover, &:active, &:focus {
-			color: $strong-type-color;
 			&:before {
 				background-color: $type-color;
 
@@ -188,11 +186,6 @@
 .toe {
 	overflow: auto;
 
-	a {
-		font-weight: $bold;
-
-		@include link(inverted-link);
-	}
 	[class*="toe"] {
 		margin-bottom: rhythm($m-small-line/2, $m-small-size);
 		padding-right: em($m-gut/2, $m-small-size);
