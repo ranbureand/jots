@@ -5,13 +5,13 @@
 */
 
 ::-moz-selection {
-	color: $selected-type-color;
-	background-color: $selected-background-color;
+	color: $d-selected-type-color;
+	background-color: $l-selected-background-color;
 	text-shadow: none;
 }
 ::selection {
-	color: $selected-type-color;
-	background-color: $selected-background-color;
+	color: $d-selected-type-color;
+	background-color: $l-selected-background-color;
 	text-shadow: none;
 }
 
@@ -44,7 +44,7 @@ html {
 
 	height: 100%;
 
-	color: $type-color;
+	color: $d-type-color;
 
 	@include adjust-leading-to($m-medium-line);
 	    -ms-text-size-adjust: 100%; // normalize.css
@@ -77,7 +77,7 @@ body {
 
 	counter-reset: tags;
 
-	background-color: $st-background-color;
+	background-color: $c-background-color;
 
 	scroll-behavior: smooth;
 	@include min-screen(col(12)) {
@@ -122,7 +122,7 @@ a {
 	@include transition-duration(0.2s, 0.2s, 0.2s, 0.2s, 0.2s);
 	@include transition-timing-function(ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out);
 	//@include transition-delay(0s);
-	@include link-colors($strong-type-color, $st-type-color, $st-type-color);
+	@include link-colors($d-strong-type-color, $c-type-color, $c-type-color);
 	text-decoration: none;
 	&:hover {
 		outline: 0; // normalize.css
@@ -147,9 +147,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1em; // normalize.css
 	margin: 0;
 
-	color: $strong-type-color;
+	color: $d-strong-type-color;
 	span {
-		color: $strong-type-color;
+		color: $d-strong-type-color;
 	}
 }
 h1, h2, h3, h4 {
@@ -159,7 +159,7 @@ h5, h6 {
 	font-weight: $normal;
 }
 h6 {
-	color: $light-type-color;
+	color: $d-light-type-color;
 }
 
 ul, ol {
@@ -174,7 +174,7 @@ dl {
 	dt {
 		float: left;
 		margin-right: 0.8em;
-		color: $strong-type-color;
+		color: $d-strong-type-color;
 		font-style: italic;
 	}
 	dd {
@@ -193,7 +193,7 @@ abbr[title] {
 strong {
 	font-weight: $bold; // normalize.css
 
-	color: $strong-type-color;
+	color: $d-strong-type-color;
 }
 
 q {
@@ -241,10 +241,10 @@ code, kbd, pre, samp {
 	font-size: 1em; // normalize.css
 }
 code, samp {
-	color: $type-color;
+	color: $d-type-color;
 }
 kbd, mark {
-	color: $strong-type-color;
+	color: $d-strong-type-color;
 }
 code, samp, kbd {
 	@include face(mono);
@@ -253,7 +253,7 @@ code, kbd, mark {
 	margin: -0.1em 0;
 	padding: 0.1em 0.3em;
 
-	background-color: $code-background-color;
+	background-color: $l-code-background-color;
 
 	@include border-radius(2px, 2px);
 }
@@ -264,7 +264,7 @@ pre {
 
 	white-space: normal;
 
-	background-color: $code-background-color;
+	background-color: $l-code-background-color;
 
 	@include border-radius(2px, 2px);
 
@@ -287,7 +287,7 @@ blockquote {
 
 quote {
 	font-style: italic;
-	color: $strong-type-color;
+	color: $d-strong-type-color;
 }
 
 hr {

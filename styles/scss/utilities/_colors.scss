@@ -8,39 +8,48 @@
 $black: #000;
 $white: #fff;
 
-$st-color: hsl(255, 90, 70);
+$color: hsl(255, 90, 70);
 
-$canvas: #fafafa;
+$l-canvas: #fafafa;
+$d-canvas: #191919;
 
 /*
 ** Typography
 */
 
-$strong-type-color: rgba($black, 0.90);
-$type-color: rgba($black, 0.70);
-$light-type-color: rgba($black, 0.20);
+$d-strong-type-color: rgba($black, 0.90);
+$d-type-color: rgba($black, 0.70);
+$d-light-type-color: rgba($black, 0.20);
 
-$strong-type-inverted-color: rgba($white, 0.90);
-$type-inverted-color: rgba($white, 0.80);
-$light-type-inverted-color: rgba($white, 0.40);
+$l-strong-type-color: rgba($white, 0.90);
+$l-type-color: rgba($white, 0.80);
+$l-light-type-color: rgba($white, 0.40);
 
-$st-type-color: rgba($st-color, 1.00);
-$st-light-type-color: rgba($st-color, 0.20);
+$c-strong-type-color: rgba($color, 1.00);
+$c-type-color: rgba($color, 1.00);
+$c-light-type-color: rgba($color, 0.20);
 
-$selected-type-color: $strong-type-color;
+$d-selected-type-color: $d-strong-type-color;
+
+$l-selected-type-color: $l-strong-type-color;
 
 /*
 ** Backgrounds
 */
 
-$strong-background-color: darken($canvas, 6%);
-$background-color: $canvas;
-$light-background-color: lighten($canvas, 6%);
+$l-strong-background-color: darken($l-canvas, 6%);
+$l-background-color: $l-canvas;
+$l-light-background-colorr: lighten($l-canvas, 6%);
 
-$st-background-color: $st-color;
+$d-background-color: $d-canvas;
 
-$selected-background-color: rgba($st-color, 0.20);
-$code-background-color: lighten($canvas, 3%);
+$c-background-color: $color;
+
+$l-code-background-color: lighten($l-canvas, 3%);
+
+$l-selected-background-color: rgba($color, 0.20);
+
+$d-background-inverted-color: rgba($white, 0.12);
 
 /*
 ** Borders
@@ -52,6 +61,6 @@ $border-color: rgba($black, 0.20);
 ** Pictures
 */
 
-$picture-background-color: darken($background-color, 4%);
+$picture-background-color: darken($l-background-color, 4%);
 
-$picture-shadow-color: darken($background-color, 4%);
+$picture-shadow-color: darken($l-background-color, 4%);

@@ -28,24 +28,50 @@ title: Jots
   </header>
 
   <main>
-    <ul class="jots">
-      {% for jot in jotList reversed %}
-        {% assign reference = jotList.size | minus: 4 %}
-        <li class="jot" id="jot-{{ jot.number }}" data-tag="{{ jot.tag }}">
-          <div class="number"><a href="#jot-{{ jot.number }}">{{ jot.number }}</a></div>
-          <blockquote {% if jot.number > reference %}class="body typo-l"{% else %}class="body typo-m"{% endif %} {% if jot.address %} cite="{{ jot.address }}"{% endif %}>
-            {{ jot.content }}
-          </blockquote>
-          {% if jot.site %}
-            <div class="reference"><span>{{ jot.author }}</span> in {% if jot.address %}<a href="{{ jot.address }}" target="_blank" title="{{ jot.title }}"><cite>{{ jot.title }}</cite></a>{% else %}<span><cite>{{ jot.title }}</cite></span>{% endif %}, from <span>{{ jot.site }}</span>.</div>
-            <div class="date">Retrieved on <time>{{ jot.date | date: "%B" }} {% assign d = jot.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %}, {{ jot.date | date: "%Y" }}</time>.</div>
-          {% else %}
-            <div class="reference"><span>{{ jot.author }}</span> in <span><cite>{{ jot.title }}</cite></span>{% if jot.page %}, p. <span>{{ jot.page }}</span>{% elsif jot.pages %}, pp. <span>{{ jot.pages }}</span>{% endif %}.</div>
-            <div class="date"><span class="publisher">{{ jot.publisher }}</span>, <span class="year">{{ jot.year }}</span>.</div>
+    <div class="playground-dark">
+      <div class="list">
+        {% for jot in jotList reversed %}
+          {% assign reference = jotList.size | minus: 4 %}
+          {% if forloop.first %}
+            <div class="jot-dark" id="jot-{{ jot.number }}" data-tag="{{ jot.tag }}">
+              <div class="number"><a href="#jot-{{ jot.number }}">{{ jot.number }}</a></div>
+              <blockquote {% if jot.number > reference %}class="body typo-l"{% else %}class="body typo-m"{% endif %} {% if jot.address %} cite="{{ jot.address }}"{% endif %}>
+                {{ jot.content }}
+              </blockquote>
+              {% if jot.site %}
+                <div class="reference"><span>{{ jot.author }}</span> in {% if jot.address %}<a href="{{ jot.address }}" target="_blank" title="{{ jot.title }}"><cite>{{ jot.title }}</cite></a>{% else %}<span><cite>{{ jot.title }}</cite></span>{% endif %}, from <span>{{ jot.site }}</span>.</div>
+                <div class="date">Retrieved on <time>{{ jot.date | date: "%B" }} {% assign d = jot.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %}, {{ jot.date | date: "%Y" }}</time>.</div>
+              {% else %}
+                <div class="reference"><span>{{ jot.author }}</span> in <span><cite>{{ jot.title }}</cite></span>{% if jot.page %}, p. <span>{{ jot.page }}</span>{% elsif jot.pages %}, pp. <span>{{ jot.pages }}</span>{% endif %}.</div>
+                <div class="date"><span class="publisher">{{ jot.publisher }}</span>, <span class="year">{{ jot.year }}</span>.</div>
+              {% endif %}
+            </div>
           {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="playground-light">
+      <div class="list">
+        {% for jot in jotList reversed %}
+          {% assign reference = jotList.size | minus: 4 %}
+          {% unless forloop.first %}
+            <div class="jot-light" id="jot-{{ jot.number }}" data-tag="{{ jot.tag }}">
+              <div class="number"><a href="#jot-{{ jot.number }}">{{ jot.number }}</a></div>
+              <blockquote {% if jot.number > reference %}class="body typo-l"{% else %}class="body typo-m"{% endif %} {% if jot.address %} cite="{{ jot.address }}"{% endif %}>
+                {{ jot.content }}
+              </blockquote>
+              {% if jot.site %}
+                <div class="reference"><span>{{ jot.author }}</span> in {% if jot.address %}<a href="{{ jot.address }}" target="_blank" title="{{ jot.title }}"><cite>{{ jot.title }}</cite></a>{% else %}<span><cite>{{ jot.title }}</cite></span>{% endif %}, from <span>{{ jot.site }}</span>.</div>
+                <div class="date">Retrieved on <time>{{ jot.date | date: "%B" }} {% assign d = jot.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %}, {{ jot.date | date: "%Y" }}</time>.</div>
+              {% else %}
+                <div class="reference"><span>{{ jot.author }}</span> in <span><cite>{{ jot.title }}</cite></span>{% if jot.page %}, p. <span>{{ jot.page }}</span>{% elsif jot.pages %}, pp. <span>{{ jot.pages }}</span>{% endif %}.</div>
+                <div class="date"><span class="publisher">{{ jot.publisher }}</span>, <span class="year">{{ jot.year }}</span>.</div>
+              {% endif %}
+            </div>
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
   </main>
 
 {% include footer.html %}

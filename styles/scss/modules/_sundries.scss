@@ -11,16 +11,3 @@
 		padding: rhythm(2) em($d-gut/2) rhythm(2) em($d-gut/2);
 	}
 }
-
-main {
-	padding-top: rhythm($m-medium-line*2);
-
-	background-color: $background-color;
-
-	@include min-screen(col(8)) {
-		padding-top: rhythm($d-medium-line*2);
-	}
-	@include min-screen(col(16)) {
-		padding-top: rhythm($d-medium-line*4);
-	}
-}

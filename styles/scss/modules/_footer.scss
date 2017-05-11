@@ -11,15 +11,15 @@
 	padding-top: rhythm($m-large-line*4);
 	padding-bottom: rhythm($m-large-line*2);
 
-	color: $type-inverted-color;
+	color: $l-type-color;
 
 	a {
 		font-weight: $bold;
 
-		@include link-colors($strong-type-inverted-color, $strong-type-color, $strong-type-color);
+		@include link-colors($l-strong-type-color, $d-strong-type-color, $d-strong-type-color);
 	}
 	strong {
-		color: $strong-type-inverted-color;
+		color: $l-strong-type-color;
 	}
 	@include min-screen(col(8)) {
 		width: col(8);
@@ -117,15 +117,15 @@
 			counter-increment: tags;
 			text-align: center;
 
-			color: $st-type-color;
-			background-color: $type-inverted-color;
+			color: $c-type-color;
+			background-color: $l-type-color;
 
 			@include adjust-font-size-to($m-extra-small-size, $m-extra-small-line, $m-small-size);
 			@include border-radius(50%);
 			@include transition-property(background-color, box-shadow);
 			@include transition-duration(0.2s, 0.2s);
 			@include transition-timing-function(ease-in-out, ease-in-out);
-			@include box-shadow($light-type-inverted-color 0 0 0 0);
+			@include box-shadow($l-light-type-color 0 0 0 0);
 		}
 		&:after {
 			position: absolute;
@@ -139,13 +139,13 @@
 
 			content: "";
 
-			border-bottom: 1px solid $light-type-color;
+			border-bottom: 1px solid $d-light-type-color;
 		}
 		&:hover, &:active, &:focus {
 			&:before {
-				background-color: $type-color;
+				background-color: $d-type-color;
 
-				@include box-shadow($light-type-color 0 0 0 0.4em);
+				@include box-shadow($d-light-type-color 0 0 0 0.4em);
 			}
 		}
 		&:active {

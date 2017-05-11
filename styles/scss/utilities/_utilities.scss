@@ -141,19 +141,26 @@ $button-small-border-width: 1px;
 ** Link
 */
 
-@mixin link($status: link) {
-	@if $status == "link" {
-		@include text-shadow($background-color 1px 1px 0, $background-color -1px 1px 0, $background-color 2px 0 0, $background-color -2px 0 0);
-		@include box-shadow($background-color 0 0 0 0 inset, $st-type-color 0 -2px 0 0 inset);
+@mixin link($status: link-light) {
+	@if $status == "link-light" {
+		@include text-shadow($l-background-color 1px 1px 0, $l-background-color -1px 1px 0, $l-background-color 2px 0 0, $l-background-color -2px 0 0);
+		@include box-shadow($l-background-color 0 0 0 0 inset, $c-type-color 0 -2px 0 0 inset);
 		&:hover, &:active {
-			@include box-shadow($background-color 0 0 0 0 inset, $background-color 0 -2px 0 0 inset);
+			@include box-shadow($l-background-color 0 0 0 0 inset, $l-background-color 0 -2px 0 0 inset);
 		}
-	} @else if $status == "inverted-link" {
-		@include link-colors($strong-type-inverted-color, $strong-type-color, $strong-type-color);
-		@include text-shadow($st-background-color 1px 1px 0, $st-background-color -1px 1px 0, $st-background-color 2px 0 0, $st-background-color -2px 0 0);
-		@include box-shadow($st-background-color 0 0 0 0 inset, $strong-type-inverted-color 0 -2px 0 0 inset);
+	} @else if $status == "link-color" {
+		@include link-colors($l-strong-type-color, $d-strong-type-color, $d-strong-type-color);
+		@include text-shadow($c-background-color 1px 1px 0, $c-background-color -1px 1px 0, $c-background-color 2px 0 0, $c-background-color -2px 0 0);
+		@include box-shadow($c-background-color 0 0 0 0 inset, $l-strong-type-color 0 -2px 0 0 inset);
 		&:hover, &:active {
-			@include box-shadow($st-background-color 0 0 0 0 inset, $st-background-color 0 -2px 0 0 inset);
+			@include box-shadow($c-background-color 0 0 0 0 inset, $c-background-color 0 -2px 0 0 inset);
+		}
+	}  @else if $status == "link-dark" {
+		@include link-colors($l-strong-type-color, $c-strong-type-color, $c-strong-type-color);
+		@include text-shadow($d-background-color 1px 1px 0, $d-background-color -1px 1px 0, $d-background-color 2px 0 0, $d-background-color -2px 0 0);
+		@include box-shadow($d-background-color 0 0 0 0 inset, $c-strong-type-color 0 -2px 0 0 inset);
+		&:hover, &:active {
+			@include box-shadow($d-background-color 0 0 0 0 inset, $d-background-color 0 -2px 0 0 inset);
 		}
 	} @else if $status == "none" {
 		border-bottom: none;

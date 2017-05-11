@@ -18,7 +18,7 @@
 		li {
 			&:before {
 				float: left;
-				color: $st-type-color;
+				color: $c-type-color;
 				content: "•";
 			}
 		}
@@ -29,14 +29,14 @@
 			counter-increment: ordered-list;
 			&:before {
 				float: left;
-				color: $st-type-color;
+				color: $c-type-color;
 				content: counter(ordered-list) ".";
 			}
 		}
 	}
 	blockquote {
 		padding-left: em($m-indent - $border-width);
-		border-left-color: $st-type-color;
+		border-left-color: $c-type-color;
 		border-left-width: $border-width;
 		border-left-style: solid;
 	}
@@ -46,7 +46,7 @@
 	a[href *= "#sn:"], a[href *= "#fn:"] {
 		margin-left: 0.1em;
 		@include link(none);
-		@include link-colors($st-type-color, $st-type-color, $st-type-color);
+		@include link-colors($c-type-color, $c-type-color, $c-type-color);
 	}
 	sup[id *= "fnref:"] {
 		margin-left: 0.2em; 
@@ -63,7 +63,7 @@
 	}
 	.source {
 		em {
-			color: $strong-type-color;
+			color: $d-strong-type-color;
 		}
 	}
 	> *:first-child {

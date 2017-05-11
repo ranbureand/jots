@@ -4,7 +4,28 @@
 ** Jots
 */
 
-.jots {
+[class*="playground"] {
+	padding-top: rhythm($m-medium-line*2);
+
+	background-color: $l-background-color;
+
+	@include min-screen(col(8)) {
+		padding-top: rhythm($d-medium-line*2);
+	}
+	@include min-screen(col(16)) {
+		padding-top: rhythm($d-medium-line*4);
+	}
+}
+
+.playground-light {
+	background-color: $l-background-color;
+}
+
+.playground-dark {
+	background-color: $d-background-color;
+}
+
+.list {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -28,19 +49,101 @@
 	}
 }
 
-@include keyframes(number-pulse) {
+@include keyframes(number-pulse-light) {
 	0% {
-		@include box-shadow($light-type-color 0 0 0 0.5em);
+		@include box-shadow($d-light-type-color 0 0 0 0.5em);
 	}
 	50% {
-		@include box-shadow($light-type-color 0 0 0 0.3em);
+		@include box-shadow($d-light-type-color 0 0 0 0.3em);
 	}
 	100% {
-		@include box-shadow($light-type-color 0 0 0 0.5em);
+		@include box-shadow($d-light-type-color 0 0 0 0.5em);
 	}
 }
 
-.jot {
+@include keyframes(number-pulse-dark) {
+	0% {
+		@include box-shadow($l-light-type-color 0 0 0 0.5em);
+	}
+	50% {
+		@include box-shadow($l-light-type-color 0 0 0 0.3em);
+	}
+	100% {
+		@include box-shadow($l-light-type-color 0 0 0 0.5em);
+	}
+}
+
+.jot-light {
+	color: $d-type-color;
+	&:target {
+		.number {
+			a {
+				background-color: $d-type-color;
+				@include animation(number-pulse-light 2.5s infinite ease);
+			}
+		}
+	}
+	.number {
+		a {
+			@include link-colors($l-strong-type-color);
+		}
+	}
+	.body {
+		color: $d-strong-type-color;
+		a {
+			@include link;
+		}
+	}
+	.reference {
+		a {
+			@include link;
+		}
+		span {
+			color: $d-strong-type-color;
+		}
+	}
+}
+
+.jot-dark {
+	::-moz-selection {
+		color: $l-selected-type-color;
+		background-color: $d-background-inverted-color;
+	}
+	::selection {
+		color: $l-selected-type-color;
+		background-color: $d-background-inverted-color;
+	}
+	color: $l-type-color;
+	&:target {
+		.number {
+			a {
+				background-color: $l-strong-type-color;
+				@include animation(number-pulse-dark 2.5s infinite ease);
+			}
+		}
+	}
+	.number {
+		a {
+			@include link-colors($d-strong-type-color);
+		}
+	}
+	.body {
+		color: $l-strong-type-color;
+		a {
+			@include link(link-dark);
+		}
+	}
+	.reference {
+		a {
+			@include link(link-dark);
+		}
+		span {
+			color: $l-strong-type-color;
+		}
+	}
+}
+
+[class*="jot"] {
 	position: relative;
 
 	display: block;
@@ -53,10 +156,6 @@
 		.number {
 			a {
 				cursor: default;
-
-				background-color: $type-color;
-
-				@include animation(number-pulse 2.5s infinite ease);
 			}
 		}
 	}
@@ -76,7 +175,7 @@
 	}
 }
 
-.jot:nth-child(-n+4) {
+[class*="jot"]:nth-child(-n+3) {
 	width: 100%;
 
 	@include min-screen(col(8)) {
@@ -158,12 +257,11 @@
 
 		text-align: center;
 
-		background-color: $st-type-color;
+		background-color: $c-type-color;
 
 		@include border-radius(rhythm($m-small-line, $m-small-size));
-		@include link-colors($strong-type-inverted-color);
 		&:hover, &:active, &:focus {
-			@include box-shadow($st-light-type-color 0 0 0 0.4em);
+			@include box-shadow($c-light-type-color 0 0 0 0.4em);
 		}
 	}
 	@include min-screen(col(8)) {
@@ -192,8 +290,7 @@
 	padding-right: em($m-gut/2);
 	padding-left: em($m-gut/2 - 4px);
 
-	color: $strong-type-color;
-	border-left: 4px solid $st-type-color;
+	border-left: 4px solid $c-type-color;
 
 	@include min-screen(col(8)) {
 		margin-bottom: rhythm($d-medium-line*2);
@@ -202,8 +299,6 @@
 	}
 	a {
 		font-weight: $bold;
-
-		@include link;
 	}
 }
 
@@ -220,15 +315,8 @@
 
 		content: "—";
 	}
-	a {
+	a, span {
 		font-weight: $bold;
-
-		@include link;
-	}
-	span {
-		font-weight: $bold;
-
-		color: $strong-type-color;
 	}
 	@include min-screen(col(8)) {
 		margin-bottom: rhythm($d-small-line/2, $d-small-size);
@@ -241,7 +329,6 @@
 		}
 	}
 }
-
 
 .date {
 	padding-right: em($m-gut/2, $m-small-size);

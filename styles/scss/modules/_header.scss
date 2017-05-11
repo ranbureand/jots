@@ -5,11 +5,21 @@
 */
 
 .header {
-	border-top: rhythm($m-small-line/4) solid $st-type-color;
-	background-color: $background-color;
+	border-top: rhythm($m-small-line/4) solid $c-type-color;
+	background-color: $d-background-color;
+	color: $l-type-color;
+
+	h1 {
+		color: $l-type-color;
+	}
+
+	a {
+		font-weight: $bold;
+		@include link-colors($l-strong-type-color, $c-type-color, $c-type-color);
+	}
 
 	@include min-screen(col(8)) {
-		border-top: rhythm($d-small-line/4) solid $st-type-color;
+		border-top: rhythm($d-small-line/4) solid $c-type-color;
 	}
 }
 
@@ -21,7 +31,7 @@
 	margin-left: auto;
 
 	/*circle {
-		fill: $st-type-color;
+		fill: $c-type-color;
 	}*/
 	[class*="head"] {
 		float: left;
@@ -33,9 +43,6 @@
 		padding-left: em($m-gut/2, $m-small-size);
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
-		a {
-			font-weight: $bold;
-		}
 	}
 	/*.head-logo {
 		width: rhythm($m-small-line*3, $m-small-size);
@@ -49,8 +56,6 @@
 		padding-right: em($m-gut/2, $m-large-size);
 		padding-bottom: rhythm($m-small-line, $m-small-size);
 		padding-left: em($m-gut/2, $m-large-size);
-
-		color: $type-color;
 	}
 	.head-count {
 		display: none;
