@@ -1,0 +1,15 @@
+---
+number: 60
+
+title: "The Visual Guide for Multiplayer Level Design"
+author: "Bobby Ross"
+tags:
+- level
+- game
+
+site: "Bobby Ross’s Site"
+address: "http://bobbyross.com/library/mpleveldesign"
+date: 2017-05-23 15:00:00
+---
+
+Create harmony in your environment by sticking to a coherent shape language. You can then create focal points by using dissonance, which is the breaking up of the environment’s shape language.
