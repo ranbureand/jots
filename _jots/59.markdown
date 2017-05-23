@@ -1,0 +1,15 @@
+---
+number: 59
+
+title: "Level Up! The Guide to Great Video Game Design. 2<sup>nd</sup> Edition."
+author: "Scott Rogers"
+tags:
+- walking
+- gameplay
+
+page: "115"
+publisher: "John Wiley and Sons"
+year: "2014"
+---
+
+Don’t fall into the trap of assuming your players will find gathering collectibles as interesting as you find placing them. While alternating the pace of your action is good, having your player travel for long stretches, no matter how much beautiful art she looks at, is just boring.
