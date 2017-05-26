@@ -1,0 +1,15 @@
+---
+number: 61
+
+title: "If You Want to Be Creative, Don’t Be Data Driven"
+author: "Bill Pardi"
+tags:
+- creativity
+- data
+
+site: "Medium"
+address: "https://medium.com/microsoft-design/if-you-want-to-be-creative-dont-be-data-driven-55db74078eda"
+date: 2017-05-26 23:50:00
+---
+
+First, data is just information and alone does not represent objective reality. Next, whatever data you have is never, ever complete, and finally, getting more data does not necessarily mean more clarity.
