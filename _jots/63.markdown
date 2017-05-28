@@ -1,0 +1,15 @@
+---
+number: 63
+
+title: "Myth vs Method"
+author: "Mark Cerny, Michael John"
+tags:
+- cancelation
+- preproduction
+
+page: "35"
+publisher: "Game Developer"
+year: "Jun 2002 Issue"
+---
+
+Actually, sometimes a cancelled project is something you should be proud of. Regardless of the talent of the team, if you can’t reach a compelling first playable, it’s time to kill the project and move on.
