@@ -1,0 +1,15 @@
+---
+number: 67
+
+title: "Uber Doesn’t Want You to See This Document About Its Vast Data Surveillance System"
+author: "Kashmir Hill"
+tags:
+- privacy
+- surveillance
+
+site: “Gizmodo”
+address: "https://gizmodo.com/uber-doesn-t-want-you-to-see-this-document-about-its-va-1795151637"
+date: 2017-06-06 12:20:00
+---
+
+Uber is far from alone among technology giants in using machine learning systems to attempt to profile its users at a granular level to find the activity and users that stick out as abnormal.
