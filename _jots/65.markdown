@@ -1,0 +1,15 @@
+---
+number: 65
+
+title: "Quit Measuring Employee Engagement"
+author: "Claire Lew"
+tags:
+- engagement
+- unquantifiable
+
+site: “Signal v. Noise”
+address: "https://m.signalvnoise.com/quit-measuring-employee-engagement-8cba17145a82"
+date: 2017-06-06 09:45:00
+---
+
+You want insights, not numbers. You want truth, not graphs.
