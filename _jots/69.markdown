@@ -1,0 +1,15 @@
+---
+number: 69
+
+title: "Convincing Clients: How To Get Sign Off When It Matters"
+author: "Paul Boag"
+tags:
+- feedback
+- tuning
+
+site: “Smashing Magazine”
+address: "https://www.smashingmagazine.com/2017/06/convincing-clients-sign-off/"
+date: 2017-06-14 09:50:00
+---
+
+I tend to finish a presentation with some questions of my own. I ask whether they feel the project will achieve its desired goals, meet the needs of users and fulfil organisational objectives.
