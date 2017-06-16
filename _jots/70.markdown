@@ -1,0 +1,15 @@
+---
+number: 70
+
+title: "Unlock Honest Feedback with This One Word"
+author: "Claire Lew"
+tags:
+- adivice
+- feedback
+
+site: “Signal v. Noise”
+address: "https://m.signalvnoise.com/unlock-honest-feedback-with-this-one-word-dcaf3839e7ee"
+date: 2017-06-16 10:30:00
+---
+
+What advice does anyone have for me?
