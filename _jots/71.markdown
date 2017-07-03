@@ -1,0 +1,15 @@
+---
+number: 71
+
+title: "Please Don’t Learn to Code"
+author: "Basel Farag"
+tags:
+- coding
+- understanding
+
+site: “TechCrunch”
+address: "https://techcrunch.com/2016/05/10/please-dont-learn-to-code/"
+date: 2017-07-03 16:10:00
+---
+
+Focusing on coding inflates the importance of finding the “right” method to solve a problem rather than the importance of understanding the problem.
