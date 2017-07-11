@@ -1,5 +1,5 @@
 ---
-number: 65
+number: 66
 
 title: "What’s That Mystery in Your Inbox Costing You?"
 author: "Jason Fried"

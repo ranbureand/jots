@@ -287,15 +287,15 @@
 	font-weight: $bold;
 
 	margin-bottom: rhythm($m-medium-line*2);
-	padding-right: em($m-gut/2);
-	padding-left: em($m-gut/2 - 4px);
+	padding-right: em($m-gut/2 - 4px);
+	padding-left: em($m-gut/2);
 
 	border-left: 4px solid $c-type-color;
 
 	@include min-screen(col(8)) {
 		margin-bottom: rhythm($d-medium-line*2);
-		padding-right: em($d-gut/2);
-		padding-left: em($d-gut - 4px);
+		padding-right: em($d-gut/2 - 4px);
+		padding-left: em($d-gut/2);
 	}
 	a {
 		font-weight: $bold;
