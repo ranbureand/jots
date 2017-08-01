@@ -1,0 +1,15 @@
+---
+number: 73
+
+title: "The Evolution of Trust"
+author: "Nick Case"
+tags:
+- trust
+- game theory
+
+site: “The Evolution of Trust”
+address: "http://ncase.me/trust/"
+date: 2017-08-01 10:00:00
+---
+
+Trust keeps a relationship going, but you need the knowledge of possible future repeat interactions before trust can evolve.
