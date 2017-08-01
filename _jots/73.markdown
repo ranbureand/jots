@@ -4,8 +4,8 @@ number: 73
 title: "The Evolution of Trust"
 author: "Nick Case"
 tags:
-- trust
 - game theory
+- trust
 
 site: “The Evolution of Trust”
 address: "http://ncase.me/trust/"
