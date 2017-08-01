@@ -1,0 +1,15 @@
+---
+number: 74
+
+title: "How to Choose the Right UX Metrics for Your Product"
+author: "Kerry Rodden"
+tags:
+- methodology
+- UX metrics
+
+site: “GV Library”
+address: "https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f46359ab5be"
+date: 2017-08-01 10:30:00
+---
+
+A common pitfall is to define your goals in terms of your existing metrics — “well, our goal is to increase traffic to our site.” Yes, everyone wants to do that, but how will user-experience improvements help?
