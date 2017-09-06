@@ -1,0 +1,15 @@
+---
+number: 76
+
+title: "Dwelling On The Past: The Importance Of Project Retrospectives (Part 1)"
+author: "Victor Yocco"
+tags:
+- postmortem
+- retrospective
+
+site: “Smashing Magazine”
+address: "https://www.smashingmagazine.com/2017/09/importance-project-retrospectives-part-1/"
+date: 2017-09-06 10:00:00
+---
+
+Effective retrospectives require a commitment to maintain an open mind and open communication with your team, as well as a willingness to be vulnerable.
