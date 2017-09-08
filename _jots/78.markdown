@@ -1,5 +1,5 @@
 ---
-number: 77
+number: 78
 
 title: "When Design Becomes Part of the Code Workflow"
 author: "Chris Coyier"
