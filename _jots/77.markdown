@@ -1,7 +1,7 @@
 ---
 number: 77
 
-title: "So You Want To Be a Senior Developer? "
+title: "So You Want To Be a Senior Developer?"
 author: "Chris Coyier"
 tags:
 - qualities
