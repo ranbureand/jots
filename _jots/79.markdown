@@ -1,0 +1,15 @@
+---
+number: 79
+
+title: "When Design Becomes Part of the Code Workflow"
+author: " Jens Oliver Meiert"
+tags:
+- code
+- consistency
+
+site: “CSS-Tricks”
+address: "https://css-tricks.com/write-better-code-3-levels-code-consistency/"
+date: 2017-09-08 10:15:00
+---
+
+[…] there are three levels of consistency: individual, collective, and institutional.
