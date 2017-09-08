@@ -2,7 +2,7 @@
 number: 78
 
 title: "When Design Becomes Part of the Code Workflow"
-author: "Chris Coyier"
+author: "Geoff Graham"
 tags:
 - development
 - design
