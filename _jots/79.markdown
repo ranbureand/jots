@@ -2,7 +2,7 @@
 number: 79
 
 title: "How to Write Better Code: The 3 Levels of Code Consistency"
-author: " Jens Oliver Meiert"
+author: "Jens Oliver Meiert"
 tags:
 - code
 - consistency
