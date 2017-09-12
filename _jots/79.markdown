@@ -1,7 +1,7 @@
 ---
 number: 79
 
-title: "When Design Becomes Part of the Code Workflow"
+title: "How to Write Better Code: The 3 Levels of Code Consistency"
 author: " Jens Oliver Meiert"
 tags:
 - code
