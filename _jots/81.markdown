@@ -1,0 +1,15 @@
+---
+number: 81
+
+title: "What Is Burnout?"
+author: "Patrick Johnson"
+tags:
+- burnout
+- cure
+
+site: "Patrick Johnson’s Site"
+address: "https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc"
+date: 2017-09-12 22:55:00
+---
+
+Exhaustion isn’t cured over a weekend (or even a long weekend). It requires a recalibration of priorities, tasks, life goals and even life purpose.
