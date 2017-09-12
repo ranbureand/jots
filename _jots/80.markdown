@@ -1,0 +1,15 @@
+---
+number: 80
+
+title: "Creating Usability with Motion: The UX in Motion Manifesto"
+author: "Issara Willenskomer"
+tags:
+- manifesto
+- motion
+
+site: “Medium”
+address: "https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc"
+date: 2017-09-12 09:45:00
+---
+
+[…] it is important to distinguish between ‘state’ and ‘act.’ The state of something in UX is fundamentally static, like a design comp. The act of something in UX is fundamentally temporal, and motion based.
