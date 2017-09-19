@@ -1,0 +1,15 @@
+---
+number: 82
+
+title: "Join Our Startup, We’ll Cut Your Pay by 40%!"
+author: "Itamar Turner-Trauring"
+tags:
+- crazy hours
+- fairness
+
+site: "Code Without Rules"
+address: "https://codewithoutrules.com/2017/09/18/when-startups-pay-less/"
+date: 2017-09-19 10:10:00
+---
+
+When an organization tries to maximize inputs, rather than outputs, the result is a whole series of bad judgments.
