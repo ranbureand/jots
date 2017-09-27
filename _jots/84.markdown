@@ -1,0 +1,15 @@
+---
+number: 84
+
+title: "Considering Open Source Licenses"
+author: "Phillip Ikuvbogie"
+tags:
+- licenses
+- open source
+
+site: "A List Apart"
+address: "https://alistapart.com/article/considering-open-source-licenses"
+date: 2017-09-27 09:50:00
+---
+
+After reading that, do you still want to include open source work in your project? Will it derail your purpose and goal?
