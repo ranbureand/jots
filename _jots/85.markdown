@@ -1,0 +1,15 @@
+---
+number: 85
+
+title: "Questions for Me About Dying"
+author: "Cory Taylor"
+tags:
+- failures
+- mistakes
+
+site: "The New Yorker"
+address: "http://www.newyorker.com/culture/personal-history/questions-for-me-about-dying"
+date: 2017-09-28 22:30:00
+---
+
+Yes, I have regrets, but as soon as you start rewriting your past you realize how your failures and mistakes are what define you.
