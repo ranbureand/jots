@@ -12,4 +12,4 @@ address: "https://www.youtube.com/watch?v=tYScJZWhaHA"
 date: 2017-10-05 20:25:00
 ---
 
-[…] it’s confusing because I don’t think pictorially, done it grammatically […]
+[…] it’s confusing because I don’t think pictorially, I’ve done it grammatically […]
