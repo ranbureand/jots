@@ -1,0 +1,15 @@
+---
+number: 88
+
+title: "Be a Mentor"
+author: "Brandon Gregory"
+tags:
+- mentor
+- mistakes
+
+site: "A List Apart"
+address: "https://alistapart.com/article/be-a-mentor"
+date: 2017-10-08 20:35:00
+---
+
+Your job is not to stop your mentee from making any mistakes; it’s to stop them from making the same mistakes over and over.
