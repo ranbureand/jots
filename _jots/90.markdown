@@ -1,0 +1,15 @@
+---
+number: 90
+
+title: "Inside Your Users’ Minds: The Cultural Probe"
+author: "Ruth Stalker-Firth"
+tags:
+- cultural probe
+- diary
+
+site: "A List Apart"
+address: "https://alistapart.com/article/culturalprobe"
+date: 2017-10-10 15:05:00
+---
+
+Solutions based on this knowledge can help you to give users what they need, rather than what they say they want. 
