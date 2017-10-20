@@ -1,0 +1,15 @@
+---
+number: 92
+
+title: "5 Tips for Starting a Front-End Refactor"
+author: "Robin Rendle"
+tags:
+- refactor
+- tips & tricks
+
+site: "CSS-Tricks"
+address: "https://css-tricks.com/5-tips-starting-front-end-refactor/"
+date: 2017-10-20 10:40:00
+---
+
+Tell everyone you’re working on this project to make sure that there isn’t anything you overlooked.
