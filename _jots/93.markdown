@@ -1,0 +1,15 @@
+---
+number: 93
+
+title: "Coding with Clarity"
+author: "Brandon Gregory"
+tags:
+- clean
+- code
+
+site: "A List Apart"
+address: "https://alistapart.com/article/coding-with-clarity"
+date: 2017-10-27 10:20:00
+---
+
+If you’re describing what a function does and you have to use the word “and,” that function is probably too complex. What a function does should be simple enough to explain with only a descriptive function name and descriptive arguments.
