@@ -1,0 +1,15 @@
+---
+number: 95
+
+title: "What Is the Game Development Process for Indie Developers?"
+author: "Mark Maratea"
+tags:
+- fail
+- prototype
+
+site: "Quora"
+address: "https://www.quora.com/What-is-the-game-development-process-for-indie-developers/answer/Mark-Maratea"
+date: 2017-11-01 10:15:00
+---
+
+Fail fast. Iterate quickly. Prototype. Prototype. Prototype. And cut. Cut scope until it hurts.
