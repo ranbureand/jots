@@ -1,0 +1,15 @@
+---
+number: 99
+
+title: "It’s time for recurring meetings to end"
+author: "Dan Kim"
+tags:
+- meeting
+- recurring
+
+site: "Signal v. Noise"
+address: "https://m.signalvnoise.com/its-time-for-recurring-meetings-to-end-bb462441076e"
+date: 2017-12-16 14:15:00
+---
+
+If you know you have a meeting in an hour, do you start your deepest, most complex problem solving work? I’d venture to guess most people don’t. I certainly don’t.
