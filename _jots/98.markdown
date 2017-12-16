@@ -1,5 +1,5 @@
 ---
-number: 97
+number: 98
 
 title: "Color schemes"
 author: "Rune Madsen"
