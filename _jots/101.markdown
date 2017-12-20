@@ -1,0 +1,15 @@
+---
+number: 101
+
+title: "Google Maps’s Moat"
+author: "Justin O’Beirne"
+tags:
+- data
+- map
+
+site: "Justin O’Beirne’s Site"
+address: "https://www.justinobeirne.com/google-maps-moat"
+date: 2017-12-20 10:15:00
+---
+
+This is bonkers, isn’t it? Google is creating data out of data.
