@@ -1,0 +1,15 @@
+---
+number: 103
+
+title: "Chrome is Not the Standard"
+author: "Chris Krycho"
+tags:
+- standard
+- Chrome
+
+site: "Chris Krycho’s Site"
+address: "http://www.chriskrycho.com/2017/chrome-is-not-the-standard.html"
+date: 2018-01-12 10:00:00
+---
+
+It’s also worth recognizing how these decisions aren’t, in almost any case, unalloyed pushes for “the future of the web.” They reflect business priorities, just like any other technical prioritization.
