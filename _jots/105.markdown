@@ -1,0 +1,15 @@
+---
+number: 105
+
+title: "Subverted Design "
+author: "Joel Califa"
+tags:
+- designer
+- senior
+
+site: "Joel Califa’s Site"
+address: "http://joelcalifa.com/blog/subverted-design/"
+date: 2018-01-17 10:00:00
+---
+
+As a Designer becomes more Senior, they also become more realistic and business-minded, or so the idea goes. These “Senior Designers understand that a company is a company, and that the money paying your salary has to come from somewhere.
