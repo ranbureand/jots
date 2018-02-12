@@ -1,0 +1,15 @@
+---
+number: 108
+
+title: "How Technology is Hijacking Your Mind — from a Magician and Google Design Ethicist"
+author: "Tristan Harris"
+tags:
+- choice
+- freedom
+
+site: "Thrive Global"
+address: "https://journal.thriveglobal.com/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3"
+date: 2018-02-12 10:15:00
+---
+
+The more choices technology gives us in nearly every domain of our lives (information, events, places to go, friends, dating, jobs) — the more we assume that our phone is always the most empowering and useful menu to pick from. Is it?
