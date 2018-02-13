@@ -1,0 +1,15 @@
+---
+number: 109
+
+title: "A short history of geometric composition"
+author: "Rune Madsen"
+tags:
+- golden ratio
+- grid
+
+site: "Programming Design Systems"
+address: "https://programmingdesignsystems.com/layout/a-short-history-of-geometric-composition/index.html"
+date: 2018-02-13 09:55:00
+---
+
+Rather than beginning a fruitless search for such divine proportions to serve a gross simplification of the world, we will instead focus on a more concrete history of how technology long has inspired designers to use geometric constraints to ease the burden of their work.
