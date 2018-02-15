@@ -1,0 +1,15 @@
+---
+number: 111
+
+title: "MAINTAINERS: Remove rom Module & Paravirt Maintenance"
+author: "Rusty Russell"
+tags:
+- farewell
+- harsh
+
+site: "Kernel.org git Repositories"
+address: "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ed875ea1fcc6c34ea232610c3041d0978e327bbe"
+date: 2018-02-15 10:00:00
+---
+
+To my fellow maintainers: stay harsh on code and don't be afraid to say "No" or "Why?"; there really are more bad ideas than good ones […].
