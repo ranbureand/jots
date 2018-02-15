@@ -1,0 +1,15 @@
+---
+number: 112
+
+title: "Premortem: Prevent Failures by Recognizing Patterns"
+author: "Taylor Smith"
+tags:
+- failure
+- premortem
+
+site: "Taylor Smith’s Site"
+address: "https://www.tsmithcreative.com/blog/2018/premortem/"
+date: 2018-02-15 10:05:00
+---
+
+What would you do, or how should the project be run to ensure that kind of failure?
