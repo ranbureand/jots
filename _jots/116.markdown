@@ -1,0 +1,15 @@
+---
+number: 116
+
+title: "Working Remotely, 4 Years In"
+author: "Julia Evans"
+tags:
+- remote
+- work
+
+site: "Julia Evans’ Site"
+address: "https://jvns.ca/blog/2018/02/18/working-remotely--4-years-in/"
+date: 2018-02-20 10:15:00
+---
+
+[…] as long as I work on a team with a lot of other remotes, everything will be fine. Working as the only remote on a team of people who are all in person seems like hard mode […].
