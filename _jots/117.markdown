@@ -1,0 +1,15 @@
+---
+number: 117
+
+title: "We Write CSS Like We Did in the 90s, and Yes, It’s Silly"
+author: "Jens Oliver Meiert"
+tags:
+- CSS
+- write
+
+site: "A List Apart"
+address: "https://alistapart.com/article/we-write-css-like-we-did-in-the-90s-and-yes-its-silly"
+date: 2018-03-07 10:15:00
+---
+
+Just as in 2003, the CSS is unsorted and unoptimized. Did we learn anything over the past 15 years? Is this really the best CSS we can write?
