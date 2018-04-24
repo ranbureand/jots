@@ -1,0 +1,18 @@
+---
+number: 122
+
+title: "The Art of Failure: An Essay on the Pain of Playing Video Games"
+author: "Jesper Juul"
+tags:
+- labor
+- video games
+
+page: "74"
+publisher: "The MIT Press"
+year: "2013"
+---
+
+This is what games do: they promise us that we can repair a personal inadequacy — an inadequacy that they produce in us in the first place.
+
+
+Game designer Naomi Clark suggests that this is a third type of game, a game of *labor*, in which players are rewarded for performing routine tasks, rather than for their skill or for their luck.
