@@ -4,8 +4,8 @@ number: 39
 title: "Guerrilla Innovation"
 author: "Janice Gervais"
 tags:
-- experiments
-- research
+- Experiments
+- Research
 
 site: "A List Apart"
 address: "http://alistapart.com/article/guerrilla-innovation"

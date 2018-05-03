@@ -5,7 +5,7 @@ title: "Specifics 001: The 8-Point Grid"
 author: "Bryn Jackson"
 tags:
 - 8pt
-- grids
+- Grids
 
 site: "Spec"
 address: "https://spec.fm/specifics/8-pt-grid"

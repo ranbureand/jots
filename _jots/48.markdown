@@ -4,8 +4,8 @@ number: 48
 title: "The nature of the self in the digital age"
 author: "Aral Balkan"
 tags:
-- augmentation
-- cyborgs
+- Augmentation
+- Cyborgs
 
 site: "Aral Balkan"
 address: "https://ar.al/notes/the-nature-of-the-self-in-the-digital-age/"

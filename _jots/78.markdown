@@ -4,8 +4,8 @@ number: 78
 title: "When Design Becomes Part of the Code Workflow"
 author: "Geoff Graham"
 tags:
-- development
-- design
+- Development
+- Design
 
 site: “CSS-Tricks”
 address: "https://css-tricks.com/design-becomes-part-code-workflow/"

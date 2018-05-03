@@ -4,8 +4,8 @@ number: 105
 title: "Subverted Design "
 author: "Joel Califa"
 tags:
-- designer
-- senior
+- Designer
+- Senior
 
 site: "Joel Califa’s Site"
 address: "http://joelcalifa.com/blog/subverted-design/"

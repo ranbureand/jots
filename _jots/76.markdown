@@ -4,8 +4,8 @@ number: 76
 title: "Dwelling On The Past: The Importance Of Project Retrospectives (Part 1)"
 author: "Victor Yocco"
 tags:
-- postmortem
-- retrospective
+- Postmortem
+- Retrospective
 
 site: “Smashing Magazine”
 address: "https://www.smashingmagazine.com/2017/09/importance-project-retrospectives-part-1/"

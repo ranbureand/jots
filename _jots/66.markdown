@@ -4,8 +4,8 @@ number: 66
 title: "What’s That Mystery in Your Inbox Costing You?"
 author: "Jason Fried"
 tags:
-- context
-- inbox
+- Context
+- Inbox
 
 site: “Signal v. Noise”
 address: "https://m.signalvnoise.com/whats-that-mystery-in-your-inbox-costing-you-89eb13911964"

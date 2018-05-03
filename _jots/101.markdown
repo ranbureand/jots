@@ -4,8 +4,8 @@ number: 101
 title: "Google Maps’s Moat"
 author: "Justin O’Beirne"
 tags:
-- data
-- map
+- Data
+- Map
 
 site: "Justin O’Beirne’s Site"
 address: "https://www.justinobeirne.com/google-maps-moat"

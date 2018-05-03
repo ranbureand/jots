@@ -4,8 +4,8 @@ number: 90
 title: "Inside Your Users’ Minds: The Cultural Probe"
 author: "Ruth Stalker-Firth"
 tags:
-- cultural probe
-- diary
+- Cultural Probe
+- Diary
 
 site: "A List Apart"
 address: "https://alistapart.com/article/culturalprobe"

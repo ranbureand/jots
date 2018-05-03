@@ -4,8 +4,8 @@ number: 88
 title: "Be a Mentor"
 author: "Brandon Gregory"
 tags:
-- mentor
-- mistakes
+- Mentor
+- Mistakes
 
 site: "A List Apart"
 address: "https://alistapart.com/article/be-a-mentor"

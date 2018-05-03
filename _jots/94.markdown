@@ -4,8 +4,8 @@ number: 94
 title: "7 Truths About Indie Game Development"
 author: "Sarah Woodrow"
 tags:
-- fail
-- success
+- Fail
+- Success
 
 site: "Gamasutra"
 address: "https://www.gamasutra.com/blogs/SarahWoodrow/20140102/206583/7_truths_about_indie_game_development.php"

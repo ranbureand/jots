@@ -4,8 +4,8 @@ number: 19
 title: "The Conjoined Triangles of Senior-Level Development"
 author: "Brandon Hays"
 tags:
-- definition
-- role
+- Definition
+- Role
 
 site: "The Frontside"
 address: "http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html"

@@ -1,0 +1,35 @@
+/* (c) 2018 Andrea Buran [www.andreaburan.com] ∪ Marco Sampellegrini [https://github.com/alpacaaa] All rights reserved */
+
+/*
+** Selections
+*/
+
+::-moz-selection {
+  color: $d-selected-type-color;
+  background-color: $l-selected-background-color;
+  text-shadow: none;
+}
+::selection {
+  color: $d-selected-type-color;
+  background-color: $l-selected-background-color;
+  text-shadow: none;
+}
+
+img::-moz-selection {
+  background-color: transparent;
+}
+img::selection {
+  background-color: transparent;
+}
+
+.header-canvas,
+.cover-canvas {
+  ::-moz-selection {
+    color: $l-selected-type-color;
+    background-color: $d-background-inverted-color;
+  }
+  ::selection {
+    color: $l-selected-type-color;
+    background-color: $d-background-inverted-color;
+  }
+}

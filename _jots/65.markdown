@@ -4,8 +4,8 @@ number: 65
 title: "Quit Measuring Employee Engagement"
 author: "Claire Lew"
 tags:
-- engagement
-- unquantifiable
+- Engagement
+- Unquantifiable
 
 site: “Signal v. Noise”
 address: "https://m.signalvnoise.com/quit-measuring-employee-engagement-8cba17145a82"

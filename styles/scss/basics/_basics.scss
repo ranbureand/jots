@@ -1,112 +1,101 @@
-/* (c) 2015 Andrea Buran [www.andreaburan.com] ∪ Marco Sampellegrini [https://github.com/alpacaaa] All rights reserved */
-
-/*
-** Selection
-*/
-
-::-moz-selection {
-	color: $d-selected-type-color;
-	background-color: $l-selected-background-color;
-	text-shadow: none;
-}
-::selection {
-	color: $d-selected-type-color;
-	background-color: $l-selected-background-color;
-	text-shadow: none;
-}
-
-img::-moz-selection {
-	background-color: transparent;
-}
-img::selection {
-	background-color: transparent;
-}
+/* (c) 2018 Andrea Buran [www.andreaburan.com] ∪ Marco Sampellegrini [https://github.com/alpacaaa] All rights reserved */
 
 /*
 ** Focus
 */
 
 ::focus {
-	outline-style: none;
-	outline-color: transparent;
+  outline-style: none;
+  outline-color: transparent;
 }
 
 /*
 ** Basics
 */
 
-//@include establish-baseline;
-
 html {
-	font-size: 100% * $base-font-size / $browser-default-font-size;
+  font-size: 100% * $base-font-size / $browser-default-font-size;
+  font-weight: $normal;
 
-	letter-spacing: 0.02em;
+  box-sizing: border-box;
+  height: 100%;
 
-	height: 100%;
+  letter-spacing: 0.02em;
 
-	color: $d-type-color;
+  color: $d-type-color;
 
-	@include adjust-leading-to($m-medium-line);
-	    -ms-text-size-adjust: 100%; // normalize.css
-	-webkit-text-size-adjust: 100%; // normalize.css
-	@include face(sans); // normalize.css
-	font-weight: $normal;
-	@include box-sizing(border-box);
-	/*@include min-screen(col(8)) {
-		font-size: 100% * $base-font-size / $browser-default-font-size;
-
-		@include adjust-leading-to($d-medium-line);
-	}*/
+  @include font-size($base-font-size, $base-font-line);
+      -ms-text-size-adjust: none; // normalize.css
+  -webkit-text-size-adjust: none; // normalize.css
+  @include face(sans); // normalize.css
 }
 
-*, *:before, *:after {
-	box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
-	font-weight: $normal;
+  font-weight: $normal;
 
-	position: relative;
+  position: relative;
 
-	width: 100%;
-	height: 100%;
-	margin: 0; // normalize.css
+  width: 100%;
+  height: 100%;
+  margin: 0; // normalize.css
 
-	counter-reset: tags;
+  counter-reset: tags;
 
-	background-color: $c-background-color;
+  background-color: $c-background-color;
 
-	scroll-behavior: smooth;
-	@include min-screen(col(12)) {
-		display: table;
-	}
+  scroll-behavior: smooth;
+  @include min-screen(col(12)) {
+    display: table;
+  }
 }
 
 /*
 ** HTML5
 */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-	display: block; // normalize.css
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; // normalize.css
 }
 
-audio, canvas, progress, video {
-	display: inline-block; // normalize.css
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; // normalize.css
 
-	vertical-align: baseline; // normalize.css
+  vertical-align: baseline; // normalize.css
 }
 
 audio:not([controls]) {
-	display: none; // normalize.css
+  display: none; // normalize.css
 
-	height: 0; // normalize.css
+  height: 0; // normalize.css
 }
 
-[hidden], template {
-	display: none; // normalize.css
+[hidden],
+template {
+  display: none; // normalize.css
 }
 
 /*
@@ -114,219 +103,246 @@ audio:not([controls]) {
 */
 
 a {
-	text-decoration: none;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  transition-duration: $duration, $duration, $duration, $duration, $duration;
+  transition-property: color, background-color, border-color, box-shadow, text-shadow;
+  text-decoration: none;
 
-	background-color: transparent; // normalize.css
+  color: $d-strong-type-color;
+  background-color: transparent; // normalize.css
+  span {
+    transition-timing-function: ease-in-out;
+    transition-duration: $duration;
+    transition-property: color;
+  }
+  &:hover {
+    color: $c-type-color;
+    outline: 0; // normalize.css
+  }
+  &:active {
+    transition-duration: 0.0s, 0.0s, 0.0s, 0.0s, 0.0s;
 
-	@include transition-property(color, background-color, border-color, box-shadow, text-shadow);
-	@include transition-duration(0.2s, 0.2s, 0.2s, 0.2s, 0.2s);
-	@include transition-timing-function(ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out);
-	//@include transition-delay(0s);
-	@include link-colors($d-strong-type-color, $c-type-color, $c-type-color);
-	text-decoration: none;
-	&:hover {
-		outline: 0; // normalize.css
-	}
-	&:active {
-		outline: 0; // normalize.css
-		@include transition-duration(0.0s);
-	}
-	&:focus {
-		outline: 0;
-	}
+    color: $c-type-color;
+    outline: 0; // normalize.css
+  }
+  &:focus {
+    outline: 0;
+  }
 }
-a[href^="mailto"] {
-	word-break: break-all;
+a[href^='mailto'] {
+  word-break: break-all;
 }
 
 /*
 ** Text-level semantics
 */
 
-h1, h2, h3, h4, h5, h6 {
-	font-size: 1em; // normalize.css
-	margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em; // normalize.css
 
-	color: $d-strong-type-color;
-	span {
-		color: $d-strong-type-color;
-	}
+  margin: 0;
+
+  color: $d-strong-type-color;
+  span {
+    color: $d-strong-type-color;
+  }
 }
-h1, h2, h3, h4 {
-	font-weight: $bold;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: $semi-bold;
 }
-h5, h6 {
-	font-weight: $normal;
+h5,
+h6 {
+  font-weight: $normal;
 }
 h6 {
-	color: $d-light-type-color;
+  color: $d-light-type-color;
 }
 
-ul, ol {
-	margin: 0;
-	padding: 0;
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 
-	list-style-type: none;
+  list-style-type: none;
 }
 
 dl {
-	margin: 0;
-	dt {
-		float: left;
-		margin-right: 0.8em;
-		color: $d-strong-type-color;
-		font-style: italic;
-	}
-	dd {
-		margin: 0;
-	}
+  margin: 0;
+  dt {
+    font-style: italic;
+
+    float: left;
+
+    margin-right: 0.8em;
+
+    color: $d-strong-type-color;
+  }
+  dd {
+    margin: 0;
+  }
 }
 
 p {
-	margin: 0;
+  margin: 0;
 }
 
 abbr[title] {
-	border-bottom: 1px dotted; // normalize.css
+  border-bottom: 1px dotted; // normalize.css
 }
 
 strong {
-	font-weight: $bold; // normalize.css
+  font-weight: $semi-bold; // normalize.css
 
-	color: $d-strong-type-color;
+  color: $d-strong-type-color;
 }
 
 q {
-	font-style: italic;
-
-	&:before {
-		content: "«";
-	}
-	&:after {
-		content: "»";
-	}
+  font-style: italic;
+  &:before {
+    content: '«';
+  }
+  &:after {
+    content: '»';
+  }
 }
 
 dfn {
-	font-style: italic; // normalize.css
+  font-style: italic; // normalize.css
 }
 
 small {
-	font-size: 0.8em; // normalize.css
+  font-size: 0.8em; // normalize.css
 }
 
-sub, sup {
-	font-size: 0.8em; // normalize.css
-	line-height: 0; // normalize.css
+sub,
+sup {
+  font-size: 0.8em; // normalize.css
+  line-height: 0; // normalize.css
 
-	position: relative; // normalize.css
+  position: relative; // normalize.css
 
-	vertical-align: baseline; // normalize.css
+  vertical-align: baseline; // normalize.css
 }
 
 sup {
-	top: -0.5em; // normalize.css
+  top: -0.5em; // normalize.css
 }
 
 sub {
-	bottom: -0.25em; // normalize.css
+  bottom: -0.25em; // normalize.css
 }
 
 /*
 ** Grouping content
 */
 
-code, kbd, pre, samp {
-	font-family: monospace, monospace; // normalize.css
-	font-size: 1em; // normalize.css
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace; // normalize.css
+  font-size: 1em; // normalize.css
 }
-code, samp {
-	color: $d-type-color;
+code,
+samp {
+  color: $d-type-color;
 }
-kbd, mark {
-	color: $d-strong-type-color;
+kbd,
+mark {
+  color: $d-strong-type-color;
 }
-code, samp, kbd {
-	@include face(mono);
+code,
+samp,
+kbd {
+  @include face(mono);
 }
-code, kbd, mark {
-	margin: -0.1em 0;
-	padding: 0.1em 0.3em;
+code,
+kbd,
+mark {
+  margin: -0.1em 0;
+  padding: 0.1em 0.3em;
 
-	background-color: $l-code-background-color;
-
-	@include border-radius(2px, 2px);
+  border-radius: 2px 2px;
+  background-color: $l-code-background-color;
 }
 
 pre {
-	display: block;
-	overflow: auto; // normalize.css
+  display: block;
+  overflow: auto; // normalize.css
 
-	white-space: normal;
+  white-space: normal;
 
-	background-color: $l-code-background-color;
+  border-radius: 2px 2px;
+  background-color: $l-code-background-color;
+  code {
+    display: block;
 
-	@include border-radius(2px, 2px);
+    padding: 0;
 
-	code {
-		display: block;
+    white-space: pre;
 
-		padding: 0;
-
-		white-space: pre;
-
-		background-color: transparent;
-	}
+    background-color: transparent;
+  }
 }
 
 blockquote {
-	margin: 0;
+  margin: 0;
 
-	border-color: $border-color;
+  border-color: $border-color;
 }
 
 quote {
-	font-style: italic;
-	color: $d-strong-type-color;
+  font-style: italic;
+
+  color: $d-strong-type-color;
 }
 
 hr {
-	display: block;
+  display: block;
 
-	height: 1px;
-	margin: 1em 0;
-	padding: 0;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
 
-	border: 0;
-	border-top: $border-width solid $border-color;
+  border: 0;
+  border-top: $border-width solid $border-color;
 }
 
 /*
 ** Embedded content
 */
 
-img, iframe {
-	display: block;
+img,
+iframe {
+  display: block;
 
-	max-width: 100%;
-	//@include box-shadow($picture-shadow-color 0 1px 2px);
-	background-color: $picture-background-color;
+  max-width: 100%;
+
+  background-color: $picture-background-color;
 }
 
 video {
-	display: block;
+  display: block;
 
-	width: 100%;
-	//@include box-shadow($picture-shadow-color 0 1px 2px);
-	background-color: $picture-background-color;
+  width: 100%;
+
+  background-color: $picture-background-color;
 }
 
 img {
-	border: 0; // normalize.css
+  border: 0; // normalize.css
 
-	image-rendering: optimizeQuality;
+  image-rendering: optimizeQuality;
 }
 
 svg:not(:root) {
-	overflow: hidden; // normalize.css
+  overflow: hidden; // normalize.css
 }

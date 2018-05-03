@@ -4,8 +4,8 @@ number: 95
 title: "What Is the Game Development Process for Indie Developers?"
 author: "Mark Maratea"
 tags:
-- fail
-- prototype
+- Fail
+- Prototype
 
 site: "Quora"
 address: "https://www.quora.com/What-is-the-game-development-process-for-indie-developers/answer/Mark-Maratea"

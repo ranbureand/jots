@@ -4,8 +4,8 @@ number: 106
 title: "Tools for Thinking and Tools for Systems"
 author: "Robin Rendle"
 tags:
-- precision
-- tools
+- Precision
+- Tools
 
 site: "CSS-Tricks"
 address: "https://css-tricks.com/tools-thinking-tools-systems/"

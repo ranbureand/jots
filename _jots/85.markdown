@@ -4,8 +4,8 @@ number: 85
 title: "Questions for Me About Dying"
 author: "Cory Taylor"
 tags:
-- failures
-- mistakes
+- Failures
+- Mistakes
 
 site: "The New Yorker"
 address: "http://www.newyorker.com/culture/personal-history/questions-for-me-about-dying"

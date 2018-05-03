@@ -4,8 +4,8 @@ number: 109
 title: "A short history of geometric composition"
 author: "Rune Madsen"
 tags:
-- golden ratio
-- grid
+- Golden Ratio
+- Grid
 
 site: "Programming Design Systems"
 address: "https://programmingdesignsystems.com/layout/a-short-history-of-geometric-composition/index.html"

@@ -4,8 +4,8 @@ number: 16
 title: "Motion with Meaning: Semantic Animation in Interface Design"
 author: "Amin Al Hazwani, Tobias Bernard"
 tags:
-- animation
-- semantics
+- Animation
+- Semantics
 
 site: "A List Apart"
 address: "http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design"

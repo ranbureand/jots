@@ -4,8 +4,8 @@ number: 75
 title: "Integrating Animation into a Design System"
 author: "Alla Kholmatova"
 tags:
-- animation
-- system
+- Animation
+- System
 
 site: “A List Apart”
 address: "https://alistapart.com/article/integrating-animation-into-a-design-system"

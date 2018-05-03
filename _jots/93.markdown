@@ -4,8 +4,8 @@ number: 93
 title: "Coding with Clarity"
 author: "Brandon Gregory"
 tags:
-- clean
-- code
+- Clean
+- Code
 
 site: "A List Apart"
 address: "https://alistapart.com/article/coding-with-clarity"

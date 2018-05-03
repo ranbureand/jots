@@ -4,8 +4,8 @@ number: 72
 title: "The Bad Reasons You’re Forced to Work Long Hours"
 author: "Itamar Turner-Trauring"
 tags:
-- overworking
-- productivity
+- Overworking
+- Productivity
 
 site: “Code Without Rules”
 address: "https://codewithoutrules.com/2017/06/21/why-company-want-long-hours/"

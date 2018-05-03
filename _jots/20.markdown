@@ -5,7 +5,7 @@ title: "Refactoring CSS Without Losing Your Mind"
 author: "Harry Roberts"
 tags:
 - CSS
-- refactoring
+- Refactoring
 
 site: "Speaker Deck"
 address: "https://speakerdeck.com/csswizardry/refactoring-css-without-losing-your-mind"

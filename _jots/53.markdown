@@ -4,8 +4,8 @@ number: 53
 title: "Why Software Development Time Estimation Doesn't Work and Alternative Approaches"
 author: "Alex Castrounis"
 tags:
-- sizing
-- quantifying
+- Sizing
+- Quantifying
 
 site: "InnoArchiTech"
 address: "http://www.innoarchitech.com/why-software-development-time-estimation-does-not-work-alternative-approaches/"

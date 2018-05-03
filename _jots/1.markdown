@@ -4,8 +4,8 @@ number: 1
 title: "Dysfunctional Products Come from Dysfunctional Organizations"
 author: "Jon Kolko"
 tags:
-- org
-- dysfunction
+- Org
+- Dysfunction
 
 site: "Harward Business Review"
 address: "https://hbr.org/2015/01/dysfunctional-products-come-from-dysfunctional-organizations"

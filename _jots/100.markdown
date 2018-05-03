@@ -4,8 +4,8 @@ number: 100
 title: "Postmortem: Every Frame a Painting"
 author: "Taylor Ramos, Tony Zhou"
 tags:
-- essay
-- video
+- Essay
+- Video
 
 site: "Medium"
 address: "https://medium.com/@tonyszhou/postmortem-1b338537fabc"

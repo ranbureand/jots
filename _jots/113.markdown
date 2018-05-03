@@ -4,8 +4,8 @@ number: 113
 title: "I’ve Never Felt Less in Control of My Own Hardware"
 author: "mildbyte"
 tags:
-- auto-update
-- control
+- Auto-update
+- Control
 
 site: "mildbyte's Notes"
 address: "https://kimonote.com/@mildbyte/ive-never-felt-less-in-control-of-my-own-hardware-14804/"

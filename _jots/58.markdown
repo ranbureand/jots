@@ -4,8 +4,8 @@ number: 58
 title: "Signs That You’re a Micromanager"
 author: "Muriel Maignan Wilkins"
 tags:
-- harm
-- micromanagement
+- Harm
+- Micromanagement
 
 site: "Harward Business Review"
 address: "https://hbr.org/2014/11/signs-that-youre-a-micromanager"

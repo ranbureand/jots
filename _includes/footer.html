@@ -1,16 +1,25 @@
-  <footer class="footer" id="end">
-    <div class="foot">
-      <div class="foot-explanation"><a href="{{ site.baseurl }}/">{{ site.title }}</a> is an ongoing collection of bits from inspiring pieces about design and development, retrieved from various digital and physical sources and jotted here, to recall the food-for-thought later.</div>
-      <div class="foot-count">{{ jotCount }} bits—and counting.</div>
-    </div>
-    <nav class="nav">
-      {% for jot in jotList %}
-        <a href="#jot-{{ jot.number }}" title="Jot № {{ jot.number }}">{% for tag in jot.tags %}{% if forloop.last == true %}{{tag | capitalize}}{% else %}{{tag | capitalize}} · {% endif %}{% endfor %}</a>
-      {% endfor %}
-    </nav>
-    <div class="toe">
-      <div class="toe-credits">Collected by <a href="http://www.andreaburan.com" target="_blank" title="Andrea’s Buran Sitefolio">Andrea Buran</a>, hosted on <a href="https://github.com/ranbureand/jots" target="_blank" title="Jots on GitHub">GitHub</a> and powered by <a href="http://jekyllrb.com/" target="_blank" title="Jekyll: Simple, blog-aware, static sites">Jekyll</a>.</div>
-      <div class="toe-copy"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="Creative Commons Attribution 4.0 International">Creative Commons BY</a>.</div>
-      <div class="toe-scroll"><a href="#start">Back to the Start</a></div>
+  <footer class="canvas-footer" id="end">
+    <div class="footer layout-2d">
+      <div class="footer-count">
+        <p>{{ jotCount }} bits, and counting.</p>
+      </div>
+
+      <div class="footer-explanation">
+        <p><a href="{{ site.baseurl }}/">{{ site.title }}</a> is an ongoing collection of bits from inspiring pieces about design and development, retrieved from various digital and physical sources and jotted here, to recall the food-for-thought later.</p>
+      </div>
+      
+      <nav class="footer-tags">
+        <div class="layout-1d">
+          {% for jot in jotList %}
+            <a class="footer-tag" href="#jot-{{ jot.number }}" title="Jot № {{ jot.number }}">{% for tag in jot.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
+          {% endfor %}
+        </div>
+      </nav>
+
+      <div class="footer-credits">Collected by <a href="http://www.andreaburan.com" target="_blank" title="Andrea’s Buran Sitefolio">Andrea Buran</a>, hosted on <a href="https://github.com/ranbureand/jots" target="_blank" title="Jots on GitHub">GitHub</a>, powered by <a href="http://jekyllrb.com/" target="_blank" title="Jekyll: Simple, blog-aware, static sites">Jekyll</a> and typesetted in <a href="https://github.com/cooperhewitt/cooperhewitt-typeface" target="_blank" title="Cooper Hewitt on GitHub">Cooper Hewitt</a>.</div>
+
+      <div class="footer-copy"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="Creative Commons Attribution 4.0 International">Creative Commons BY</a></div>
+
+      <div class="footer-scroll"><a href="#start">Back to the Start</a></div>
     </div>
   </footer>

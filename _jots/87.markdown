@@ -4,8 +4,8 @@ number: 87
 title: "18-Minute Analysis By Christopher Nolan On Story & Construction Of Memento"
 author: "Christopher Nolan"
 tags:
-- cinema
-- time
+- Cinema
+- Time
 
 site: "YouTube, The Lord Louis Show"
 address: "https://www.youtube.com/watch?v=tYScJZWhaHA"

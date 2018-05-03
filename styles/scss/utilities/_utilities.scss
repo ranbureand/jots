@@ -1,46 +1,67 @@
-/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+/* Copyright (c) 2018 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Variables
+*/
+
+$base-unit:                 4px;
+
+$browser-default-font-size: 16px;
+
+$base-font-size:            16px;
+$base-font-line:            $base-unit*6;
+
+$m-base-rhythm:             $base-unit*6;
+$d-base-rhythm:             $base-unit*10;
 
 /*
 ** Font sizes and line heights
+** m : mobile
+** t : tablet
+** d : desktop
 */
 
-$m-large-size: 24px;
-$m-large-line: 3.2;
+$m-extra-large-size:    80px;
+$m-extra-large-line:    $base-unit*30;
 
-$d-large-size: 33px;
-$d-large-line: 4.0;
+$d-extra-large-size:    120px;
+$d-extra-large-line:    $base-unit*40;
 
-$m-medium-size: 21px;
-$m-medium-line: 2.8;
+$m-large-size:          20px;
+$m-large-line:          $base-unit*7;
 
-$d-medium-size: 21px;
-$d-medium-line: 2.8;
+$t-large-size:          32px;
+$t-large-line:          $base-unit*10;
 
-$m-small-size: 13px;
-$m-small-line: 2.0;
+$d-large-size:          40px;
+$d-large-line:          $base-unit*14;
 
-$d-small-size: 13px;
-$d-small-line: 2.0;
+$m-medium-size:         20px;
+$m-medium-line:         $base-unit*7;
 
-$m-extra-small-size: 12px;
-$m-extra-small-line: 1.6;
+$d-medium-size:         20px;
+$d-medium-line:         $base-unit*7;
 
-$d-extra-small-size: 12px;
-$d-extra-small-line: 1.6;
+$m-small-size:          13px;
+$m-small-line:          $base-unit*5;
 
-/*
-** Base font sizes and line heights
-*/
+$d-small-size:          13px;
+$d-small-line:          $base-unit*5;
 
-$base-font-size: 16px;
-$base-line-height: 10px;
+$m-extra-small-size:    12px;
+$m-extra-small-line:    $base-unit*4;
+
+$d-extra-small-size:    12px;
+$d-extra-small-line:    $base-unit*4;
 
 /*
 ** Font weights
 */
 
-$bold: 500;
-$normal: 400;
+$bold:      700;
+$semi-bold: 600;
+$medium:    500;
+$normal:    400;
 
 /*
 ** Grid
@@ -59,9 +80,9 @@ $column-width: 72px;
 ** Guts and indents
 */
 
-$m-gut: 32px;
+$m-gut:    32px;
 $m-indent: $m-gut/2;
-$d-gut: 24px;
+$d-gut:    24px;
 $d-indent: $d-gut;
 
 /*
@@ -70,16 +91,13 @@ $d-indent: $d-gut;
 
 $border-width: 4px;
 $border-radius: 4px;
-$field-border-width: 2px;
-$button-medium-border-width: 2px;
-$button-small-border-width: 1px;
 
 /*
 ** Strip units
 */
 
 @function strip($number) {
-	@return $number / ($number * 0 + 1);
+  @return $number / ($number * 0 + 1);
 }
 
 /*
@@ -87,7 +105,7 @@ $button-small-border-width: 1px;
 */
 
 @function em($px, $base: $base-font-size) {
-	@return strip($px / $base) * 1em;
+  @return strip($px / $base) * 1em;
 }
 
 /*
@@ -95,7 +113,7 @@ $button-small-border-width: 1px;
 */
 
 @function col($number-columns, $base: $base-font-size) {
-	@return em($column-width * $number-columns, $base);
+  @return em($column-width * $number-columns, $base);
 }
 
 /*
@@ -103,38 +121,42 @@ $button-small-border-width: 1px;
 */
 
 @function col-px($number-columns) {
-	@return $column-width * $number-columns * 1px;
+  @return $column-width * $number-columns * 1px;
 }
 
 /*
 ** Typefaces
 */
 
+@mixin font-face($type-name, $file-name, $weight, $style) {
+  @font-face {
+    font-family: "#{$type-name}";
+    src: url("../../fonts/#{$file-name}.woff2") format("woff2"),
+         url("../../fonts/#{$file-name}.woff") format("woff");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
 @mixin face($status: sans) {
-	@if $status == "sans" {
-		font-family: "Cooper Hewitt", "Helvetica Neue", Arial, sans-serif;
-	} @else if $status == "serif" {
-		font-family: Georgia, serif;
-	} @else if $status == "mono" {
-		font-family: "Roboto Mono", "Andale Mono", "Monaco", monospace;
-	} @else if $status == "condensed" {
-		font-family: "Roboto Condensed", "Monaco", monospace;
-	}
+  @if $status == "sans" {
+    font-family: "Cooper Hewitt", "Helvetica Neue", Arial, sans-serif;
+  } @else if $status == "serif" {
+    font-family: Georgia, serif;
+  } @else if $status == "mono" {
+    font-family: "Roboto Mono", "Andale Mono", "Monaco", monospace;
+  }
 }
 
 /*
-** Clearfix
+** Font size
 */
 
-@mixin clearfix {
-	&:before, &:after {
-		display: table;
-
-		content: " ";
-	}
-	&:after {
-		clear: both;
-	}
+@mixin font-size($to-size, $lines: auto, $from-size: $base-font-size) {
+  font-size: em($to-size, $from-size);
+  @if $lines != auto {
+    line-height: em($lines, $to-size);
+  }
 }
 
 /*
@@ -142,32 +164,44 @@ $button-small-border-width: 1px;
 */
 
 @mixin link($status: link-light) {
-	@if $status == "link-light" {
-		@include text-shadow($l-background-color 1px 1px 0, $l-background-color -1px 1px 0, $l-background-color 2px 0 0, $l-background-color -2px 0 0);
-		@include box-shadow($l-background-color 0 0 0 0 inset, $c-type-color 0 -2px 0 0 inset);
-		&:hover, &:active {
-			@include box-shadow($l-background-color 0 0 0 0 inset, $l-background-color 0 -2px 0 0 inset);
-		}
-	} @else if $status == "link-color" {
-		@include link-colors($l-strong-type-color, $d-strong-type-color, $d-strong-type-color);
-		@include text-shadow($c-background-color 1px 1px 0, $c-background-color -1px 1px 0, $c-background-color 2px 0 0, $c-background-color -2px 0 0);
-		@include box-shadow($c-background-color 0 0 0 0 inset, $l-strong-type-color 0 -2px 0 0 inset);
-		&:hover, &:active {
-			@include box-shadow($c-background-color 0 0 0 0 inset, $c-background-color 0 -2px 0 0 inset);
-		}
-	}  @else if $status == "link-dark" {
-		@include link-colors($l-strong-type-color, $c-strong-type-color, $c-strong-type-color);
-		@include text-shadow($d-background-color 1px 1px 0, $d-background-color -1px 1px 0, $d-background-color 2px 0 0, $d-background-color -2px 0 0);
-		@include box-shadow($d-background-color 0 0 0 0 inset, $c-strong-type-color 0 -2px 0 0 inset);
-		&:hover, &:active {
-			@include box-shadow($d-background-color 0 0 0 0 inset, $d-background-color 0 -2px 0 0 inset);
-		}
-	} @else if $status == "none" {
-		border-bottom: none;
-		box-shadow: none;
-		&:hover, &:active {
-			border-bottom: none;
-			box-shadow: none;
-		}
-	}
+  @if $status == 'link-light' {
+    box-shadow: $l-background-color 0 0 0 0 inset, $c-type-color 0 -2px 0 0 inset;
+    text-shadow: $l-background-color 1px 1px 0, $l-background-color -1px 1px 0, $l-background-color 2px 0 0, $l-background-color -2px 0 0;
+    &:hover,
+    &:active {
+      box-shadow: $l-background-color 0 0 0 0 inset, $l-background-color 0 -2px 0 0 inset;
+    }
+  } @else if $status == 'link-color' {
+    color: $l-strong-type-color;
+    box-shadow: $c-background-color 0 0 0 0 inset, $l-strong-type-color 0 -2px 0 0 inset;
+    text-shadow: $c-background-color 1px 1px 0, $c-background-color -1px 1px 0, $c-background-color 2px 0 0, $c-background-color -2px 0 0;
+    &:hover,
+    &:active {
+      color: $d-strong-type-color;
+      box-shadow: $c-background-color 0 0 0 0 inset, $c-background-color 0 -2px 0 0 inset;
+    }
+  }  @else if $status == 'link-dark' {
+    color: $l-strong-type-color;
+    box-shadow: $d-background-color 0 0 0 0 inset, $c-strong-type-color 0 -2px 0 0 inset;
+    text-shadow: $d-background-color 1px 1px 0, $d-background-color -1px 1px 0, $d-background-color 2px 0 0, $d-background-color -2px 0 0;
+    &:hover,
+    &:active {
+      color: $c-strong-type-color;
+      box-shadow: $d-background-color 0 0 0 0 inset, $d-background-color 0 -2px 0 0 inset;
+    }
+  } @else if $status == 'none' {
+    border-bottom: none;
+    box-shadow: none;
+    &:hover,
+    &:active {
+      border-bottom: none;
+      box-shadow: none;
+    }
+  }
 }
+
+/*
+** Tempo
+*/
+
+$duration: 0.2s;

@@ -4,8 +4,8 @@ number: 69
 title: "Convincing Clients: How To Get Sign Off When It Matters"
 author: "Paul Boag"
 tags:
-- feedback
-- tuning
+- Feedback
+- Tuning
 
 site: “Smashing Magazine”
 address: "https://www.smashingmagazine.com/2017/06/convincing-clients-sign-off/"

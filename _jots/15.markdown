@@ -4,7 +4,7 @@ number: 15
 title: "Instagram’s Abomination Part I"
 author: "Eli Schiff"
 tags:
-- icon
+- Icon
 - Instagram
 
 site: "Eli Schiff’s Blog"

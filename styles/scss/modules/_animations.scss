@@ -1,0 +1,29 @@
+/* (c) 2018 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Animations
+*/
+
+@keyframes number-pulse-light {
+  0% {
+    box-shadow: $d-light-type-color 0 0 0 0.5em;
+  }
+  50% {
+    box-shadow: $d-light-type-color 0 0 0 0.3em;
+  }
+  100% {
+    box-shadow: $d-light-type-color 0 0 0 0.5em;
+  }
+}
+
+@keyframes number-pulse-dark {
+  0% {
+    box-shadow: $l-light-type-color 0 0 0 0.5em;
+  }
+  50% {
+    box-shadow: $l-light-type-color 0 0 0 0.3em;
+  }
+  100% {
+    box-shadow: $l-light-type-color 0 0 0 0.5em;
+  }
+}

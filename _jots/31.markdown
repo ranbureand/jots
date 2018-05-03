@@ -4,8 +4,8 @@ number: 31
 title: "Designing Grids"
 author: "Zell Liew"
 tags:
-- grids
-- gutters
+- Grids
+- Gutters
 
 site: "Zell Liew’s Blog"
 address: "https://zellwk.com/blog/designing-grids/"

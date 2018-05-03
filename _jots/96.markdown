@@ -4,8 +4,8 @@ number: 96
 title: "Making Your First Game: Basics—How To Start Your Game Development"
 author: "Extra Credits"
 tags:
-- first time
-- game
+- First Time
+- Game
 
 site: "YouTube"
 address: "https://www.youtube.com/watch?v=z06QR-tz1_o"

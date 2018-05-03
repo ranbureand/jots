@@ -4,8 +4,8 @@ number: 56
 title: "Form Design for Complex Applications"
 author: "Andrew Coyle"
 tags:
-- forms
-- inputs
+- Forms
+- Inputs
 
 site: "Medium"
 address: "https://uxdesign.cc/form-design-for-complex-applications-d8a1d025eba6"

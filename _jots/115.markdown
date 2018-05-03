@@ -5,7 +5,7 @@ title: "How Not to Replace Email"
 author: "Jamey Sharp"
 tags:
 - Google Wave
-- connectivity
+- Connectivity
 
 site: "non-O(n) musings"
 address: "https://jamey.thesharps.us/2018/02/16/how-not-to-replace-email/"

@@ -4,8 +4,8 @@ number: 82
 title: "Join Our Startup, We’ll Cut Your Pay by 40%!"
 author: "Itamar Turner-Trauring"
 tags:
-- crazy hours
-- fairness
+- Crazy Hours
+- Fairness
 
 site: "Code Without Rules"
 address: "https://codewithoutrules.com/2017/09/18/when-startups-pay-less/"

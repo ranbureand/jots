@@ -4,8 +4,8 @@ number: 52
 title: "The bricks we lay."
 author: "Ethan Marcotte"
 tags:
-- consequences
-- harm
+- Consequences
+- Harm
 
 site: "Ethan Marcotte’s Site"
 address: "https://ethanmarcotte.com/wrote/the-bricks-we-lay/"

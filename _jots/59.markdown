@@ -4,8 +4,8 @@ number: 59
 title: "Level Up! The Guide to Great Video Game Design. 2<sup>nd</sup> Edition."
 author: "Scott Rogers"
 tags:
-- walking
-- gameplay
+- Walking
+- Gameplay
 
 page: "115"
 publisher: "John Wiley and Sons"

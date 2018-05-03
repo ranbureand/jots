@@ -4,8 +4,8 @@ number: 62
 title: "7 Secrets of Blockbuster Video Games"
 author: "Erin Hoffman-John"
 tags:
-- pre-production
-- scope
+- Pre-production
+- Scope
 
 site: "O'Reilly"
 address: "https://www.oreilly.com/ideas/7-secrets-of-blockbuster-video-games"

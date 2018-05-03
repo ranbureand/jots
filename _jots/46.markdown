@@ -4,8 +4,8 @@ number: 46
 title: "You might not need a CSS framework"
 author: "Belén Albeza"
 tags:
-- frameworks
-- opinions
+- Frameworks
+- Opinions
 
 site: "Mozilla Hacks"
 address: "https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/"

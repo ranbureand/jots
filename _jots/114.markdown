@@ -4,8 +4,8 @@ number: 114
 title: "Your Sketch Library Is Not a Design System Redux"
 author: "Brad Frost"
 tags:
-- design system
-- ingredients
+- Design System
+- Ingredients
 
 site: "Brad Frost’s Blog"
 address: "http://bradfrost.com/blog/post/your-sketch-library-is-not-a-design-system-redux/"

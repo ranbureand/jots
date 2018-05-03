@@ -4,9 +4,9 @@ number: 14
 title: "Succeeding by Eliminating the Smells of Waste"
 author: "Paul Hepworth"
 tags:
-- fail
-- handoff
-- loss
+- Fail
+- Handoff
+- Loss
 
 site: "UserTesting Engineering"
 address: "http://engineering.usertesting.com/2016/05/eliminating-the-smell-of-waste/"

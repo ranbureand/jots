@@ -4,8 +4,8 @@ number: 68
 title: "Thrown Into Management: Lessons Learned Leading Thumbtack’s Design Team"
 author: "Audrey Liu"
 tags:
-- listen
-- share
+- Listen
+- Share
 
 site: “Designer Fund”
 address: "https://designerfund.com/bridge/thrown-into-management-lessons-learned-leading-thumbtacks-design-team/"

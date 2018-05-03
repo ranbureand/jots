@@ -4,8 +4,8 @@ number: 12
 title: "How To Take Charge Of A UX Kickoff Meeting"
 author: "Robert Hoekman Jr"
 tags:
-- expectation
-- kickoff
+- Expectation
+- Kickoff
 
 site: "Smashing Magazine"
 address: "https://www.smashingmagazine.com/2016/04/how-to-take-charge-of-a-ux-kickoff-meeting/"

@@ -4,8 +4,8 @@ number: 108
 title: "How Technology is Hijacking Your Mind — from a Magician and Google Design Ethicist"
 author: "Tristan Harris"
 tags:
-- choice
-- freedom
+- Choice
+- Freedom
 
 site: "Thrive Global"
 address: "https://journal.thriveglobal.com/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3"

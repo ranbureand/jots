@@ -4,8 +4,8 @@ number: 33
 title: "You Are Not Paid to Write Code"
 author: "Tyler Treat"
 tags:
-- code
-- less
+- Code
+- LESS
 
 site: "Brave New Geek"
 address: "http://bravenewgeek.com/you-are-not-paid-to-write-code/"

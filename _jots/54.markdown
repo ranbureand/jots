@@ -4,8 +4,8 @@ number: 54
 title: "The Talk on Talks"
 author: "Zach Holman"
 tags:
-- preparation
-- talks
+- Preparation
+- Talks
 
 site: "BACON: things developers love"
 address: "https://vimeo.com/96692937"

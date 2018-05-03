@@ -4,8 +4,8 @@ number: 92
 title: "5 Tips for Starting a Front-End Refactor"
 author: "Robin Rendle"
 tags:
-- refactor
-- tips & tricks
+- Refactor
+- Tips & Tricks
 
 site: "CSS-Tricks"
 address: "https://css-tricks.com/5-tips-starting-front-end-refactor/"

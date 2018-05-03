@@ -4,8 +4,8 @@ number: 77
 title: "So You Want To Be a Senior Developer?"
 author: "Chris Coyier"
 tags:
-- qualities
-- senior
+- Qualities
+- Senior
 
 site: “CSS-Tricks”
 address: "https://css-tricks.com/want-senior-developer/"

@@ -4,8 +4,8 @@ number: 99
 title: "It’s time for recurring meetings to end"
 author: "Dan Kim"
 tags:
-- meeting
-- recurring
+- Meeting
+- Recurring
 
 site: "Signal v. Noise"
 address: "https://m.signalvnoise.com/its-time-for-recurring-meetings-to-end-bb462441076e"

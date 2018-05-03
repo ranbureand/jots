@@ -4,8 +4,8 @@ number: 102
 title: "Who Serves Whom?"
 author: "iA"
 tags:
-- artificial
-- intelligence
+- Artificial
+- Intelligence
 
 site: "iA’s Site"
 address: "https://ia.net/topics/who-serves-whom/"

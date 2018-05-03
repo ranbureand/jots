@@ -4,8 +4,8 @@ number: 70
 title: "Unlock Honest Feedback with This One Word"
 author: "Claire Lew"
 tags:
-- adivice
-- feedback
+- Advice
+- Feedback
 
 site: “Signal v. Noise”
 address: "https://m.signalvnoise.com/unlock-honest-feedback-with-this-one-word-dcaf3839e7ee"

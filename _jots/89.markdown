@@ -4,8 +4,8 @@ number: 89
 title: "Why Patents Are Bad for Software"
 author: "Simson L. Garfinkel, Mitchell Kapor, Richard M. Stallman"
 tags:
-- mentor
-- mistakes
+- Mentor
+- Mistakes
 
 site: "Issues in Science and Technology, Fall 1991"
 address: "http://groups.csail.mit.edu/mac/projects/lpf/Links/prep.ai.mit.edu/issues.article"

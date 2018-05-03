@@ -4,8 +4,8 @@ number: 51
 title: "People’s Names That Break Websites"
 author: "Chris Coyier"
 tags:
-- flags
-- test
+- Flags
+- Test
 
 site: "CSS-Tricks"
 address: "https://css-tricks.com/peoples-names-break-websites/"

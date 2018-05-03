@@ -1,66 +1,66 @@
-/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+/* (c) 2018 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
 ** Colors
 ** 0 1 | 2 3 | 4 5 | 6 7 | 8 9 | a b | c d | e f
 */
 
-$black: #000;
-$white: #fff;
+$black:                         #000;
+$white:                         #fff;
 
-$color: hsl(255, 90, 70);
+$color:                         hsl(255, 90, 70);
 
-$l-canvas: #fafafa;
-$d-canvas: #191919;
+$l-canvas:                      #fafafa;
+$d-canvas:                      #191919;
 
 /*
 ** Typography
 */
 
-$d-strong-type-color: rgba($black, 0.90);
-$d-type-color: rgba($black, 0.70);
-$d-light-type-color: rgba($black, 0.20);
+$d-strong-type-color:           rgba($black, 0.88);
+$d-type-color:                  rgba($black, 0.72);
+$d-light-type-color:            rgba($black, 0.24);
 
-$l-strong-type-color: rgba($white, 0.90);
-$l-type-color: rgba($white, 0.80);
-$l-light-type-color: rgba($white, 0.40);
+$l-strong-type-color:           rgba($white, 0.92);
+$l-type-color:                  rgba($white, 0.72);
+$l-light-type-color:            rgba($white, 0.48);
 
-$c-strong-type-color: rgba($color, 1.00);
-$c-type-color: rgba($color, 1.00);
-$c-light-type-color: rgba($color, 0.20);
+$c-strong-type-color:           rgba($color, 1.00);
+$c-type-color:                  rgba($color, 1.00);
+$c-light-type-color:            rgba($color, 0.20);
 
-$d-selected-type-color: $d-strong-type-color;
+$d-selected-type-color:         $d-strong-type-color;
 
-$l-selected-type-color: $l-strong-type-color;
+$l-selected-type-color:         $l-strong-type-color;
 
 /*
 ** Backgrounds
 */
 
-$l-strong-background-color: darken($l-canvas, 6%);
-$l-background-color: $l-canvas;
-$l-light-background-colorr: lighten($l-canvas, 6%);
+$l-strong-background-color:     darken($l-canvas, 6%);
+$l-background-color:            $l-canvas;
+$l-light-background-colorr:     lighten($l-canvas, 6%);
 
-$d-background-color: $d-canvas;
+$d-background-color:            $d-canvas;
 
-$c-background-color: $color;
+$c-background-color:            $color;
 
-$l-code-background-color: lighten($l-canvas, 3%);
+$l-code-background-color:       lighten($l-canvas, 3%);
 
-$l-selected-background-color: rgba($color, 0.20);
+$l-selected-background-color:   rgba($color, 0.20);
 
-$d-background-inverted-color: rgba($white, 0.12);
+$d-background-inverted-color:   rgba($white, 0.12);
 
 /*
 ** Borders
 */
 
-$border-color: rgba($black, 0.20);
+$border-color:                  rgba($black, 0.20);
 
 /*
 ** Pictures
 */
 
-$picture-background-color: darken($l-background-color, 4%);
+$picture-background-color:      darken($l-background-color, 4%);
 
-$picture-shadow-color: darken($l-background-color, 4%);
+$picture-shadow-color:          darken($l-background-color, 4%);

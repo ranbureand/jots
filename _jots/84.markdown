@@ -4,8 +4,8 @@ number: 84
 title: "Considering Open Source Licenses"
 author: "Phillip Ikuvbogie"
 tags:
-- licenses
-- open source
+- Licenses
+- Open Source
 
 site: "A List Apart"
 address: "https://alistapart.com/article/considering-open-source-licenses"

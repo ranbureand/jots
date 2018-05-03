@@ -4,8 +4,8 @@ number: 110
 title: "Why Explore Space?"
 author: "Dr. Ernst Stuhlinger"
 tags:
-- challenge
-- innovation
+- Challenge
+- Innovation
 
 site: "Letters of Note"
 address: "http://www.lettersofnote.com/2012/08/why-explore-space.html"

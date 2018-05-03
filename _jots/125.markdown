@@ -1,0 +1,15 @@
+---
+number: 125
+
+title: "The fraudulent claims made by IBM about Watson and AI"
+author: "Roger Schank"
+tags:
+- IA
+- Text
+
+site: "Roger Schank’s Site"
+address: "http://www.rogerschank.com/fraudulent-claims-made-by-IBM-about-Watson-and-AI"
+date: 2018-05-02 09:45:00
+---
+
+But, users have learned to accommodate to Google not the other way around. We know what kinds of things we can type into Google and what we can’t and we keep our searches to things that Google is likely to help with.

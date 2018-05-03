@@ -4,8 +4,8 @@ number: 71
 title: "Please Don’t Learn to Code"
 author: "Basel Farag"
 tags:
-- coding
-- understanding
+- Coding
+- Understanding
 
 site: “TechCrunch”
 address: "https://techcrunch.com/2016/05/10/please-dont-learn-to-code/"

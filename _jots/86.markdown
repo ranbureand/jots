@@ -4,8 +4,8 @@ number: 86
 title: "Non-Disclosure Agreements For Developers: What To Know Before You Sign"
 author: "Kimberly Bond"
 tags:
-- agreement
-- non-disclosure
+- Agreement
+- Non-disclosure
 
 site: "Smashing Magazine"
 address: "https://www.smashingmagazine.com/2017/10/developer-non-disclosure-agreements/"

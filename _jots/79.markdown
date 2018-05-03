@@ -4,8 +4,8 @@ number: 79
 title: "How to Write Better Code: The 3 Levels of Code Consistency"
 author: "Jens Oliver Meiert"
 tags:
-- code
-- consistency
+- Code
+- Consistency
 
 site: “CSS-Tricks”
 address: "https://css-tricks.com/write-better-code-3-levels-code-consistency/"

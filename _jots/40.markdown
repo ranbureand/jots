@@ -5,7 +5,7 @@ title: "How To Conduct Your Own Google Ventures Design Sprint"
 author: "Jake Knapp"
 tags:
 - Google
-- sprint
+- Sprint
 
 site: "Co.Design"
 address: "https://www.fastcodesign.com/1672887/how-to-conduct-your-own-google-design-sprint"

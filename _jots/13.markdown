@@ -5,8 +5,8 @@ title: "Apple Stole My Music. No, Seriously."
 author: "James Pinkstone"
 tags:
 - Apple
-- music
-- theft
+- Music
+- Theft
 
 site: "Vellum"
 address: "https://blog.vellumatlanta.com/2016/05/04/apple-stole-my-music-no-seriously/"

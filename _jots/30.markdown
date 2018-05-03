@@ -4,8 +4,8 @@ number: 30
 title: "You Can’t Get Comfortable in Web Development"
 author: "Rey Bango"
 tags:
-- comfortability
-- knowledge
+- Comfortability
+- Knowledge
 
 site: "Rey Bango’s Blog"
 address: "http://blog.reybango.com/2016/10/07/you-cant-get-comfortable-in-web-development-anymore/"

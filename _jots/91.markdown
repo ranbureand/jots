@@ -4,8 +4,8 @@ number: 91
 title: "Signs It’s Time to Move On"
 author: "Julie Zhuo"
 tags:
-- dream job
-- running away
+- Dream Job
+- Running Away
 
 site: "The Looking Glass"
 address: "http://juliezhuo.com/design/mailinglist.html"

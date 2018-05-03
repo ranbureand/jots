@@ -4,8 +4,8 @@ number: 9
 title: "Peopleware, Productive Projects and Teams, Third Edition"
 author: "Tom DeMarco, Timothy Lister"
 tags:
-- change
-- failure
+- Change
+- Failure
 
 page: "209"
 publisher: "Addison-Wesley"

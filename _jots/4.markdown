@@ -4,8 +4,8 @@ number: 4
 title: "Firing People"
 author: "Zach Holman"
 tags:
-- burden
-- getting fired
+- Burden
+- Getting Fired
 
 site: "zachholman.com"
 address: "https://zachholman.com/talk/firing-people"

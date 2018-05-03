@@ -4,8 +4,8 @@ number: 63
 title: "Myth vs Method"
 author: "Mark Cerny, Michael John"
 tags:
-- cancelation
-- preproduction
+- Cancelation
+- Preproduction
 
 page: "35"
 publisher: "Game Developer"

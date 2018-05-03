@@ -1,0 +1,24 @@
+    <div class="canvas-playground">
+      <div class="playground layout-2d">
+        <div class="jots layout-1d">
+        {% for jot in jotList reversed %}
+          {% assign reference = jotList.size | minus: 1 %}
+          {% unless forloop.first %}
+          <div class="jot element-1d" id="jot-{{ jot.number }}" data-tag="{{ jot.tag }}">
+            <div class="jot-number"><a href="#jot-{{ jot.number }}">{{ jot.number }}</a></div>
+            <blockquote class="jot-body" {% if jot.address %}cite="{{ jot.address }}"{% endif %}>
+              {{ jot.content }}
+            </blockquote>
+            {% if jot.site %}
+              <div class="jot-reference"><span>{{ jot.author }}</span> in {% if jot.address %}<a href="{{ jot.address }}" target="_blank" title="{{ jot.title }}"><cite>{{ jot.title }}</cite></a>{% else %}<span><cite>{{ jot.title }}</cite></span>{% endif %}, from <span>{{ jot.site }}</span>.</div>
+              <div class="jot-date">Jotted on <time>{{ jot.date | date: "%B" }} the {% assign d = jot.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %} {{ jot.date | date: "%Y" }}, at {{ jot.date | date: "%H:%M" }}</time>.</div>
+            {% else %}
+              <div class="jot-reference"><span>{{ jot.author }}</span> in <span><cite>{{ jot.title }}</cite></span>{% if jot.page %}, p. <span>{{ jot.page }}</span>{% elsif jot.pages %}, pp. <span>{{ jot.pages }}</span>{% endif %}.</div>
+              <div class="jot-date">{{ jot.publisher }}, {{ jot.year }}.</div>
+            {% endif %}
+          </div>
+          {% endunless %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>

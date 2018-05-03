@@ -4,8 +4,8 @@ number: 122
 title: "The Art of Failure: An Essay on the Pain of Playing Video Games"
 author: "Jesper Juul"
 tags:
-- labor
-- video games
+- Labor
+- Video Games
 
 page: "74"
 publisher: "The MIT Press"

@@ -4,8 +4,8 @@ number: 107
 title: "The Burden of Precision"
 author: "Daniel Eden"
 tags:
-- burden
-- precision
+- Burden
+- Precision
 
 site: "Daniel Eden’s Site"
 address: "https://daneden.me/2017/11/15/the-burden-of-precision/"

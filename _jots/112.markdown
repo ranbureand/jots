@@ -4,8 +4,8 @@ number: 112
 title: "Premortem: Prevent Failures by Recognizing Patterns"
 author: "Taylor Smith"
 tags:
-- failure
-- premortem
+- Failure
+- Premortem
 
 site: "Taylor Smith’s Site"
 address: "https://www.tsmithcreative.com/blog/2018/premortem/"

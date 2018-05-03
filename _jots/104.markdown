@@ -5,7 +5,7 @@ title: "Google Memory Loss"
 author: "Tim Bray"
 tags:
 - Google
-- memory
+- Memory
 
 site: "Tim Bray’s Site"
 address: "https://www.tbray.org/ongoing/When/201x/2018/01/15/Google-is-losing-its-memory"

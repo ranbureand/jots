@@ -4,8 +4,8 @@ number: 97
 title: "Introducing design systems"
 author: "Marco Suarez"
 tags:
-- debt
-- design
+- Debt
+- Design
 
 site: "DesignBetter.Co"
 address: "https://www.designbetter.co/design-systems-handbook/introducing-design-systems"

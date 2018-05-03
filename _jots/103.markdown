@@ -4,7 +4,7 @@ number: 103
 title: "Chrome is Not the Standard"
 author: "Chris Krycho"
 tags:
-- standard
+- Standard
 - Chrome
 
 site: "Chris Krycho’s Site"

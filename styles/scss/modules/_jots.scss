@@ -1,344 +1,200 @@
-/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+/* (c) 2018 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
 ** Jots
 */
 
-[class*="playground"] {
-	padding-top: rhythm($m-medium-line*2);
-
-	background-color: $l-background-color;
-
-	@include min-screen(col(8)) {
-		padding-top: rhythm($d-medium-line*2);
-	}
-	@include min-screen(col(16)) {
-		padding-top: rhythm($d-medium-line*4);
-	}
+.canvas-playground {
+  background-color: $l-background-color;
+  @include min-screen(col(8)) {
+    padding-left: em($d-gut/2);
+    padding-right: em($d-gut/2);
+  }
 }
 
-.playground-light {
-	background-color: $l-background-color;
+.playground {
+  padding-top: em($m-base-rhythm*2);
+  padding-bottom: em($m-base-rhythm*2);
+
+  @include min-screen(col(8)) {
+    padding-top: em($d-base-rhythm*2);
+    padding-bottom: em($d-base-rhythm*2);
+  }
+  @include min-screen(col(18)) {
+    width: col(18);
+  }
 }
 
-.playground-dark {
-	background-color: $d-background-color;
+.jots {
+  grid-column: 1 / 3;
+  @include min-screen(col(8)) {
+    grid-column: 1 / 3;
+  }
+  @include min-screen(col(12)) {
+    grid-column: 1 / 4;
+  }
+  @include min-screen(col(16)) {
+    grid-column: 1 / 5;
+  }
 }
 
-.list {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	padding-bottom: rhythm($m-large-line*2);
+.jot {
+  width: 100%/1*1;
+  padding-top: em($m-base-rhythm*2);
+  padding-bottom: em($m-base-rhythm*2);
 
-	@include min-screen(col(8)) {
-		width: col(8);
-		padding-bottom: rhythm($d-large-line*2);
+  color: $d-type-color;
 
-		@include display-flex(flex);
-		@include flex-flow(row wrap);
-		@include justify-content(left);
-		@include align-items(flex-start);
-		@include align-content(flex-start);
-	}
-	@include min-screen(col(12)) {
-		width: col(12);
-	}
-	@include min-screen(col(16)) {
-		width: col(16);
-	}
+  &:target {
+    .jot-number {
+      a {
+        animation-name: number-pulse-light;
+        animation-duration: 2.5s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+
+        background-color: $d-type-color;
+      }
+    }
+  }
+  @include min-screen(col(8)) {
+    width: 100%/2*1;
+    padding-top: em($d-base-rhythm*2);
+    padding-bottom: em($d-base-rhythm*2);
+  }
+  @include min-screen(col(12)) {
+    width: 100%/3*1;
+  }
+  @include min-screen(col(16)) {
+    width: 100%/4*1;
+  }
 }
 
-@include keyframes(number-pulse-light) {
-	0% {
-		@include box-shadow($d-light-type-color 0 0 0 0.5em);
-	}
-	50% {
-		@include box-shadow($d-light-type-color 0 0 0 0.3em);
-	}
-	100% {
-		@include box-shadow($d-light-type-color 0 0 0 0.5em);
-	}
+.jot-number {
+  font-weight: $medium;
+
+  margin-bottom: em($m-base-rhythm*1.5, $m-small-size);
+  padding-right: em($m-gut/2, $m-small-size);
+  padding-left: em($m-gut/2, $m-small-size);
+
+  @include font-size($m-small-size, $m-small-line);
+  a {
+    display: inline-block;
+
+    min-width: em($m-small-line*2, $m-small-size);
+    height: em($m-small-line*2, $m-small-size);
+    padding-top: em($m-small-line/2 + 2, $m-small-size);
+    padding-right: em($m-gut/4, $m-small-size);
+    padding-bottom: em($m-small-line/2 - 2, $m-small-size);
+    padding-left: em($m-gut/4, $m-small-size);
+
+    text-align: center;
+
+    color: $l-strong-type-color;
+    border-radius: em($m-small-line, $m-small-size);
+    background-color: $c-type-color;
+    &:hover,
+    &:active,
+    &:focus {
+      box-shadow: $c-light-type-color 0 0 0 0.4em;
+    }
+  }
+  @include min-screen(col(8)) {
+    margin-bottom: em($d-base-rhythm, $d-small-size);
+    padding-right: em($d-gut/2, $d-small-size);
+    padding-left: em($d-gut/2, $d-small-size);
+
+    @include font-size($d-small-size, $d-small-line);
+    a {
+      min-width: em($d-small-line*2, $d-small-size);
+      height: em($d-small-line*2, $d-small-size);
+      padding-top: em($d-small-line/2 + 2, $d-small-size);
+      padding-right: em($d-gut/4, $d-small-size);
+      padding-bottom: em($d-small-line/2 - 2, $d-small-size);
+      padding-left: em($d-gut/4, $d-small-size);
+
+      border-radius: em($d-small-line, $d-small-size);
+    }
+  }
 }
 
-@include keyframes(number-pulse-dark) {
-	0% {
-		@include box-shadow($l-light-type-color 0 0 0 0.5em);
-	}
-	50% {
-		@include box-shadow($l-light-type-color 0 0 0 0.3em);
-	}
-	100% {
-		@include box-shadow($l-light-type-color 0 0 0 0.5em);
-	}
+.jot-body {
+  font-weight: $semi-bold;
+
+  margin-bottom: em($m-base-rhythm);
+  padding-right: em($m-gut/2);
+  padding-left: em($m-gut/4*3 - 4px);
+
+  color: $d-strong-type-color;
+  border-left: 4px solid $c-type-color;
+  p {
+    @include font-size($m-medium-size, $m-medium-line);
+    & + p {
+      margin-top: em($m-medium-line/2, $m-medium-size);
+    }
+  }
+  a {
+    font-weight: $semi-bold;
+
+    @include link;
+  }
+  @include min-screen(col(8)) {
+    margin-bottom: em($d-base-rhythm);
+    padding-right: em($d-gut/2 - 4px);
+    padding-left: em($d-gut/2);
+    p {
+      @include font-size($d-medium-size, $d-medium-line);
+      & + p {
+        margin-top: em($d-medium-line/2, $d-medium-size);
+      }
+    }
+  }
 }
 
-.jot-light {
-	color: $d-type-color;
-	&:target {
-		.number {
-			a {
-				background-color: $d-type-color;
-				@include animation(number-pulse-light 2.5s infinite ease);
-			}
-		}
-	}
-	.number {
-		a {
-			@include link-colors($l-strong-type-color);
-		}
-	}
-	.body {
-		color: $d-strong-type-color;
-		a {
-			@include link;
-		}
-	}
-	.reference {
-		a {
-			@include link;
-		}
-		span {
-			color: $d-strong-type-color;
-		}
-	}
+.jot-reference {
+  margin-bottom: em($m-small-line/2, $m-small-size);
+  padding-right: em($m-gut/2, $m-small-size);
+  padding-left: em($m-gut/2, $m-small-size);
+
+  @include font-size($m-small-size, $m-small-line);
+  &:before {
+    float: left;
+
+    width: em($m-gut*3/4, $m-small-size);
+
+    content: '—';
+  }
+  a,
+  span {
+    font-weight: $semi-bold;
+  }
+  a {
+    @include link;
+  }
+  span {
+    color: $d-strong-type-color;
+  }
+  @include min-screen(col(8)) {
+    margin-bottom: em($d-small-line/2, $d-small-size);
+    padding-right: em($d-gut/2, $d-small-size);
+    padding-left: em($d-gut/2, $d-small-size);
+
+    @include font-size($d-small-size, $d-small-line);
+    &:before {
+      width: em($d-gut*3/4, $d-small-size);
+    }
+  }
 }
 
-.jot-dark {
-	::-moz-selection {
-		color: $l-selected-type-color;
-		background-color: $d-background-inverted-color;
-	}
-	::selection {
-		color: $l-selected-type-color;
-		background-color: $d-background-inverted-color;
-	}
-	color: $l-type-color;
-	&:target {
-		.number {
-			a {
-				background-color: $l-strong-type-color;
-				@include animation(number-pulse-dark 2.5s infinite ease);
-			}
-		}
-	}
-	.number {
-		a {
-			@include link-colors($d-strong-type-color);
-		}
-	}
-	.body {
-		color: $l-strong-type-color;
-		a {
-			@include link(link-dark);
-		}
-	}
-	.reference {
-		a {
-			@include link(link-dark);
-		}
-		span {
-			color: $l-strong-type-color;
-		}
-	}
-}
+.jot-date {
+  padding-right: em($m-gut/2, $m-small-size);
+  padding-left: em($m-gut/2, $m-small-size);
 
-[class*="jot"] {
-	position: relative;
+  @include font-size($m-small-size, $m-small-line);
+  @include min-screen(col(8)) {
+    padding-right: em($d-gut/2, $d-small-size);
+    padding-left: em($d-gut/2, $d-small-size);
 
-	display: block;
-
-	width: 100%;
-	padding-top: rhythm($m-large-line*2 - $m-small-line);
-	padding-bottom: rhythm($m-large-line*2);
-
-	&:target {
-		.number {
-			a {
-				cursor: default;
-			}
-		}
-	}
-	@include min-screen(col(8)) {
-		width: 1/2*1*100%;
-		padding-top: rhythm($d-large-line*2 - $d-small-line);
-		padding-bottom: rhythm($d-large-line*2);
-
-		@include flex-grow(0);
-		@include flex-shrink(1);
-	}
-	@include min-screen(col(12)) {
-		width: 1/3*1*100%;
-	}
-	@include min-screen(col(16)) {
-		width: 1/4*1*100%;
-	}
-}
-
-[class*="jot"]:nth-child(-n+3) {
-	width: 100%;
-
-	@include min-screen(col(8)) {
-		padding-top: rhythm($d-large-line*2 - $d-medium-line);
-		.number {
-			margin-bottom: rhythm($d-medium-line*2, $d-medium-size);
-			padding-right: em($d-gut/2, $d-medium-size);
-			padding-left: em($d-gut/2, $d-medium-size);
-
-			@include adjust-font-size-to($d-medium-size, $d-medium-line);
-			a {
-				min-width: rhythm($d-medium-line*2, $d-medium-size);
-				height: rhythm($d-medium-line*2, $d-medium-size);
-				padding-top: rhythm($d-medium-line/2 + 0.4, $d-medium-size);
-				padding-right: em($d-gut/4, $d-medium-size);
-				padding-bottom: rhythm($d-medium-line/2 - 0.4, $d-medium-size);
-				padding-left: em($d-gut/4, $d-medium-size);
-
-				@include border-radius(rhythm($d-medium-line, $d-medium-size));
-			}
-		}
-		.body {
-			margin-bottom: rhythm($d-large-line*2);
-		}
-	}
-	@include min-screen(col(16)) {
-		overflow: auto;
-
-		padding-top: rhythm($d-large-line*2);
-		.number {
-			float: left;
-
-			width: 1/4*1*100%;
-			margin-right: -1*100%;
-			margin-left: 0;
-		}
-		.body {
-			float: left;
-
-			width: 1/4*3*100%;
-			margin-right: -1*100%;
-			margin-left: 1/4*100%;
-		}
-		.reference {
-			float: left;
-			clear: left;
-
-			width: 1/4*3*100%;
-			margin-right: -1*100%;
-			margin-left: 1/4*100%;
-		}
-		.date {
-			float: left;
-
-			width: 1/4*1*100%;
-			margin-right: -1*100%;
-			margin-left: 0;
-		}
-	}
-}
-
-.number {
-	font-weight: $bold;
-
-	margin-bottom: rhythm($m-small-line*2, $m-small-size);
-	padding-right: em($m-gut/2, $m-small-size);
-	padding-left: em($m-gut/2, $m-small-size);
-
-	@include adjust-font-size-to($m-small-size, $m-small-line);
-	a {
-		display: inline-block;
-
-		min-width: rhythm($m-small-line*2, $m-small-size);
-		height: rhythm($m-small-line*2, $m-small-size);
-		padding-top: rhythm($m-small-line/2 + 0.2, $m-small-size);
-		padding-right: em($m-gut/4, $m-small-size);
-		padding-bottom: rhythm($m-small-line/2 - 0.2, $m-small-size);
-		padding-left: em($m-gut/4, $m-small-size);
-
-		text-align: center;
-
-		background-color: $c-type-color;
-
-		@include border-radius(rhythm($m-small-line, $m-small-size));
-		&:hover, &:active, &:focus {
-			@include box-shadow($c-light-type-color 0 0 0 0.4em);
-		}
-	}
-	@include min-screen(col(8)) {
-		margin-bottom: rhythm($d-small-line*2, $d-small-size);
-		padding-right: em($d-gut/2, $d-small-size);
-		padding-left: em($d-gut/2, $d-small-size);
-
-		@include adjust-font-size-to($d-small-size, $d-small-line);
-		a {
-			min-width: rhythm($d-small-line*2, $d-small-size);
-			height: rhythm($d-small-line*2, $d-small-size);
-			padding-top: rhythm($d-small-line/2 + 0.2, $d-small-size);
-			padding-right: em($d-gut/4, $d-small-size);
-			padding-bottom: rhythm($d-small-line/2 - 0.2, $d-small-size);
-			padding-left: em($d-gut/4, $d-small-size);
-
-			@include border-radius(rhythm($d-small-line, $d-small-size));
-		}
-	}
-}
-
-.body {
-	font-weight: $bold;
-
-	margin-bottom: rhythm($m-medium-line*2);
-	padding-right: em($m-gut/2 - 4px);
-	padding-left: em($m-gut/2);
-
-	border-left: 4px solid $c-type-color;
-
-	@include min-screen(col(8)) {
-		margin-bottom: rhythm($d-medium-line*2);
-		padding-right: em($d-gut/2 - 4px);
-		padding-left: em($d-gut/2);
-	}
-	a {
-		font-weight: $bold;
-	}
-}
-
-.reference {
-	margin-bottom: rhythm($m-small-line/2, $m-small-size);
-	padding-right: em($m-gut/2, $m-small-size);
-	padding-left: em($m-gut/2, $m-small-size);
-
-	@include adjust-font-size-to($m-small-size, $m-small-line);
-	&:before {
-		float: left;
-
-		width: em($m-gut*3/4, $m-small-size);
-
-		content: "—";
-	}
-	a, span {
-		font-weight: $bold;
-	}
-	@include min-screen(col(8)) {
-		margin-bottom: rhythm($d-small-line/2, $d-small-size);
-		padding-right: em($d-gut/2, $d-small-size);
-		padding-left: em($d-gut/2, $d-small-size);
-
-		@include adjust-font-size-to($d-small-size, $d-small-line);
-		&:before {
-			width: em($d-gut*3/4, $d-small-size);
-		}
-	}
-}
-
-.date {
-	padding-right: em($m-gut/2, $m-small-size);
-	padding-left: em($m-gut/2, $m-small-size);
-
-	@include adjust-font-size-to($m-small-size, $m-small-line);
-	@include min-screen(col(8)) {
-		padding-right: em($d-gut/2, $d-small-size);
-		padding-left: em($d-gut/2, $d-small-size);
-
-		@include adjust-font-size-to($d-small-size, $d-small-line);
-	}
+    @include font-size($d-small-size, $d-small-line);
+  }
 }

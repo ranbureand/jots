@@ -1,10 +1,4 @@
-/*! (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
-
-/*
-** Imports
-*/
-
-@import "compass";
+/*! (c) 2018 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
 ** Utilities
@@ -12,24 +6,28 @@
 
 @import "utilities/colors.scss";
 @import "utilities/media-queries.scss";
-@import "utilities/fonts.scss";
 @import "utilities/utilities.scss";
+@import "utilities/fonts.scss";
 
 /*
 ** Basics
 */
 
+@import "basics/selections.scss";
 @import "basics/basics.scss";
-@import "basics/typography.scss";
+@import "basics/layout-1d.scss";
+@import "basics/layout-2d.scss";
 
 /*
 ** Modules
 */
 
-@import "modules/sundries.scss";
+@import "modules/animations.scss";
 @import "modules/header.scss";
+@import "modules/cover.scss";
 @import "modules/jots.scss";
 @import "modules/footer.scss";
+@import "modules/404.scss";
 
 /*
 ** Print

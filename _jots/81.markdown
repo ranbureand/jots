@@ -4,8 +4,8 @@ number: 81
 title: "What Is Burnout?"
 author: "Patrick Johnson"
 tags:
-- burnout
-- cure
+- Burnout
+- Cure
 
 site: "Patrick Johnson’s Site"
 address: "https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc"

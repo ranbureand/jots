@@ -4,8 +4,8 @@ number: 67
 title: "Uber Doesn’t Want You to See This Document About Its Vast Data Surveillance System"
 author: "Kashmir Hill"
 tags:
-- privacy
-- surveillance
+- Privacy
+- Surveillance
 
 site: “Gizmodo”
 address: "https://gizmodo.com/uber-doesn-t-want-you-to-see-this-document-about-its-va-1795151637"

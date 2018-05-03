@@ -4,8 +4,8 @@ number: 98
 title: "Color schemes"
 author: "Rune Madsen"
 tags:
-- color
-- combo
+- Color
+- Combo
 
 site: "Programming Design Systems"
 address: "https://programmingdesignsystems.com/color/color-schemes/index.html"

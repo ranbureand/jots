@@ -4,8 +4,8 @@ number: 57
 title: "About leaving."
 author: "Chiara Lino"
 tags:
-- comfort
-- zone
+- Comfort
+- Zone
 
 site: "Medium"
 address: "https://medium.com/@chiara_bab/about-leaving-73a639bf0522"
