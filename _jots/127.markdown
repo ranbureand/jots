@@ -1,0 +1,15 @@
+---
+number: 127
+
+title: "Akin's Laws of Spacecraft Design"
+author: "Dave Akin"
+tags:
+- Design 
+- Iterate
+
+site: "Dave Akin’s Site"
+address: "http://spacecraft.ssl.umd.edu/akins_laws.html"
+date: 2018-05-05 00:40:00
+---
+
+Design is an iterative process. The necessary number of iterations is one more than the number you have currently done. This is true at any point in time.
