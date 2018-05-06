@@ -5,7 +5,7 @@ author: Andrea Buran
 exclude: ['README.md']
 
 #baseurl: http://ranbureand.github.io/medlay
-baseurl: /jots
+baseurl: /
 
 timezone: Europe/Rome
 encoding: utf-8
