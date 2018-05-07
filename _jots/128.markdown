@@ -1,0 +1,15 @@
+---
+number: 127
+
+title: "Subjects and Predicates in Language and Logic"
+author: "Dan Roth"
+tags:
+- Grammar v. Logic
+- Language
+
+site: "Grammar Pedagogy for Writing Teachers"
+address: "https://grammarteaching.wordpress.com/2014/01/06/subjects-and-predicates-in-language-and-logic/"
+date: 2018-05-07 09:00:00
+---
+
+Human language is messy, littered with vagueness and ambiguity. With time, usage and meaning drifts. Humans misunderstand and re-interpret […] but a computer program will never puzzle over how to interpret a particularly complex line of code.
