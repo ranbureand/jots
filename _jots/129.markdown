@@ -1,0 +1,15 @@
+---
+number: 129
+
+title: "Priority Guides: A Content-First Alternative to Wireframes"
+author: "Heleen van Nues, Lennart Overkamp"
+tags:
+- Priority Guides
+- Wireframes
+
+site: "A List Apart"
+address: "https://alistapart.com/article/priority-guides-a-content-first-alternative-to-wireframes"
+date: 2018-05-07 10:00:00
+---
+
+But once an interaction designer has created a wireframe, it’s hard for many (we’re not saying all) visual designers to think outside the boundaries set by that wireframe and challenge the ideas it contains.
