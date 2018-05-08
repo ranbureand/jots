@@ -1,7 +1,7 @@
   <footer class="canvas-footer" id="end">
     <div class="footer layout-2d">
       <div class="footer-count">
-        <p>{{ jotCount }} bits, and counting.</p>
+        <p>{{ site.posts.size }} bits, and counting.</p>
       </div>
 
       <div class="footer-explanation">
@@ -10,8 +10,8 @@
       
       <nav class="footer-tags">
         <div class="layout-1d">
-          {% for jot in jotList %}
-            <a class="footer-tag" href="#jot-{{ jot.number }}" title="Jot № {{ jot.number }}">{% for tag in jot.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
+          {% for post in site.posts reversed %}
+            <a class="footer-tag" href="#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
           {% endfor %}
         </div>
       </nav>

@@ -7,12 +7,6 @@ title: Jots
 
 {% include head.html %}
 
-{% assign jotList = site.jots | sort: 'number' %}
-
-{% for jot in jotList %}
-   {% capture jotCount %} {{ jotCount | plus: 1 }} {% endcapture %}
-{% endfor %}
-
 <body>
 
 {% include header.html %}
@@ -27,7 +21,6 @@ title: Jots
 
 <!--<script type="text/javascript" src="{{ site.baseurl }}/scripts/min/smoothscroll.min.js"></script>-->
 <!--<script type="text/javascript" src="{{ site.baseurl }}/scripts/min/main-min.js"></script>-->
-<!--<script type="text/javascript" src="{{ site.baseurl }}/scripts/main.js"></script>-->
 
 </body>
 
