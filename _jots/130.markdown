@@ -1,0 +1,15 @@
+---
+number: 130
+
+title: "Running an Agency"
+author: "Julian Shapiro"
+tags:
+- Agency
+- Run
+
+site: "Julian Shapiro’s Blog"
+address: "https://www.julian.com/blog/running-an-agency"
+date: 2018-05-08 09:35:00
+---
+
+It’s only through having surplus demand that you can let go of mismatched clients without hesitating. And the ability to let go is critical to keeping your team happy.
