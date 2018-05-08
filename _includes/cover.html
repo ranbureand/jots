@@ -1,22 +1,22 @@
     <div class="cover-canvas">
       <div class="cover-playground layout-2d">
-      {% for post in site.posts %}
-        {% assign reference = site.posts.size | minus: 1 %}
-        {% if forloop.first %}
+      {%- for post in site.posts %}
+        {%- assign reference = site.posts.size | minus: 1 %}
+        {%- if forloop.first %}
         <div class="cover" id="jot-{{ post.number }}" data-tag="{{ post.tag }}">
           <div class="cover-number"><a href="#jot-{{ post.number }}">{{ post.number }}</a></div>
           <blockquote class="cover-body" {% if post.address %}cite="{{ post.address }}"{% endif %}>
             {{ post.content }}
           </blockquote>
-          {% if post.site %}
+          {%- if post.site %}
           <div class="cover-reference"><span>{{ post.author }}</span> in {% if post.address %}<a href="{{ post.address }}" target="_blank" title="{{ post.title }}"><cite>{{ post.title }}</cite></a>{% else %}<span><cite>{{ post.title }}</cite></span>{% endif %}, from <span>{{ post.site }}</span>.</div>
           <div class="cover-date">Retrieved on <span>{{ post.date | date: "%B" }} {% assign d = post.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %}, {{ post.date | date: "%Y" }}, at {{ post.date | date: "%H:%M" }}</span>.</div>
-          {% else %}
+          {%- else %}
           <div class="cover-reference"><span>{{ post.author }}</span> in <span><cite>{{ post.title }}</cite></span>{% if post.page %}, p. <span>{{ post.page }}</span>{% elsif post.pages %}, pp. <span>{{ post.pages }}</span>{% endif %}.</div>
           <div class="cover-date"><span>{{ post.publisher }}</span>, <span>{{ post.year }}</span>.</div>
-          {% endif %}
+          {%- endif %}
         </div>
-        {% endif %}
-      {% endfor %}
+        {%- endif %}
+      {%- endfor %}
       </div>
     </div>

@@ -10,9 +10,9 @@
       
       <nav class="footer-tags">
         <div class="layout-1d">
-          {% for post in site.posts reversed %}
+          {%- for post in site.posts reversed %}
             <a class="footer-tag" href="#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
-          {% endfor %}
+          {%- endfor %}
         </div>
       </nav>
 
