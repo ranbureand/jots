@@ -12,7 +12,4 @@ address: "https://www.oreilly.com/ideas/the-3-foundations-of-lean-ux"
 date: 2018-05-11 13:55:00
 ---
 
-[…] the MVP strategy has a clear objective prior to engaging with customers and seeks reassurance on that strategy […].
-
-
 The assumption in Lean UX is that the initial product designs will be wrong, so the team’s goal should be to find out what they got wrong as soon as possible.
