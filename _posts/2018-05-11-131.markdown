@@ -1,0 +1,15 @@
+---
+number: 131
+
+title: "Minimum Viable Product (MVP) and Design—Balancing Risk to Gain Reward"
+author: "Interaction Design Foundation"
+tags:
+- MVP
+- Test
+
+site: "Interaction Design Foundation"
+address: "https://www.interaction-design.org/literature/article/minimum-viable-product-mvp-and-design-balancing-risk-to-gain-reward"
+date: 2018-05-11 10:15:00
+---
+
+[…] the MVP strategy has a clear objective prior to engaging with customers and seeks reassurance on that strategy […].
