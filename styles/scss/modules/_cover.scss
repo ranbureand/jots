@@ -87,20 +87,20 @@
     }
   }
   @include min-screen(col(8)) {
-    margin-bottom: em($d-base-rhythm*2, $d-medium-size);
-    padding-right: em($d-gut/2, $d-medium-size);
-    padding-left: em($d-gut/2, $d-medium-size);
+    margin-bottom: em($d-base-rhythm*2, $d-large-size);
+    padding-right: em($d-gut/2, $d-large-size);
+    padding-left: em($d-gut/2, $d-large-size);
 
-    @include font-size($d-medium-size, $d-medium-line);
+    @include font-size($d-large-size, $d-large-line);
     a {
-      min-width: em($d-medium-line*2, $d-medium-size);
-      height: em($d-medium-line*2, $d-medium-size);
-      padding-top: em($d-medium-line/2 + 2, $d-medium-size);
-      padding-right: em($d-gut/4, $d-medium-size);
-      padding-bottom: em($d-medium-line/2 - 2, $d-medium-size);
-      padding-left: em($d-gut/4, $d-medium-size);
+      min-width: em($d-large-line*2, $d-large-size);
+      height: em($d-large-line*2, $d-large-size);
+      padding-top: em($d-large-line/2 + 2, $d-large-size);
+      padding-right: em($d-gut/4, $d-large-size);
+      padding-bottom: em($d-large-line/2 - 2, $d-large-size);
+      padding-left: em($d-gut/4, $d-large-size);
 
-      border-radius: em($d-medium-line, $d-medium-size);
+      border-radius: em($d-large-line, $d-large-size);
     }
   }
 }
@@ -116,9 +116,9 @@
   border-left: 4px solid $c-type-color;
 
   p {
-    @include font-size($m-large-size, $m-large-line);
+    @include font-size($m-extra-large-size, $m-extra-large-line);
     & + p {
-      margin-top: em($m-large-line/2, $m-large-size);
+      margin-top: em($m-extra-large-line/2, $m-extra-large-size);
     }
   }
   a {
@@ -129,18 +129,18 @@
     padding-right: em($d-gut/2);
     padding-left: em($d-gut/2*3 - 4px);
     p {
-      @include font-size($t-large-size, $t-large-line);
+      @include font-size($t-extra-large-size, $t-extra-large-line);
       & + p {
-        margin-top: em($t-large-line/2, $t-large-size);
+        margin-top: em($t-extra-large-line/2, $t-extra-large-size);
       }
     }
   }
   @include min-screen(col(12)) {
     padding-left: em($d-gut*2 - 4px);
     p {
-      @include font-size($d-large-size, $d-large-line);
+      @include font-size($d-extra-large-size, $d-extra-large-line);
       & + p {
-        margin-top: em($d-large-line/2, $d-large-size);
+        margin-top: em($d-extra-large-line/2, $d-extra-large-size);
       }
     }
   }

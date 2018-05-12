@@ -7,11 +7,24 @@
       <div class="footer-explanation">
         <p><a href="{{ site.baseurl }}/">{{ site.title }}</a> is an ongoing collection of bits from inspiring pieces about design and development. The bits are retrieved from various digital and physical sources and jotted here, to recall the food-for-thought later.</p>
       </div>
-      
+
+      {%- assign post_counter = 1 %}
+      {%- assign pagination_counter = paginator.total_pages %}
+      {%- assign pagination_threshold = paginator.total_posts | minus : paginator.per_page %}
+
       <nav class="footer-tags">
         <div class="layout-1d">
           {%- for post in site.posts reversed %}
-            <a class="footer-tag" href="#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
+          {%- if post_counter > paginator.per_page | times : pagination_counter %}
+            {%- assign pagination_counter = pagination_counter | minus : 1 %}
+            {%- assign post_counter = 0 %}
+          {%- endif %}
+          {%- if post.number > pagination_threshold %}
+          <a class="footer-tag" href="/#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %} dd</a>
+          {%- else %}
+          <a class="footer-tag" href="{{ site.baseurl }}/jots/page{{ pagination_counter }}#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
+          {%- endif %}
+          {%- assign post_counter = post_counter | plus : 1 %}
           {%- endfor %}
         </div>
       </nav>

@@ -12,15 +12,19 @@ title: Jots
 {% include header.html %}
 
   <main>
+{% if page.url == '/' %}
 {% include cover.html %}
+{%- endif %}
 
 {% include jots.html %}
+
+{% include pagination.html %}
+
   </main>
 
 {% include footer.html %}
 
 <!--<script type="text/javascript" src="{{ site.baseurl }}/scripts/min/smoothscroll.min.js"></script>-->
-<!--<script type="text/javascript" src="{{ site.baseurl }}/scripts/min/main-min.js"></script>-->
 
 </body>
 

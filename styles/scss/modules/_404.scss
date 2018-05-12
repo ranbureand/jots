@@ -37,9 +37,9 @@
 
   color: $l-strong-type-color;
 
-  @include font-size($m-extra-large-size, $m-extra-large-line);
+  @include font-size($m-extra-extra-large-size, $m-extra-extra-large-line);
   @include min-screen(col(8)) {
-    @include font-size($d-extra-large-size, $d-extra-large-line);
+    @include font-size($d-extra-extra-large-size, $d-extra-extra-large-line);
   }
 }
 

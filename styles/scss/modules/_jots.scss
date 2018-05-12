@@ -4,7 +4,7 @@
 ** Jots
 */
 
-.canvas-playground {
+.playground-canvas {
   background-color: $l-background-color;
   @include min-screen(col(8)) {
     padding-left: em($d-gut/2);
@@ -128,9 +128,9 @@
   color: $d-strong-type-color;
   border-left: 4px solid $c-type-color;
   p {
-    @include font-size($m-medium-size, $m-medium-line);
+    @include font-size($m-large-size, $m-large-line);
     & + p {
-      margin-top: em($m-medium-line/2, $m-medium-size);
+      margin-top: em($m-large-line/2, $m-large-size);
     }
   }
   a {
@@ -143,9 +143,9 @@
     padding-right: em($d-gut/2 - 4px);
     padding-left: em($d-gut/2);
     p {
-      @include font-size($d-medium-size, $d-medium-line);
+      @include font-size($d-large-size, $d-large-line);
       & + p {
-        margin-top: em($d-medium-line/2, $d-medium-size);
+        margin-top: em($d-large-line/2, $d-large-size);
       }
     }
   }

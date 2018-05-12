@@ -21,26 +21,32 @@ $d-base-rhythm:             $base-unit*10;
 ** d : desktop
 */
 
-$m-extra-large-size:    80px;
-$m-extra-large-line:    $base-unit*30;
+$m-extra-extra-large-size:    80px;
+$m-extra-extra-large-line:    $base-unit*30;
 
-$d-extra-large-size:    120px;
-$d-extra-large-line:    $base-unit*40;
+$d-extra-extra-large-size:    120px;
+$d-extra-extra-large-line:    $base-unit*40;
 
-$m-large-size:          20px;
-$m-large-line:          $base-unit*7;
+$m-extra-large-size:          20px;
+$m-extra-large-line:          $base-unit*7;
 
-$t-large-size:          32px;
-$t-large-line:          $base-unit*10;
+$t-extra-large-size:          32px;
+$t-extra-large-line:          $base-unit*10;
 
-$d-large-size:          40px;
-$d-large-line:          $base-unit*14;
+$d-extra-large-size:          40px;
+$d-extra-large-line:          $base-unit*14;
 
-$m-medium-size:         20px;
-$m-medium-line:         $base-unit*7;
+$m-large-size:         20px;
+$m-large-line:         $base-unit*7;
 
-$d-medium-size:         20px;
-$d-medium-line:         $base-unit*7;
+$d-large-size:         20px;
+$d-large-line:         $base-unit*7;
+
+$m-medium-size:         16px;
+$m-medium-line:         $base-unit*6;
+
+$d-medium-size:         16px;
+$d-medium-line:         $base-unit*6;
 
 $m-small-size:          13px;
 $m-small-line:          $base-unit*5;
@@ -58,7 +64,6 @@ $d-extra-small-line:    $base-unit*4;
 ** Font weights
 */
 
-$bold:      700;
 $semi-bold: 600;
 $medium:    500;
 $normal:    400;

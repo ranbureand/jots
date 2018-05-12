@@ -19,6 +19,18 @@
   }
 }
 
+.layout-1d-center {
+  justify-content: center;
+}
+
+.layout-1d-ltr {
+  justify-content: flex-start;
+}
+
+.layout-1d-rtl {
+  justify-content: flex-end;
+}
+
 [class*='element-1d'] {
   flex-grow: 0;
   flex-shrink: 1;

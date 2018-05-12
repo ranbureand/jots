@@ -48,9 +48,9 @@
 
 .footer-count,
 .footer-explanation {
-  @include font-size($m-medium-size, $m-medium-line);
+  @include font-size($m-large-size, $m-large-line);
   @include min-screen(col(8)) {
-    @include font-size($d-medium-size, $d-medium-line);
+    @include font-size($d-large-size, $d-large-line);
   }
 }
 
