@@ -28,5 +28,5 @@ kramdown:
 plugins: [jekyll-paginate]
 
 # Pagination
-paginate: 45
+paginate: 48
 paginate_path: '/jots/page:num/'

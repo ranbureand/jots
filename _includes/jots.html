@@ -2,7 +2,7 @@
       <div class="playground layout-2d">
         <div class="jots layout-1d">
         {%- for post in paginator.posts %}
-          {%- unless forloop.first %}
+          {%- unless post.number == paginator.total_posts %}
           <div class="jot element-1d" id="jot-{{ post.number }}" data-tag="{{ post.tag }}">
             <div class="jot-number"><a href="#jot-{{ post.number }}">{{ post.number }}</a></div>
             <blockquote class="jot-body" {% if post.address %}cite="{{ post.address }}"{% endif %}>
