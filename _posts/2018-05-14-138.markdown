@@ -7,9 +7,10 @@ tags:
 - Phase Two
 - Software
 
-page: "00"
+page: "144/3889"
 publisher: "O’Reilly Media"
 year: "2017"
+date: 2018-05-14 09:55:00
 ---
 
 The biggest lie in software is Phase Two.
