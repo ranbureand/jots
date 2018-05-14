@@ -1,0 +1,15 @@
+---
+number: 136
+
+title: "Stop Brainstorming and Start Sprinting"
+author: "Jake Knapp"
+tags:
+- Brainstorming
+- Individuality
+
+site: "Medium"
+address: "https://medium.com/@jakek/stop-brainstorming-and-start-sprinting-16180839b43d"
+date: 2018-05-14 09:45:00
+---
+
+In a sprint, decisions are made by one person: the Decider. […] With the Decider in the room making all the calls, the winning solutions stay opinionated.
