@@ -1,0 +1,15 @@
+---
+number: 135
+
+title: "Stop Brainstorming and Start Sprinting"
+author: "Jake Knapp"
+tags:
+- Brainstorming
+- Individuality
+
+site: "Medium"
+address: "https://medium.com/@jakek/stop-brainstorming-and-start-sprinting-16180839b43d"
+date: 2018-05-14 09:40:00
+---
+
+Not a single new idea generated in the brainstorms had been built or launched. The best ideas — the solutions that teams actually executed — came from individual work.
