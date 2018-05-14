@@ -8,7 +8,7 @@ tags:
 - Software
 
 page: "00"
-publisher: "O'Reilly Media"
+publisher: "O’Reilly Media"
 year: "2017"
 ---
 
