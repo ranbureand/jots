@@ -1,8 +1,8 @@
 ---
 number: 134
 
-title: "The 3 foundations of Lean UX"
-author: "Games Like “BattleTech” Are Slow For a Reason"
+title: "Games Like “BattleTech” Are Slow For a Reason"
+author: "Bruno Dias"
 tags:
 - Time
 - Video Games
