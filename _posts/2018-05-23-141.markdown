@@ -13,4 +13,4 @@ date: 2018-05-23 08:30:00
 
 ---
 
-A salesperson with little understanding of technical implementation, or of the teams delivering the work, sells the client a fantastic vision, on a knowingly impossible timeline, scope and budget.
+A salesperson with little understanding of technical implementation, or of the teams delivering the work, sells the client a fantastic vision, on a knowingly impossible timeline, scope and budget. In doing so, they not only sell the project but also sell their own people, upon whose shoulders the problem will sit, down the river in the process.
