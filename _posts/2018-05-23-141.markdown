@@ -1,0 +1,16 @@
+---
+number: 141
+
+title: "State of the Digital Nation 2020: Venture Road"
+author: "Jules Ehrhardt"
+tags:
+- Agency
+- Death
+
+site: "Medium"
+address: "https://medium.com/swlh/state-of-the-digital-nation-2020-venture-road-22de4377836"
+date: 2018-05-23 08:30:00
+
+---
+
+A salesperson with little understanding of technical implementation, or of the teams delivering the work, sells the client a fantastic vision, on a knowingly impossible timeline, scope and budget.
