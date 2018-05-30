@@ -8,7 +8,7 @@ tags:
 - Cure
 
 site: "Patrick Johnson’s Site"
-address: "https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc"
+address: "http://pbj.me/writing/what-is-burnout.htmlc"
 date: 2017-09-12 22:55:00
 ---
 
