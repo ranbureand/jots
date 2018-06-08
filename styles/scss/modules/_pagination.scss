@@ -31,7 +31,10 @@
     grid-column: 1 / 3;
   }
   @include min-screen(col(12)) {
-    grid-column: 2 / 4;
+    grid-column: 1 / 4;
+  }
+  @include min-screen(col(16)) {
+    grid-column: 1 / 5;
   }
 }
 
