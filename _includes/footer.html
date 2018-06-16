@@ -9,18 +9,25 @@
       </div>
 
       {%- assign post_counter = 1 %}
-      {%- assign pagination_counter = paginator.total_pages %}
-      {%- assign pagination_threshold = paginator.total_posts | minus : paginator.per_page %}
+      {%- assign pagination_counter = paginator.total_pages | minus : 1 %}
+      {%- assign pagination_threshold_top = paginator.total_posts | minus : paginator.per_page %}
+      {%- assign pagination_threshold_bottom = paginator.total_posts | modulo : paginator.total_pages | plus : 1 %}
 
       <nav class="footer-tags">
         <div class="layout-1d">
           {%- for post in site.posts reversed %}
-          {%- if post_counter > paginator.per_page | times : pagination_counter %}
-            {%- assign pagination_counter = pagination_counter | minus : 1 %}
-            {%- assign post_counter = 0 %}
-          {%- endif %}
-          <a class="footer-tag" href="{% if post.number > pagination_threshold %}/#jot-{{ post.number }}{% else %}{{ site.baseurl }}/jots/page{{ pagination_counter }}#jot-{{ post.number }}{% endif %}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
-          {%- assign post_counter = post_counter | plus : 1 %}
+            {% if post.number < pagination_threshold_bottom %}
+            <a class="footer-tag" href="{{ site.baseurl }}/jots/page{{ paginator.total_pages }}#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
+            {% elsif post.number >= pagination_threshold_bottom and post.number <= pagination_threshold_top %}
+            {%- if post_counter > paginator.per_page %}
+              {%- assign pagination_counter = pagination_counter | minus : 1 %}
+              {%- assign post_counter = 1 %}
+            {%- endif %}
+            <a class="footer-tag" href="{{ site.baseurl }}/jots/page{{ pagination_counter }}#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
+            {%- assign post_counter = post_counter | plus : 1 %}
+            {% elsif post.number > pagination_threshold_top %}
+            <a class="footer-tag" href="/#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
+            {% endif %}
           {%- endfor %}
         </div>
       </nav>
