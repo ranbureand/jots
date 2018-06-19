@@ -1,0 +1,16 @@
+---
+number: 146
+
+title: "Designer Ethics & The Moral Implications of our Apps"
+author: "Anton Stén"
+tags:
+- Ethics
+- Dark Patterns
+
+site: "Anton Stén’s Site"
+address: "https://www.antonsten.com/moral-implications-apps/"
+date: 2018-06-19 09:55:00
+
+---
+
+How about we just call ‘dark patterns’ what they truly are - bad design and bad ethics. It’s dishonest and it’s short sighted.
