@@ -1,0 +1,15 @@
+---
+number: 147
+
+title: "The Cult of the Complex"
+author: "Jeffrey Zeldman"
+tags:
+- Simple
+- Hand-coded
+
+site: "A List Apart"
+address: "https://alistapart.com/article/cult-of-the-complex"
+date: 2018-06-20 10:10:00
+---
+
+Indeed, many designers and developers I speak with would rather dance naked in public than admit to posting a site built with hand-coded, progressively enhanced HTML, CSS, and JavaScript they understand and wrote themselves.
