@@ -1,0 +1,17 @@
+---
+number: 151
+
+title: "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days"
+author: "Jake Knapp"
+tags:
+- Feedback
+- Feelings
+
+page: "207"
+publisher: "Simon & Schuster"
+year: "2016"
+
+date: "2018-07-01 00:20:00"
+---
+
+“There are no right or wrong answers. Since I didn’t design this, you won’t hurt my feelings or flatter me. In fact, frank, candid feedback is the most helpful.”
