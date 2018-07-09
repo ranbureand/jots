@@ -1,0 +1,15 @@
+---
+number: 153
+
+title: "the decentralized web"
+author: "Chelsea Barabas, Neha Narula"
+tags:
+- Business Model
+- Consolidation
+
+site: "Digital Currency Initiative"
+address: "https://dci.mit.edu/decentralizedweb/"
+date: 2018-08-09 09:40:00
+---
+
+Underlying these concerns is the predominant business model for platforms on the Web—user-targeted advertising. Advertising based business models encourage the consolidation and the hoarding of user views and data, driving platforms to become ever larger.
