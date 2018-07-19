@@ -1,0 +1,15 @@
+---
+number: 160
+
+title: "Jobs-to-be-Done, take two"
+author: "Tomasz Tunguz"
+tags:
+- Jobs-to-be-Done
+- Perspective
+
+site: "Zenkit Blog"
+address: "https://zenkit.com/en/blog/jobs-to-be-done-take-two/"
+date: 2018-08-19 15:00:00
+---
+
+To paint a picture, Jobs-to-be-Done, or JTBD for short, follows the idea that customers purchase products or services to get jobs done, not for the products or services themselves.
