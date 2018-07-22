@@ -5,12 +5,9 @@
 */
 
 .pagination-canvas {
-  //min-height: calc(100vh - #{em($m-small-line/4)} - #{em($m-small-line*3)});
-
   background-color: $l-background-color;
 
   @include min-screen(col(8)) {
-    //min-height: calc(100vh - #{em($d-small-line/4)} - #{em($d-base-rhythm)} - #{em($d-small-line*3)});
     padding-right: em($d-gut/2);
     padding-left: em($d-gut/2);
   }
