@@ -1,0 +1,15 @@
+---
+number: 159
+
+title: "Disagree and Commit—A Management Principle for Highly Functioning Teams"
+author: "Tomasz Tunguz"
+tags:
+- Commit
+- Disagree
+
+site: "Tomasz Tunguz’s Site"
+address: "http://tomtunguz.com/disagree-and-commit/"
+date: 2018-08-17 23:35:00
+---
+
+Disagree and commit is a management technique for handling conflict. There are two parts to it. First, expecting and demanding teammates to voice their disgreement. Second, no matter their point of view, once a decision has been made, everyone commits to its success.

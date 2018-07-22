@@ -1,0 +1,15 @@
+---
+number: 152
+
+title: "A Lost Secret: How To Get Kids To Pay Attention"
+author: "Michaeleen Doucleff"
+tags:
+- Attention
+- Motivation
+
+site: "npr"
+address: "https://www.npr.org/sections/goatsandsoda/2018/06/21/621752789/a-lost-secret-how-to-get-kids-to-pay-attention"
+date: 2018-07-03 10:00:00
+---
+
+“One of the things we’ve realized is that it’s hard to separate motivation from sustained attention,” he says. “If we’re not looking at motivation, then we’re really missing the boat in terms of attention.”
