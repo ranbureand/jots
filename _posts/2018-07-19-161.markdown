@@ -9,7 +9,7 @@ tags:
 
 site: "JTBD"
 address: "https://jtbd.info/5-tips-for-writing-a-job-story-7c9092911fc9"
-date: 2018-08-19 23:40:00
+date: 2018-07-19 23:40:00
 ---
 
 The more context we have for the situation, the better I can design a solution.
