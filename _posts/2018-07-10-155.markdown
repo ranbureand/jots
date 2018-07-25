@@ -9,7 +9,7 @@ tags:
 
 site: "Medium"
 address: "https://medium.com/opendoor-design/make-it-pop-how-to-not-suck-at-giving-feedback-d8af00f4f057"
-date: 2018-08-10 23:40:00
+date: 2018-07-10 23:40:00
 ---
 
 Remember that there is an appropriate time for different types of feedback. Cheerlead early, and critique more thoroughly later.
