@@ -9,7 +9,7 @@ tags:
 
 site: "Medium"
 address: "https://medium.com/opendoor-design/make-it-pop-how-to-not-suck-at-giving-feedback-d8af00f4f057"
-date: 2018-08-10 23:40:00
+date: 2018-07-10 23:40:00
 ---
 
 Be comfortable letting things go, and remember that your teammates are smart people with expertise.
