@@ -9,7 +9,7 @@ tags:
 
 site: "Invision Blog"
 address: "https://www.invisionapp.com/blog/webinar-recap-the-wicked-craft-of-enterprise-ux/"
-date: 2018-08-13 11:45:00
+date: 2018-07-13 11:45:00
 ---
 
 Artifacts can force clarity of the complexities of the wicked problem space.
