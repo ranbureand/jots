@@ -9,7 +9,7 @@ tags:
 
 site: "JTBD"
 address: "https://jtbd.info/situational-segmentation-vs-customer-market-segmentation-860cc865eed5"
-date: 2018-08-19 23:20:00
+date: 2018-07-19 23:20:00
 ---
 
 If someone wanted to segment them by market or customer, these segments couldn’t be more separate. Yet, if you thought of them in situational segments, you’d find these segments to be tangent—maybe even the same.
