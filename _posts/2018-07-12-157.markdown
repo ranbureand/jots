@@ -9,7 +9,7 @@ tags:
 
 site: "Boagworld"
 address: "https://boagworld.com/usability/usability-testing/"
-date: 2018-08-12 15:10:00
+date: 2018-07-12 15:10:00
 ---
 
 Continually look for opportunities to test the direction you are going in. If people disagree, test. If you aren’t sure about your approach, check it.
