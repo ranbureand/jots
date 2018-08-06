@@ -1,0 +1,15 @@
+---
+number: 167
+
+title: "Stanford Guidelines for Web Credibility"
+author: "Stanford Web Credibility Research"
+tags:
+- Credibility
+- Guidelines
+
+site: "Stanford Persuasive Technology Lab"
+address: "https://credibility.stanford.edu/guidelines/index.html"
+date: 2018-08-06 10:00:00
+---
+
+[…] Conversely, don’t link to outside sites that are not credible. Your site becomes less credible by association.
