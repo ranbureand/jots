@@ -11,9 +11,18 @@
       {%- assign post_counter = 1 %}
       {%- assign pagination_counter = paginator.total_pages | minus : 1 %}
       {%- assign pagination_threshold_top = paginator.total_posts | minus : paginator.per_page %}
-      {%- assign pagination_threshold_bottom = paginator.total_posts | modulo : paginator.total_pages | plus : 1 %}
+      {%- assign pagination_threshold_bottom = paginator.total_posts | modulo : paginator.per_page | plus : 1 %}
 
       <nav class="footer-tags">
+        {%- comment %}
+        <ul>
+          <li>paginator.per_page : {{ paginator.per_page }}</li>
+          <li>paginator.total_pages : {{ paginator.total_pages }}</li>
+          <li>paginator.total_posts : {{ paginator.total_posts }}</li>
+          <li>pagination_threshold_top : {{ pagination_threshold_top }}</li>
+          <li>pagination_threshold_bottom : {{ pagination_threshold_bottom }}</li>
+        </ul>
+        {%- endcomment %}
         <div class="layout-1d">
           {%- for post in site.posts reversed %}
             {% if post.number < pagination_threshold_bottom %}
