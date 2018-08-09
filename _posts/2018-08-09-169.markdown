@@ -1,0 +1,15 @@
+---
+number: 169
+
+title: "How learning Design Sprint helped me improve my UI/UX design process"
+author: "Vasil Nedelchev"
+tags:
+- Design
+- Process
+
+site: "UX Collective"
+address: "https://uxdesign.cc/how-learning-design-sprint-helped-me-improve-my-ui-ux-design-process-98f5081857e2"
+date: 2018-08-09 09:50:00
+---
+
+Not making it clear from the start that I have a process, and clients taking control of the design process […].
