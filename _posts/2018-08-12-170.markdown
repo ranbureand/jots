@@ -1,0 +1,15 @@
+---
+number: 170
+
+title: "The Epidemic of Passable Movies"
+author: "The Nerdwriter"
+tags:
+- Passable
+- Vocabulary
+
+site: "The Nerdwriter’s YouTube Channel"
+address: "https://www.youtube.com/watch?v=Ukk5TJL27pE"
+date: 2018-08-12 23:00:00
+---
+
+There is this huge library, this huge vocabulary of actions built up over the years that people you know don’t really do, but which happened so often in TV and movies that they’re familiar enough to an audience that they become, well, passable for human motivations.
