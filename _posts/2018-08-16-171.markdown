@@ -4,8 +4,8 @@ number: 171
 title: "Developer’s Dilemma"
 author: "Casey O’Donnel"
 tags:
-- Prototype
-- Sprint
+- Designers
+- Pegboard
 
 page: "17"
 publisher: "The MIT Press"
