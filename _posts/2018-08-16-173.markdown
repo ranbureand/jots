@@ -1,0 +1,15 @@
+---
+number: 173
+
+title: "GDC rant heard ’round the world"
+author: "Greg Costikyan"
+tags:
+- Nintendo
+- Rant
+
+site: "GameSpot"
+address: "https://www.gamespot.com/articles/gdc-rant-heard-round-the-world/1100-6120449/"
+date: 2018-08-16 15:55:00
+---
+
+Nintendo established the business model under which we are crucified today. Nintendo said, “pay us a royalty not on sales, but on manufacturing.” Nintendo said, “we will decide what games we’ll allow you to publish,” ostensibly to prevent another crash like that of 1983, but in reality to quash any innovation but their own. Iwata-san said he has the heart of the gamer, and my question is what poor bastard’s chest did he carve it from?
