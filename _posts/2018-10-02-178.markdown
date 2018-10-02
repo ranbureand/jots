@@ -1,0 +1,15 @@
+---
+number: 178
+
+title: "Ditch MVPs, Adopt Minimum Viable Prototypes (MVPr)"
+author: "Alexandru Giuseppe Ispas"
+tags:
+- Guesswork
+- Prototype
+
+site: "Toptal"
+address: "https://www.toptal.com/designers/prototyping/minimum-viable-prototype"
+date: 2018-10-02 09:45:00
+---
+
+The earliest decisions of the digital product design process are, at best, based on guesswork. Until a product is in the hands of actual users, everything is theoretical.
