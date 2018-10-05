@@ -1,0 +1,15 @@
+---
+number: 180
+
+title: "Use Cases For Flexbox"
+author: "Rachel Andrew"
+tags:
+- Flexbox
+- Grid
+
+site: "Designer News"
+address: "https://www.smashingmagazine.com/2018/10/flexbox-use-cases/"
+date: 2018-10-05 10:10:00
+---
+
+The grid example is of two-dimensional layout. Layout in rows and columns at the same time. The Flexbox example is one-dimensional layout.
