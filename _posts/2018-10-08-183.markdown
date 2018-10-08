@@ -1,0 +1,15 @@
+---
+number: 183
+
+title: "“I don’t need user testing” Part I: Understanding clients’ frictions"
+author: "Jonathan Widawski"
+tags:
+- User Testing
+- Validation
+
+site: "The A-Maze-ing Blog"
+address: "https://blog.doist.com/mental-health-and-remote-work-1b77616f6945"
+date: 2018-10-08 10:45:00
+---
+
+One of the first things you learn as a UX designer is to not let ego drive your decisions regarding design; one of the hardest thing to do as a UX designer is to pass on that knowledge to your client.
