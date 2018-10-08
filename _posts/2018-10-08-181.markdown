@@ -2,7 +2,7 @@
 number: 181
 
 title: "Avoiding burnout: lessons learned from a 19th century philosopher"
-author: " Itamar Turner-Trauring"
+author: "Itamar Turner-Trauring"
 tags:
 - Burnout
 - Rational Thought
