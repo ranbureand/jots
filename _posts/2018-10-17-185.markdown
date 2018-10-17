@@ -12,4 +12,4 @@ address: "https://www.youtube.com/watch?v=X_G00jYm5n0"
 date: 2018-10-17 09:00:00
 ---
 
-because essentially, it is a character saying: “Whatever you do, don’t do that.”. It tells the audience to associate a certain value with a certain action: crossing the streams = bad.
+[…] because essentially, it is a character saying: “Whatever you do, don’t do that”. It tells the audience to associate a certain value with a certain action: crossing the streams = bad.
