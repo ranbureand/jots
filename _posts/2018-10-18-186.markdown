@@ -1,0 +1,15 @@
+---
+number: 186
+
+title: "Designing for Cognitive Differences"
+author: "Brandon Gregory"
+tags:
+- Attention
+- Motion
+
+site: "A List Apart"
+address: "https://alistapart.com/article/designing-for-cognitive-differences"
+date: 2018-10-18 09:20:00
+---
+
+Unnecessary motion […] are nothing but a barrier for these users. If the motion is actually accomplishing something, you have to ask if what you’re drawing attention to is worth sacrificing other content on the page in return.
