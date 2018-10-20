@@ -39,10 +39,12 @@
 }
 
 .jot {
+  animation-duration: $duration*4;
+  animation-name: elementInUp;
+  animation-fill-mode: both;
   width: 100%/1*1;
   padding-top: em($m-base-rhythm*2);
   padding-bottom: em($m-base-rhythm*2);
-
   color: $d-type-color;
 
   &:target {
@@ -52,7 +54,6 @@
         animation-duration: 2.5s;
         animation-timing-function: ease;
         animation-iteration-count: infinite;
-
         background-color: $d-type-color;
       }
     }
@@ -70,9 +71,15 @@
   }
 }
 
+
+@for $i from 1 through 48 {
+  .jot:nth-child(#{$i}n) {
+    animation-delay: #{$i * $duration/8};
+  }
+}
+
 .jot-number {
   font-weight: $medium;
-
   margin-bottom: em($m-base-rhythm*1.5, $m-small-size);
   padding-right: em($m-gut/2, $m-small-size);
   padding-left: em($m-gut/2, $m-small-size);
@@ -80,16 +87,13 @@
   @include font-size($m-small-size, $m-small-line);
   a {
     display: inline-block;
-
     min-width: em($m-small-line*2, $m-small-size);
     height: em($m-small-line*2, $m-small-size);
     padding-top: em($m-small-line/2 + 2, $m-small-size);
     padding-right: em($m-gut/4, $m-small-size);
     padding-bottom: em($m-small-line/2 - 2, $m-small-size);
     padding-left: em($m-gut/4, $m-small-size);
-
     text-align: center;
-
     color: $l-strong-type-color;
     border-radius: em($m-small-line, $m-small-size);
     background-color: $c-type-color;
@@ -112,7 +116,6 @@
       padding-right: em($d-gut/4, $d-small-size);
       padding-bottom: em($d-small-line/2 - 2, $d-small-size);
       padding-left: em($d-gut/4, $d-small-size);
-
       border-radius: em($d-small-line, $d-small-size);
     }
   }
@@ -120,11 +123,9 @@
 
 .jot-body {
   font-weight: $semi-bold;
-
   margin-bottom: em($m-base-rhythm);
   padding-right: em($m-gut/2);
   padding-left: em($m-gut/4*3 - 4px);
-
   color: $d-strong-type-color;
   border-left: 4px solid $c-type-color;
   p {
@@ -159,10 +160,8 @@
   @include font-size($m-small-size, $m-small-line);
   &:before {
     float: left;
-
     width: em($m-gut*3/4, $m-small-size);
-
-    content: '—';
+    content: "—";
   }
   a,
   span {

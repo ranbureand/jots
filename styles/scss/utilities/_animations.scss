@@ -1,0 +1,27 @@
+/* (c) 2018 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Animations
+*/
+
+@keyframes elementIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+
+@keyframes elementInUp {
+  0% {
+    transform: translate(0, em($d-base-rhythm/2));
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

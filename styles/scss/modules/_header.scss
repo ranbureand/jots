@@ -11,7 +11,6 @@
   @include min-screen(col(8)) {
     padding-right: em($d-gut/2);
     padding-left: em($d-gut/2);
-
     border-top: em($d-small-line/4) solid $c-type-color;
   }
   @include min-screen(col(12)) {
@@ -21,6 +20,9 @@
 }
 
 .header {
+  animation-duration: $duration*4;
+  animation-name: elementIn;
+  animation-fill-mode: both;
   color: $l-type-color;
 
   h1 {
@@ -28,11 +30,9 @@
   }
   a {
     font-weight: $medium;
-
     color: $l-strong-type-color;
     span {
       font-weight: $normal;
-
       color: $l-type-color;
     }
     &:hover,
@@ -59,7 +59,6 @@
   }
   a {
     display: inline-block;
-
     min-height: em($m-small-line, $m-small-size);
     padding-top: em($m-small-line, $m-small-size);
     padding-bottom: em($m-small-line, $m-small-size);
@@ -81,6 +80,5 @@
 
 .header-index {
   text-align: right;
-
   grid-column: 3 / 5;
 }

@@ -16,12 +16,9 @@
 html {
   font-size: 100% * $base-font-size / $browser-default-font-size;
   font-weight: $normal;
-
   box-sizing: border-box;
   height: 100%;
-
   letter-spacing: 0.02em;
-
   color: $d-type-color;
 
   @include font-size($base-font-size, $base-font-line);
@@ -30,33 +27,30 @@ html {
   @include face(sans); // normalize.css
 }
 
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
-
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent;
 }
 
 body {
   font-weight: $normal;
-
   position: relative;
-
   width: 100%;
   height: 100%;
   margin: 0; // normalize.css
 
   counter-reset: tags;
-
   background-color: $c-background-color;
-
   scroll-behavior: smooth;
   @include min-screen(col(12)) {
     display: table;
   }
 }
+
 
 /*
 ** HTML5
@@ -107,7 +101,6 @@ a {
   transition-duration: $duration, $duration, $duration, $duration, $duration;
   transition-property: color, background-color, border-color, box-shadow, text-shadow;
   text-decoration: none;
-
   color: $d-strong-type-color;
   background-color: transparent; // normalize.css
   span {
@@ -121,7 +114,6 @@ a {
   }
   &:active {
     transition-duration: 0.0s, 0.0s, 0.0s, 0.0s, 0.0s;
-
     color: $c-type-color;
     outline: 0; // normalize.css
   }
@@ -129,7 +121,7 @@ a {
     outline: 0;
   }
 }
-a[href^='mailto'] {
+a[href^="mailto"] {
   word-break: break-all;
 }
 
@@ -146,7 +138,6 @@ h6 {
   font-size: 1em; // normalize.css
 
   margin: 0;
-
   color: $d-strong-type-color;
   span {
     color: $d-strong-type-color;
@@ -170,7 +161,6 @@ ul,
 ol {
   margin: 0;
   padding: 0;
-
   list-style-type: none;
 }
 
@@ -178,11 +168,8 @@ dl {
   margin: 0;
   dt {
     font-style: italic;
-
     float: left;
-
     margin-right: 0.8em;
-
     color: $d-strong-type-color;
   }
   dd {
@@ -207,10 +194,10 @@ strong {
 q {
   font-style: italic;
   &:before {
-    content: '«';
+    content: "«";
   }
   &:after {
-    content: '»';
+    content: "»";
   }
 }
 
@@ -269,7 +256,6 @@ kbd,
 mark {
   margin: -0.1em 0;
   padding: 0.1em 0.3em;
-
   border-radius: 2px 2px;
   background-color: $l-code-background-color;
 }
@@ -279,39 +265,31 @@ pre {
   overflow: auto; // normalize.css
 
   white-space: normal;
-
   border-radius: 2px 2px;
   background-color: $l-code-background-color;
   code {
     display: block;
-
     padding: 0;
-
     white-space: pre;
-
     background-color: transparent;
   }
 }
 
 blockquote {
   margin: 0;
-
   border-color: $border-color;
 }
 
 quote {
   font-style: italic;
-
   color: $d-strong-type-color;
 }
 
 hr {
   display: block;
-
   height: 1px;
   margin: 1em 0;
   padding: 0;
-
   border: 0;
   border-top: $border-width solid $border-color;
 }
@@ -323,17 +301,13 @@ hr {
 img,
 iframe {
   display: block;
-
   max-width: 100%;
-
   background-color: $picture-background-color;
 }
 
 video {
   display: block;
-
   width: 100%;
-
   background-color: $picture-background-color;
 }
 
