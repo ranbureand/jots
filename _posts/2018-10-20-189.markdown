@@ -1,0 +1,15 @@
+---
+number: 189
+
+title: "So You Want to Open a Small Press Bookstore/Artist-Run Space? A Cautionary Tale"
+author: "Noel Black"
+tags:
+- Art Café
+- Entrepreneurship
+
+site: "Poetry Foundation"
+address: "https://www.poetryfoundation.org/harriet/2018/04/so-you-want-to-open-a-small-press-bookstore-artist-run-space-a-cautionary-tale"
+date: 2018-10-20 18:25:00
+---
+
+The café and the space are great, but something’s missing—something you can barely remember now…. Oh, right! It’s you. You are missing. This amazing space that everyone in the community holds so dear is for everyone but you.
