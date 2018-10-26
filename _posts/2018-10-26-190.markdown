@@ -1,0 +1,15 @@
+---
+number: 190
+
+title: "Why I’m done with Chrome"
+author: "Matthew Green"
+tags:
+- Chrome
+- Trust
+
+site: "A Few Thoughts on Cryptographic Engineering"
+address: "https://blog.cryptographyengineering.com/2018/09/23/why-im-leaving-chrome/"
+date: 2018-10-26 09:05:00
+---
+
+Trust is not a renewable resource.
