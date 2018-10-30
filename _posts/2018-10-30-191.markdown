@@ -1,0 +1,15 @@
+---
+number: 191
+
+title: "How To Give Helpful Product Design Feedback"
+author: "Mike Davidson"
+tags:
+- Feedback
+- Framework
+
+site: "Mike Industries"
+address: "https://mikeindustries.com/blog/archive/2017/06/how-to-give-helpful-product-design-feedback"
+date: 2018-10-30 10:15:00
+---
+
+A good rule of thumb is: if a problem seems simple to you, you probably don’t fully understand it. You certainly might, but you probably don’t, and therefore, you should treat your critiques as investigations or explorations and not conclusions.
