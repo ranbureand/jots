@@ -1,0 +1,15 @@
+---
+number: 194
+
+title: "Mental models in product design"
+author: "Teresa Man"
+tags:
+- Mental Models
+- First Principles
+
+site: "HeyDesigner"
+address: "https://heydesigner.com/blog/mental-models-in-product-design/"
+date: 2018-11-29 10:15:00
+---
+
+Analogical thinking lends itself to incremental product iterations rather than groundbreaking advancements because it promotes a habit of following the footsteps of history.
