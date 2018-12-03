@@ -8,6 +8,7 @@
 @import "utilities/media-queries.scss";
 @import "utilities/utilities.scss";
 @import "utilities/fonts.scss";
+@import "utilities/animations.scss";
 
 /*
 ** Basics
@@ -22,19 +23,12 @@
 ** Modules
 */
 
-@import "modules/animations.scss";
 @import "modules/header.scss";
 @import "modules/cover.scss";
 @import "modules/jots.scss";
 @import "modules/pagination.scss";
 @import "modules/footer.scss";
 @import "modules/404.scss";
-
-/*
-** Animations
-*/
-
-@import "utilities/animations.scss";
 
 /*
 ** Print

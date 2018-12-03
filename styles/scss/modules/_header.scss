@@ -11,6 +11,7 @@
   @include min-screen(col(8)) {
     padding-right: em($d-gut/2);
     padding-left: em($d-gut/2);
+
     border-top: em($d-small-line/4) solid $c-type-color;
   }
   @include min-screen(col(12)) {
@@ -20,19 +21,23 @@
 }
 
 .header {
+  animation-name: element-in;
   animation-duration: $duration*4;
-  animation-name: elementIn;
-  animation-fill-mode: both;
+
   color: $l-type-color;
+
+  animation-fill-mode: both;
 
   h1 {
     color: $l-type-color;
   }
   a {
     font-weight: $medium;
+
     color: $l-strong-type-color;
     span {
       font-weight: $normal;
+
       color: $l-type-color;
     }
     &:hover,
@@ -49,6 +54,14 @@
 .header-index {
   grid-row: 1;
   @include font-size($m-small-size, $m-small-line);
+
+  a {
+    display: inline-block;
+
+    min-height: em($m-small-line, $m-small-size);
+    padding-top: em($m-small-line, $m-small-size);
+    padding-bottom: em($m-small-line, $m-small-size);
+  }
   @include min-screen(col(8)) {
     @include font-size($d-small-size, $d-small-line);
     a {
@@ -57,17 +70,12 @@
       padding-bottom: em($d-small-line, $d-small-size);
     }
   }
-  a {
-    display: inline-block;
-    min-height: em($m-small-line, $m-small-size);
-    padding-top: em($m-small-line, $m-small-size);
-    padding-bottom: em($m-small-line, $m-small-size);
-  }
 }
 
 
 .header-title {
   grid-column: 1 / 3;
+
   span {
     display: none;
   }
@@ -80,5 +88,6 @@
 
 .header-index {
   text-align: right;
+
   grid-column: 3 / 5;
 }

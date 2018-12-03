@@ -6,17 +6,20 @@
 
 .layout-2d {
   display: grid;
+
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-right: em($m-gut/2);
   padding-left: em($m-gut/2);
+
   grid-column-gap: em($m-gut);
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   @include min-screen(col(8)) {
     padding-right: em($d-gut/2);
     padding-left: em($d-gut/2);
+
     grid-column-gap: em($d-gut);
     grid-template-columns: repeat(2, 1fr);
   }

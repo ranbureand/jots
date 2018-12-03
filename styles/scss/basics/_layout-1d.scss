@@ -6,11 +6,13 @@
 
 [class*="layout-1d"] {
   display: flex;
+
   margin-right: em(-$m-gut/2);
   margin-left: em(-$m-gut/2);
-  flex-flow: row wrap;
-  align-items: flex-start;
+
   align-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
   @include min-screen(col(8)) {
     margin-right: em(-$d-gut/2);
     margin-left: em(-$d-gut/2);

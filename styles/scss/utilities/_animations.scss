@@ -4,7 +4,31 @@
 ** Animations
 */
 
-@keyframes elementIn {
+@keyframes number-pulse-light {
+  0% {
+    box-shadow: $d-light-type-color 0 0 0 0.5em;
+  }
+  50% {
+    box-shadow: $d-light-type-color 0 0 0 0.3em;
+  }
+  100% {
+    box-shadow: $d-light-type-color 0 0 0 0.5em;
+  }
+}
+
+@keyframes number-pulse-dark {
+  0% {
+    box-shadow: $l-light-type-color 0 0 0 0.5em;
+  }
+  50% {
+    box-shadow: $l-light-type-color 0 0 0 0.3em;
+  }
+  100% {
+    box-shadow: $l-light-type-color 0 0 0 0.5em;
+  }
+}
+
+@keyframes element-in {
   0% {
     opacity: 0;
   }
@@ -13,9 +37,10 @@
   }
 }
 
-@keyframes elementInUp {
+@keyframes element-in-up {
   0% {
     transform: translate(0, em($d-base-rhythm/2));
+
     opacity: 0;
   }
   75% {
