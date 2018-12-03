@@ -1,5 +1,5 @@
 ---
-number: 193
+number: 194
 
 title: "My hiring experience as a submarine sonar operator in the Norwegian Navy"
 author: "Stig Brautaset"

@@ -1,0 +1,15 @@
+---
+number: 189
+
+title: "How do you set metrics?"
+author: "Julie Zhuo"
+tags:
+- Metrics
+- Counter-metrics
+
+site: "Medium"
+address: "https://medium.com/the-year-of-the-looking-glass/how-do-you-set-metrics-59f78fea7e44"
+date: 2018-10-18 09:25:00
+---
+
+There are certainly many caveats to the above idea of setting a goal around a single metric. A notable one is that you may need to have a counter-metric to help balance short term and long-term trade-offs.

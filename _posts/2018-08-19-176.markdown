@@ -1,5 +1,5 @@
 ---
-number: 160
+number: 176
 
 title: "Jobs-to-be-Done, take two"
 author: "Tomasz Tunguz"

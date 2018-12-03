@@ -1,5 +1,5 @@
 ---
-number: 189
+number: 190
 
 title: "So You Want to Open a Small Press Bookstore/Artist-Run Space? A Cautionary Tale"
 author: "Noel Black"

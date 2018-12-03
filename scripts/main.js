@@ -1,7 +1,7 @@
 //alert("banana");
 
 (function() {
-  
+
   var header = document.getElementsByTagName('header'), // declare variables
   jots = document.getElementsByClassName('jot'),
   navContainer = document.createElement('div'),
@@ -14,7 +14,7 @@
   nav.className = 'nav'; // add class .nav to nav element
   navContainer.appendChild(nav); // append .nav to .nav-container
 
-  header[0].insertBefore(navContainer, header[0].firstChild); // prepend 
+  header[0].insertBefore(navContainer, header[0].firstChild); // prepend
 
   for (var i = jots.length; i > 0; i--) {
     jotNo = jots.length + 1 - i;

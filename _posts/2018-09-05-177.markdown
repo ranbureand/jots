@@ -1,5 +1,5 @@
 ---
-number: 176
+number: 177
 
 title: "Developer’s Dilemma"
 author: "Casey O’Donnel"

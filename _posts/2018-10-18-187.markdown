@@ -4,12 +4,12 @@ number: 187
 title: "Designing for Cognitive Differences"
 author: "Brandon Gregory"
 tags:
-- Clarity
-- Understanding
+- Attention
+- Motion
 
 site: "A List Apart"
 address: "https://alistapart.com/article/designing-for-cognitive-differences"
 date: 2018-10-18 09:20:00
 ---
 
-One of the biggest culprits of unclear user flow is basing the user experience on your company’s understanding of the problem. Companies have their own internal terminology and organizational structures to address these problems internally. Users likely won’t understand any of this and shouldn’t require a glossary of industry terms or internal structures in order to use your website or app.
+Unnecessary motion […] are nothing but a barrier for these users. If the motion is actually accomplishing something, you have to ask if what you’re drawing attention to is worth sacrificing other content on the page in return.

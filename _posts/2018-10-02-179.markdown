@@ -1,5 +1,5 @@
 ---
-number: 178
+number: 179
 
 title: "Ditch MVPs, Adopt Minimum Viable Prototypes (MVPr)"
 author: "Alexandru Giuseppe Ispas"

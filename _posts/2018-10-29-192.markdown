@@ -1,5 +1,5 @@
 ---
-number: 191
+number: 192
 
 title: "Analysis: Getting Better at Fighting Games"
 author: "Core-A Gaming"

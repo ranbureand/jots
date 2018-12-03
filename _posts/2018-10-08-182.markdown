@@ -1,17 +1,17 @@
 ---
 number: 182
 
-title: "What Most Remote Companies Don’t Tell You About Remote Work"
-author: "Amir Salihefendic"
+title: "Avoiding burnout: lessons learned from a 19th century philosopher"
+author: "Itamar Turner-Trauring"
 tags:
-- Home
-- Remote Work
+- Burnout
+- Rational Thought
 
-site: "Doist’s Medium"
-address: "https://blog.doist.com/mental-health-and-remote-work-1b77616f6945"
+site: "Code Without Rules"
+address: "https://codewithoutrules.com/2018/09/27/avoiding-burnout/"
 date: 2018-10-08 10:10:00
 ---
 
-When you travel for extended periods of time, you lose your social circle, your sense of belonging, and the everyday routines that keep you grounded and healthy.
+If you succeed, if you ship your code, if you release your product, will you be happy? Will all your time and effort be worth it?
 
-You also quickly discover that meeting new people is easy, but making new friends—real friends—is hard, especially if you’re starting from zero.
+And you realize the answer is “no”. And suddenly your work is worthless, your goals are meaningless. You just can’t force yourself to work on something that doesn’t matter.
