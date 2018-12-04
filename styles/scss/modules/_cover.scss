@@ -115,10 +115,10 @@
 
   margin-bottom: em($m-base-rhythm*2);
   padding-right: em($m-gut/2);
-  padding-left: em($m-gut/4*3 - 4px);
+  padding-left: em($m-gut/4*3 - $m-cover-border-width);
 
   color: $l-strong-type-color;
-  border-left: 4px solid $c-type-color;
+  border-left: $m-cover-border-width solid $c-type-color;
 
   p {
     @include font-size($m-extra-large-size, $m-extra-large-line);
@@ -132,7 +132,9 @@
   @include min-screen(col(8)) {
     margin-bottom: em($d-base-rhythm*2);
     padding-right: em($d-gut/2);
-    padding-left: em($d-gut/2*3 - 4px);
+    padding-left: em($d-gut/2*3 - $t-cover-border-width);
+
+    border-left-width: $t-cover-border-width;
     p {
       @include font-size($t-extra-large-size, $t-extra-large-line);
       & + p {
@@ -141,7 +143,9 @@
     }
   }
   @include min-screen(col(12)) {
-    padding-left: em($d-gut*2 - 4px);
+    padding-left: em($d-gut*2 - $d-cover-border-width);
+
+    border-left-width: $d-cover-border-width;
     p {
       @include font-size($d-extra-large-size, $d-extra-large-line);
       & + p {
@@ -150,6 +154,7 @@
     }
   }
 }
+
 
 .cover-reference {
   margin-bottom: em($m-small-line/2, $m-small-size);

@@ -136,10 +136,10 @@
 
   margin-bottom: em($m-base-rhythm);
   padding-right: em($m-gut/2);
-  padding-left: em($m-gut/4*3 - 4px);
+  padding-left: em($m-gut/4*3 - $m-jot-border-width);
 
   color: $d-strong-type-color;
-  border-left: 4px solid $c-type-color;
+  border-left: $m-jot-border-width solid $c-type-color;
 
   p {
     @include font-size($m-large-size, $m-large-line);
@@ -154,8 +154,10 @@
   }
   @include min-screen(col(8)) {
     margin-bottom: em($d-base-rhythm);
-    padding-right: em($d-gut/2 - 4px);
+    padding-right: em($d-gut/2 - $d-jot-border-width);
     padding-left: em($d-gut/2);
+
+    border-left-width: $d-jot-border-width;
     p {
       @include font-size($d-large-size, $d-large-line);
       & + p {
@@ -164,6 +166,7 @@
     }
   }
 }
+
 
 .jot-reference {
   margin-bottom: em($m-small-line/2, $m-small-size);
