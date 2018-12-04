@@ -1,16 +1,15 @@
 ---
 number: 144
+date: 2018-05-30 09:45:00
 
 title: "Corporate UX Maturity: Stages 1-4"
-author: "Jakob Nielsen"
+authors: "Jakob Nielsen"
 tags:
 - Change
 - Maturity
 
 site: "Nielsen Norman Group’s Site"
 address: "https://www.nngroup.com/articles/ux-maturity-stages-1-4/"
-date: 2018-05-30 09:45:00
-
 ---
 
 If your company is at the hostility stage, you can forget about promoting user experience. People have to want to change before there's any chance of helping them do so. Once the company's been sufficiently hurt by its Neanderthal attitudes, management will be ready to consider usability and enter the next stage.

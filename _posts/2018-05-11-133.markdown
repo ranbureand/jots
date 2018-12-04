@@ -1,15 +1,17 @@
 ---
 number: 133
+date: 2018-05-11 14:10:00
 
 title: "The 3 foundations of Lean UX"
-author: "Josh Seiden, Jeff Gothelf"
+authors:
+- Josh Seiden
+- Jeff Gothelf
 tags:
 - Lean UX
 - Wrong
 
 site: "O’Reilly"
 address: "https://www.oreilly.com/ideas/the-3-foundations-of-lean-ux"
-date: 2018-05-11 14:10:00
 ---
 
 The smallest thing you can build to test each hypothesis is your MVP. The MVP doesn’t need to be made of code: it can be an approximation of the end experience […].

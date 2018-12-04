@@ -1,15 +1,15 @@
 ---
 number: 91
+date: 2017-10-17 10:40:00
 
 title: "Signs It’s Time to Move On"
-author: "Julie Zhuo"
+authors: "Julie Zhuo"
 tags:
 - Dream Job
 - Running Away
 
 site: "The Looking Glass"
 address: "http://juliezhuo.com/design/mailinglist.html"
-date: 2017-10-17 10:40:00
 ---
 
 Values aren’t what’s printed on the wall or in the employee handbook, but the interactions that happen every day. The values stem from the top, are reinforced by each employee, and determine how the company works.

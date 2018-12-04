@@ -1,15 +1,15 @@
 ---
 number: 118
+date: 2018-03-16 10:15:00
 
 title: "Symbolception — A Cautionary Tale on Sketch Symbols"
-author: "Jorge Saco"
+authors: "Jorge Saco"
 tags:
 - Sketch
 - Symbols
 
 site: "Runtime Revolution"
 address: "https://revs.runtime-revolution.com/symbolception-a-cautionary-tale-on-sketch-symbols-1c28b1084b46"
-date: 2018-03-16 10:15:00
 ---
 
 If your work is not final yet, if you are testing it, you should not convert your elements into symbols, or use nested symbols.

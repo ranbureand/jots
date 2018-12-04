@@ -1,15 +1,15 @@
 ---
 number: 174
+date: 2018-08-16 16:05:00
 
 title: "Code of Conduct"
-author: "Stack Overflow’s Team"
+authors: "Stack Overflow’s Team"
 tags:
 - Code
 - Conduct
 
 site: "Stack Overflow"
 address: "https://stackoverflow.com/conduct"
-date: 2018-08-16 16:05:00
 ---
 
 If you’re here to help others, be patient and welcoming.

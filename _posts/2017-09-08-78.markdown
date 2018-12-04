@@ -1,15 +1,15 @@
 ---
 number: 78
+date: 2017-09-08 10:10:00
 
 title: "When Design Becomes Part of the Code Workflow"
-author: "Geoff Graham"
+authors: "Geoff Graham"
 tags:
 - Development
 - Design
 
 site: “CSS-Tricks”
 address: "https://css-tricks.com/design-becomes-part-code-workflow/"
-date: 2017-09-08 10:10:00
 ---
 
 If a project calls for SVG and a designer has been tasked with creating illustrations and providing design assets for development, then the designer is no longer handing over a static file, but a snippet of code […].

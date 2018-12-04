@@ -1,15 +1,15 @@
 ---
 number: 12
+date: 2016-04-24 12:00:00
 
 title: "How To Take Charge Of A UX Kickoff Meeting"
-author: "Robert Hoekman Jr"
+authors: "Robert Hoekman Jr"
 tags:
 - Expectation
 - Kickoff
 
 site: "Smashing Magazine"
 address: "https://www.smashingmagazine.com/2016/04/how-to-take-charge-of-a-ux-kickoff-meeting/"
-date: 2016-04-24 12:00:00
 ---
 
 You set the expectation that you’ll be making recommendations, not taking orders. You made it clear that you’ll be discussing and agreeing on ideas before anything gets refined.

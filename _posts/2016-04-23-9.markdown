@@ -1,15 +1,18 @@
 ---
 number: 9
+date: 2016-04-23 12:00:00
 
 title: "Peopleware, Productive Projects and Teams, Third Edition"
-author: "Tom DeMarco, Timothy Lister"
+authors:
+- Tom DeMarco
+- Timothy Lister
 tags:
 - Change
 - Failure
 
-page: "209"
 publisher: "Addison-Wesley"
 year: "2013"
+pages: "209"
 ---
 
 Paradoxically, change only has a chance of succeeding if failure—at least a little bit of failure—is also okay.

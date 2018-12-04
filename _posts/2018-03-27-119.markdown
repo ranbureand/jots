@@ -1,16 +1,15 @@
 ---
 number: 119
+date: 2018-03-27 10:25:00
 
 title: "Hanlon’s razor"
-author: "Wikipedians"
+authors: "Wikipedians"
 tags:
 - Razor
 - Stupidity
 
 site: "Wikipedia"
-address: "https://en.wikipedia.org/wiki/Hanlon%27s_razor
-"
-date: 2018-03-27 10:25:00
+address: "https://en.wikipedia.org/wiki/Hanlon%27s_razor"
 ---
 
 Never attribute to malice that which is adequately explained by stupidity.

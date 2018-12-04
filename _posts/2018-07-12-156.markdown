@@ -1,15 +1,15 @@
 ---
 number: 156
+date: 2018-07-12 09:50:00
 
 title: "Better Collaboration By Bringing Designers Into The Code Review Process"
-author: "Ida Aalen"
+authors: "Ida Aalen"
 tags:
 - Critique
 - Review
 
 site: "Smashing Magazine"
 address: "https://www.smashingmagazine.com/2018/07/collaboration-designers-code-review-process/"
-date: 2018-07-12 09:50:00
 ---
 
 Always having at least two people look over the code also curtails ideas of “my” code and “your” code. It’s our code.

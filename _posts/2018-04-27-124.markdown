@@ -1,15 +1,15 @@
 ---
 number: 124
+date: 2018-04-27 15:40:00
 
 title: "The Illusion of Control in Web Design"
-author: "Aaron Gustafson"
+authors: "Aaron Gustafson"
 tags:
 - Control
 - Web
 
 site: "A List Apart"
 address: "https://alistapart.com/article/the-illusion-of-control-in-web-design"
-date: 2018-04-27 15:40:00
 ---
 
 Start simply. Code defensively. User-test the heck out of it. Recognize the chaos. Embrace it. And build resilient web experiences that will work no matter what the internet throws at them.

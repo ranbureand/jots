@@ -1,15 +1,15 @@
 ---
 number: 162
+date: 2018-07-27 15:45:00
 
 title: "Building a Visual Language"
-author: "Karri Saarinen"
+authors: "Karri Saarinen"
 tags:
 - Components
 - Sketch Symbols
 
 site: "AirBnB Design"
 address: "https://airbnb.design/building-a-visual-language/"
-date: 2018-07-27 15:45:00
 ---
 
-We initially tried to create these components as symbols in Sketch, which resulted in a mess. Even now, our Sketch files are sometimes challenging to maintain. 
+We initially tried to create these components as symbols in Sketch, which resulted in a mess. Even now, our Sketch files are sometimes challenging to maintain.

@@ -1,15 +1,15 @@
 ---
 number: 53
+date: 2017-03-27 10:30:00
 
 title: "Why Software Development Time Estimation Doesn't Work and Alternative Approaches"
-author: "Alex Castrounis"
+authors: "Alex Castrounis"
 tags:
 - Sizing
 - Quantifying
 
 site: "InnoArchiTech"
 address: "http://www.innoarchitech.com/why-software-development-time-estimation-does-not-work-alternative-approaches/"
-date: 2017-03-27 10:30:00
 ---
 
 One method that I use for characterizing the relative size of development tasks is a variation of the tee-shirt sizing method. Each task is given a relative size corresponding to five tee-shirt sizes […] XS: Half day or less S: Half day to one day M: Two to three days L: One week XL: One to two weeks.

@@ -1,15 +1,15 @@
 ---
 number: 72
+date: 2017-07-09 18:25:00
 
 title: "The Bad Reasons You’re Forced to Work Long Hours"
-author: "Itamar Turner-Trauring"
+authors: "Itamar Turner-Trauring"
 tags:
 - Overworking
 - Productivity
 
 site: “Code Without Rules”
 address: "https://codewithoutrules.com/2017/06/21/why-company-want-long-hours/"
-date: 2017-07-09 18:25:00
 ---
 
 When you’ve been set up to fail, your primary goal is to demonstrate that the inevitable failure was not your fault.

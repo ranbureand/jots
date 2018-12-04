@@ -1,15 +1,15 @@
 ---
 number: 165
+date: 2018-07-31 16:50:00
 
 title: "The open-plan office is a terrible, horrible, no good, very bad idea"
-author: "DHH"
+authors: "DHH"
 tags:
 - Open Office
 - Rebellion
 
 site: "Signal v. Noise"
 address: "https://m.signalvnoise.com/the-open-plan-office-is-a-terrible-horrible-no-good-very-bad-idea-42bd9cd294e3"
-date: 2018-07-31 16:50:00
 ---
 
 […] Then management decided that it would “look better” if we went to circular desks where several of us would be sitting with our backs to the hallway, so everyone walking past would be looking at our screen as they passed. It took a minor rebellion that lasted several weeks before management backed down from that horrendous idea.

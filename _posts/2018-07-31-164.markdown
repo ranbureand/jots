@@ -1,15 +1,15 @@
 ---
 number: 164
+date: 2018-07-31 10:35:00
 
 title: "17 ways to ruin your usertesting.com research"
-author: "Mike Mathis"
+authors: "Mike Mathis"
 tags:
 - User Tests
 - Tips
 
 site: "Medium"
 address: "https://medium.com/@mathisworks/17-ways-to-screw-up-your-usertesting-com-545b1edfb4c1"
-date: 2018-07-31 10:35:00
 ---
 
 […] if you’re investing time and budget to make a prototype and put it in front of people, you’ll want to do some preliminary research first. Only then will you have an informed hypothesis worth testing.

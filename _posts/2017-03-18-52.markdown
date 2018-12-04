@@ -1,15 +1,15 @@
 ---
 number: 52
+date: 2017-03-18 23:45:00
 
 title: "The bricks we lay."
-author: "Ethan Marcotte"
+authors: "Ethan Marcotte"
 tags:
 - Consequences
 - Harm
 
 site: "Ethan Marcotte’s Site"
 address: "https://ethanmarcotte.com/wrote/the-bricks-we-lay/"
-date: 2017-03-18 23:45:00
 ---
 
 Even in my tiny design practice, every decision I make is shaped by my biases; every decision I make is capable of harm. And it’s so, so easy to forget this […] I occasionally forget to ask myself who’ll be impacted by my work and, most importantly, to ask how I can mitigate that harm.

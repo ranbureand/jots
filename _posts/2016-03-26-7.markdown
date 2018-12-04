@@ -1,15 +1,15 @@
 ---
 number: 7
+date: 2016-03-26 12:00:00
 
 title: "Shields Down"
-author: "Michael Lopp"
+authors: "Michael Lopp"
 tags:
 - Resignation
 - Shields Down
 
 site: "Rands in Repose"
 address: "http://randsinrepose.com/archives/shields-down/"
-date: 2016-03-26 12:00:00
 ---
 
 […] Still, seeing it isn’t the moment of resignation. The moment happened the instant you decided, “What the hell? I haven’t seen Don in months and it’d be good to see him.”

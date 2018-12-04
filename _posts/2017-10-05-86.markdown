@@ -1,15 +1,15 @@
 ---
 number: 86
+date: 2017-10-05 11:00:00
 
 title: "Non-Disclosure Agreements For Developers: What To Know Before You Sign"
-author: "Kimberly Bond"
+authors: "Kimberly Bond"
 tags:
 - Agreement
 - Non-disclosure
 
 site: "Smashing Magazine"
 address: "https://www.smashingmagazine.com/2017/10/developer-non-disclosure-agreements/"
-date: 2017-10-05 11:00:00
 ---
 
 A difficult client who demonstrates trust issues right from the beginning of the business relationship and shows an inability to compromise might be more trouble than they are worth.

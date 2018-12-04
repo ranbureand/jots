@@ -1,5 +1,6 @@
 ---
 number: 117
+date: 2018-03-07 10:15:00
 
 title: "Reader Comment to We Write CSS Like We Did in the 90s, and Yes, It’s Silly"
 author: "Mikhail Pikalov"
@@ -9,7 +10,6 @@ tags:
 
 site: "A List Apart"
 address: "https://alistapart.com/article/we-write-css-like-we-did-in-the-90s-and-yes-its-silly"
-date: 2018-03-07 10:15:00
 ---
 
 There is no reason for DRY to be goal in itself. DRY is a tool, to achieve some real goal, like smaller file sizes, better maintainability, etc. But I don’t see any real benefits to use it just for the sake of it.

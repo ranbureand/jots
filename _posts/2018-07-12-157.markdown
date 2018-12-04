@@ -1,15 +1,15 @@
 ---
 number: 157
+date: 2018-07-12 15:10:00
 
 title: "How to Get Started With Usability Testing"
-author: "Paul Boag"
+authors: "Paul Boag"
 tags:
 - Guerrilla
 - Test
 
 site: "Boagworld"
 address: "https://boagworld.com/usability/usability-testing/"
-date: 2018-07-12 15:10:00
 ---
 
 Continually look for opportunities to test the direction you are going in. If people disagree, test. If you aren’t sure about your approach, check it.

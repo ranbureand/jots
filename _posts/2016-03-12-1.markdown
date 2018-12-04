@@ -1,15 +1,15 @@
 ---
 number: 1
+date: 2016-03-12 12:00:00
 
 title: "Dysfunctional Products Come from Dysfunctional Organizations"
-author: "Jon Kolko"
+authors: "Jon Kolko"
 tags:
 - Org
 - Dysfunction
 
 site: "Harward Business Review"
 address: "https://hbr.org/2015/01/dysfunctional-products-come-from-dysfunctional-organizations"
-date: 2016-03-12 12:00:00
 ---
 
 The dysfunction in the organization became the dysfunction in the product, and that was passed on to the customers.

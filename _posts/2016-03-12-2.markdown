@@ -1,16 +1,15 @@
 ---
 number: 2
+date: 2016-03-12 12:00:00
 
 title: "Pragmatism Is Poison"
-author: "Einar W. Høst"
+authors: "Einar W. Høst"
 tags:
 - Dogmatism
 - Pragmatism
 
-
 site: "Ample Code"
 address: "https://einarwh.wordpress.com/2016/03/10/pragmatism-is-poison/"
-date: 2016-03-12 12:00:00
 ---
 
 […] a claim to be pragmatic is implicitly an accusation that says that whoever disagrees is dogmatic […].

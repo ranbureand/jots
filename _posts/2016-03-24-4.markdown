@@ -1,15 +1,15 @@
 ---
 number: 4
+date: 2016-03-24 12:00:00
 
 title: "Firing People"
-author: "Zach Holman"
+authors: "Zach Holman"
 tags:
 - Burden
 - Getting Fired
 
 site: "zachholman.com"
 address: "https://zachholman.com/talk/firing-people"
-date: 2016-03-24 12:00:00
 ---
 
 Best I can tell, getting fired and dying are one of the few burdens that are yours and yours alone.

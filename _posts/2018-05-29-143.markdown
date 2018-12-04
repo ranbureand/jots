@@ -1,16 +1,15 @@
 ---
 number: 143
+date: 2018-05-29 10:00:00
 
 title: "AI Ethics—A New Skill for UX-Designers"
-author: "Anton Stén"
+authors: "Anton Stén"
 tags:
 - AI
 - Ethics
 
 site: "Anton Stén’s Site"
 address: "https://www.antonsten.com/ai-ethics/"
-date: 2018-05-29 10:00:00
-
 ---
 
 I’m not confident that average people could have so little time in their schedule to spare that a minute to call for an appointment. Instead Google could actually be aiming this product at people that simply don’t want to talk to another person […].

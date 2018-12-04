@@ -1,15 +1,15 @@
 ---
 number: 83
+date: 2017-09-21 10:10:00
 
 title: "To Understand Rising Inequality, Consider the Janitors at Two Top Companies, Then and Now"
-author: "Neil Irwin"
+authors: "Neil Irwin"
 tags:
 - Evolution
 - Inequality
 
 site: "The New York Times"
 address: "https://www.nytimes.com/2017/09/03/upshot/to-understand-rising-inequality-consider-the-janitors-at-two-top-companies-then-and-now.html"
-date: 2017-09-21 10:10:00
 ---
 
 What has changed in the last generation is that companies today view more and more of the labor it takes to produce their goods and services as akin to staplers: something to be procured at the time and place needed for the lowest price possible.

@@ -1,15 +1,16 @@
 ---
 number: 121
+date: 2018-04-24 12:00:00
 
 title: "The Art of Failure: An Essay on the Pain of Playing Video Games"
-author: "Jesper Juul"
+authors: "Jesper Juul"
 tags:
 - Inadequacy
 - Video Games
 
-page: "7"
 publisher: "The MIT Press"
 year: "2013"
+pages: "7"
 ---
 
 This is what games do: they promise us that we can repair a personal inadequacy—an inadequacy that they produce in us in the first place.

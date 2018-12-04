@@ -1,15 +1,15 @@
 ---
 number: 46
+date: 2017-03-03 14:55:00
 
 title: "You might not need a CSS framework"
-author: "Belén Albeza"
+authors: "Belén Albeza"
 tags:
 - Frameworks
 - Opinions
 
 site: "Mozilla Hacks"
 address: "https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/"
-date: 2017-03-03 14:55:00
 ---
 
 All frameworks are opinionated. This is not an issue if you don’t have a strong opinion or if yours is the same as the frameworks. But sometimes you do have strong opinions.

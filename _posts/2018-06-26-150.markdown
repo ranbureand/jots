@@ -1,15 +1,15 @@
 ---
 number: 150
+date: 2018-06-26 10:00:00
 
 title: "Resilient, Declarative, Contextual"
-author: "Keith J. Grant"
+authors: "Keith J. Grant"
 tags:
 - CSS
 - Modularity
 
 site: "Keith J. Grant’s Site"
 address: "https://keithjgrant.com/posts/2018/06/resilient-declarative-contextual/"
-date: 2018-06-26 10:00:00
 ---
 
 In the React era, we have embraced the extremely useful approach of modular, component-based development […]. But I think it’s equally important to acknowledge that CSS is not 100% modular, nor should it be.

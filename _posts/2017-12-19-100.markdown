@@ -1,15 +1,17 @@
 ---
 number: 100
+date: 2017-12-19 09:50:00
 
 title: "Postmortem: Every Frame a Painting"
-author: "Taylor Ramos, Tony Zhou"
+authors:
+- Taylor Ramos
+- Tony Zhou
 tags:
 - Essay
 - Video
 
 site: "Medium"
 address: "https://medium.com/@tonyszhou/postmortem-1b338537fabc"
-date: 2017-12-19 09:50:00
 ---
 
 For me and for Tony, this clip is extremely reassuring. If Miyazaki — the world’s greatest living animator — can admit defeat after trying his best, then it’s okay for everyone else. If he can let go, then so can we.

@@ -1,15 +1,15 @@
 ---
 number: 194
+date: 2018-11-28 18:15:00
 
 title: "My hiring experience as a submarine sonar operator in the Norwegian Navy"
-author: "Stig Brautaset"
+authors: "Stig Brautaset"
 tags:
 - Disqualification
 - Sonar Operator
 
 site: "Stig Brautaset’s Site"
 address: "https://www.brautaset.org/articles/2018/submarine-sonar-hiring.html"
-date: 2018-11-28 18:15:00
 ---
 
 So, I nearly didn’t apply to become a sonar operator since I failed the proxy requirement “has perfect score on generic hearing test”. However, the real requirement was “can learn to classify boats by their sound under water”, and it turns out I was pretty good at that!

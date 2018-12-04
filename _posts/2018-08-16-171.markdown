@@ -1,17 +1,16 @@
 ---
 number: 171
+date: 2018-08-16 15:20:00
 
 title: "Developer’s Dilemma"
-author: "Casey O’Donnel"
+authors: "Casey O’Donnel"
 tags:
 - Designers
 - Pegboard
 
-page: "17"
 publisher: "The MIT Press"
 year: "2014"
-
-date: "2018-08-16 15:20:00"
+pages: "17"
 ---
 
 […] The designers are the pegboard though. They set up where everything has a space and how it is going to work together.

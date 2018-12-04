@@ -1,15 +1,15 @@
 ---
 number: 97
+date: 2017-11-30 10:00:00
 
 title: "Introducing design systems"
-author: "Marco Suarez"
+authors: "Marco Suarez"
 tags:
 - Debt
 - Design
 
 site: "DesignBetter.Co"
 address: "https://www.designbetter.co/design-systems-handbook/introducing-design-systems"
-date: 2017-11-30 10:00:00
 ---
 
 […] Debt is acquired by building for the short-term. Design debt is made up of an overabundance of non-reusable and inconsistent styles and conventions, and the interest is the impossible task of maintaining them.

@@ -1,15 +1,15 @@
 ---
 number: 106
+date: 2018-01-29 10:00:00
 
 title: "Tools for Thinking and Tools for Systems"
-author: "Robin Rendle"
+authors: "Robin Rendle"
 tags:
 - Precision
 - Tools
 
 site: "CSS-Tricks"
 address: "https://css-tricks.com/tools-thinking-tools-systems/"
-date: 2018-01-29 10:00:00
 ---
 
 Herein lies the problem: our current tools encourage me to design the finished product first. They beg me to mess with rounded corners, colors, typefaces and stroke styles. But it's only when I’m working within a strict design system that I ever need to declare those things.

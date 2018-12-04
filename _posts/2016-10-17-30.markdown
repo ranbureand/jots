@@ -1,15 +1,15 @@
 ---
 number: 30
+date: 2016-10-17 11:20:00
 
 title: "You Can’t Get Comfortable in Web Development"
-author: "Rey Bango"
+authors: "Rey Bango"
 tags:
 - Comfortability
 - Knowledge
 
 site: "Rey Bango’s Blog"
 address: "http://blog.reybango.com/2016/10/07/you-cant-get-comfortable-in-web-development-anymore/"
-date: 2016-10-17 11:20:00
 ---
 
 You can’t get comfortable if you want to work with JavaScript but you don’t have to know everything.

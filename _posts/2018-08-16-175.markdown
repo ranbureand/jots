@@ -1,15 +1,15 @@
 ---
 number: 175
+date: 2018-08-16 16:10:00
 
 title: "Good Pressure, Bad Pressure"
-author: "Julie Zhuo"
+authors: "Julie Zhuo"
 tags:
 - Failure
 - Pressure
 
 site: "Medium"
 address: "https://medium.com/@joulee/good-pressure-bad-pressure-c8d9ff4530a5"
-date: 2018-08-16 16:10:00
 ---
 
 I can’t recall an example of groundbreaking work coming from an environment of stress, anxiety, and fear of failure.

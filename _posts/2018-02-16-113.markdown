@@ -1,15 +1,15 @@
 ---
 number: 113
+date: 2018-02-16 21:20:00
 
 title: "I’ve Never Felt Less in Control of My Own Hardware"
-author: "mildbyte"
+authors: "mildbyte"
 tags:
 - Auto-update
 - Control
 
 site: "mildbyte's Notes"
 address: "https://kimonote.com/@mildbyte/ive-never-felt-less-in-control-of-my-own-hardware-14804/"
-date: 2018-02-16 21:20:00
 ---
 
 Once upon a time I opened a new tab in Firefox on my Android phone to find out that besides a list of my most visited pages to choose from, there also was a list of things “suggested by Pocket”. What the hell was Pocket, why was it suggesting me things and, more importantly, how the hell did it get into my Firefox?

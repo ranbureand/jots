@@ -1,16 +1,18 @@
 ---
 number: 140
+date: 2018-05-16 09:45:00
 
 title: "Lean UX: Designing Great Products with Agile Teams"
-author: "Jeff Gothelf, Josh Seiden"
+authors:
+- Jeff Gothelf
+- Josh Seiden
 tags:
 - Features
 - Users
 
-page: "881/3889"
 publisher: "O’Reilly Media"
 year: "2017"
-date: 2018-05-16 09:45:00
+pages: "881/3889"
 ---
 
 Remember that users rarely need “features.” What they need is to attain some kind of goal.

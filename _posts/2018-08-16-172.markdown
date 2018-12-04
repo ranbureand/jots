@@ -1,15 +1,15 @@
 ---
 number: 172
+date: 2018-08-16 15:35:00
 
 title: "EA: The Human Story"
-author: "ea_spouse"
+authors: "ea_spouse"
 tags:
 - Cost
 - Crunch
 
 site: "ea_spouse’s LiveJournal"
 address: "https://ea-spouse.livejournal.com/274.html"
-date: 2018-08-16 15:35:00
 ---
 
 The main thing I want to know is, Larry: you do realize […] that when you keep our husbands and wives and children in the office for ninety hours a week, sending them home exhausted and numb and frustrated with their lives, it’s not just them you’re hurting, but everyone around them, everyone who loves them?

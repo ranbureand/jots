@@ -1,15 +1,15 @@
 ---
 number: 115
+date: 2018-02-19 10:15:00
 
 title: "How Not to Replace Email"
-author: "Jamey Sharp"
+authors: "Jamey Sharp"
 tags:
 - Google Wave
 - Connectivity
 
 site: "non-O(n) musings"
 address: "https://jamey.thesharps.us/2018/02/16/how-not-to-replace-email/"
-date: 2018-02-19 10:15:00
 ---
 
 These days every Google product seems to assume that your internet connection is always on, that you’re close enough to the nearest Google server that your brain won’t notice the speed-of-light delay, and that you have practically unlimited bandwidth. These assumptions are barely true in Mountain View, let alone in most of the rest of the world.

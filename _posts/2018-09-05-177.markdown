@@ -1,17 +1,16 @@
 ---
 number: 177
+date: 2018-09-05 15:20:00
 
 title: "Developer’s Dilemma"
-author: "Casey O’Donnel"
+authors: "Casey O’Donnel"
 tags:
 - Creation
 - Work
 
-page: "40"
 publisher: "The MIT Press"
 year: "2014"
-
-date: "2018-09-05 15:20:00"
+pages: "40"
 ---
 
 I think people perceive the process of creation from the outside to be instantaneous and free and wonderful. In fact, it is work.

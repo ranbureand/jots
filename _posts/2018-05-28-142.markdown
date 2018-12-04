@@ -1,16 +1,15 @@
 ---
 number: 142
+date: 2018-05-28 09:40:00
 
 title: "More Than Pixels: Selling Design Discovery"
-author: "Kyle Cassid"
+authors: "Kyle Cassid"
 tags:
 - Discover
 - Research
 
 site: "Smashing Magazine"
 address: "https://www.smashingmagazine.com/2018/05/more-than-pixels-selling-design-discovery/"
-date: 2018-05-28 09:40:00
-
 ---
 
-I always find it helps to do some exploratory research prior to running stakeholder workshops. This ensures you go into the room with a baseline understanding of the organization its users and some common pain points. 
+I always find it helps to do some exploratory research prior to running stakeholder workshops. This ensures you go into the room with a baseline understanding of the organization its users and some common pain points.

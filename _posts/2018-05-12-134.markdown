@@ -1,15 +1,15 @@
 ---
 number: 134
+date: 2018-05-12 19:10:00
 
 title: "Games Like “BattleTech” Are Slow For a Reason"
-author: "Bruno Dias"
+authors: "Bruno Dias"
 tags:
 - Time
 - Video Games
 
 site: "Waypoint"
 address: "https://waypoint.vice.com/amp/en_us/article/ywezxj/games-like-battletech-are-slow-for-a-reason"
-date: 2018-05-12 19:10:00
 ---
 
-[…] duration means something. But video game audiences haven’t incorporated it into their reading of video games, in the same way that we all have a cultural understanding of what time means in a film, even though pacing can carry every bit as much meaning. 
+[…] duration means something. But video game audiences haven’t incorporated it into their reading of video games, in the same way that we all have a cultural understanding of what time means in a film, even though pacing can carry every bit as much meaning.

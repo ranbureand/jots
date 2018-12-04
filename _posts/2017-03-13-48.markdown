@@ -1,15 +1,15 @@
 ---
 number: 48
+date: 2017-03-13 20:40:00
 
 title: "The nature of the self in the digital age"
-author: "Aral Balkan"
+authors: "Aral Balkan"
 tags:
 - Augmentation
 - Cyborgs
 
 site: "Aral Balkan"
 address: "https://ar.al/notes/the-nature-of-the-self-in-the-digital-age/"
-date: 2017-03-13 20:40:00
 ---
 
 Today, we are all cyborgs. This is not to say that we implant ourselves with technology but that we extend our biological capabilities using technology. We are sharded beings; with parts of our selves spread across and augmented by our everyday things.

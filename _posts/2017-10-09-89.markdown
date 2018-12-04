@@ -1,15 +1,18 @@
 ---
 number: 89
+date: 2017-10-09 10:10:00
 
 title: "Why Patents Are Bad for Software"
-author: "Simson L. Garfinkel, Mitchell Kapor, Richard M. Stallman"
+authors:
+- Simson L. Garfinkel
+- Mitchell Kapor
+- Richard M. Stallman
 tags:
 - Mentor
 - Mistakes
 
 site: "Issues in Science and Technology, Fall 1991"
 address: "http://groups.csail.mit.edu/mac/projects/lpf/Links/prep.ai.mit.edu/issues.article"
-date: 2017-10-09 10:10:00
 ---
 
 […] software patents are actually preventing the adoption of new technology, rather than encouraging it.

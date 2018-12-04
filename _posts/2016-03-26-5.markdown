@@ -1,15 +1,16 @@
 ---
 number: 5
+date: 2016-03-26 12:00:00
 
 title: "On Writing Well, The Classic Guide to Writing Nonfiction, 30<sup>th</sup> Anniversary Edition"
-author: "William Zinsser"
+authors: "William Zinsser"
 tags:
 - Clutter
 - Language
 
-page: "20"
 publisher: "Harper Collins"
 year: "2006"
+pages: "20"
 ---
 
 Clutter is the official language used by corporations to hide their mistakes.

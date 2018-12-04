@@ -1,8 +1,9 @@
 ---
 number: 13
+date: 2016-05-07 12:00:00
 
 title: "Apple Stole My Music. No, Seriously."
-author: "James Pinkstone"
+authors: "James Pinkstone"
 tags:
 - Apple
 - Music
@@ -10,7 +11,6 @@ tags:
 
 site: "Vellum"
 address: "https://blog.vellumatlanta.com/2016/05/04/apple-stole-my-music-no-seriously/"
-date: 2016-05-07 12:00:00
 ---
 
 One day, you won’t buy a movie. You’ll buy *the right to watch a movie*, and that movie will be served to you. If the companies serving the movie don’t want you to see it, or they want to change something, they will have the power to do so.

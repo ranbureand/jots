@@ -1,15 +1,15 @@
 ---
 number: 57
+date: 2017-05-02 22:05:00
 
 title: "About leaving."
-author: "Chiara Lino"
+authors: "Chiara Lino"
 tags:
 - Comfort
 - Zone
 
 site: "Medium"
 address: "https://medium.com/@chiara_bab/about-leaving-73a639bf0522"
-date: 2017-05-02 22:05:00
 ---
 
 You can’t leave home to rebuild that feeling again somewhere else. You dilute that feeling. It’s what Voldemort did with his soul: he split it up into parts, and it could never be whole again.

@@ -1,19 +1,19 @@
 ---
 number: 123
+date: 2018-04-27 09:45:00
 
 title: "Vanity Metrics"
-author: "Anton Sten"
+authors: "Anton Sten"
 tags:
 - Metrics
 - Numbers
 
 site: "Anton Sten’s Site"
 address: "https://www.antonsten.com/vanitymetrics/"
-date: 2018-04-27 09:45:00
 ---
 
 […] My mind spills out questions like, “Is this Tuesday better than the week before?” And “Ooh looks like there’s a link to my website from smashingmagazine.com, that oughta be great for SEO right?” Those seem fair and worthwhile, right?
 
 …until I had a revelation
 
-Those all-important numbers don’t really matter at all. 
+Those all-important numbers don’t really matter at all.

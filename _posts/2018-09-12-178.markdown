@@ -1,15 +1,17 @@
 ---
 number: 178
+date: 2018-09-12 09:50:00
 
 title: "No One Is Too Busy to Be Creative"
-author: "Dana Rousmaniere, Elizabeth Gilbert"
+authors:
+- Elizabeth Gilbert
+- Dana Rousmaniere
 tags:
 - Time
 - Creativity
 
 site: "Harward Business Review"
 address: "https://hbr.org/2015/12/no-one-is-too-busy-to-be-creative"
-date: 2018-09-12 09:50:00
 ---
 
 You have needs and your family has needs and the bills have to be paid. There’s dignity in taking care of those things, but that doesn’t mean that you shouldn’t have any creative aspect to your life whatsoever. Set your alarm a half hour early every day and work on that book or that new business idea.

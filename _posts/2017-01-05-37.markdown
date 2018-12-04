@@ -1,15 +1,15 @@
 ---
 number: 37
+date: 2017-01-05 23:25:00
 
 title: "Ten Thousand Years"
-author: "99pi"
+authors: "99pi"
 tags:
 - Ray Cats
 - Communication
 
 site: "99% Invisible"
 address: "http://99percentinvisible.org/episode/ten-thousand-years/"
-date: 2017-01-05 23:25:00
 ---
 
 […] we would create folklore and write songs and tell stories about these “ray cats,” the moral being that when you see these cats change colors, run far, far away.

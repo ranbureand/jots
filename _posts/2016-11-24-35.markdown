@@ -1,15 +1,15 @@
 ---
 number: 35
+date: 2016-11-24 00:35:00
 
 title: "Postmortem: DreamWorks Interactive’s Trespasser"
-author: "Richard Wyckoff"
+authors: "Richard Wyckoff"
 tags:
 - Management
 - Trespasser
 
 site: "Gamasutra"
 address: "http://www.gamasutra.com/view/feature/131746/postmortem_dreamworks_.php"
-date: 2016-11-24 00:35:00
 ---
 
 However, after the *Trespasser* experience it has become clear that just as there are no successful anarchic world governments there can not be any successful development teams without management.

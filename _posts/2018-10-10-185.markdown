@@ -1,15 +1,15 @@
 ---
 number: 185
+date: 2018-10-10 08:20:00
 
 title: "The Codification of Design"
-author: "Jonathan Snook"
+authors: "Jonathan Snook"
 tags:
 - Design
 - Development
 
 site: "Jonathan Snook’s Site"
 address: "https://snook.ca/archives/design/codification-of-design"
-date: 2018-10-10 08:20:00
 ---
 
 That means that complexity in design can lead to complexity in code.

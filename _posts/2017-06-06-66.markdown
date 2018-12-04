@@ -1,15 +1,15 @@
 ---
 number: 66
+date: 2017-06-06 12:05:00
 
 title: "What’s That Mystery in Your Inbox Costing You?"
-author: "Jason Fried"
+authors: "Jason Fried"
 tags:
 - Context
 - Inbox
 
 site: “Signal v. Noise”
 address: "https://m.signalvnoise.com/whats-that-mystery-in-your-inbox-costing-you-89eb13911964"
-date: 2017-06-06 12:05:00
 ---
 
 If you use a group chat tool, there’s only one way to find out if the unread number is relevant: You have to click through and read everything just to figure out if there was anything worth reading. That’s the very definition of wasting time.

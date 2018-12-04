@@ -1,15 +1,15 @@
 ---
 number: 137
+date: 2018-05-14 09:50:00
 
 title: "Is running a Design Sprint in the best interest of your client?"
-author: "Dhruv Saxena"
+authors: "Dhruv Saxena"
 tags:
 - Pivot
 - Sprint
 
 site: "Medium"
 address: "https://uxplanet.org/is-running-a-design-sprint-in-the-best-interest-of-your-client-company-8322197e29e5"
-date: 2018-05-14 09:50:00
 ---
 
 Sprints on the other hand are a lot better for making major pivots which really require you to go broad before you converge to a few ideas worth trying out.

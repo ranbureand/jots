@@ -1,15 +1,15 @@
 ---
 number: 62
+date: 2017-05-27 15:05:00
 
 title: "7 Secrets of Blockbuster Video Games"
-author: "Erin Hoffman-John"
+authors: "Erin Hoffman-John"
 tags:
 - Pre-production
 - Scope
 
 site: "O'Reilly"
 address: "https://www.oreilly.com/ideas/7-secrets-of-blockbuster-video-games"
-date: 2017-05-27 15:05:00
 ---
 
 Understanding what you can afford to build—how much runway you have and how long you really want to work on a single project—is crucial to making it to the finish line.

@@ -1,15 +1,15 @@
 ---
 number: 42
+date: 2017-02-16 22:30:00
 
 title: "Copy If You Can: Improving Your UI Design Skills With Copywork"
-author: "Erik Kennedy"
+authors: "Erik Kennedy"
 tags:
 - Copywork
 - Improvement
 
 site: "Smashing Magazine"
 address: "https://www.smashingmagazine.com/2017/02/improving-ui-design-skills-copywork/"
-date: 2017-02-16 22:30:00
 ---
 
 I think copywork is subject to diminishing returns—so, no, you don’t have to copy perfectly. But (and this is important) you can’t copy it worse than the original. You have to achieve something that you view as equal or better, even if the details don’t totally line up.

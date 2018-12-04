@@ -1,15 +1,15 @@
 ---
 number: 47
+date: 2017-03-13 15:30:00
 
 title: "Specifics 001: The 8-Point Grid"
-author: "Bryn Jackson"
+authors: "Bryn Jackson"
 tags:
 - 8pt
 - Grids
 
 site: "Spec"
 address: "https://spec.fm/specifics/8-pt-grid"
-date: 2017-03-13 15:30:00
 ---
 
 Use multiples of 8 to define dimensions, padding, and margin of both block and inline elements.

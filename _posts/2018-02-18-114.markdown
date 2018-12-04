@@ -1,15 +1,15 @@
 ---
 number: 114
+date: 2018-02-18 16:40:00
 
 title: "Your Sketch Library Is Not a Design System Redux"
-author: "Brad Frost"
+authors: "Brad Frost"
 tags:
 - Design System
 - Ingredients
 
 site: "Brad Frost’s Blog"
 address: "http://bradfrost.com/blog/post/your-sketch-library-is-not-a-design-system-redux/"
-date: 2018-02-18 16:40:00
 ---
 
 It’s a shame to see a ton of hard work go into static designs only to see all that thinking, detail, and nuance get washed away when it’s translated into code.

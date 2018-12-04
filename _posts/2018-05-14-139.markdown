@@ -1,15 +1,15 @@
 ---
 number: 139
+date: 2018-05-16 09:30:00
 
 title: "The Slow Death of Internet Explorer and the Future of Progressive Enhancement"
-author: "Oliver Williams"
+authors: "Oliver Williams"
 tags:
 - Internet Explorer
 - Support
 
 site: "A List Apart"
 address: "https://alistapart.com/article/the-slow-death-of-internet-explorer-and-future-of-progressive-enhancement"
-date: 2018-05-16 09:30:00
 ---
 
 […] we’ve managed to improve the performance for those stuck on old technology while also opening the possibility of using the latest standards on browsers that support them.

@@ -1,15 +1,15 @@
 ---
 number: 102
+date: 2018-01-05 10:15:00
 
 title: "Who Serves Whom?"
-author: "iA"
+authors: "iA"
 tags:
 - Artificial
 - Intelligence
 
 site: "iA’s Site"
 address: "https://ia.net/topics/who-serves-whom/"
-date: 2018-01-05 10:15:00
 ---
 
 Machines are not intelligent, but they already excel at simulating intelligence. They are really good at making us believe that they understand, that they know us, that they comprehend, that they play chess.

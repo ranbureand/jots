@@ -1,15 +1,15 @@
 ---
 number: 58
+date: 2017-05-22 10:00:00
 
 title: "Signs That You’re a Micromanager"
-author: "Muriel Maignan Wilkins"
+authors: "Muriel Maignan Wilkins"
 tags:
 - Harm
 - Micromanagement
 
 site: "Harward Business Review"
 address: "https://hbr.org/2014/11/signs-that-youre-a-micromanager"
-date: 2017-05-22 10:00:00
 ---
 
 Underlying your need to micromanage is a fear of failure. By magnifying the risk of failure, your employees engage in “learned helplessness” where they start believing that the only way they can perform is if you micromanage them.

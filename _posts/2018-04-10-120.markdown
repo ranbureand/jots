@@ -1,15 +1,15 @@
 ---
 number: 120
+date: 2018-04-10 09:30:00
 
 title: "Research, Spikes, Tracer Bullets, Oh My!"
-author: "Chris Sterling"
+authors: "Chris Sterling"
 tags:
 - Research
 - Explore
 
 site: "Getting Agile"
 address: "http://www.gettingagile.com/2007/10/22/research-spikes-tracer-bullets-oh-my/"
-date: 2018-04-10 09:30:00
 ---
 
 Research—broad, foundational knowledge-gaining to decide what to spike or give the ability to estimate—indicator: don’t know a potential solution.

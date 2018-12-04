@@ -1,16 +1,15 @@
 ---
 number: 145
+date: 2018-06-15 12:40:00
 
 title: "Cultivating calm: a design philosophy for the digital age"
-author: "Harald Dunnink"
+authors: "Harald Dunnink"
 tags:
 - Game Roules
 - Foul Plays
 
 site: "Medium"
 address: "https://medium.com/@haralddunnink/cultivating-calm-a-design-philosophy-for-the-digital-age-94f3a93912e"
-date: 2018-06-15 12:40:00
-
 ---
 
 Protect the talents of your team by making firm agreements in advance about approach, method, and ideas. Ground rules help others to play the game and help guard against foul play.

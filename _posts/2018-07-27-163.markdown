@@ -1,15 +1,15 @@
 ---
 number: 163
+date: 2018-07-27 16:15:00
 
 title: "Your Body Text Is Too Small"
-author: "Christian Miller"
+authors: "Christian Miller"
 tags:
 - Body Text
 - First
 
 site: "Marvel App Blog"
 address: "https://blog.marvelapp.com/body-text-small/"
-date: 2018-07-27 16:15:00
 ---
 
 Above all, when designing a web page we should design the body text first, usually before anything else in the layout. It’s the most common element and its appearance will have an evident effect on the rest of the composition.

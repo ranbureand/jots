@@ -1,15 +1,15 @@
 ---
 number: 39
+date: 2017-01-18 10:15:00
 
 title: "Guerrilla Innovation"
-author: "Janice Gervais"
+authors: "Janice Gervais"
 tags:
 - Experiments
 - Research
 
 site: "A List Apart"
 address: "http://alistapart.com/article/guerrilla-innovation"
-date: 2017-01-18 10:15:00
 ---
 
 If you can’t stick with your idea long enough to do some research and run some experiments, why should anyone else?

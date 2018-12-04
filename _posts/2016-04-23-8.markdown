@@ -1,15 +1,16 @@
 ---
 number: 8
+date: 2016-04-23 12:00:00
 
 title: "Prototyping for Physical and Digital Products"
-author: "Kathryn McElroy"
+authors: "Kathryn McElroy"
 tags:
 - Process
 - Visual Design
 
-page: "22"
 publisher: "O’Reilly Media"
 year: "2016"
+pages: "22"
 ---
 
 Visual design should never be left until the end of the process.

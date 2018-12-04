@@ -1,15 +1,15 @@
 ---
 number: 104
+date: 2018-01-16 14:00:00
 
 title: "Google Memory Loss"
-author: "Tim Bray"
+authors: "Tim Bray"
 tags:
 - Google
 - Memory
 
 site: "Tim Bray’s Site"
 address: "https://www.tbray.org/ongoing/When/201x/2018/01/15/Google-is-losing-its-memory"
-date: 2018-01-16 14:00:00
 ---
 
 […] Google’s not going to be selling many ads next to search results that turn them up. So from a business point of view, it’s hard to make a case for Google indexing everything, no matter how old and how obscure.

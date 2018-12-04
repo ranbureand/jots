@@ -1,15 +1,15 @@
 ---
 number: 10
+date: 2016-04-23 12:00:00
 
 title: "When to Rewrite form Scratch — Autopsy of a Failed Software"
-author: "Umer Mansoor"
+authors: "Umer Mansoor"
 tags:
 - Fail
 - Rewrite
 
 site: "Code Ahoy"
 address: "http://codeahoy.com/2016/04/21/when-to-rewrite-from-scratch-autopsy-of-a-failed-software/"
-date: 2016-04-23 12:00:00
 ---
 
 If you are embarking on a rewrite journey, all the power to you, but make sure you do it for the right reasons, understand the risks and plan for it.

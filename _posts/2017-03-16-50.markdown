@@ -1,15 +1,15 @@
 ---
 number: 50
+date: 2017-03-16 09:40:00
 
 title: "How To Kill Your Phone Addiction with 4 Settings, 1 Hair Band, and a Post-It Note"
-author: "Brad Soroka"
+authors: "Brad Soroka"
 tags:
 - Phone
 - Post-It
 
 site: "Digital Telepathy"
 address: "http://www.dtelepathy.com/blog/productivity/how-to-kill-your-phone-addiction-with-4-settings-1-hair-band-and-a-post-it-note"
-date: 2017-03-16 09:40:00
 ---
 
 […] and writing three things that are most important and really should happen that day on a Post-It Note, then sticking it to the back of my phone.

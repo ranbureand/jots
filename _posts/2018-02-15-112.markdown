@@ -1,15 +1,15 @@
 ---
 number: 112
+date: 2018-02-15 10:05:00
 
 title: "Premortem: Prevent Failures by Recognizing Patterns"
-author: "Taylor Smith"
+authors: "Taylor Smith"
 tags:
 - Failure
 - Premortem
 
 site: "Taylor Smith’s Site"
 address: "https://www.tsmithcreative.com/blog/2018/premortem/"
-date: 2018-02-15 10:05:00
 ---
 
 What would you do, or how should the project be run to ensure that kind of failure?

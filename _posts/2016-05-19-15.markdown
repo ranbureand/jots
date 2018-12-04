@@ -1,15 +1,15 @@
 ---
 number: 15
+date: 2016-05-19 12:00:00
 
 title: "Instagram’s Abomination Part I"
-author: "Eli Schiff"
+authors: "Eli Schiff"
 tags:
 - Icon
 - Instagram
 
 site: "Eli Schiff’s Blog"
 address: "http://www.elischiff.com/blog/2016/5/18/instagrams-abomination-part-i"
-date: 2016-05-19 12:00:00
 ---
 
 […] the worst possible work environment is one in which visual designers are permitted actual autonomy over their domain.

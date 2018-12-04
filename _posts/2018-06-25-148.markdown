@@ -1,17 +1,16 @@
 ---
 number: 148
+date: 2018-06-25 10:10:00
 
 title: "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days"
-author: "Jake Knapp"
+authors: "Jake Knapp"
 tags:
 - Prototype
 - Sprint
 
-page: "168"
 publisher: "Simon & Schuster"
 year: "2016"
-
-date: "2018-06-25 10:10:00"
+pages: "168"
 ---
 
 Building a façade may be uncomfortable for you and your team. To prototype your solution, you’ll need a temporary change of philosophy: from perfect to just enough, from long-term quality to temporary simulation.

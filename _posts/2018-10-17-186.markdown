@@ -1,15 +1,15 @@
 ---
 number: 186
+date: 2018-10-17 09:00:00
 
 title: "How Ghostbusters Became Ghostbusters"
-author: "Michael Tucker"
+authors: "Michael Tucker"
 tags:
 - Designing Principle
 - Premise
 
 site: "Lessons from the Screenplay on YouTube"
 address: "https://www.youtube.com/watch?v=X_G00jYm5n0"
-date: 2018-10-17 09:00:00
 ---
 
 […] because essentially, it is a character saying: “Whatever you do, don’t do that”. It tells the audience to associate a certain value with a certain action: crossing the streams = bad.

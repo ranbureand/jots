@@ -1,15 +1,15 @@
 ---
 number: 183
+date: 2018-10-08 10:10:00
 
 title: "What Most Remote Companies Don’t Tell You About Remote Work"
-author: "Amir Salihefendic"
+authors: "Amir Salihefendic"
 tags:
 - Home
 - Remote Work
 
 site: "Doist’s Medium"
 address: "https://blog.doist.com/mental-health-and-remote-work-1b77616f6945"
-date: 2018-10-08 10:10:00
 ---
 
 When you travel for extended periods of time, you lose your social circle, your sense of belonging, and the everyday routines that keep you grounded and healthy.

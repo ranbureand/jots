@@ -1,15 +1,15 @@
 ---
 number: 94
+date: 2017-10-31 10:45:00
 
 title: "7 Truths About Indie Game Development"
-author: "Sarah Woodrow"
+authors: "Sarah Woodrow"
 tags:
 - Fail
 - Success
 
 site: "Gamasutra"
 address: "https://www.gamasutra.com/blogs/SarahWoodrow/20140102/206583/7_truths_about_indie_game_development.php"
-date: 2017-10-31 10:45:00
 ---
 
 Failure is a good thing if you plan for it. Failure can teach you lessons that no success will ever teach you […]

@@ -1,15 +1,15 @@
 ---
 number: 87
+date: 2017-10-05 20:25:00
 
 title: "18-Minute Analysis By Christopher Nolan On Story & Construction Of Memento"
-author: "Christopher Nolan"
+authors: "Christopher Nolan"
 tags:
 - Cinema
 - Time
 
 site: "YouTube, The Lord Louis Show"
 address: "https://www.youtube.com/watch?v=tYScJZWhaHA"
-date: 2017-10-05 20:25:00
 ---
 
 […] it’s confusing because I don’t think pictorially, I’ve done it grammatically […]

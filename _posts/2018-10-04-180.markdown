@@ -1,15 +1,15 @@
 ---
 number: 180
+date: 2018-10-04 10:10:00
 
 title: "How effective are modern UX design methods?"
-author: "Pol Kuijken"
+authors: "Pol Kuijken"
 tags:
 - Qualitative
 - Quantitative
 
 site: "Designer News"
 address: "https://www.designernews.co/comments/301290"
-date: 2018-10-04 10:10:00
 ---
 
 The point is that qualitative and quantitative research serve different purposes. Qualitative is mostly useful for creating hypotheses, while quantitative is great for verifying your hypotheses and solutions.

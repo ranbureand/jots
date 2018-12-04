@@ -1,15 +1,15 @@
 ---
 number: 126
+date: 2018-05-03 22:30:00
 
 title: "The Wisdom and/or Madness of Crowds"
-author: "Nicky Case"
+authors: "Nicky Case"
 tags:
 - Connections
 - Ideas
 
 site: "Crowds"
 address: "http://ncase.me/crowds/"
-date: 2018-05-03 22:30:00
 ---
 
 Too few connections and complex ideas can’t spread. Too many connections and complex ideas get crushed by groupthink.

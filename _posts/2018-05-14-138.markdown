@@ -1,16 +1,18 @@
 ---
 number: 138
+date: 2018-05-14 09:55:00
 
 title: "Lean UX: Designing Great Products with Agile Teams"
-author: "Jeff Gothelf, Josh Seiden"
+authors:
+- Jeff Gothelf
+- Josh Seiden
 tags:
 - Phase Two
 - Software
 
-page: "144/3889"
 publisher: "O’Reilly Media"
 year: "2017"
-date: 2018-05-14 09:55:00
+pages: "144/3889"
 ---
 
 The biggest lie in software is Phase Two.

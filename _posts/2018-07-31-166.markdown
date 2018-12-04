@@ -1,15 +1,15 @@
 ---
 number: 166
+date: 2018-07-31 16:55:00
 
 title: "Unused"
-author: "Chris Coyier"
+authors: "Chris Coyier"
 tags:
 - CSS
 - Unused
 
 site: "CSS-Tricks"
 address: "https://css-tricks.com/unused/"
-date: 2018-07-31 16:55:00
 ---
 
 With all that at play, how can any tool give us a truly accurate picture of unused CSS, to the point that actually removing that CSS isn't just as dangerous as leaving it alone?

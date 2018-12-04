@@ -1,15 +1,15 @@
 ---
 number: 11
+date: 2016-04-23 12:00:00
 
 title: "Curing Our Slack Addiction"
-author: "Dave Teare"
+authors: "Dave Teare"
 tags:
 - Addiction
 - Slack
 
 site: "Agile Bits, Blog"
 address: "https://blog.agilebits.com/2016/04/19/curing-our-slack-addiction/"
-date: 2016-04-23 12:00:00
 ---
 
 The thing is, being connected doesn’t magically enable effective communication.
