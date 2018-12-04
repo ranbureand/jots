@@ -1,6 +1,6 @@
 ---
 number: 59
-date: 2016-05-23 12:00:00
+date: 2017-05-23 12:00:00
 
 title: "Level Up! The Guide to Great Video Game Design. 2<sup>nd</sup> Edition."
 authors: "Scott Rogers"

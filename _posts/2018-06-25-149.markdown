@@ -1,6 +1,6 @@
 ---
 number: 149
-date: "2018-06-25 10:20:00"
+date: 2018-06-25 10:20:00
 
 title: "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days"
 authors: "Jake Knapp"
