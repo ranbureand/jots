@@ -1,0 +1,17 @@
+---
+number: 0
+date: 0000-00-00 00:00:00
+
+title: "Title of the Site"
+authors:
+- Name Surname
+- Name Surname
+tags:
+- Tag-1
+- Tag-2
+
+site: "Site Name"
+address: "http://"
+---
+
+This is a quotation.

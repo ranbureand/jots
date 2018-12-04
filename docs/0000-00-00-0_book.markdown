@@ -1,0 +1,20 @@
+---
+number: 0
+date: 0000-00-00 00:00:00
+
+title: "Title of the Book"
+authors:
+- Name Surname
+- Name Surname
+tags:
+- Tag-1
+- Tag-2
+
+publisher: "Publisher Name"
+year: "0000"
+pages:
+- 00
+- 00
+---
+
+This is a quotation.
