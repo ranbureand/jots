@@ -1,0 +1,16 @@
+---
+number: 196
+date: 2018-12-09 14:30:00
+
+title: "Do you think there’s such a thing as quiet or humble leadership?"
+authors: "Julie Zhuo"
+tags:
+- Humble
+- Leadership
+- Quiet
+
+site: "The Looking Glass"
+address: "http://juliezhuo.com/design/mailinglist.html"
+---
+
+[…] He and Steve Jobs would often disagree about things, but the way he eventually won Steve over was through dogged persistence in bringing up the topics he cared, not through saying things loudly or dramatically.
