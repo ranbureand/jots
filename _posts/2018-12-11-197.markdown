@@ -1,0 +1,15 @@
+---
+number: 197
+date: 2018-12-11 10:00:00
+
+title: "What Can Be Learned From The Gutenberg Accessibility Situation?"
+authors: "Andy Bell"
+tags:
+- Accessibility
+- Fix
+
+site: "Smashing Magazine"
+address: "https://www.smashingmagazine.com/2018/12/gutenberg-accessibility-situation/"
+---
+
+Perhaps if accessibility was considered at the very start of the project, the process of creating, editing and moving blocks would be a lot simpler and thus, not a cognitive overload. The problem now is that accessibility is a fix rather than a core feature.
