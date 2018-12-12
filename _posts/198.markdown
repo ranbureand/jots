@@ -1,0 +1,15 @@
+---
+number: 198
+date: 2018-12-12 10:05:00
+
+title: " Prototypes and production "
+authors: "Andy Bell"
+tags:
+- Production
+- Prototype
+
+site: "adaction"
+address: "https://adactio.com/journal/14562"
+---
+
+When a prototype is successful, works great, and tests well, there’s a real temptation to use the prototype code as the basis for the final product. Don’t do this! […] Build prototypes to test ideas, designs, interactions, and interfaces …and then throw the code away.
