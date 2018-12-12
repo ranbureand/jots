@@ -1,0 +1,15 @@
+---
+number: 199
+date: 2018-12-12 10:20:00
+
+title: " Prototypes and production "
+authors: "Chris Ferdinandi"
+tags:
+- Development
+- Google Things
+
+site: "Go Make Things"
+address: "https://gomakethings.com/what-makes-someone-a-good-front-end-developer/"
+---
+
+I Google how to do things—sometimes really basic things—every single day.
