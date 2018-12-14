@@ -12,4 +12,4 @@ site: "Matthew Ström’s Site"
 address: "https://matthewstrom.com/writing/fix-it-later.html"
 ---
 
-Don’t commit to features. Features are solutions to problems, but they’re seldom the only solution. Instead, commit to solving the underlying problem; if the ‘not-quite-perfect’ result (fewer new features, or none at all) solves the problem, you’ve still succeeded.
+Don’t commit to features. Features are solutions to problems, but they’re seldom the only solution. Instead, commit to solving the underlying problem; if the “not-quite-perfect” result (fewer new features, or none at all) solves the problem, you’ve still succeeded.
