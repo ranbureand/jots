@@ -1,0 +1,19 @@
+---
+number: 201
+date: 2018-12-19 00:40:00
+
+title: "[Go Makes Things] This and that"
+authors: "Chris Ferdinandi"
+tags:
+- Knowledge
+- Techniques
+
+site: "[Go Makes Things]"
+address: "https://gomakethings.com/this-and-that/"
+---
+
+One of the most common questions I get from people is why I use [some older technique or tool] over [some newer technique or tool] […].
+
+The technologies, tools, and techniques don’t matter. The answer is always the same.
+
+Because it does what I need and I already know how to use it.
