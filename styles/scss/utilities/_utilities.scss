@@ -175,25 +175,25 @@ $d-jot-border-width: 3.5px;
 ** Link
 */
 
-@mixin link($status: link-light) {
-  @if $status == "link-light" {
+@mixin link($status: l-link) {
+  @if $status == "l-link" {
     box-shadow: $l-background-color 0 0 0 0 inset, $c-type-color 0 -2px 0 0 inset;
     text-shadow: $l-background-color 1px 1px 0, $l-background-color -1px 1px 0, $l-background-color 2px 0 0, $l-background-color -2px 0 0;
     &:hover,
     &:active {
       box-shadow: $l-background-color 0 0 0 0 inset, $l-background-color 0 -2px 0 0 inset;
     }
-  } @else if $status == "link-color" {
+  } @else if $status == "c-link" {
     color: $l-strong-type-color;
     box-shadow: $c-background-color 0 0 0 0 inset, $l-strong-type-color 0 -2px 0 0 inset;
     text-shadow: $c-background-color 1px 1px 0, $c-background-color -1px 1px 0, $c-background-color 2px 0 0, $c-background-color -2px 0 0;
     &:hover,
     &:active {
-      color: $d-strong-type-color;
+      color: $l-strong-type-color;
       box-shadow: $c-background-color 0 0 0 0 inset, $c-background-color 0 -2px 0 0 inset;
     }
-  }  @else if $status == "link-dark" {
-    color: $l-strong-type-color;
+  }  @else if $status == "d-link" {
+    color: $d-strong-type-color;
     box-shadow: $d-background-color 0 0 0 0 inset, $c-strong-type-color 0 -2px 0 0 inset;
     text-shadow: $d-background-color 1px 1px 0, $d-background-color -1px 1px 0, $d-background-color 2px 0 0, $d-background-color -2px 0 0;
     &:hover,

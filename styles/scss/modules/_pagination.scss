@@ -61,13 +61,13 @@
 }
 
 span.page-item {
-  color: $d-strong-type-color;
+  color: $l-strong-type-color;
 }
 
 a.page-item {
   color: $c-type-color;
   &:hover,
   &:active {
-    color: $d-strong-type-color;
+    color: $l-strong-type-color;
   }
 }

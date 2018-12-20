@@ -6,13 +6,13 @@
 
 @keyframes number-pulse-light {
   0% {
-    box-shadow: $d-light-type-color 0 0 0 0.5em;
+    box-shadow: $l-light-type-color 0 0 0 0.5em;
   }
   50% {
-    box-shadow: $d-light-type-color 0 0 0 0.3em;
+    box-shadow: $l-light-type-color 0 0 0 0.3em;
   }
   100% {
-    box-shadow: $d-light-type-color 0 0 0 0.5em;
+    box-shadow: $l-light-type-color 0 0 0 0.5em;
   }
 }
 

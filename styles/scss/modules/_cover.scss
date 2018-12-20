@@ -30,7 +30,7 @@
   animation-name: element-in-up;
   animation-duration: $duration*4;
 
-  color: $l-type-color;
+  color: $d-type-color;
 
   animation-fill-mode: both;
   grid-column: 1 / 3;
@@ -42,7 +42,7 @@
         animation-timing-function: ease;
         animation-iteration-count: infinite;
 
-        background-color: $l-strong-type-color;
+        background-color: $d-strong-type-color;
       }
     }
   }
@@ -82,7 +82,7 @@
 
     text-align: center;
 
-    color: $d-strong-type-color;
+    color: $l-strong-type-color;
     border-radius: em($m-small-line, $m-small-size);
     background-color: $c-type-color;
     &:hover,
@@ -117,7 +117,7 @@
   padding-right: em($m-gut/2);
   padding-left: em($m-gut/4*3 - $m-cover-border-width);
 
-  color: $l-strong-type-color;
+  color: $d-strong-type-color;
   border-left: $m-cover-border-width solid $c-type-color;
 
   p {
@@ -127,7 +127,7 @@
     }
   }
   a {
-    @include link(link-dark);
+    @include link(d-link);
   }
   @include min-screen(col(8)) {
     margin-bottom: em($d-base-rhythm*2);
@@ -155,7 +155,6 @@
   }
 }
 
-
 .cover-reference {
   margin-bottom: em($m-small-line/2, $m-small-size);
   padding-right: em($m-gut/2, $m-small-size);
@@ -174,10 +173,10 @@
     font-weight: $medium;
   }
   a {
-    @include link(link-dark);
+    @include link(d-link);
   }
   span {
-    color: $l-strong-type-color;
+    color: $d-strong-type-color;
   }
   @include min-screen(col(8)) {
     margin-bottom: em($d-small-line/2, $d-small-size);

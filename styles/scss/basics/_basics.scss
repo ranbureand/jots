@@ -22,7 +22,7 @@ html {
 
   letter-spacing: 0.02em;
 
-  color: $d-type-color;
+  color: $l-type-color;
 
   @include font-size($base-font-size, $base-font-line);
   @include face(sans); // normalize.css
@@ -111,7 +111,7 @@ a {
   transition-property: color, background-color, border-color, box-shadow, text-shadow;
   text-decoration: none;
 
-  color: $d-strong-type-color;
+  color: $l-strong-type-color;
   background-color: transparent; // normalize.css
   span {
     transition-timing-function: ease-in-out;
@@ -150,9 +150,9 @@ h6 {
 
   margin: 0;
 
-  color: $d-strong-type-color;
+  color: $l-strong-type-color;
   span {
-    color: $d-strong-type-color;
+    color: $l-strong-type-color;
   }
 }
 h1,
@@ -166,7 +166,7 @@ h6 {
   font-weight: $normal;
 }
 h6 {
-  color: $d-light-type-color;
+  color: $l-light-type-color;
 }
 
 ul,
@@ -186,7 +186,7 @@ dl {
 
     margin-right: 0.8em;
 
-    color: $d-strong-type-color;
+    color: $l-strong-type-color;
   }
   dd {
     margin: 0;
@@ -204,7 +204,7 @@ abbr[title] {
 strong {
   font-weight: $semi-bold; // normalize.css
 
-  color: $d-strong-type-color;
+  color: $l-strong-type-color;
 }
 
 q {
@@ -256,11 +256,11 @@ samp {
 }
 code,
 samp {
-  color: $d-type-color;
+  color: $l-type-color;
 }
 kbd,
 mark {
-  color: $d-strong-type-color;
+  color: $l-strong-type-color;
 }
 code,
 samp,
@@ -305,7 +305,7 @@ blockquote {
 quote {
   font-style: italic;
 
-  color: $d-strong-type-color;
+  color: $l-strong-type-color;
 }
 
 hr {

@@ -4,7 +4,7 @@
 ** Footer
 */
 
-.canvas-footer {
+.footer-canvas {
   @include min-screen(col(8)) {
     padding-right: em($d-gut/2);
     padding-left: em($d-gut/2);
@@ -21,24 +21,24 @@
   animation-name: element-in-up;
   animation-duration: $duration*4;
 
-  color: $l-type-color;
+  color: $d-type-color;
 
   animation-fill-mode: both;
 
   a {
     font-weight: $medium;
 
-    color: $l-strong-type-color;
+    color: $d-strong-type-color;
     span {
       font-weight: $normal;
 
-      color: $l-type-color;
+      color: $d-type-color;
     }
     &:hover,
     &:active {
-      color: $d-strong-type-color;
+      color: $l-strong-type-color;
       span {
-        color: $d-type-color;
+        color: $l-type-color;
       }
     }
   }
@@ -141,8 +141,8 @@
 
     color: $c-type-color;
     border-radius: 50%;
-    background-color: $l-strong-type-color;
-    box-shadow: $l-light-type-color 0 0 0 0;
+    background-color: $d-strong-type-color;
+    box-shadow: $d-light-type-color 0 0 0 0;
 
     @include font-size($m-extra-small-size, $m-extra-small-line, $m-small-size);
   }
@@ -158,14 +158,14 @@
 
     content: "";
 
-    border-bottom: 1px solid $d-light-type-color;
+    border-bottom: 1px solid $l-light-type-color;
   }
   &:hover,
   &:active,
   &:focus {
     &:before {
-      background-color: $d-type-color;
-      box-shadow: $d-light-type-color 0 0 0 0.4em;
+      background-color: $l-type-color;
+      box-shadow: $l-light-type-color 0 0 0 0.4em;
     }
   }
   &:active {

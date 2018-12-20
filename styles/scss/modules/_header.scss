@@ -5,14 +5,11 @@
 */
 
 .header-canvas {
-  border-top: em($m-small-line/4) solid $c-type-color;
   background-color: $d-background-color;
 
   @include min-screen(col(8)) {
     padding-right: em($d-gut/2);
     padding-left: em($d-gut/2);
-
-    border-top: em($d-small-line/4) solid $c-type-color;
   }
   @include min-screen(col(12)) {
     padding-top: em($d-base-rhythm/2);
@@ -34,11 +31,11 @@
   a {
     font-weight: $medium;
 
-    color: $l-strong-type-color;
+    color: $d-strong-type-color;
     span {
       font-weight: $normal;
 
-      color: $l-type-color;
+      color: $d-type-color;
     }
     &:hover,
     &:active {

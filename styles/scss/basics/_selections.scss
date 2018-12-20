@@ -5,12 +5,12 @@
 */
 
 ::-moz-selection {
-  color: $d-selected-type-color;
+  color: $l-selected-type-color;
   background-color: $l-selected-background-color;
   text-shadow: none;
 }
 ::selection {
-  color: $d-selected-type-color;
+  color: $l-selected-type-color;
   background-color: $l-selected-background-color;
   text-shadow: none;
 }
@@ -23,13 +23,14 @@ img::selection {
 }
 
 .header-canvas,
-.cover-canvas {
+.cover-canvas,
+.footer-canvas {
   ::-moz-selection {
-    color: $l-selected-type-color;
-    background-color: $d-background-inverted-color;
+    color: $d-selected-type-color;
+    background-color: $d-selected-background-color;
   }
   ::selection {
-    color: $l-selected-type-color;
-    background-color: $d-background-inverted-color;
+    color: $d-selected-type-color;
+    background-color: $d-selected-background-color;
   }
 }
