@@ -1,0 +1,15 @@
+---
+number: 202
+date: 2018-12-27 10:15:00
+
+title: "Agile UX: How to Incorporate UX and Product Design into Agile"
+authors: "Debbie Levitt"
+tags:
+- Agile UX
+- Sausage
+
+site: "Toptal"
+address: "https://www.toptal.com/agile/agile-ux-design-explained/"
+---
+
+When companies just build it, just ship it, iterate on it, and build and ship again, this means that customers are seeing a variety of versions. They are seeing the work in progress and watching the sausage being made. This is often a frustrating and confusing experience requiring customers to keep relearning a system that’s evolving.
