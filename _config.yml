@@ -3,7 +3,7 @@ title: "Jots"
 description: "An ongoing collection of bits from inspiring pieces."
 author: Andrea Buran
 exclude: ['README.md']
-version: '2018-12-30'
+version: '2018-12-29'
 
 #baseurl: http://ranbureand.github.io/jots
 baseurl: /
