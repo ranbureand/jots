@@ -23,11 +23,11 @@
   a {
     font-weight: $medium;
 
-    color: $l-strong-type-color;
+    color: $d-strong-type-color;
     span {
       font-weight: $normal;
 
-      color: $l-type-color;
+      color: $d-type-color;
     }
     &:hover,
     &:active {
@@ -39,7 +39,7 @@
 .not-found-title {
   font-weight: $medium;
 
-  color: $l-strong-type-color;
+  color: $d-strong-type-color;
 
   @include font-size($m-extra-extra-large-size, $m-extra-extra-large-line);
   @include min-screen(col(8)) {
@@ -50,7 +50,7 @@
 .not-found-caption {
   font-weight: $normal;
 
-  color: $l-type-color;
+  color: $d-type-color;
 
   @include font-size($m-small-size, $m-small-line);
   @include min-screen(col(8)) {
