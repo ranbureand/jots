@@ -1,28 +1,43 @@
-<head>
-  <meta charset="utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <title>{{ site.title }} / A collection of bits from inspiring pieces.</title>
-  <meta name="description" content="{{ site.description }}">
+  <!--
 
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  Welcome, websurfer.
 
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://jots.andreaburan.com/{{ site.baseurl }}">
-  <meta property="og:image" content="http://jots.andreaburan.com/android-chrome-192x192.png">
+  This site is:
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/styles/css/main.css?v=1.3"/>
+  + designed and developed in the browser
+  + written in Kramdown
+  + generated through Jekyll
+  + styled from scratch in SCSS
+  + typesetted in Cooper Hewitt
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
-  <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#8f6efa">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
-  <meta name="apple-mobile-web-app-title" content="Jots">
-  <meta name="application-name" content="Jots">
-  <meta name="msapplication-config" content="{{ site.baseurl }}/browserconfig.xml">
-  <meta name="theme-color" content="#8f6efa">
-</head>
+  with love and patience by Andrea Buran.
+
+  -->
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>{{ site.title }} · A collection of bits from inspiring pieces.</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://jots.andreaburan.com/{{ site.baseurl }}">
+    <meta property="og:image" content="http://jots.andreaburan.com/android-chrome-192x192.png">
+
+    <link rel="stylesheet" href="{{ "/styles/css/main.css?v=" | append: site.version | prepend: site.baseurl }}"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v={{ site.version }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v={{ site.version }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v={{ site.version }}">
+    <link rel="manifest" href="/site.webmanifest?v={{ site.version }}">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v={{ site.version }}" color="#8f6efa">
+    <link rel="shortcut icon" href="/favicon.ico?v={{ site.version }}">
+    <meta name="apple-mobile-web-app-title" content="Jots">
+    <meta name="application-name" content="Jots">
+    <meta name="msapplication-TileColor" content="#8f6efa">
+    <meta name="theme-color" content="131313">
+  </head>
