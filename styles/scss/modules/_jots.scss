@@ -50,23 +50,10 @@
   color: $l-type-color;
 
   animation-fill-mode: both;
-
-  &:target {
-    .jot-number {
-      a {
-        animation-name: number-pulse-light;
-        animation-duration: 2.5s;
-        animation-timing-function: ease;
-        animation-iteration-count: infinite;
-
-        background-color: $l-type-color;
-      }
-    }
-  }
   @include min-screen(col(8)) {
     width: 100%/2*1;
-    padding-top: em($d-base-rhythm*2);
-    padding-bottom: em($d-base-rhythm*2);
+    padding-top: em($d-base-rhythm*1.5);
+    padding-bottom: em($d-base-rhythm*1.5);
   }
   @include min-screen(col(12)) {
     width: 100%/3*1;
@@ -79,55 +66,6 @@
 @for $i from 1 through 48 {
   .jot:nth-child(#{$i}n) {
     animation-delay: #{$i * $duration/8};
-  }
-}
-
-.jot-number {
-  font-weight: $medium;
-
-  margin-bottom: em($m-base-rhythm*1.5, $m-small-size);
-  padding-right: em($m-gut/2, $m-small-size);
-  padding-left: em($m-gut/2, $m-small-size);
-
-  @include font-size($m-small-size, $m-small-line);
-
-  a {
-    display: inline-block;
-
-    min-width: em($m-small-line*2, $m-small-size);
-    height: em($m-small-line*2, $m-small-size);
-    padding-top: em($m-small-line/2 + 2, $m-small-size);
-    padding-right: em($m-gut/4, $m-small-size);
-    padding-bottom: em($m-small-line/2 - 2, $m-small-size);
-    padding-left: em($m-gut/4, $m-small-size);
-
-    text-align: center;
-
-    color: $d-strong-type-color;
-    border-radius: em($m-small-line, $m-small-size);
-    background-color: $c-type-color;
-    &:hover,
-    &:active,
-    &:focus {
-      box-shadow: $c-light-type-color 0 0 0 0.4em;
-    }
-  }
-  @include min-screen(col(8)) {
-    margin-bottom: em($d-base-rhythm, $d-small-size);
-    padding-right: em($d-gut/2, $d-small-size);
-    padding-left: em($d-gut/2, $d-small-size);
-
-    @include font-size($d-small-size, $d-small-line);
-    a {
-      min-width: em($d-small-line*2, $d-small-size);
-      height: em($d-small-line*2, $d-small-size);
-      padding-top: em($d-small-line/2 + 2, $d-small-size);
-      padding-right: em($d-gut/4, $d-small-size);
-      padding-bottom: em($d-small-line/2 - 2, $d-small-size);
-      padding-left: em($d-gut/4, $d-small-size);
-
-      border-radius: em($d-small-line, $d-small-size);
-    }
   }
 }
 
@@ -148,10 +86,9 @@
     }
   }
   a {
-    font-weight: $semi-bold;
-
     @include link(l-link);
   }
+
   @include min-screen(col(8)) {
     margin-bottom: em($d-base-rhythm);
     padding-right: em($d-gut/2 - $d-jot-border-width);
@@ -167,7 +104,6 @@
   }
 }
 
-
 .jot-reference {
   margin-bottom: em($m-small-line/2, $m-small-size);
   padding-right: em($m-gut/2, $m-small-size);
@@ -175,13 +111,6 @@
 
   @include font-size($m-small-size, $m-small-line);
 
-  &:before {
-    float: left;
-
-    width: em($m-gut*3/4, $m-small-size);
-
-    content: "—";
-  }
   a,
   span {
     font-weight: $semi-bold;
@@ -192,6 +121,7 @@
   span {
     color: $l-strong-type-color;
   }
+
   @include min-screen(col(8)) {
     margin-bottom: em($d-small-line/2, $d-small-size);
     padding-right: em($d-gut/2, $d-small-size);
@@ -209,6 +139,12 @@
   padding-left: em($m-gut/2, $m-small-size);
 
   @include font-size($m-small-size, $m-small-line);
+
+  a,
+  span {
+    font-weight: $semi-bold;
+  }
+
   @include min-screen(col(8)) {
     padding-right: em($d-gut/2, $d-small-size);
     padding-left: em($d-gut/2, $d-small-size);

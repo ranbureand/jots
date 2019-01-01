@@ -4,17 +4,16 @@
         {%- for post in paginator.posts %}
           {%- unless post.number == paginator.total_posts %}
           <div class="jot element-1d" id="jot-{{ post.number }}" data-tag="{{ post.tag }}">
-            <div class="jot-number"><a href="#jot-{{ post.number }}">{{ post.number }}</a></div>
             <blockquote class="jot-body" {% if post.address %}cite="{{ post.address }}"{% endif %}>
 
               {{ post.content }}
             </blockquote>
             {%- if post.site %}
-              <div class="jot-reference">{% if post.authors.first %}{% for author in post.authors %}{% if forloop.last == true %}<span>{{ author }}</span>{% else %}<span>{{ author }}</span>, {% endif %}{% endfor %}{% else %}<span>{{ post.authors }}</span>{% endif %} in {% if post.address %}<a href="{{ post.address }}" target="_blank" title="{{ post.title }}"><cite>{{ post.title }}</cite></a>{% else %}<span><cite>{{ post.title }}</cite></span>{% endif %}, from <span>{{ post.site }}</span>.</div>
+              <div class="jot-reference"><a href="#jot-{{ post.number }}">Jot {{ post.number }}</a> : {% if post.authors.first %}{% for author in post.authors %}{% if forloop.last == true %}<span>{{ author }}</span>{% else %}<span>{{ author }}</span>, {% endif %}{% endfor %}{% else %}<span>{{ post.authors }}</span>{% endif %} in {% if post.address %}<a href="{{ post.address }}" target="_blank" title="{{ post.title }}"><cite>{{ post.title }}</cite></a>{% else %}<span><cite>{{ post.title }}</cite></span>{% endif %}, from <span>{{ post.site }}</span>.</div>
             {%- else %}
-              <div class="jot-reference">{% if post.authors.first %}{% for author in post.authors %}{% if forloop.last == true %}<span>{{ author }}</span>{% else %}<span>{{ author }}</span>, {% endif %}{% endfor %}{% else %}<span>{{ post.authors }}</span>{% endif %} in <span><cite>{{ post.title }}</cite></span>, {% if post.pages.first %}pp. {% for page in post.pages %}{% if forloop.last == true %}<span>{{ page }}</span>{% else %}<span>{{ page }}</span>–{% endif %}{% endfor %}{% else %}p. <span>{{ post.pages }}</span>{% endif %}, {{ post.publisher }}, {{ post.year }}.</div>
+              <div class="jot-reference"><a href="#jot-{{ post.number }}">Jot {{ post.number }}</a> : {% if post.authors.first %}{% for author in post.authors %}{% if forloop.last == true %}<span>{{ author }}</span>{% else %}<span>{{ author }}</span>, {% endif %}{% endfor %}{% else %}<span>{{ post.authors }}</span>{% endif %} in <span><cite>{{ post.title }}</cite></span>, {% if post.pages.first %}pp. {% for page in post.pages %}{% if forloop.last == true %}<span>{{ page }}</span>{% else %}<span>{{ page }}</span>–{% endif %}{% endfor %}{% else %}p. <span>{{ post.pages }}</span>{% endif %}, {{ post.publisher }}, {{ post.year }}.</div>
             {%- endif %}
-            <div class="jot-date">Jotted on <span>{{ post.date | date: "%B" }} the {% assign d = post.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %} {{ post.date | date: "%Y" }}, at {{ post.date | date: "%H:%M" }}</span>.</div>
+            <div class="jot-date">Jotted on the {% assign d = post.date | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %} of {{ post.date | date: "%b" }} {{ post.date | date: "%Y" }}, at {{ post.date | date: "%H:%M" }}.</div>
           </div>
           {% endunless %}
         {%- endfor %}
