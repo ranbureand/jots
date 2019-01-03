@@ -1,0 +1,15 @@
+---
+number: 204
+date: 2019-01-03 14:50:00
+
+title: "Managing Remote Teams—A Crash Course"
+authors: "Andreas Klinger"
+tags:
+- Remote
+- Suffer
+
+site: "Andreas Klinger’s Site"
+address: "http://klinger.io/post/180989912140/managing-remote-teams-a-crash-course"
+---
+
+Being the one poor soul remote in a co-located team is hard… you have “5x” the process needs… People will continuously forget to involve you in discussions or decisions, you will be the person not knowing what is happening why—you will suffer.
