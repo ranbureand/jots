@@ -1,0 +1,19 @@
+---
+number: 205
+date: 2019-01-04 14:50:00
+
+title: "Metrics for early stage startups"
+authors: "Andreas Klinger"
+tags:
+- Customer Intent
+- Metrics
+
+site: "SlideShare"
+address: "https://www.slideshare.net/andreasklinger/metrics-for-early-stage-startups/42-Metrics_are_horrible_way_to"
+---
+
+Metrics are a horrible way to understand customer intent. Great way: customer interviews.
+
+But: we bias our people, when we ask them. Even if we try not to.
+
+Reason: we believe our own bullshit.
