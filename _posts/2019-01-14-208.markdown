@@ -1,0 +1,15 @@
+---
+number: 208
+date: 2019-01-14 21:25:00
+
+title: "Emulation Is Not a Product Strategy"
+authors: "Jesse Weaver"
+tags:
+- Copycat
+- Emulation
+
+site: "Medium"
+address: "https://medium.com/s/user-friendly/emulation-is-not-a-product-strategy-cfecdbffce96"
+---
+
+[…] we look at best practices, analyze the competition, and then, often, we take a copycat approach to building our product. We think that if it’s working for them, it’s got to work for us too. The problem? It frequently doesn’t—at least not the way we think it will.
