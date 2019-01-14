@@ -1,0 +1,15 @@
+---
+number: 207
+date: 2019-01-14 21:10:00
+
+title: "Regret vs Celebration"
+authors: "Shawn Blanc"
+tags:
+- Good Code
+- Programming
+
+site: "Shawn Blanc’s Site"
+address: "https://shawnblanc.net/2019/01/regret-vs-celebration/"
+---
+
+I love how David Allen says that you can do anything you want but you can’t do everything you want. And that is an extremely liberating mindset.
