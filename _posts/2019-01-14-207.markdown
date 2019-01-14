@@ -5,8 +5,8 @@ date: 2019-01-14 21:10:00
 title: "Regret vs Celebration"
 authors: "Shawn Blanc"
 tags:
-- Good Code
-- Programming
+- Regret
+- Time
 
 site: "Shawn Blanc’s Site"
 address: "https://shawnblanc.net/2019/01/regret-vs-celebration/"
