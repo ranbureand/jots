@@ -11,8 +11,8 @@ $browser-default-font-size: 16px;
 $base-font-size:            16px;
 $base-font-line:            $base-unit*6;
 
-$m-base-rhythm:             $base-unit*6;
-$d-base-rhythm:             $base-unit*10;
+$m-base-rhythm:             $base-unit*6;  // 24
+$d-base-rhythm:             $base-unit*10; // 40
 
 /*
 ** Font sizes and line heights
@@ -27,8 +27,8 @@ $m-extra-extra-large-line:    $base-unit*30;
 $d-extra-extra-large-size:    120px;
 $d-extra-extra-large-line:    $base-unit*40;
 
-$m-extra-large-size:          20px;
-$m-extra-large-line:          $base-unit*7;
+$m-extra-large-size:          24px;
+$m-extra-large-line:          $base-unit*8;
 
 $t-extra-large-size:          32px;
 $t-extra-large-line:          $base-unit*10;
@@ -36,29 +36,29 @@ $t-extra-large-line:          $base-unit*10;
 $d-extra-large-size:          40px;
 $d-extra-large-line:          $base-unit*14;
 
-$m-large-size:         20px;
-$m-large-line:         $base-unit*7;
+$m-large-size:                24px;
+$m-large-line:                $base-unit*8;
 
-$d-large-size:         20px;
-$d-large-line:         $base-unit*7;
+$d-large-size:                20px;
+$d-large-line:                $base-unit*7;
 
-$m-medium-size:         16px;
-$m-medium-line:         $base-unit*6;
+$m-medium-size:               16px;
+$m-medium-line:               $base-unit*6;
 
-$d-medium-size:         16px;
-$d-medium-line:         $base-unit*6;
+$d-medium-size:               16px;
+$d-medium-line:               $base-unit*6;
 
-$m-small-size:          13px;
-$m-small-line:          $base-unit*5;
+$m-small-size:                13px;
+$m-small-line:                $base-unit*5;
 
-$d-small-size:          13px;
-$d-small-line:          $base-unit*5;
+$d-small-size:                13px;
+$d-small-line:                $base-unit*5;
 
-$m-extra-small-size:    12px;
-$m-extra-small-line:    $base-unit*4;
+$m-extra-small-size:          12px;
+$m-extra-small-line:          $base-unit*4;
 
-$d-extra-small-size:    12px;
-$d-extra-small-line:    $base-unit*4;
+$d-extra-small-size:          12px;
+$d-extra-small-line:          $base-unit*4;
 
 /*
 ** Font weights
