@@ -8,7 +8,8 @@
 $black:                         #000;
 $white:                         #fff;
 
-$color:                         #8f6efa; // HSBlu(272,96,56)
+$color-1:                       #fc5568; // HSBlu(8,96,60)
+$color-2:                       #8f6efa; // HSBlu(272,96,56)
 
 $l-background:                  #fafafa;
 $d-background:                  #131313;
@@ -17,9 +18,13 @@ $d-background:                  #131313;
 ** Typography
 */
 
-$c-strong-type-color:           rgba($color, 1.00);
-$c-type-color:                  rgba($color, 1.00);
-$c-light-type-color:            rgba($color, 0.24);
+$c-strong-type-color-1:         rgba($color-1, 1.00);
+$c-type-color-1:                rgba($color-1, 1.00);
+$c-light-type-color-1:          rgba($color-1, 0.24);
+
+$c-strong-type-color-2:         rgba($color-2, 1.00);
+$c-type-color-2:                rgba($color-2, 1.00);
+$c-light-type-color-2:          rgba($color-2, 0.24);
 
 $l-strong-type-color:           rgba($black, 0.92);
 $l-type-color:                  rgba($black, 0.92);
@@ -38,11 +43,13 @@ $d-selected-type-color:         $d-strong-type-color;
 
 $l-background-color:            $l-background;
 $d-background-color:            $d-background;
-$c-background-color:            $color;
+$c-background-color-1:          $color-1;
+$c-background-color-2:          $color-2;
 
 $l-code-background-color:       rgba($black, 0.08);
 
-$l-selected-background-color:   rgba($color, 0.20);
+$l-selected-background-color-1: rgba($color-1, 0.20);
+$l-selected-background-color-2: rgba($color-2, 0.20);
 $d-selected-background-color:   rgba($white, 0.12);
 
 /*

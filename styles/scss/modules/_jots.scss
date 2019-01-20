@@ -77,7 +77,7 @@
   padding-left: em($m-gut/4*3 - $m-jot-border-width);
 
   color: $l-strong-type-color;
-  border-left: $m-jot-border-width solid $c-type-color;
+  border-left: $m-jot-border-width solid $c-type-color-2;
 
   p {
     @include font-size($m-large-size, $m-large-line);
@@ -116,7 +116,7 @@
     font-weight: $semi-bold;
   }
   a {
-    @include link(l-link);
+    @include link(l-link-2);
   }
   span {
     color: $l-strong-type-color;

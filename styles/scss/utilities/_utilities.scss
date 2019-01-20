@@ -175,45 +175,41 @@ $d-jot-border-width: 3.5px;
 ** Link
 */
 
-@mixin link($status: l-link) {
-  @if $status == "l-link" {
-    text-decoration: underline;
-    /*box-shadow: $l-background-color 0 0 0 0 inset, $c-type-color 0 -2px 0 0 inset;
-    text-shadow: $l-background-color 1px 1px 0, $l-background-color -1px 1px 0, $l-background-color 2px 0 0, $l-background-color -2px 0 0;
-    &:hover,
-    &:active {
-      box-shadow: $l-background-color 0 0 0 0 inset, $l-background-color 0 -2px 0 0 inset;
-    }*/
-  } @else if $status == "c-link" {
+@mixin link($status: l-link-2) {
+  @if $status == "l-link-1" {
     text-decoration: underline;
 
     color: $l-strong-type-color;
-    /*box-shadow: $c-background-color 0 0 0 0 inset, $l-strong-type-color 0 -2px 0 0 inset;
-    text-shadow: $c-background-color 1px 1px 0, $c-background-color -1px 1px 0, $c-background-color 2px 0 0, $c-background-color -2px 0 0;*/
     &:hover,
     &:active {
-      color: $l-strong-type-color;
-      //box-shadow: $c-background-color 0 0 0 0 inset, $c-background-color 0 -2px 0 0 inset;
+      color: $c-strong-type-color-1;
     }
-  }  @else if $status == "d-link" {
+  } @else if $status == "l-link-2" {
+    text-decoration: underline;
+
+    color: $l-strong-type-color;
+    &:hover,
+    &:active {
+      color: $c-strong-type-color-2;
+    }
+  }  @else if $status == "d-link-1" {
     text-decoration: underline;
 
     color: $d-strong-type-color;
-    /*box-shadow: $d-background-color 0 0 0 0 inset, $c-strong-type-color 0 -2px 0 0 inset;
-    text-shadow: $d-background-color 1px 1px 0, $d-background-color -1px 1px 0, $d-background-color 2px 0 0, $d-background-color -2px 0 0;*/
     &:hover,
     &:active {
-      color: $c-strong-type-color;
-      //box-shadow: $d-background-color 0 0 0 0 inset, $d-background-color 0 -2px 0 0 inset;
+      color: $c-strong-type-color-1;
+    }
+  }  @else if $status == "d-link-2" {
+    text-decoration: underline;
+
+    color: $d-strong-type-color;
+    &:hover,
+    &:active {
+      color: $c-strong-type-color-2;
     }
   } @else if $status == "none" {
-    border-bottom: none;
-    box-shadow: none;
-    &:hover,
-    &:active {
-      border-bottom: none;
-      box-shadow: none;
-    }
+    text-decoration: none;
   }
 }
 

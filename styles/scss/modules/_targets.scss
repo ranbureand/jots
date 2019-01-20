@@ -1,0 +1,33 @@
+/* (c) 2018 Andrea Buran [www.andreaburan.com] ∪ Marco Sampellegrini [https://github.com/alpacaaa] All rights reserved */
+
+/*
+** Targets
+*/
+
+.jot:target {
+  ::-moz-selection {
+    background-color: $l-selected-background-color-1;
+  }
+  ::selection {
+    background-color: $l-selected-background-color-1;
+  }
+  .jot-body {
+    border-left-color: $c-strong-type-color-1;
+  }
+  .jot-reference {
+    a {
+      @include link(l-link-1);
+    }
+  }
+}
+
+.cover:target {
+  .cover-body {
+    border-left-color: $c-strong-type-color-1;
+  }
+  .cover-reference {
+    a {
+      @include link(d-link-1);
+    }
+  }
+}

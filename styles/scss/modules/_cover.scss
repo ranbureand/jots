@@ -60,7 +60,7 @@
   padding-left: em($m-gut/4*3 - $m-cover-border-width);
 
   color: $d-strong-type-color;
-  border-left: $m-cover-border-width solid $c-type-color;
+  border-left: $m-cover-border-width solid $c-type-color-2;
 
   p {
     @include font-size($m-extra-large-size, $m-extra-large-line);
@@ -110,7 +110,7 @@
     font-weight: $medium;
   }
   a {
-    @include link(d-link);
+    @include link(d-link-2);
   }
   span {
     color: $d-strong-type-color;

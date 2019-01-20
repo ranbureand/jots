@@ -43,7 +43,7 @@
     }
     &:hover,
     &:active {
-      color: $c-type-color;
+      color: $c-type-color-2;
     }
   }
   @include min-screen(col(18)) {
@@ -59,14 +59,12 @@
   a {
     display: block;
 
-    //min-height: em($m-small-line, $m-small-size);
     padding-top: em($m-small-line, $m-small-size);
     padding-bottom: em($m-small-line, $m-small-size);
   }
   @include min-screen(col(8)) {
     @include font-size($d-small-size, $d-small-line);
     a {
-      //min-height: em($d-small-line, $d-small-size);
       padding-top: em($d-small-line, $d-small-size);
       padding-bottom: em($d-small-line, $d-small-size);
     }

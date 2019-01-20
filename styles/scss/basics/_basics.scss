@@ -51,7 +51,7 @@ body {
 
   counter-reset: tags;
 
-  background-color: $c-background-color;
+  background-color: $c-background-color-2;
 
   scroll-behavior: smooth;
 
@@ -119,13 +119,13 @@ a {
     transition-property: color;
   }
   &:hover {
-    color: $c-type-color;
+    color: $c-type-color-2;
     outline: 0; // normalize.css
   }
   &:active {
     transition-duration: 0.0s, 0.0s, 0.0s, 0.0s, 0.0s;
 
-    color: $c-type-color;
+    color: $c-type-color-2;
     outline: 0; // normalize.css
   }
   &:focus {
