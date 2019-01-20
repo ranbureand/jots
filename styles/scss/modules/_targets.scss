@@ -12,6 +12,11 @@
     background-color: $l-selected-background-color-1;
   }
   .jot-body {
+    animation-name: jot-pulse;
+    animation-duration: $duration*12;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
     border-left-color: $c-strong-type-color-1;
   }
   .jot-reference {
@@ -23,6 +28,11 @@
 
 .cover:target {
   .cover-body {
+    animation-name: cover-pulse;
+    animation-duration: $duration*12;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
     border-left-color: $c-strong-type-color-1;
   }
   .cover-reference {

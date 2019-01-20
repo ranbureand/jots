@@ -41,8 +41,8 @@
 
 .jot {
   width: 100%/1*1;
-  padding-top: em($m-base-rhythm*2);
-  padding-bottom: em($m-base-rhythm*2);
+  padding-top: em($m-base-rhythm*2.5);
+  padding-bottom: em($m-base-rhythm*1.5);
 
   animation-name: element-in-up;
   animation-duration: $duration*4;
@@ -52,8 +52,8 @@
   animation-fill-mode: both;
   @include min-screen(col(8)) {
     width: 100%/2*1;
-    padding-top: em($d-base-rhythm*1.5);
-    padding-bottom: em($d-base-rhythm*1.5);
+    padding-top: em($d-base-rhythm*2);
+    padding-bottom: em($d-base-rhythm*1);
   }
   @include min-screen(col(12)) {
     width: 100%/3*1;
@@ -88,7 +88,6 @@
   a {
     @include link(l-link);
   }
-
   @include min-screen(col(8)) {
     margin-bottom: em($d-base-rhythm);
     padding-right: em($d-gut/2 - $d-jot-border-width);
@@ -103,6 +102,7 @@
     }
   }
 }
+
 
 .jot-reference {
   margin-bottom: em($m-small-line/2, $m-small-size);

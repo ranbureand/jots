@@ -4,30 +4,69 @@
 ** Animations
 */
 
-@keyframes number-pulse-light {
+@keyframes jot-pulse {
   0% {
-    //box-shadow: $l-light-type-color 0 0 0 0.2em;
-    transform: scale(1.4);
+    box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
   }
   50% {
-    //box-shadow: $l-light-type-color 0 0 0 0.1em;
-    transform: scale(1.0);
+    box-shadow: -$m-jot-border-width*0.5 0 0 0 $c-strong-type-color-1, inset $m-jot-border-width*0.5 0 0 0 $c-strong-type-color-1;
   }
   100% {
-    //box-shadow: $l-light-type-color 0 0 0 0.2em;
-    transform: scale(1.4);
+    box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
   }
 }
 
-@keyframes number-pulse-dark {
+@include min-screen(col(8)) {
+  @keyframes jot-pulse {
+    0% {
+      box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
+    }
+    50% {
+      box-shadow: -$d-jot-border-width*0.25 0 0 0 $c-strong-type-color-1, inset $d-jot-border-width*0.25 0 0 0 $c-strong-type-color-1;
+    }
+    100% {
+      box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
+    }
+  }
+}
+
+@keyframes cover-pulse {
   0% {
-    box-shadow: $d-light-type-color 0 0 0 0.5em;
+    box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
   }
   50% {
-    box-shadow: $d-light-type-color 0 0 0 0.3em;
+    box-shadow: -$m-cover-border-width*0.5 0 0 0 $c-strong-type-color-1, inset $m-cover-border-width*0.5 0 0 0 $c-strong-type-color-1;
   }
   100% {
-    box-shadow: $d-light-type-color 0 0 0 0.5em;
+    box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
+  }
+}
+
+@include min-screen(col(8)) {
+  @keyframes cover-pulse {
+    0% {
+      box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
+    }
+    50% {
+      box-shadow: -$t-cover-border-width*0.25 0 0 0 $c-strong-type-color-1, inset $t-cover-border-width*0.25 0 0 0 $c-strong-type-color-1;
+    }
+    100% {
+      box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
+    }
+  }
+}
+
+@include min-screen(col(12)) {
+  @keyframes cover-pulse {
+    0% {
+      box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
+    }
+    50% {
+      box-shadow: -$d-cover-border-width*0.25 0 0 0 $c-strong-type-color-1, inset $d-cover-border-width*0.25 0 0 0 $c-strong-type-color-1;
+    }
+    100% {
+      box-shadow: 0 0 0 0 $c-strong-type-color-1, inset 0 0 0 0 $c-strong-type-color-1;
+    }
   }
 }
 
