@@ -1,0 +1,15 @@
+---
+number: 209
+date: 2019-01-21 10:00:00
+
+title: "Should we?"
+authors: "Tobias Tom"
+tags:
+- Excuse
+- Should
+
+site: "Tobias Tom’s Site"
+address: "https://tobiastom.name/articles/should"
+---
+
+If there is a should, there is a way to get out of it. It is an excuse for missing commitment. Real change starts with the burden that I am indeed responsible for the change. If I only believe that I should do it, is not important enough for me. If it would be I would do it. If it would be important for all of us, we would all do it together.
