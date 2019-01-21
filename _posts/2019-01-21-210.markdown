@@ -1,0 +1,15 @@
+---
+number: 210
+date: 2019-01-21 10:05:00
+
+title: "Competing with a “Stanford grad just dying to work all nighters on Red Bull”"
+authors: "Itamar Turner-Trauring"
+tags:
+- Long Hours
+- Productivity
+
+site: "Code Without Rules"
+address: "https://codewithoutrules.com/2019/01/09/worklife-balance-silicon-valley/"
+---
+
+The starting point is realizing that working long hours makes you a much less productive employee, to the point that your total output will actually decrease […].
