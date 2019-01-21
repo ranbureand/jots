@@ -62,27 +62,23 @@
     padding-top: em($m-small-line, $m-small-size);
     padding-bottom: em($m-small-line, $m-small-size);
   }
+  span {
+    display: none;
+  }
   @include min-screen(col(8)) {
     @include font-size($d-small-size, $d-small-line);
     a {
       padding-top: em($d-small-line, $d-small-size);
       padding-bottom: em($d-small-line, $d-small-size);
     }
-  }
-}
-
-
-.header-title {
-  grid-column: 1 / 3;
-
-  span {
-    display: none;
-  }
-  @include min-screen(col(8)) {
     span {
       display: inline;
     }
   }
+}
+
+.header-title {
+  grid-column: 1 / 3;
 }
 
 .header-index {
