@@ -1,0 +1,15 @@
+---
+number: 211
+date: 2019-01-21 11:40:00
+
+title: "Content Production Planning"
+authors: "Sophie Dennis"
+tags:
+- Content
+- Production
+
+site: "24 ways"
+address: "https://24ways.org/2014/content-production-planning/"
+---
+
+So, people tend to underestimate two crucial things about content: how much content they need, and how long content takes to write.
