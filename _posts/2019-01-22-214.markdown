@@ -1,0 +1,18 @@
+---
+number: 214
+date: 2019-01-22 12:30:00
+
+title: "A Guide to Content Production Planning"
+authors:
+- Devin Asaro
+- Liam King
+tags:
+- Content
+- Environment
+
+publisher: "GatherContent"
+year: "n.d."
+pages: "23"
+---
+
+In order to successfully model content, we must create content environments that stand up to the pressures of production.
