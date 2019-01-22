@@ -1,0 +1,15 @@
+---
+number: 212
+date: 2019-01-22 09:50:00
+
+title: "Why Crunch Modes Doesn't Work: Six Lessons"
+authors: "Evan Robinson"
+tags:
+- Crunch
+- Productivity
+
+site: "IGDA"
+address: "https://www.igda.org/page/crunchsixlessons"
+---
+
+*Error rates climb with hours worked and especially with loss of sleep*. Eventually the odds catch up with you, and catastrophe occurs. When schedules are tight and budgets are big, is this a risk you can really afford to take?
