@@ -1,0 +1,15 @@
+---
+number: 213
+date: 2019-01-22 09:55:00
+
+title: "Be the Villain"
+authors: "Eric Bailey"
+tags:
+- Subversion
+- Villain
+
+site: "24 ways"
+address: "https://24ways.org/2018/be-the-villain/"
+---
+
+Another exercise is asking the question, “What is the evil version of this feature?” Ask it during the ideation phase. Ask it as part of acceptance criteria. Heck, ask it over lunch. I honestly don’t care when, so long as the question is actually raised.
