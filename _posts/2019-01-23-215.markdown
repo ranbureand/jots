@@ -1,0 +1,15 @@
+---
+number: 215
+date: 2019-01-23 23:50:00
+
+title: "UX in the Age of Personalization"
+authors: "Colin Eagan"
+tags:
+- Content
+- Personalization
+
+site: "A List Apart"
+address: "https://alistapart.com/article/emerging-ux-role-in-personalization"
+---
+
+As you can see, an important rule of thumb is to personalize around the main content, not the entire page. There are a variety of reasons for this, including the risk of getting the audience wrong, effects on search indexing, and what’s known as the infinite content problem, i.e., can you realistically create content for every single audience on every single component? (Hint: no.)
