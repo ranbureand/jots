@@ -1,0 +1,17 @@
+---
+number: 216
+date: 2019-02-02 21:00:00
+
+title: "It’s the End of News as We Know It (and Facebook Is Feeling Fine)"
+authors:
+- Monika Bauerlein
+- Clara Jeffery
+tags:
+- Facebook
+- Truth
+
+site: "Mother Jones"
+address: "https://www.motherjones.com/media/2018/12/facebook-propaganda-trump/"
+---
+
+Facebook et al. became the primary sources of news *and* the primary destroyers of news. And they refused to deal with it because their business is predicated on the fallacy that technology is neutral—Silicon Valley’s version of “guns don’t kill people.”
