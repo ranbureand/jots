@@ -14,4 +14,4 @@ site: "Mother Jones"
 address: "https://www.motherjones.com/media/2018/12/facebook-propaganda-trump/"
 ---
 
-Facebook et al. became the primary sources of news *and* the primary destroyers of news. And they refused to deal with it because their business is predicated on the fallacy that technology is neutral—Silicon Valley’s version of “guns don’t kill people.”
+Facebook et al. became the primary sources of news *and* the primary destroyers of news. And they refused to deal with it because their business is predicated on the fallacy that technology is neutral—Silicon Valley’s version of “guns don’t kill people”.
