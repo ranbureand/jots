@@ -12,4 +12,4 @@ site: "Medium"
 address: "https://medium.com/s/douglas-rushkoff/the-real-value-of-facebook-19d1d6cb3003"
 ---
 
-How about when they seem to know my worst fears and then play on them and exaggerate them to get me to respond? In other words, clickbait, personalized to my psychological profile, as determined chiefly by an analysis of my online behavior. Anyone who has followed the recommendation engine on YouTube knows that after delivering one or two innocuous videos, the “Up Next” cue serves up increasingly extreme content. The algorithms push us to become caricatures of ourselves. They don’t merely predict our behavior; they shape it.
+In other words, clickbait, personalized to my psychological profile, as determined chiefly by an analysis of my online behavior. Anyone who has followed the recommendation engine on YouTube knows that after delivering one or two innocuous videos, the “Up Next” cue serves up increasingly extreme content. The algorithms push us to become caricatures of ourselves. They don’t merely predict our behavior; they shape it.
