@@ -1,0 +1,15 @@
+---
+number: 218
+date: 2019-02-04 17:10:00
+
+title: "Behind the collapse of Mic: a farewell to algorithms"
+authors: "Zeeshan Aleem"
+tags:
+- Distributor
+- Facebook
+
+site: "TinyLetter"
+address: "https://tinyletter.com/zeeshanaleem/letters/behind-the-collapse-of-mic-a-farewell-to-algorithms"
+---
+
+Facebook is such a big distributor of traffic that no news operation can afford to ignore it, but it is not a neutral distributor. It’s a bit like if the paperboy went rogue, decided to put a gun to the temple of a newspaper editor and barked that unless he gets a cut of the sales he’ll pull the trigger.
