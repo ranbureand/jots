@@ -1,0 +1,15 @@
+---
+number: 219
+date: 2019-02-07 17:25:00
+
+title: "Mic’s Drop"
+authors: "Adrianne Jeffries"
+tags:
+- Key Phrases
+- Mic
+
+site: "The Outline"
+address: "https://theoutline.com/post/2156/mic-com-and-the-cynicism-of-modern-media?zd=2&zi=p4sepcsa"
+---
+
+This meant analyzing search trends in order to generate key phrases—everything from “What time is the convention” and “Watch Trump’s speech live” to “How to pick up women”—and assigning those key phrases to a staff of SEO writers, who then reverse-engineered stories around them.
