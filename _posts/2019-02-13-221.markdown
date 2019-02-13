@@ -1,0 +1,15 @@
+---
+number: 221
+date: 2019-02-13 10:20:00
+
+title: "Here is how UX Design Integrates with Agile and Scrum"
+authors: "Jeff Gothelf"
+tags:
+- Designer
+- SCRUM Team
+
+site: "Medium"
+address: "https://medium.com/swlh/here-is-how-ux-design-integrates-with-agile-and-scrum-4f3cf8c10e24"
+---
+
+Critically missing from the core scrum team, and necessary for the integration of UX design, is a full-time designer on the team. The only way the tactics in #3 can happen in parallel collaboration with developers, product managers, and scrum masters is if there is a full-time designer on the team.
