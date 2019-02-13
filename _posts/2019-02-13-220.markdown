@@ -1,0 +1,15 @@
+---
+number: 220
+date: 2019-02-13 10:15:00
+
+title: "Response to Here is how UX Design Integrates with Agile and Scrum"
+authors: "Jeff Gothelf"
+tags:
+- Delivery
+- Discovery
+
+site: "Medium"
+address: "https://medium.com/@jboogie/damon-ab9b1cabe021"
+---
+
+Jeff P advocates for 2 types of work, not 2 teams. The type of work the team is doing fluctuates over time. In some parts of the initiative more discovery is needed. In others, more delivery is needed.
