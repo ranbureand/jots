@@ -1,0 +1,15 @@
+---
+number: 222
+date: 2019-02-14 09:50:00
+
+title: "On Simplicity"
+authors: "Max Böck"
+tags:
+- Complexity
+- Simplicity
+
+site: "Max Böck’s Site"
+address: "https://mxb.at/blog/on-simplicity/"
+---
+
+But I think there's a lot of value in actively questioning the need for complexity. Sometimes the smarter way to build things is to try and take some pieces away, rather than add more to it.
