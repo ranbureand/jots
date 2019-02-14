@@ -1,0 +1,15 @@
+---
+number: 223
+date: 2019-02-14 09:55:00
+
+title: "“It must be free”"
+authors: "Anselm Hannemann"
+tags:
+- Decluttering
+- Worth
+
+site: "Anselm Hannemann’s Site"
+address: "https://helloanselm.com/writings/it-must-be-free"
+---
+
+There’s an extremely successful Netflix documentation about decluttering your house—this is directly applicable to software as well. The main essence is that if we did not use something for e.g. three months, it’s not worth keeping it.
