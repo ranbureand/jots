@@ -12,4 +12,4 @@ site: "YouTube"
 address: "https://www.youtube.com/watch?v=7L8vAGGitr8"
 ---
 
-So it’s often better to encourage the behavior you want than discourage the behavior you don’t. Instead of punishing a player that is too slow, reward a player that finishes the level quickly.
+So it’s often better to encourage the behavior you want, than discourage the behavior you don’t. Instead of punishing a player that is too slow, reward a player that finishes the level quickly.
