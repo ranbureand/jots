@@ -1,0 +1,15 @@
+---
+number: 224
+date: 2019-02-20 09:55:00
+
+title: "How Game Designers Protect Players From Themselves"
+authors: "Game Maker’s Toolkit"
+tags:
+- Game
+- Reward
+
+site: "YouTube"
+address: "https://www.youtube.com/watch?v=7L8vAGGitr8"
+---
+
+So it’s often better to encourage the behavior you want than discourage the behavior you don’t. Instead of punishing a player that is too slow, reward a player that finishes the level quickly.
