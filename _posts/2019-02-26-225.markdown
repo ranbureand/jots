@@ -1,0 +1,15 @@
+---
+number: 225
+date: 2019-02-26 10:10:00
+
+title: "Three types of user research"
+authors: "Will Myddelton"
+tags:
+- Research
+- Types
+
+site: "Will Myddelton’s Site"
+address: "http://www.myddelton.co.uk/blog/three-types-of-user-research"
+---
+
+The benefits are strong. You understand the big architectural choices before sinking money into building them. You empower designers by giving them space to explore multiple options and do rapid iterations. This leads to huge progress, quickly.
