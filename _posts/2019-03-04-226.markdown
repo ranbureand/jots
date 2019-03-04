@@ -1,0 +1,15 @@
+---
+number: 226
+date: 2019-03-04 10:10:00
+
+title: "Organizing Brainstorming Workshops: A Designer’s Guide"
+authors: "Slava Shestopalov"
+tags:
+- Brainstorming
+- Hats
+
+site: "Smashing Magazine"
+address: "https://www.smashingmagazine.com/2019/03/conducting-brainstorming-workshops/"
+---
+
+De Bono’s “hat” represents a certain way of perceiving reality. Different people are used to “wearing” one favorite “hat” most of the time, which limits creativity and breeds stereotypes.
