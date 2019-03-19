@@ -1,0 +1,15 @@
+---
+number: 227
+date: 2019-03-19 10:00:00
+
+title: "The Anti-Mentor"
+authors: "Claire Lew"
+tags:
+- Anti-mentor
+- Leadership
+
+site: "Signal v. Noise"
+address: "https://m.signalvnoise.com/the-anti-mentor/"
+---
+
+He wasn’t a bad person (he was a lovely person, in fact.) But having him as a boss showed me exactly the kind of boss I didn’t want to become. I took his template of leadership and whittled my own—a relief carving in opposition to his.
