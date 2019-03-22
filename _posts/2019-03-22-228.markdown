@@ -1,0 +1,15 @@
+---
+number: 228
+date: 2019-03-22 10:10:00
+
+title: "Proto-journey: A Lean UX Customer Journey Map"
+authors: "Jamie Caloras"
+tags:
+- Experience
+- Proto-journey
+
+site: "UX Collective’s Medium"
+address: "https://uxdesign.cc/proto-journey-a-lean-ux-customer-journey-map-30ea3a241edc"
+---
+
+Like proto-personas, a proto-journey can help bootstrap empathy and team alignment.
