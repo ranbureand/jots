@@ -1,0 +1,15 @@
+---
+number: 229
+date: 2019-03-29 14:30:00
+
+title: "Powers of Two"
+authors: "Ben Rady"
+tags:
+- Backlog
+- Never
+
+site: "Radyology"
+address: "https://www.benrady.com/2017/12/powers-of-two.html"
+---
+
+We have three states for new features. Now, next, and probably never. Whatever we’re working on now is the most valuable thing we can think of. Whatever’s next is the next most valuable thing.
