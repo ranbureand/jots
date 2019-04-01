@@ -1,0 +1,15 @@
+---
+number: 230
+date: 2019-04-01 10:15:00
+
+title: "Mistakes, we’ve drawn a few"
+authors: "Sarah Leo"
+tags:
+- Data
+- Visualization
+
+site: "The Economist’s Medium"
+address: "https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368"
+---
+
+Confined by the limited space on a page, we are often tempted to force all the data we have into a slot that’s way too small. Although this saves valuable space on the page, it has consequences […].
