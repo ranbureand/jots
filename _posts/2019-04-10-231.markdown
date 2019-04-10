@@ -1,0 +1,15 @@
+---
+number: 231
+date: 2019-04-10 10:05:00
+
+title: "The 3 Stages of Failure in Life and Work (And How to Fix Them)"
+authors: "James Clear"
+tags:
+- Failure
+- Stages
+
+site: "James Clear’s Site"
+address: "https://jamesclear.com/3-stages-of-failure"
+---
+
+On the other hand, telling someone to never give up is terrible advice. Successful people give up all the time. If something is not working, smart people don’t repeat it endlessly. They revise. They adjust. They pivot. They quit.
