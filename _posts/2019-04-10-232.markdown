@@ -1,0 +1,15 @@
+---
+number: 232
+date: 2019-04-10 10:15:00
+
+title: "Planning to Learn"
+authors: "Anton Ball"
+tags:
+- Learn
+- Plan
+
+site: "Medium"
+address: "https://medium.com/@antonball/planning-to-learn-225fc7817394"
+---
+
+The good side of having a learning plan is focus. I’m not searching for information and I have a plan to follow. All the hard work of planning and research is done.
