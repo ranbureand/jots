@@ -12,4 +12,4 @@ site: "zen habits"
 address: "https://zenhabits.net/larning/"
 ---
 
-Unfortunately, at some point we start to fear failure, but that fear is just holding us back. Failure is really the learning process. Every loss at chess, every falling down when we’re learning a backflip … those are lessons.
+Unfortunately, at some point we start to fear failure, but that fear is just holding us back. Failure is really the learning process. Every loss at chess, every falling down when we’re learning a backflip… those are lessons.
