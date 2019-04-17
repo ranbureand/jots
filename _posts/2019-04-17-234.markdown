@@ -1,0 +1,15 @@
+---
+number: 234
+date: 2019-04-17 10:50:00
+
+title: "Stack mirroring: Designing for code and coding for design"
+authors: "John Choura"
+tags:
+- Design Systems
+- Programming
+
+site: "Design Systems"
+address: "https://www.designsystems.com/stack-mirroring-designing-for-code-and-coding-for-design/"
+---
+
+Programming by nature is functional, reusable, extensible, and version controlled. Modern design systems aim to accomplish much of the same and more, and therefore can take direction from how programming already functions.
