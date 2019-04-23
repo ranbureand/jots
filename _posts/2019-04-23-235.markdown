@@ -1,0 +1,15 @@
+---
+number: 235
+date: 2019-04-23 12:20:00
+
+title: "Good sleep, good learning, good life"
+authors: "Piotr Wozniak"
+tags:
+- Siesta Naps
+- Power Naps
+
+site: "Super Memo"
+address: "https://www.supermemo.com/en/archives1990-2015/articles/sleep/"
+---
+
+Siesta naps, rich in NREM sleep, result in a significant increase in alertness that will be highly appreciated by people in creative professions. By various measures that boost may be as high as 50%!
