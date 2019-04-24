@@ -26,10 +26,10 @@ html {
 
   @include font-size($base-font-size, $base-font-line);
   @include face(sans); // normalize.css
+  scroll-behavior: smooth;
   -webkit-text-size-adjust: none; // normalize.css
       -ms-text-size-adjust: none; // normalize.css
 }
-
 
 *,
 *:before,
@@ -52,8 +52,6 @@ body {
   counter-reset: tags;
 
   background-color: $c-background-color-2;
-
-  scroll-behavior: smooth;
 
   @include min-screen(col(12)) {
     display: table;
