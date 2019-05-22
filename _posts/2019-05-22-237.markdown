@@ -1,0 +1,18 @@
+---
+number: 237
+date: 2019-05-22 10:10:00
+
+title: "Don’t Let Your North Star Metric Deceive You"
+authors:
+- Brian Balfour
+- Shaun Clowes
+- Casey Winters
+tags:
+- constellation
+- north star
+
+site: "Reforge"
+address: "https://www.reforge.com/blog/north-star-metric-growth"
+---
+
+Once you’ve identified your key output metrics, build out the constellation by breaking those outputs down into their input metrics. Drill down until you’ve got a set of actionable input metrics that you can impact directly, and then build your experiments to move those.
