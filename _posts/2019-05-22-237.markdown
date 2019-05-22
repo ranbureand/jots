@@ -8,8 +8,8 @@ authors:
 - Shaun Clowes
 - Casey Winters
 tags:
-- constellation
-- north star
+- Constellation
+- North Star
 
 site: "Reforge"
 address: "https://www.reforge.com/blog/north-star-metric-growth"
