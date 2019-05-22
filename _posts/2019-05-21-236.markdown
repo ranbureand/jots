@@ -1,0 +1,15 @@
+---
+number: 236
+date: 2019-05-21 10:00:00
+
+title: "Best practices: components, styles, and shared libraries"
+authors: "Thomas Lowry"
+tags:
+- Components
+- Exploration
+
+site: "Figma’s Site"
+address: "https://www.figma.com/blog/component-styles-and-shared-library-best-practices/"
+---
+
+If you feel like you’re getting hung up on components too early at an exploratory stage of your project, worry about them later—don’t let it hinder the fluidity of your design process.
