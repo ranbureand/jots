@@ -1,0 +1,15 @@
+---
+number: 238
+date: 2019-05-23 09:25:00
+
+title: "Spotlight: Let’s ask more of AI"
+authors: "Stefania Druga"
+tags:
+- AI
+- Training Data
+
+site: "Internet Health Report 2019"
+address: "https://internethealthreport.org/2019/lets-ask-more-of-ai/"
+---
+
+Some of the most worst missteps have involved training data that is faulty or simply used with no recognition of the serious biases that influenced its collection and analysis.
