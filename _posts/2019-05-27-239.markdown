@@ -1,0 +1,15 @@
+---
+number: 239
+date: 2019-05-27 09:25:00
+
+title: "Mimetic traps"
+authors: "Brian Timar"
+tags:
+- Imitation
+- Peers
+
+site: "Brian Timar’s Site"
+address: "https://briantimar.github.io/notes/mimetic/mimetic"
+---
+
+Humans inherit convictions mimetically from each other—we learn what to value by imitating our peers. As my desire to excel academically grew, I spent greater amounts of time in and around the physics department. The more time I spent there, the greater my desire to excel.
