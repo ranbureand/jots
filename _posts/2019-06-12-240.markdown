@@ -1,0 +1,15 @@
+---
+number: 240
+date: 2019-06-12 09:55:00
+
+title: "Designing a complex table for mobile consumption (nom)"
+authors: "Joe Caron"
+tags:
+- Data
+- Tables
+
+site: "UX Collective’s Medium"
+address: "https://uxdesign.cc/designing-a-complex-table-for-mobile-consumption-nom-7472f7b11fe6"
+---
+
+The first step was to understand how consultants used and interacted with this data in its native web-based form. The different ways that users consumed the data determined the design of its mobile counterpart.
