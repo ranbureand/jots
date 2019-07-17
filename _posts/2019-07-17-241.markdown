@@ -1,0 +1,15 @@
+---
+number: 241
+date: 2019-07-17 12:05:00
+
+title: "The Content Tree"
+authors: "Deane Barker"
+tags:
+- Content
+- Tree
+
+site: "Gadgetopia"
+address: "https://gadgetopia.com/post/4237"
+---
+
+Then it hit me—a content object is defined by two things: (1) its format (the properties it exposes), and (2) *where it is located relative to other content*.
