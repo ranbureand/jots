@@ -1,0 +1,15 @@
+---
+number: 242
+date: 2019-07-19 09:40:00
+
+title: "Foundational Ideas for Responsive Augmented Reality Content"
+authors: "Keith Hamilton"
+tags:
+- Augmented Reality
+- Responsive
+
+site: "Torch"
+address: "https://www.torch.app/blog/foundational-ideas-responsive-augmented-reality-content"
+---
+
+All AR experiences have, at their core, some notion of planes and anchors. Planes are flat surfaces on which content sits, and anchors are spatial markers relative to which content distance is measured.
