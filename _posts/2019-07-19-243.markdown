@@ -1,0 +1,15 @@
+---
+number: 243
+date: 2019-07-19 22:00:00
+
+title: "The bizarre, true story of Metal Gear Solid’s English translation"
+authors: "Jeremy Blaustein"
+tags:
+- Adaptation
+- Translation
+
+site: "Polygon"
+address: "https://www.polygon.com/2019/7/18/20696081/metal-gear-solid-translation-japanese-english-jeremy-blaustein"
+---
+
+Translation is not a science; it is an art. One must take liberties with the text to capture the essence of the words, in an attempt to recreate the feeling of the original for a very different audience with a very different cultural background. 
