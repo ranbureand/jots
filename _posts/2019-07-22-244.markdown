@@ -3,7 +3,7 @@ number: 244
 date: 2019-07-22 22:00:00
 
 title: "1x Engineer"
-authors: "Jeremy Blaustein"
+authors: "cutenode"
 tags:
 - 1x
 - Engineer
