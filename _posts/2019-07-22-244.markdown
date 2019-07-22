@@ -1,0 +1,15 @@
+---
+number: 244
+date: 2019-07-22 22:00:00
+
+title: "1x Engineer"
+authors: "Jeremy Blaustein"
+tags:
+- 1x
+- Engineer
+
+site: "1x Engineer"
+address: "http://1x.engineer/"
+---
+
+Willing to admit when they’re wrong, and aren’t afraid to say “I don't know”.
