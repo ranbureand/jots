@@ -1,0 +1,15 @@
+---
+number: 245
+date: 2019-07-23 09:10:00
+
+title: "Principles of Shaping"
+authors: "Ryan Singer"
+tags:
+- Scope
+- Variable
+
+site: "Shape Up"
+address: "https://basecamp.com/shapeup/1.1-chapter-02"
+---
+
+When the scope isn’t variable, the team can’t reconsider a design decision that is turning out to cost more than it’s worth.
