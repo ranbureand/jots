@@ -1,0 +1,15 @@
+---
+number: 246
+date: 2019-07-24 10:20:00
+
+title: "Principles of Shaping"
+authors: "Ryan Singer"
+tags:
+- Best Solution
+- Time Limit
+
+site: "Shape Up"
+address: "https://basecamp.com/shapeup/1.1-chapter-02"
+---
+
+There’s no absolute definition of “the best” solution. The best is relative to your constraints. Without a time limit, there’s always a better version. The ultimate meal might be a ten course dinner. But when you’re hungry and in a hurry, a hot dog is perfect.
