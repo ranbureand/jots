@@ -1,0 +1,15 @@
+---
+number: 247
+date: 2019-09-10 10:00:00
+
+title: "Design critiques at Figma"
+authors: "Noah Levin"
+tags:
+- Critiques
+- Methods
+
+site: "Figma"
+address: "https://www.figma.com/blog/design-critiques-at-figma/"
+---
+
+The basic idea is that verbal communication in a group setting only allows for one line of conversation at a time. You have a speaker, and a bunch of listeners. By not relying on speaking, a “Silent Meeting” can instead offer multiple conversation threads simultaneously, allowing for a greater volume of feedback to be received in a shorter period of time.
