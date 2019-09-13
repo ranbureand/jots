@@ -1,0 +1,15 @@
+---
+number: 249
+date: 2019-09-10 09:30:00
+
+title: "How to motivate employees? Don’t."
+authors: "Claire Lew"
+tags:
+- Leadership
+- Motivation
+
+site: "Signal v. Noise"
+address: "https://m.signalvnoise.com/how-to-motivate-employees-dont/"
+---
+
+Are you arbitrarily setting targets to create an artificial sense of “urgency” or “accountability”? Or are you trying to create a supportive environment that is truly helpful for a person getting to where they need to be?
