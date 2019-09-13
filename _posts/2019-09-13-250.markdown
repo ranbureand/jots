@@ -1,5 +1,5 @@
 ---
-number: 249
+number: 250
 date: 2019-09-13 09:45:00
 
 title: "Make it Boring"
