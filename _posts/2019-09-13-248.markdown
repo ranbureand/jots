@@ -1,0 +1,15 @@
+---
+number: 248
+date: 2019-09-13 09:20:00
+
+title: "Simplicity (II)"
+authors: "Bastian Allgeier"
+tags:
+- Dependency
+- Simplicity
+
+site: "Bastian Allgeier’s Site"
+address: "https://bastianallgeier.com/notes/simplicity-part-2"
+---
+
+Bluetooth headphones are likely the future. But I still have more love for a set of standard headphone with a regular cable and headphone jack that has been working reliably for decades.
