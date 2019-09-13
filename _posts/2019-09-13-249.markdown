@@ -1,0 +1,15 @@
+---
+number: 249
+date: 2019-09-13 09:45:00
+
+title: "Make it Boring"
+authors: "Jeremy Wagner"
+tags:
+- Boring
+- Exciting
+
+site: "Jeremy Wagner’s Site"
+address: "https://jeremy.codes/blog/make-it-boring/"
+---
+
+Those technologies may seem boring, but boring is fast. Boring is usable. Boring is resilient and fault tolerant. Boring is accessible.
