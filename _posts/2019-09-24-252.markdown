@@ -1,0 +1,15 @@
+---
+number: 252
+date: 2019-09-24 10:45:00
+
+title: "The (not so) hidden cost of sharing code between iOS and Android"
+authors: "Eyal Guthmann"
+tags:
+- Overhead
+- Shared Code
+
+site: "Dropbox’s Blog"
+address: "https://blogs.dropbox.com/tech/2019/08/the-not-so-hidden-cost-of-sharing-code-between-ios-and-android/"
+---
+
+Although writing code once sounds like a great bargain, the associated overhead made the cost of this approach outweigh the benefits (which turned out to be smaller than expected anyway).
