@@ -1,0 +1,15 @@
+---
+number: 251
+date: 2019-09-24 20:40:00
+
+title: "Hand Over Responsibility"
+authors: "Ryan Singer"
+tags:
+- Boring
+- Exciting
+
+site: "Shape Up"
+address: "https://basecamp.com/shapeup/3.1-chapter-09"
+---
+
+The exploration needs to happen anyway. Asking for visible progress will only push it underground. It’s better to empower the team to explictly say “I’m still figuring out how to start” so they don’t have to hide or disguise this legitimate work.
