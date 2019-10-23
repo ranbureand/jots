@@ -1,6 +1,6 @@
 ---
 number: 251
-date: 2019-09-24 20:40:00
+date: 2019-09-24 10:40:00
 
 title: "Hand Over Responsibility"
 authors: "Ryan Singer"
