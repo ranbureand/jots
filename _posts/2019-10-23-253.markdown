@@ -1,0 +1,15 @@
+---
+number: 253
+date: 2019-10-23 09:20:00
+
+title: "Learn, reset, repeat: The intricacy of time loop games"
+authors: "James Batchelor"
+tags:
+- Loop
+- Time
+
+site: "GamesIndustry.biz"
+address: "https://www.gamesindustry.biz/articles/2019-07-31-time-loop-games"
+---
+
+“The longer the loop is, the harder it is for the player to understand the consequences of their actions”, he explains.
