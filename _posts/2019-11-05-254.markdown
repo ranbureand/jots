@@ -1,0 +1,15 @@
+---
+number: 254
+date: 2019-11-05 09:30:00
+
+title: "Creating Online Environments That Work Well For Older Users"
+authors: "Barry Rueger"
+tags:
+- Copy
+- Image
+
+site: "Smashing Magazine"
+address: "https://www.smashingmagazine.com/2019/11/online-environments-older-users/"
+---
+
+I routinely skip past pages that are mostly big pictures with short captions. If you’re showcasing professional photography or artwork that’s fine, but for most things, I’m looking for well-written copy with images to complement or expand on the text. A well-chosen image can certainly improve a web page, but it’s the written word that draws me in.
