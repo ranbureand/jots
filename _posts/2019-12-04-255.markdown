@@ -1,0 +1,15 @@
+---
+number: 255
+date: 2019-12-04 09:30:00
+
+title: "Bundling and Unbundling"
+authors: "Drew Austin"
+tags:
+- Destruction
+- Unbundling
+
+site: "Real Life"
+address: "https://reallifemag.com/bundling-and-unbundling/"
+---
+
+When we unbundle a physical retail store, for example, the pleasant nuances of shopping in person and interacting with other people falls through the cracks. […] And while such feelings could be dismissed as mere misremembering of the inconveniences of the past, they also reflect the loss of something that was too subtle to preserve.
