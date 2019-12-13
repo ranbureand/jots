@@ -1,0 +1,15 @@
+---
+number: 256
+date: 2019-12-13 09:05:00
+
+title: "The Silent Meeting Manifesto v1: Making meeting suck a little less"
+authors: "David Gasca"
+tags:
+- Meeting
+- Silent
+
+site: "Medium"
+address: "https://medium.com/swlh/the-silent-meeting-manifesto-v1-189e9e3487eb"
+---
+
+It’s now minute 55 of the 60 minute meeting, you finally have time to ask the two questions you came here initially to discuss. Before you do, however, someone else raises their hand and asks a different question. This takes up the remaining time in the meeting.
