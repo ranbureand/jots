@@ -1,0 +1,15 @@
+---
+number: 257
+date: 2020-01-06 09:20:00
+
+title: "The Basecamp Guide to Internal Communication"
+authors: "Basecamp’s Team"
+tags:
+- Communication
+- Writing
+
+site: "Basecamp"
+address: "https://basecamp.com/guides/how-we-communicate"
+---
+
+Speaking only helps who’s in the room, writing helps everyone. This includes people who's couldn't make it, or future employees who join years from now.
