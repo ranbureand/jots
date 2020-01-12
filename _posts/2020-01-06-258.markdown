@@ -1,0 +1,15 @@
+---
+number: 258
+date: 2020-01-12 21:50:00
+
+title: "Where do IC designers go once they peak?"
+authors: "Tanner Christensen"
+tags:
+- Individual Contributors
+- Managers
+
+site: "Tanner Christensen’s Site"
+address: "https://tannerchristensen.com/blog/2019/12/23/where-ic-designers-go-once-they-peak"
+---
+
+A design manager’s energy is better spent overseeing the decisions behind the work setup and managing the teams themselves, unblocking members and bridging gaps across teams, not managing or owning the design output and strategy.
