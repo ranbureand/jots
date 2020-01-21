@@ -12,4 +12,4 @@ site: "Game Maker’s Toolkit"
 address: "https://www.youtube.com/watch?v=dwI5b-wRLic"
 ---
 
-Modern society loves multi-tasking. The myth of multi-tasking is that being busy is synonymous with being better. The exact opposite is true. Having fewer priorities leads to better work. […] The reason is simple. You can’t be great at one task if you’re constantly dividing your time ten different ways.
+There’s this idea that output randomness essentially becomes input randomness for the next turn, because you’ll be dealing with the consequences of whatever just happened.
