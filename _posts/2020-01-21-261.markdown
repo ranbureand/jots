@@ -1,0 +1,15 @@
+---
+number: 261
+date: 2020-01-20 22:20:00
+
+title: "The Two Types of Random"
+authors: "Mark Brown"
+tags:
+- Input/Output
+- Randomness
+
+site: "Game Maker’s Toolkit"
+address: "https://www.youtube.com/watch?v=dwI5b-wRLic"
+---
+
+Modern society loves multi-tasking. The myth of multi-tasking is that being busy is synonymous with being better. The exact opposite is true. Having fewer priorities leads to better work. […] The reason is simple. You can’t be great at one task if you’re constantly dividing your time ten different ways.

@@ -1,0 +1,15 @@
+---
+number: 260
+date: 2020-01-20 09:40:00
+
+title: "Procrastination: A Scientific Guide on How to Stop Procrastinating"
+authors: "James Clear"
+tags:
+- Focus
+- Procrastination
+
+site: "James Clear’s Site"
+address: "https://jamesclear.com/procrastination"
+---
+
+Modern society loves multi-tasking. The myth of multi-tasking is that being busy is synonymous with being better. The exact opposite is true. Having fewer priorities leads to better work. […] The reason is simple. You can’t be great at one task if you’re constantly dividing your time ten different ways.

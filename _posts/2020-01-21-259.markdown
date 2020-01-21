@@ -1,0 +1,15 @@
+---
+number: 259
+date: 2020-01-20 09:25:00
+
+title: "The ten minute rule of productivity"
+authors: "Anne-Laure Le Cunff"
+tags:
+- 10-min Rule
+- Procrastination
+
+site: "Ness Labs"
+address: "https://nesslabs.com/ten-minute-rule"
+---
+
+When you don’t want to do something, you often build it up in your mind to be worse than it really is. But once you get started, you get to realistically appraise how long and hard the task is going to be.
