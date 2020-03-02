@@ -1,0 +1,15 @@
+---
+number: 262
+date: 2020-03-02 09:40:00
+
+title: "Cross-Cultural Design"
+authors: "Senongo Akpem"
+tags:
+- Culture
+- Typography
+
+site: "A List Apart"
+address: "https://alistapart.com/article/cross-cultural-design/"
+---
+
+Whether or not you immediately know its history, run away from any typeface that purports to represent an entire culture.
