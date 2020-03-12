@@ -1,0 +1,15 @@
+---
+number: 264
+date: 2020-03-12 09:55:00
+
+title: "Garbage Language Why do corporations speak the way they do?"
+authors: "Molly Young"
+tags:
+- Garbage
+- Language
+
+site: "Vulture"
+address: "https://www.vulture.com/2020/02/spread-of-corporate-speak.html"
+---
+
+But the point of these phrases is to fill space. No matter where I’ve worked, it has always been obvious that if everyone agreed to use language in the way that it is normally used, which is to communicate, the workday would be two hours shorter.
