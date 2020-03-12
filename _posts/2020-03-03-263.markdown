@@ -1,0 +1,15 @@
+---
+number: 263
+date: 2020-03-03 09:40:00
+
+title: "Hit the Mute Button: Why Everyone Is Trying to Silence the Outside World"
+authors: "Richard Godwin"
+tags:
+- Mute
+- Silence
+
+site: "Pocket"
+address: "https://getpocket.com/explore/item/hit-the-mute-button-why-everyone-is-trying-to-silence-the-outside-world"
+---
+
+The wider trend is known as the “privatisation of auditory space”, says Dr Tom Rice, a lecturer in sonic anthropology at Exeter University. “It’s often said in sound studies that we don’t have earlids. We don’t have any control over what drips into our ears and collects in them. Earphones are the closest we have to that.”
