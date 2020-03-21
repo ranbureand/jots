@@ -1,0 +1,15 @@
+---
+number: 266
+date: 2020-03-12 11:05:00
+
+title: "The Worst Video Game Ever"
+authors: "99% Invisible"
+tags:
+- Sleep
+- Solution
+
+site: "99% Invisible"
+address: "https://99percentinvisible.org/episode/the-worst-video-game-ever"
+---
+
+Howard Scott Warshaw: E.T. commits the ultimate video game sin: to disorient the user. And you have to understand the difference between frustration and disorientation, right? Frustration in a video game is essential. Right? A video game must frustrate a user, but you should never disorient them.
