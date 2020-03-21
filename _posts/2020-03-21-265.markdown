@@ -1,0 +1,19 @@
+---
+number: 265
+date: 2020-03-12 09:55:00
+
+title: "The Worst Video Game Ever"
+authors: "99% Invisible"
+tags:
+- Sleep
+- Solution
+
+site: "99% Invisible"
+address: "https://99percentinvisible.org/episode/the-worst-video-game-ever"
+---
+
+Howard Scott Warshaw: I thought, you know, what I need to do is turn sleep into an asset. I would work until I ran into a problem. And then I would go to sleep.
+
+Lizzie Peabody: Hmm.
+
+Howard Scott Warshaw: And I would think, okay, maybe if I can just sleep and come up with something. If I can literally dream up a solution. I thought that would be kind of cool, and there were sometimes where that happened.
