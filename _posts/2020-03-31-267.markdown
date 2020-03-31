@@ -1,6 +1,6 @@
 ---
 number: 267
-date: 2020-03-12 09:10:00
+date: 2020-03-31 09:10:00
 
 title: "How Crash Bandicoot Hacked The Original Playstation"
 authors:
