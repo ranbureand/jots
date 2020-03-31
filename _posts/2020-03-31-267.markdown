@@ -1,0 +1,17 @@
+---
+number: 267
+date: 2020-03-12 09:10:00
+
+title: "How Crash Bandicoot Hacked The Original Playstation"
+authors:
+- Andy Gavin
+- Ars Technica
+tags:
+- Dimensions
+- Constraints
+
+site: "YouTube"
+address: "https://99percentinvisible.org/episode/the-worst-video-game-ever"
+---
+
+We had this realization that basically, we had added a dimension, so the simplest strategy was take out a dimension, but take out different dimensions in some way.
