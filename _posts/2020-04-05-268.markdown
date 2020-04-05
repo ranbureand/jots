@@ -1,0 +1,15 @@
+---
+number: 268
+date: 2020-04-05 11:20:00
+
+title: "DOOM: Behind the Music"
+authors: "Mick Gordon"
+tags:
+- Courage
+- Process
+
+site: "YouTube"
+address: "https://www.youtube.com/watch?v=U4FNBMZsqrY"
+---
+
+If you’re struggling to come out with something new […], change the way you’re doing things and you’ll end up with a different result. Not only that, but have the courage to do so. I say courage, not confidence. Confidence comes from doing the same thing over and over and over and over again. It takes courage to change that.
