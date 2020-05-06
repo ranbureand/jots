@@ -1,0 +1,15 @@
+---
+number: 269
+date: 2020-04-14 09:15:00
+
+title: "Life is Short"
+authors: "Paul Graham"
+tags:
+- Life
+- Time
+
+site: "YouTube"
+address: "http://www.paulgraham.com/vb.html"
+---
+
+Relentlessly prune bullshit, don’t wait to do things that matter, and savor the time you have. That’s what you do when life is short.
