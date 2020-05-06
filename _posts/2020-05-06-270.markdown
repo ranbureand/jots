@@ -1,0 +1,15 @@
+---
+number: 270
+date: 2020-05-06 09:35:00
+
+title: "Failed #SquadGoals"
+authors: "Jeremiah Lee"
+tags:
+- Accountability
+- Spotify
+
+site: "Jeremiah Lee’s Site"
+address: "https://www.jeremiahlee.com/posts/failed-squad-goals/"
+---
+
+Product managers should have an equivalent peer for engineering. Product managers should be accountable for the prioritization of work. Engineering managers should be accountable for the engineers’ execution, which includes being able to negotiate speed and quality tradeoffs with the product manager.
