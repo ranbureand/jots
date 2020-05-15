@@ -1,0 +1,15 @@
+---
+number: 271
+date: 2020-05-06 09:35:00
+
+title: "Jobs to Be Done"
+authors: "Jim Kalbach"
+tags:
+- Context
+- Jobs to Be Done
+
+site: "A List Apart"
+address: "https://alistapart.com/article/jobs-to-be-done/"
+---
+
+Because the format of job stories includes contextual details, they are portable. In other words, a job story should make sense without having to know the larger JTBD landscape or job map. As a result, job stories have a more “plug-and-play” versatility that is often required for Agile designs and development teams.
