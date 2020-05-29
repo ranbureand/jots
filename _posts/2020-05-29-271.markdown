@@ -1,0 +1,17 @@
+---
+number: 271
+date: 2020-05-29 09:45:00
+
+title: "Anatomy of an AI System"
+authors:
+- Kate Crawford
+- Vladan Joler
+tags:
+- AI
+- Labor
+
+site: "Anatomy of an AI System"
+address: "https://anatomyof.ai/"
+---
+
+This kind of invisible, hidden labor, outsourced or crowdsourced, hidden behind interfaces and camouflaged within algorithmic processes is now commonplace, particularly in the process of tagging and labeling thousands of hours of digital archives for the sake of feeding the neural networks.
