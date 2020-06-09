@@ -35,7 +35,7 @@
             <a class="footer-tag" href="{{ site.baseurl }}/jots/page{{ pagination_counter }}#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
             {%- assign post_counter = post_counter | plus : 1 %}
             {% elsif post.number > pagination_threshold_top %}
-            <a class="footer-tag" href="#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
+            <a class="footer-tag" href="{{ site.baseurl }}/#jot-{{ post.number }}" title="Jot № {{ post.number }}">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }} <span>·</span> {% endif %}{% endfor %}</a>
             {% endif %}
           {%- endfor %}
         </div>
