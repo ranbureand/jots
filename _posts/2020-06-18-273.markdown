@@ -1,0 +1,15 @@
+---
+number: 273
+date: 2020-06-18 10:10:00
+
+title: "How To Test A Design Concept For Effectiveness"
+authors: "Paul Boag"
+tags:
+- Design Concept
+- Test
+
+site: "Smashing Magazine"
+address: "https://www.smashingmagazine.com/2020/06/test-design-concept-effectiveness/"
+---
+
+By using testing to avoid design by committee and focus stakeholders on the right assessment criteria, it almost guarantees a better design in the end.
