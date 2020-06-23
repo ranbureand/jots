@@ -1,0 +1,15 @@
+---
+number: 275
+date: 2020-06-23 21:45:00
+
+title: "The ELIZA Effect"
+authors: "99% Invisible"
+tags:
+- AI
+- Language
+
+site: "99% Invisible"
+address: "https://99percentinvisible.org/episode/the-eliza-effect/"
+---
+
+Melanie Mitchell: And this is something that comes up again and again in natural language processing systems, is that they don’t have the kind of knowledge about the world that we humans have and so they make mistakes.
