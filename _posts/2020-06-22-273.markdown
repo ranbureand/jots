@@ -1,0 +1,15 @@
+---
+number: 273
+date: 2020-06-22 22:00:00
+
+title: "Instant Gramification"
+authors: "99% Invisible"
+tags:
+- Instagram
+- Wall
+
+site: "99% Invisible"
+address: "https://99percentinvisible.org/episode/instant-gramification/"
+---
+
+Roman Mars: So if you ever see someone wandering around Stratford, carrying a pug and looking confused at their phone, don’t worry. They’re probably just chasing a ghost geotag on the hunt for the most Instagrammable wall in the world.
