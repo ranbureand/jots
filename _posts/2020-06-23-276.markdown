@@ -1,0 +1,15 @@
+---
+number: 276
+date: 2020-06-23 22:10:00
+
+title: "Why People Become Internet Trolls"
+authors: "Adam Bell"
+tags:
+- Empathy
+- Troll
+
+site: "Adam Bell’s Site"
+address: "https://dradambell.com/why-people-become-internet-trolls/"
+---
+
+When society cannot enforce prosocial human behavior, the antisocial primate may come back into power. And thus the troll is created.

@@ -34,3 +34,33 @@ img::selection {
     background-color: $d-selected-background-color;
   }
 }
+
+.playground-canvas,
+.footer-canvas {
+  position: relative;
+}
+
+.headerEdge,
+.footerEdge {
+  width: 100vw;
+  //margin-right: -12px;
+  //margin-left: -12px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  //display: block;
+}
+
+.headerEdge {
+  top: 0;
+  path {
+    fill: $d-background;
+  }
+}
+
+.footerEdge {
+  top: 0;
+  path {
+    fill: $l-background;
+  }
+}

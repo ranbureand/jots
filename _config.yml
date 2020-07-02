@@ -11,6 +11,8 @@ baseurl: /
 timezone: Europe/Rome
 encoding: utf-8
 
+future: true
+
 collections:
   jots:
     output: true
