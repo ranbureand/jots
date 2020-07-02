@@ -1,0 +1,15 @@
+---
+number: 277
+date: 2020-07-02 21:25:00
+
+title: "My So Called Evil Plan"
+authors: "Eric Molinsky"
+tags:
+- Antagonist
+- Evil
+
+site: "Imaginary Worlds"
+address: "https://www.imaginaryworldspodcast.org/my-so-called-evil-plan.html"
+---
+
+Bruce Leslie: […] he said in most traditional kind of set up superhero comic books, you have to think of the hero as the antagonist and the villain is the protagonist because it‘s the hero who‘s trying to defend the status quo while the villains trying to come in and rock the boat so to speak.
