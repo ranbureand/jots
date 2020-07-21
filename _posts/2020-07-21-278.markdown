@@ -1,0 +1,15 @@
+---
+number: 278
+date: 2020-07-21 12:50:00
+
+title: "The silence is deafening"
+authors: "Devon Zuegel"
+tags:
+- Conversation
+- Feedback
+
+site: "Devon Zuegel’s Site"
+address: "https://devonzuegel.com/post/the-silence-is-deafening"
+---
+
+[…] Angry Alice only sees feedback from extremists, so she doesn't receive more nuanced signals that might actually cause her to reflect on her behavior. If no reasonable people give feedback, only the unreasonable people are left. From Alice's perspective, the only people who disagree with her are jerks.
