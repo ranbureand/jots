@@ -1,0 +1,15 @@
+---
+number: 280
+date: 2020-07-30 11:50:00
+
+title: "What is Good Product Strategy?"
+authors: "Mark Rosenthal"
+tags:
+- Path
+- Toyota Kata
+
+site: "The Lean Thinker"
+address: "http://theleanthinker.com/2011/11/26/bill-costantino-toyota-kata-unified-field-theory/"
+---
+
+The key is that the “green path” isn’t set out as a predictable trajectory. It is hacked out of the jungle as you go. You know you are going, are confident you can get there, but aren’t sure of exactly what issues will be encountered along the way.
