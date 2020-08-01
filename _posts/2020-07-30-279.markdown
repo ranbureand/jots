@@ -1,0 +1,15 @@
+---
+number: 279
+date: 2020-07-30 11:30:00
+
+title: "What is Good Product Strategy?"
+authors: "Melissa Perri"
+tags:
+- Product
+- Strategy
+
+site: "Medium"
+address: "https://medium.com/@melissaperri/what-is-good-product-strategy-8d5587cb7429"
+---
+
+When we lock ourselves into planning to build a set of features (ehem, Roadmaps), we rarely stop to question if those features are the right things to build to reach our goals.
