@@ -80,19 +80,20 @@ function createSVG(edgeStart, edgeEnd, className) {
   return svg;
 };
 
-function clearSVGs() {
+// remove previously prepended SVGs
+function removeSVGs() {
   if (document.body.contains(document.getElementsByClassName('header-edge')[0])) {
     document.getElementsByClassName('header-edge')[0].remove();
-    console.log('Header cleared.');
+    //console.log('Header cleared.');
   };
   if (document.body.contains(document.getElementsByClassName('footer-edge')[0])) {
     document.getElementsByClassName('footer-edge')[0].remove();
-    console.log('Footer cleared.');
+    //console.log('Footer cleared.');
   };
 
 };
 
-
+// prepend SVGs
 function prependSVGs(pointNumber, deltaXStart, minYStart, maxYStart, deltaXEnd, minYEnd, maxYEnd, ) {
   // create the playground random edge
   playground[0].prepend(
@@ -118,7 +119,7 @@ enquire
   // 1200 < width | 16*75 < width
   console.log("1200 < width");
 
-  clearSVGs();
+  removeSVGs();
 
   prependSVGs(11, 0, 0, 0, 16, 0, 8);
 })
@@ -126,7 +127,7 @@ enquire
   // 960 < width < 1200 | 16*60 < width < 16*75
   console.log("960 < width < 1200");
 
-  clearSVGs();
+  removeSVGs();
 
   prependSVGs(9, 0, 0, 0, 16, 0, 8);
 })
@@ -134,7 +135,7 @@ enquire
   // 720 < width < 960 | 16*45 < width < 16*60
   console.log("720 < width < 960");
 
-  clearSVGs();
+  removeSVGs();
 
   prependSVGs(7, 0, 0, 0, 16, 0, 8);
 })
@@ -142,7 +143,7 @@ enquire
   // 480 < width < 720 | 16*30 < width < 16*45
   console.log("480 < width < 720");
 
-  clearSVGs();
+  removeSVGs();
 
   prependSVGs(5, 0, 0, 0, 16, 0, 8);
 })
@@ -150,7 +151,7 @@ enquire
   // width < 480 | width < 16*30
   console.log("width < 480");
 
-  clearSVGs();
+  removeSVGs();
 
   prependSVGs(3, 0, 0, 0, 16, 0, 8);
 });
