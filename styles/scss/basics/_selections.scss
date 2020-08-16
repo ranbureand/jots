@@ -40,8 +40,8 @@ img::selection {
   position: relative;
 }
 
-.headerEdge,
-.footerEdge {
+.header-edge,
+.footer-edge {
   width: 100vw;
   //margin-right: -12px;
   //margin-left: -12px;
@@ -51,14 +51,14 @@ img::selection {
   //display: block;
 }
 
-.headerEdge {
+.header-edge {
   top: 0;
   path {
     fill: $d-background;
   }
 }
 
-.footerEdge {
+.footer-edge {
   top: 0;
   path {
     fill: $l-background;

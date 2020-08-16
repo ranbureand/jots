@@ -2,51 +2,64 @@
 var playground = document.getElementsByClassName('playground-canvas');
 var footer = document.getElementsByClassName('footer-canvas');
 
-// create an array of initial points
-var points = [];
+// setup
+var space = ' ';
 
-for (var i = 9; i > 0; i--) {
-  points.push(0 + (128*i));
-}
+var pathHeight = 8,
+    pathWidth = 1024,
+    path1stPoint = 'M0,0' + space,
+    path2ndPoint = 'L1024,0' + space,
+    pathLastPoint = 'Z';
 
 // generate a random number between two extremes
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-// generate an array of random points
-function generateRandomPoints(seed, minSpread, maxSpread) {
-  let randomPoints = []
+// generate an array of points (more or less randomized)
+function generatePoints(pointNumber, deltaX, minY, maxY) {
 
-  points.forEach(function (point, i) {
-    if ((i === 0) || (i === points.length - 1)) {
-      randomPoints.push(points[i].toString() + ' ' + getRandomInt(minSpread, maxSpread).toString());
+  let inputPoints = [],
+      outputPoints = [];
+
+  for (var i = pointNumber; i >= 0; i--) {
+    inputPoints.push(0 + Math.round((pathWidth / pointNumber * i)));
+  }
+
+  inputPoints.forEach(function (point, i) {
+    if ((i === 0) || (i === inputPoints.length - 1)) {
+      outputPoints.push(inputPoints[i].toString() + ',' + getRandomInt(minY, maxY).toString());
     } else {
-      randomPoints.push(getRandomInt(points[i] - seed, points[i] + seed).toString() + ' ' + getRandomInt(minSpread, maxSpread).toString());
+      outputPoints.push(getRandomInt(inputPoints[i] - deltaX, inputPoints[i] + deltaX).toString() + ',' + getRandomInt(minY, maxY).toString());
     }
   });
 
-  return randomPoints;
+  return outputPoints;
 };
 
-// combine an array of random points into a path
-function combineRandomPoints() {
-  let points = generateRandomPoints(16, 0, 8);
+// combine an array of points generated using generatePoints into a path
+function combinePoints(generation) {
+  let points = generation;
 
-  let path = 'M0 0 L1024 0 L' + points[0] + ' L' + points[1] + ' L' + points[2] + ' L' + points[3] + ' L' + points[4] + ' L' + points[5] + ' L' + points[6] + ' L' + points[7] + ' L' + points[8] + 'L0 0 V0Z';
+  let path = path1stPoint;
+  path += path2ndPoint;
+
+  points.forEach(function (point, i) {
+    path += 'L' + points[i] + space;
+  });
+
+  path += pathLastPoint;
 
   return path;
 };
-
-var edgeStart = 'M0 0 L1024 0 L1024 0 L896 0 L768 0 L640 0 L512 0 L384 0 L256 0 L128 0 L0 0 V0Z';
 
 // create an SVG
 function createSVG(edgeStart, edgeEnd, className) {
   let svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('class', className);
   svg.setAttribute('fill', 'none');
-  svg.setAttribute('width', 1024);
-  svg.setAttribute('height', 8);
+  svg.setAttribute('width', pathWidth);
+  svg.setAttribute('height', pathHeight);
   svg.setAttribute('preserveAspectRatio', 'none');
   svg.setAttribute('viewBox', '0 0 1024 8');
   svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
@@ -67,8 +80,77 @@ function createSVG(edgeStart, edgeEnd, className) {
   return svg;
 };
 
-// create the playground random edge
-playground[0].prepend(createSVG(edgeStart, combineRandomPoints(), 'headerEdge'));
+function clearSVGs() {
+  if (document.body.contains(document.getElementsByClassName('header-edge')[0])) {
+    document.getElementsByClassName('header-edge')[0].remove();
+    console.log('Header cleared.');
+  };
+  if (document.body.contains(document.getElementsByClassName('footer-edge')[0])) {
+    document.getElementsByClassName('footer-edge')[0].remove();
+    console.log('Footer cleared.');
+  };
 
-// create the footer random edge
-footer[0].prepend(createSVG(edgeStart, combineRandomPoints(), 'footerEdge'));
+};
+
+
+function prependSVGs(pointNumber, deltaXStart, minYStart, maxYStart, deltaXEnd, minYEnd, maxYEnd, ) {
+  // create the playground random edge
+  playground[0].prepend(
+    createSVG(
+      combinePoints(generatePoints(pointNumber, deltaXStart, minYStart, maxYStart)),
+      combinePoints(generatePoints(pointNumber, deltaXEnd, minYEnd, maxYEnd)),
+      'header-edge'
+    )
+  );
+
+  // create the footer random edge
+  footer[0].prepend(
+    createSVG(
+      combinePoints(generatePoints(pointNumber, deltaXStart, minYStart, maxYStart)),
+      combinePoints(generatePoints(pointNumber, deltaXEnd, minYEnd, maxYEnd)),
+      'footer-edge'
+    )
+  );
+};
+
+enquire
+.register("screen and (min-width:75em)", function() {
+  // 1200 < width | 16*75 < width
+  console.log("1200 < width");
+
+  clearSVGs();
+
+  prependSVGs(11, 0, 0, 0, 16, 0, 8);
+})
+.register("screen and (min-width:60em) and (max-width:75em)", function() {
+  // 960 < width < 1200 | 16*60 < width < 16*75
+  console.log("960 < width < 1200");
+
+  clearSVGs();
+
+  prependSVGs(9, 0, 0, 0, 16, 0, 8);
+})
+.register("screen and (min-width:45em) and (max-width:60em)", function() {
+  // 720 < width < 960 | 16*45 < width < 16*60
+  console.log("720 < width < 960");
+
+  clearSVGs();
+
+  prependSVGs(7, 0, 0, 0, 16, 0, 8);
+})
+.register("screen and (min-width:30em) and (max-width:45em)", function() {
+  // 480 < width < 720 | 16*30 < width < 16*45
+  console.log("480 < width < 720");
+
+  clearSVGs();
+
+  prependSVGs(5, 0, 0, 0, 16, 0, 8);
+})
+.register("screen and (max-width:30em)", function() {
+  // width < 480 | width < 16*30
+  console.log("width < 480");
+
+  clearSVGs();
+
+  prependSVGs(3, 0, 0, 0, 16, 0, 8);
+});
