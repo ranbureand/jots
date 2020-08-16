@@ -3,10 +3,9 @@ var playground = document.getElementsByClassName('playground-canvas');
 var footer = document.getElementsByClassName('footer-canvas');
 
 // setup
-var space = ' ';
-
 var pathHeight = 8,
     pathWidth = 1024,
+    space = ' ',
     path1stPoint = 'M0,0' + space,
     path2ndPoint = 'L1024,0' + space,
     pathLastPoint = 'Z';
@@ -90,7 +89,6 @@ function removeSVGs() {
     document.getElementsByClassName('footer-edge')[0].remove();
     //console.log('Footer cleared.');
   };
-
 };
 
 // prepend SVGs
