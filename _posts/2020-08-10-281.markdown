@@ -1,0 +1,15 @@
+---
+number: 281
+date: 2020-08-10 09:15:00
+
+title: "Yes, It’s All Your Fault: Active vs. Passive Mindsets"
+authors: "Shane Parrish"
+tags:
+- Active
+- Mindset
+
+site: "Farnam Street"
+address: "https://fs.blog/2019/03/active-mindset/"
+---
+
+It’s not that you can’t do something it’s that unless you have literally done everything, you’re choosing not to because the price is too high. Stop lying to yourself.
