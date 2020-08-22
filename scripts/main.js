@@ -34,7 +34,7 @@ function generatePoints(pointNumber, deltaX, minY, maxY) {
   });
 
   return outputPoints;
-};
+}
 
 // combine an array of points generated using generatePoints into a path
 function combinePoints(generation) {
@@ -50,7 +50,7 @@ function combinePoints(generation) {
   path += pathLastPoint;
 
   return path;
-};
+}
 
 // create an SVG
 function createSVG(edgeStart, edgeEnd, className) {
@@ -77,19 +77,19 @@ function createSVG(edgeStart, edgeEnd, className) {
   animate.setAttribute('to', edgeEnd);
 
   return svg;
-};
+}
 
 // remove previously prepended SVGs
 function removeSVGs() {
   if (document.body.contains(document.getElementsByClassName('header-edge')[0])) {
     document.getElementsByClassName('header-edge')[0].remove();
     //console.log('Header cleared.');
-  };
+  }
   if (document.body.contains(document.getElementsByClassName('footer-edge')[0])) {
     document.getElementsByClassName('footer-edge')[0].remove();
     //console.log('Footer cleared.');
-  };
-};
+  }
+}
 
 // prepend SVGs
 function prependSVGs(pointNumber, deltaXStart, minYStart, maxYStart, deltaXEnd, minYEnd, maxYEnd) {
@@ -110,7 +110,7 @@ function prependSVGs(pointNumber, deltaXStart, minYStart, maxYStart, deltaXEnd, 
       'footer-edge'
     )
   );
-};
+}
 
 enquire
 .register("screen and (min-width:75em)", function() {
