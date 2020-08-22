@@ -1,0 +1,15 @@
+---
+number: 282
+date: 2020-08-19 22:30:00
+
+title: "How Stories Last"
+authors: "Neil Gaiman"
+tags:
+- Alive
+- Stories
+
+site: "Long Now Foundation"
+address: "https://www.youtube.com/watch?v=Xn2n7N7Q2vw"
+---
+
+Can stories reproduce? Well, yeah, not spontaneously, obviously—they tend to need people as vectors; we are the media in which they reproduce; we are their petri dishes—but they can, and they do.
