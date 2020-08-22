@@ -11,12 +11,12 @@ var pathHeight = 8,
     pathLastPoint = 'Z';
 
 // generate a random number between two extremes
-function getRandomInt(min, max) {
+function getRandomInt(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 // generate an array of points (more or less randomized)
-function generatePoints(pointNumber, deltaX, minY, maxY) {
+function generatePoints(pointNumber: any, deltaX: number, minY: number, maxY: number) {
 
   let inputPoints = [],
       outputPoints = [];
@@ -25,7 +25,7 @@ function generatePoints(pointNumber, deltaX, minY, maxY) {
     inputPoints.push(0 + Math.round((pathWidth / pointNumber * i)));
   }
 
-  inputPoints.forEach(function (point, i) {
+  inputPoints.forEach(function (i) {
     if ((i === 0) || (i === inputPoints.length - 1)) {
       outputPoints.push(inputPoints[i].toString() + ',' + getRandomInt(minY, maxY).toString());
     } else {
@@ -34,31 +34,31 @@ function generatePoints(pointNumber, deltaX, minY, maxY) {
   });
 
   return outputPoints;
-};
+}
 
 // combine an array of points generated using generatePoints into a path
-function combinePoints(generation) {
+function combinePoints(generation: any) {
   let points = generation;
 
   let path = path1stPoint;
   path += path2ndPoint;
 
-  points.forEach(function (point, i) {
+  points.forEach(function (i: number) {
     path += 'L' + points[i] + space;
   });
 
   path += pathLastPoint;
 
   return path;
-};
+}
 
 // create an SVG
-function createSVG(edgeStart, edgeEnd, className) {
+function createSVG(edgeStart: any, edgeEnd: any, className: any) {
   let svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('class', className);
   svg.setAttribute('fill', 'none');
-  svg.setAttribute('width', pathWidth);
-  svg.setAttribute('height', pathHeight);
+  svg.setAttribute('width', pathWidth.toString());
+  svg.setAttribute('height', pathHeight.toString());
   svg.setAttribute('preserveAspectRatio', 'none');
   svg.setAttribute('viewBox', '0 0 1024 8');
   svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
@@ -77,7 +77,7 @@ function createSVG(edgeStart, edgeEnd, className) {
   animate.setAttribute('to', edgeEnd);
 
   return svg;
-};
+}
 
 // remove previously prepended SVGs
 function removeSVGs() {
@@ -89,10 +89,10 @@ function removeSVGs() {
     document.getElementsByClassName('footer-edge')[0].remove();
     //console.log('Footer cleared.');
   };
-};
+}
 
 // prepend SVGs
-function prependSVGs(pointNumber, deltaXStart, minYStart, maxYStart, deltaXEnd, minYEnd, maxYEnd) {
+function prependSVGs(pointNumber: any, deltaXStart: number, minYStart: number, maxYStart: number, deltaXEnd: number, minYEnd: number, maxYEnd: number) {
   // create the playground random edge
   playground[0].prepend(
     createSVG(
@@ -110,7 +110,7 @@ function prependSVGs(pointNumber, deltaXStart, minYStart, maxYStart, deltaXEnd, 
       'footer-edge'
     )
   );
-};
+}
 
 enquire
 .register("screen and (min-width:75em)", function() {
