@@ -12,4 +12,4 @@ site: "Long Now Foundation"
 address: "https://www.youtube.com/watch?v=Xn2n7N7Q2vw"
 ---
 
-Can stories reproduce? Well, yeah, not spontaneously, obviously—they tend to need people as vectors; we are the media in which they reproduce; we are their petri dishes—but they can, and they do.
+Can stories reproduce? Well, yeah, not spontaneously, obviously<span class="nowrap">—they</span> tend to need people as vectors; we are the media in which they reproduce; we are their petri dishes<span class="nowrap">—but</span> they can, and they do.
