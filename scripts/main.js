@@ -115,7 +115,7 @@ function prependSVGs(pointNumber, deltaXStart, minYStart, maxYStart, deltaXEnd, 
 enquire
 .register("screen and (min-width:75em)", function() {
   // 1200 < width | 16*75 < width
-  console.log("1200 < width");
+  //console.log("1200 < width");
 
   removeSVGs();
 
@@ -123,7 +123,7 @@ enquire
 })
 .register("screen and (min-width:60em) and (max-width:75em)", function() {
   // 960 < width < 1200 | 16*60 < width < 16*75
-  console.log("960 < width < 1200");
+  //console.log("960 < width < 1200");
 
   removeSVGs();
 
@@ -131,7 +131,7 @@ enquire
 })
 .register("screen and (min-width:45em) and (max-width:60em)", function() {
   // 720 < width < 960 | 16*45 < width < 16*60
-  console.log("720 < width < 960");
+  //console.log("720 < width < 960");
 
   removeSVGs();
 
@@ -139,7 +139,7 @@ enquire
 })
 .register("screen and (min-width:30em) and (max-width:45em)", function() {
   // 480 < width < 720 | 16*30 < width < 16*45
-  console.log("480 < width < 720");
+  //console.log("480 < width < 720");
 
   removeSVGs();
 
@@ -147,7 +147,7 @@ enquire
 })
 .register("screen and (max-width:30em)", function() {
   // width < 480 | width < 16*30
-  console.log("width < 480");
+  //console.log("width < 480");
 
   removeSVGs();
 

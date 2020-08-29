@@ -115,6 +115,14 @@
 }
 /* (c) 2018 Andrea Buran [www.andreaburan.com] All rights reserved */
 /*
+** Classes
+*/
+.nowrap {
+  white-space: nowrap;
+}
+
+/* (c) 2018 Andrea Buran [www.andreaburan.com] All rights reserved */
+/*
 ** Animations
 */
 @keyframes jot-pulse {
