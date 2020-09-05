@@ -1,0 +1,15 @@
+---
+number: 283
+date: 2020-09-01 10:00:00
+
+title: "Six Ways to Think Long-term: A Cognitive Toolkit for Good Ancestors"
+authors: "Roman Krznaric"
+tags:
+- Long-term
+- Thinking
+
+site: "The Long Now Foundation’s Blog"
+address: "https://blog.longnow.org/02020/07/20/six-ways-to-think-long-term-a-cognitive-toolkit-for-good-ancestors/"
+---
+
+Instead, consider a hundred years as a minimum threshold for long-term thinking. This is the current length of a long human lifespan, taking us beyond the ego boundary of our own mortality, so we begin to imagine futures that we can influence but not participate in ourselves.
