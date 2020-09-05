@@ -1,0 +1,15 @@
+---
+number: 284
+date: 2020-09-03 22:00:00
+
+title: "The Work Required to Have an Opinion"
+authors: "Shane Parrish"
+tags:
+- Opinion
+- Work
+
+site: "Farnam Street"
+address: "https://fs.blog/2013/04/the-work-required-to-have-an-opinion/"
+---
+
+While we all hold an opinion on almost everything, how many of us do the work required to have an opinion?
