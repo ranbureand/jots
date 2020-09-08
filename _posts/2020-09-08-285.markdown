@@ -1,6 +1,6 @@
 ---
 number: 285
-date: 2020-09-03 14:00:00
+date: 2020-09-08 14:00:00
 
 title: "Distributed Retrospectives with Slack"
 authors: "Danny Varner"
