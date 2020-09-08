@@ -1,0 +1,15 @@
+---
+number: 285
+date: 2020-09-03 14:00:00
+
+title: "Distributed Retrospectives with Slack"
+authors: "Danny Varner"
+tags:
+- Asynchronous
+- Retrospective
+
+site: "Danny Varner’s Site"
+address: "https://dannyvarner.com/2017/07/15/distributed-retrospectives.html"
+---
+
+The result would be an asynchronous retrospective spread across multiple days in order for the team to collaboratively build off each others ideas and eventually come to an action plan without requiring anyone to wake up in the middle of the night to participate.
