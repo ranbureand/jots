@@ -1,0 +1,15 @@
+---
+number: 286
+date: 2020-09-11 09:05:00
+
+title: "The Truth Is Paywalled But The Lies Are Free"
+authors: "Nathan J. Robinson"
+tags:
+- Access
+- Information
+
+site: "Current Affairs"
+address: "https://www.currentaffairs.org/2020/08/the-truth-is-paywalled-but-the-lies-are-free/"
+---
+
+[…] it’s concerning that the Hoover Institute will freely give you Richard Epstein’s infamous article downplaying the threat of coronavirus, but Isaac Chotiner’s interview demolishing Epstein requires a monthly subscription, meaning that the lie is more accessible than its refutation.
