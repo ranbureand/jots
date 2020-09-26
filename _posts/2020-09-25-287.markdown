@@ -1,0 +1,15 @@
+---
+number: 286
+date: 2020-09-25 12:30:00
+
+title: "Options, Not Roadmaps"
+authors: "Ryan Singer"
+tags:
+- Options
+- Roadmaps
+
+site: "Signal v. Noise"
+address: "https://m.signalvnoise.com/options-not-roadmaps/"
+---
+
+An option is something you can do but don’t have to do. All our product ideas are exactly that: options we may exercise in some future cycle—or never.
