@@ -1,5 +1,5 @@
 ---
-number: 286
+number: 287
 date: 2020-09-25 12:30:00
 
 title: "Options, Not Roadmaps"
