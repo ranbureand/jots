@@ -1,0 +1,15 @@
+---
+number: 288
+date: 2020-10-03 09:50:00
+
+title: "Why is Facebook not Paying the Apple Tax?"
+authors: "iA"
+tags:
+- Digital Goods
+- Taxes
+
+site: "iA Blog"
+address: "https://ia.net/topics/why-is-facebook-not-paying-the-apple-tax"
+---
+
+Ads are digital goods. What else are ads? Spiritual goods? They are the digital good. They are what is driving the digital economy in the first place! And, yes, Facebook, Instagram, Twitter, and so on do have direct transactions built into the apps. And, no, they do not pay any fees to Apple for these in-app transactions.
