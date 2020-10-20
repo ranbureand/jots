@@ -1,0 +1,15 @@
+---
+number: 289
+date: 2020-10-20 10:30:00
+
+title: "The failed promise of Web Components"
+authors: "Lea Verou"
+tags:
+- Anxiety
+- Components
+
+site: "Lea Verou’s Site"
+address: "https://lea.verou.me/2020/09/the-failed-promise-of-web-components/"
+---
+
+Using a custom element from the directory often needs to be preceded by a ritual of npm flugelhorn, import clownshoes, build quux, all completely unapologetically because “here is my truckload of dependencies, yeah, what”. Many steps are even omitted, likely because they are “obvious”.
