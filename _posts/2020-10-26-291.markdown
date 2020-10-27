@@ -1,0 +1,15 @@
+---
+number: 291
+date: 2020-10-26 10:30:00
+
+title: "The Map Is Not the Territory"
+authors: "Shane Parrish"
+tags:
+- Map
+- Territory
+
+site: "Farnam Street"
+address: "https://fs.blog/2015/11/map-and-territory/"
+---
+
+(A.) The map could be incorrect without us realizing it; (B.) The map is, by necessity, a reduction of the actual thing, a process in which you lose certain important information; and (C.) A map needs interpretation, a process that can cause major errors.
