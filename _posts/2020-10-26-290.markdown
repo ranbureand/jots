@@ -1,0 +1,15 @@
+---
+number: 290
+date: 2020-10-26 10:20:00
+
+title: "What Sharks Can Teach Us About Survivorship Bias"
+authors: "Shane Parrish"
+tags:
+- Bias
+- Survivorship
+
+site: "Farnam Street"
+address: "https://fs.blog/2020/10/sharks-survivorship-bias/"
+---
+
+We can’t be afraid of a tale if no one lives to tell it. More survivors can make something seem more dangerous rather than less dangerous because the volume of stories makes them more memorable.
