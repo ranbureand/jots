@@ -1,0 +1,15 @@
+---
+number: 292
+date: 2020-10-26 15:30:00
+
+title: "What overusing exclamation marks says about you"
+authors: "Philip Cowell"
+tags:
+- Exclamation Mark
+- Usage
+
+site: "BBC Culture"
+address: "https://www.bbc.com/culture/article/20170301-what-overusing-exclamation-marks-says-about-you"
+---
+
+It is certainly the mark of the internet: email, chat forums, social media and comment threads have all engendered a culture of multiple exclamation mark usage and abusage. It’s really interesting!!! The more you use them, the more you need to use them!!!!!! The more you need to use them, the more you increasingly make no sense!!!!!!!!!!!
