@@ -1,0 +1,15 @@
+---
+number: 293
+date: 2020-11-25 21:20:00
+
+title: "A Day in the Life of an Engineering Manager"
+authors: "Karl Hughes"
+tags:
+- Change
+- Manager
+
+site: "Karl Hughes’s Site"
+address: "https://www.karllhughes.com/posts/engineering-manager"
+---
+
+[…] think about reiterating significant changes in one-on-ones, group settings, via email, and in passing. Change is scary, but the more people hear about something, the less scary it tends to be.
