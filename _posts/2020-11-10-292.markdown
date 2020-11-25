@@ -1,6 +1,6 @@
 ---
 number: 292
-date: 2020-10-26 15:30:00
+date: 2020-11-10 15:30:00
 
 title: "What overusing exclamation marks says about you"
 authors: "Philip Cowell"
