@@ -1,0 +1,15 @@
+---
+number: 294
+date: 2020-11-26 9:30:00
+
+title: "How to Write Microcopy That Improves the User Experience"
+authors: "Betsy Mikel"
+tags:
+- Copy
+- Microcopy
+
+site: "Firefox UX"
+address: "https://blog.mozilla.org/ux/2020/11/how-to-write-microcopy-that-improves-the-user-experience/"
+---
+
+If you’re tasked with writing microcopy, first learn as much as you can about the component you are writing for, particularly its constraints. When you finally sit down to write, don’t worry about getting it right the first time.
