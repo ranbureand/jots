@@ -1,0 +1,15 @@
+---
+number: 295
+date: 2020-12-14 9:00:00
+
+title: "Where Do We Put The UX Tasks?"
+authors: "John Cutler"
+tags:
+- Management
+- UX Tasks
+
+site: "John Cutler’s Medium"
+address: "https://medium.com/@johnpcutler/where-do-we-put-the-ux-tasks-2581eb04a04b"
+---
+
+Any time you break up a story based on functional roles (back-end/front-end, for example), you are diluting the story and creating a dependency management game.
