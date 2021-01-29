@@ -1,0 +1,15 @@
+---
+number: 296
+date: 2021-01-16 22:00:00
+
+title: "Strategic Plans Are Less Important than Strategic Planning"
+authors: "Graham Kenny"
+tags:
+- Planning
+- Strategy
+
+site: "Harvard Business Review"
+address: "https://hbr.org/amp/2016/06/strategic-plans-are-less-important-than-strategic-planning"
+---
+
+Even though your plan is liable to become immediately irrelevant, you still need to invest in writing it up.  Why? There are two reasons. The first is to surface disagreements that may otherwise remain hidden. […] The second reason is that it provides a platform from which change can be leveraged.
