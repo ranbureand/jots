@@ -1,0 +1,15 @@
+---
+number: 297
+date: 2021-02-17 22:15:00
+
+title: "Trolling for Truth on Social Media"
+authors: "Joan Donovan"
+tags:
+- Disinformation
+- Manipulation
+
+site: "Scientific American"
+address: "https://www.scientificamerican.com/article/trolling-for-truth-on-social-media/"
+---
+
+Eradicating these impostor tactics is possible, but it would require tech companies to admit that the design of their systems aids and abets media manipulators.
