@@ -1,0 +1,15 @@
+---
+number: 298
+date: 2021-02-22 10:15:00
+
+title: "A Tale Of Two Ecosystems: On Bandcamp, Spotify And The Wide-Open Future"
+authors: "Damon Krukowski"
+tags:
+- Audio
+- Music
+
+site: "NPR: National Public Radio"
+address: "https://www.npr.org/2020/08/19/903547253/a-tale-of-two-ecosystems-on-bandcamp-spotify-and-the-wide-open-future"
+---
+
+Spotify is focused on "capturing the share of time listeners spend elsewhere." This is why Ek talks about "audio" generically, because it doesn't matter specifically what those listeners are doing elsewhere, Ek just wants them doing it at Spotify instead.
