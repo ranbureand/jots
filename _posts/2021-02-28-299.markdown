@@ -1,0 +1,17 @@
+---
+number: 299
+date: 2021-02-28 16:00:00
+
+title: "TGS07: Interview with Loco Roco’s Tsutomu Kouno"
+authors:
+- Jem Alexander
+- Tsutomu Kouno
+tags:
+- Audio
+- Music
+
+site: "Engadget"
+address: "https://www.engadget.com/2007-10-01-tgs07-interview-with-loco-rocos-tsutomu-kouno.html"
+---
+
+As for the lyrics, I tried to get all the languages I could find and wrote down interesting words in katakana. Then I changed these into words that Japanese people would find cool, so that people could not recognize individual words of any particular language. I had invented my own language.
