@@ -1,0 +1,15 @@
+---
+number: 301
+date: 2021-03-18 9:45:00
+
+title: "What No One Explains About the Design Process"
+authors: "Jordan Bowman"
+tags:
+- Design
+- Process
+
+site: "UX Tools"
+address: "https://uxtools.co/blog/what-no-one-explains-about-the-design-process/"
+---
+
+Instead of thinking of design as a procedure, think of it as a toolbox. For different projects, you need different tools. If you’re asked to pound in a nail, grabbing a screwdriver isn’t ideal.
