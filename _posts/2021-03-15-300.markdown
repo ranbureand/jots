@@ -1,0 +1,15 @@
+---
+number: 300
+date: 2021-03-15 10:00:00
+
+title: "Why should type be fluid, anyway?"
+authors: "Elise Hein"
+tags:
+- Fluid
+- Typography
+
+site: "UX Collective"
+address: "https://elisehein.medium.com/why-should-type-be-fluid-anyway-f7f32f0d37a3"
+---
+
+I make a window bigger when I want to see more information, not the same information presented in a larger size. […] I have no data to back this up, but my intuition says that it’s the amount of available space, not the size of visible content, that people are playing with when they resize windows.
