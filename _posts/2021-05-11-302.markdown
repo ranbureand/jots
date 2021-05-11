@@ -1,0 +1,15 @@
+---
+number: 302
+date: 2021-11-302 9:05:00
+
+title: "Font size is useless; let’s fix it"
+authors: "Nikita Prokopov"
+tags:
+- font-size
+- line-height
+
+site: "Nikita Prokopov’s Site"
+address: "https://tonsky.me/blog/font-size/"
+---
+
+When I say *em* size is absolutely arbitrary and is not related to anything in the font at all, it’s not an exaggeration. It actually is not!
