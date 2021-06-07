@@ -1,0 +1,15 @@
+---
+number: 303
+date: 2021-06-07 10:25:00
+
+title: " Front-End Testing is For Everyone "
+authors: "Evgeny Klimenchenko"
+tags:
+- front-end
+- testing
+
+site: "CSS Tricks"
+address: "https://css-tricks.com/front-end-testing-is-for-everyone/"
+---
+
+If you want to make sure your application works as expected, is inclusive to as many people as possible, runs efficiently, and is well-designed, then testing needs to be a core part of your workflow, whether it’s automated or manual.
