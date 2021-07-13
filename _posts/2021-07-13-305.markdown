@@ -1,0 +1,15 @@
+---
+number: 305
+date: 2021-07-13 12:00:00
+
+title: "They Swore by the Diet I Created—but I Completely Made It Up"
+authors: "Alan Levinovitz"
+tags:
+- Inoculation
+- Misinformation
+
+site: "Elemental"
+address: "https://elemental.medium.com/they-swore-by-the-diet-i-created-but-i-completely-made-it-up-c6d168e84c26"
+---
+
+Should they engage in the journalistic practice of building information around a strong central narrative, leading with a protagonist or an anecdote like the one that began this piece? Or should those hoping to accurately communicate science stick with a drier approach to persuasion, one that’s less likely to use the same rhetorical tricks as misinformation campaigns?
