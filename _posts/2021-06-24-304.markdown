@@ -1,0 +1,17 @@
+---
+number: 304
+date: 2021-06-24 09:10:00
+
+title: "The Diderot Effect: Why We Want Things We Don’t Need—And What to Do About It"
+authors: "James Clear"
+tags:
+- Consumption Spiral
+- Diderot
+
+site: "James Clear’s Site"
+address: "https://jamesclear.com/diderot-effect"
+---
+
+When Catherine the Great, the Empress of Russia, heard of Diderot’s financial troubles she offered to buy his library from him for £1000 GBP, which is approximately $50,000 USD in 2015 dollars. Suddenly, Diderot had money to spare.
+
+Shortly after this lucky sale, Diderot acquired a new scarlet robe. That’s when everything went wrong.
