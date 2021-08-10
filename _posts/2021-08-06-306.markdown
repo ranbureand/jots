@@ -1,0 +1,15 @@
+---
+number: 306
+date: 2021-08-06 12:30:00
+
+title: "Frustrating Design Patterns: Disabled Buttons"
+authors: "Vitaly Friedman"
+tags:
+- Buttons
+- Disabled
+
+site: "Smashing Magazine"
+address: "https://www.smashingmagazine.com/2021/08/frustrating-design-patterns-disabled-buttons/"
+---
+
+Disabled buttons don’t explain what’s wrong. They communicate that something is off, but very often it’s just not good enough. As a result, too often users are left wondering what’s actually missing, and consequently locked out entirely.
