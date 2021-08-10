@@ -1,0 +1,15 @@
+---
+number: 307
+date: 2021-08-10 21:25:00
+
+title: "Harder Than It Looks, Not As Fun as It Seems"
+authors: "Morgan Housel"
+tags:
+- Image
+- Sales
+
+site: "Collaborative Fund"
+address: "https://www.collaborativefund.com/blog/hard/"
+---
+
+*Everything is sales* also means that everyone is trying to craft an image of who they are. The image helps them sell themselves to others. Some are more aggressive than others, but everyone plays the image game, even if it’s subconscious.
