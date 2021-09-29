@@ -1,0 +1,15 @@
+---
+number: 308
+date: 2021-09-14 09:40:00
+
+title: "“Why Am I Not Rich & Famous?” the Delusion of Our Times"
+authors: "Darius Foroux"
+tags:
+- Entertainment
+- Reality
+
+site: "Darius Foroux"
+address: "https://dariusforoux.com/rich-and-famous/"
+---
+
+This is the impact of entertainment on real life. People assume that what they see in movies, tv shows, and social media is real. And they try to mimic it.
