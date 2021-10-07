@@ -1,0 +1,15 @@
+---
+number: 310
+date: 2021-09-16 09:00:00
+
+title: "I Called Off My Wedding. The Internet Will Never Forget"
+authors: "Lauren Goode"
+tags:
+- Algorithms
+- Wedding
+
+site: "Wired"
+address: "https://www.wired.com/story/weddings-social-media-apps-photos-memories-miscarriage-problem/"
+---
+
+When engineers build ad retargeting platforms, they build something that will continually funnel more content for the things you’ve indicated you’re interested in. On average, that’s the correct thing to do, Seyal said. But these systems don’t factor in when life has been interrupted.
