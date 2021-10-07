@@ -1,0 +1,15 @@
+---
+number: 309
+date: 2021-09-15 09:00:00
+
+title: "Design for Safety, An Excerpt"
+authors: "Eva PenzeyMoog"
+tags:
+- Research
+- Safety
+
+site: "A List Apart"
+address: "https://alistapart.com/article/design-for-safety-excerpt/"
+---
+
+The goal with this step is to exhaust every effort of identifying harms your product could cause. You aren’t worrying about how to prevent the harm yet—that comes in the next step.
