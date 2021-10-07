@@ -1,0 +1,15 @@
+---
+number: 313
+date: 2021-09-19 09:00:00
+
+title: "Assessing Product Opportunities"
+authors: "Teresa Torres"
+tags:
+- Discovery
+- Solutions
+
+site: "Why This Opportunity Solution Tree is Changing the Way Product Teams Work"
+address: "https://www.producttalk.org/2016/08/opportunity-solution-tree/"
+---
+
+In other words, solutions should only be considered if they help us deliver on one of our target opportunities. If they don’t connect to the tree, they should be considered a distraction.
