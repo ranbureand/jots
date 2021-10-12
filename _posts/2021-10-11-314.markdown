@@ -1,0 +1,15 @@
+---
+number: 314
+date: 2021-10-12 00:15:00
+
+title: "An essay about JoJo’s Bizarre Adventure and queer masculinities"
+authors: "Ruben Ferdinand"
+tags:
+- Fashion
+- JoJo Pose
+
+site: "Ruben Ferdinand’s Medium"
+address: "https://urbanfriendden.medium.com/an-essay-about-jojos-bizarre-adventure-and-queer-masculinities-5d3b5f25567b"
+---
+
+In the classic buildup-climax-resolution structure of drama, the JoJo pose is not the climax. A crucial moment has already happened when characters assume their stances. That’s why I think it’s part of the resolution.
