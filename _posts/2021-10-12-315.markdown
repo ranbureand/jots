@@ -1,0 +1,15 @@
+---
+number: 315
+date: 2021-10-12 10:00:00
+
+title: "The Internet of Grift"
+authors: "Ed Zitron"
+tags:
+- NTFs
+- Uniqueness
+
+site: "Ed Zitron’s Where”s Your Ed At"
+address: "https://ez.substack.com/p/the-internet-of-grift"
+---
+
+…and even if you have all of that, something being unique does not automatically grant it quality. NFTs operate on the principle that being one-of-a-kind grants something value by default.
