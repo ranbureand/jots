@@ -1,0 +1,15 @@
+---
+number: 316
+date: 2021-11-03 10:00:00
+
+title: "136 facts every web dev should know before they burn out and turn to landscape painting or nude modelling"
+authors: "Baldur Bjarnason"
+tags:
+- Development
+- Facts
+
+site: "Baldur Bjarnason’s Site"
+address: "https://www.baldurbjarnason.com/2021/100-things-every-web-developer-should-know/"
+---
+
+Dependencies suck; dependencies rule. Other people’s code is like getting other people’s work for free. The downside is that it comes with their opinions, hobbies, and hygiene attached. All code comes bundled with a code smell. Usually, there isn’t anything you can do to prevent it from stinking up the place.
