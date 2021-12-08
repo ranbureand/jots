@@ -1,0 +1,15 @@
+---
+number: 317
+date: 2021-12-08 09:30:00
+
+title: "Line length revisited: following the research"
+authors: "Mary Dyson"
+tags:
+- Line length
+- Saccades
+
+site: "Design Regression"
+address: "https://designregression.com/article/line-length-revisited-following-the-research"
+---
+
+When the return sweep does not reach the beginning of the new line (undershoots), it is followed by a small leftward saccade to move back towards the beginning of the line. This is described as a corrective saccade.
