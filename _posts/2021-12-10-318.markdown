@@ -1,0 +1,15 @@
+---
+number: 318
+date: 2021-12-10 09:20:00
+
+title: "How to Sell UX Research with Two Simple Questions"
+authors: "Sophia V. Prater"
+tags:
+- Nouns
+- SIP
+
+site: "A List Apart"
+address: "https://alistapart.com/article/how-to-sell-ux-research/"
+---
+
+You’ll want to focus on nouns that might represent objects in your system. If you are having trouble determining if a noun might be object-worthy, remember the acronym SIP and test for: Structure Instances Purpose.
