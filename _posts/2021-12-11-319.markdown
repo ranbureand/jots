@@ -1,0 +1,15 @@
+---
+number: 319
+date: 2021-12-11 21:40:00
+
+title: "Playing videogames carefully"
+authors: "Edwin Evans-Thirlwell"
+tags:
+- Caregiving
+- Videogame
+
+site: "Eurogamer"
+address: "https://www.eurogamer.net/articles/2021-11-29-playing-videogames-carefully"
+---
+
+Playing a videogame *for* someone is a far more elaborate skill than just playing to win.
