@@ -1,0 +1,15 @@
+---
+number: 320
+date: 2021-12-16 09:30:00
+
+title: "Introducing Dual Track Agile—the theory"
+authors: "Emanuele Bolognesi"
+tags:
+- Dual Track Agile
+- Prototyping
+
+site: "UX Collective"
+address: "https://uxdesign.cc/introducing-dual-track-agile-27a23d12268b"
+---
+
+The idea is to test as many solutions as possible during discovery and discard all the wrong ones during this phase; this way, only the right solutions are developed during delivery.
