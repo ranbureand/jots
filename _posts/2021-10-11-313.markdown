@@ -1,5 +1,5 @@
 ---
-number: 314
+number: 313
 date: 2021-10-12 00:15:00
 
 title: "An essay about JoJo’s Bizarre Adventure and queer masculinities"

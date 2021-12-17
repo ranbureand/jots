@@ -1,0 +1,17 @@
+---
+number: 320
+date: 2021-12-17 12:30:00
+
+title: "The New User Story Backlog is a Map"
+authors: "Jeff Patton"
+tags:
+- Backlog
+- Map
+
+site: "Jeff Patton & Associates"
+address: "https://www.jpattonassociates.com/the-new-backlog/"
+---
+
+After all that work, after establishing all that shared understanding I feel like we pull all the leaves off the tree and load them into a leaf bag–then cut down the tree.
+
+That’s what a flat backlog is to me. A bag of context-free mulch.

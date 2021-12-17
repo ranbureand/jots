@@ -1,5 +1,5 @@
 ---
-number: 312
+number: 311
 date: 2021-09-18 09:00:00
 
 title: "Assessing Product Opportunities"

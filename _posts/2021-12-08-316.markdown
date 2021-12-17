@@ -1,5 +1,5 @@
 ---
-number: 317
+number: 316
 date: 2021-12-08 09:30:00
 
 title: "Line length revisited: following the research"

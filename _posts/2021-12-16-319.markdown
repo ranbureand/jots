@@ -1,5 +1,5 @@
 ---
-number: 320
+number: 319
 date: 2021-12-16 09:30:00
 
 title: "Introducing Dual Track Agile—the theory"

@@ -1,5 +1,5 @@
 ---
-number: 318
+number: 317
 date: 2021-12-10 09:20:00
 
 title: "How to Sell UX Research with Two Simple Questions"
