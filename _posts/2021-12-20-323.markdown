@@ -1,0 +1,15 @@
+---
+number: 323
+date: 2021-12-20 13:30:00
+
+title: "We Need One Complete Product Team"
+authors: "Todd Lankford"
+tags:
+- Discovery
+- Silos
+
+site: "Serious Scrum"
+address: "https://medium.com/serious-scrum/we-need-one-complete-product-team-5d7508125505"
+---
+
+Splitting Product Discovery and Delivery across two teams is a form of a functional silo.

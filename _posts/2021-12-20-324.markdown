@@ -1,0 +1,15 @@
+---
+number: 324
+date: 2021-12-20 14:00:00
+
+title: "Three “Right” Ways to Develop Your Product"
+authors: "Todd Lankford"
+tags:
+- Building
+- Three Ways
+
+site: "Serious Scrum"
+address: "https://medium.com/serious-scrum/three-right-ways-to-develop-your-product-e731b71c7b35"
+---
+
+A focus on building the solution “right” means you do not let debt you take on stay around for long. You keep it visible and eradicate it fast as you deliver new features. And you do this because you recognize the longer the debt lives on, the more the interest hurts.

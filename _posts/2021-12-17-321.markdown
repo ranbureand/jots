@@ -1,0 +1,15 @@
+---
+number: 321
+date: 2021-12-17 17:00:00
+
+title: "Dual Track Development is not Duel Track"
+authors: "Jeff Patton"
+tags:
+- Discovery
+- Dual Track
+
+site: "Jeff Patton & Associates"
+address: "https://www.jpattonassociates.com/dual-track-development/"
+---
+
+Discovery work often results in killing ideas. At the end of every test you’ve got a decision to make: build it, kill it, or keep learning. Yes, what I’m really saying here is discovery work can and should result in killing ideas. Not everything goes forward.

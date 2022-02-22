@@ -1,0 +1,15 @@
+---
+number: 322
+date: 2021-12-17 17:40:00
+
+title: "It’s Not Just Standing Up: Patterns for Daily Standup Meetings"
+authors: "Jason Yip"
+tags:
+- Stand-up Meetings
+- Work Items
+
+site: "Martin Fowler’s Site"
+address: "https://www.jpattonassociates.com/dual-track-development/"
+---
+
+Instead of thinking of the daily stand-up as a ritual for the people, think of it as a ritual where the Work Items Attend (e.g., User Stories in an Agile context) and the people attend only to speak for the work items… since obviously the work items can’t actually talk.
