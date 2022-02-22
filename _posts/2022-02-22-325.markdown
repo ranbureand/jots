@@ -12,4 +12,4 @@ site: "Brad Frost’s Site"
 address: "https://bradfrost.com/blog/post/design-system-versioning-single-library-or-individual-components/"
 ---
 
-It is impossible to test against all the version combinations of all components in the library. Is `Button v3.4` compatible with `Accordion 1.2` and `Modal 5.3`? Library maintainers can’t guarantee quality, which means when issues arise consuming teams and maintainers have go on an easter egg hunt to pin down where compatibility problems are occurring.
+It is impossible to test against all the version combinations of all components in the library. Is *Button v3.4* compatible with *Accordion 1.2* and *Modal 5.3*? Library maintainers can’t guarantee quality, which means when issues arise consuming teams and maintainers have go on an easter egg hunt to pin down where compatibility problems are occurring.
