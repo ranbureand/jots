@@ -1,0 +1,15 @@
+---
+number: 326
+date: 2022-03-21 09:30:00
+
+title: "Do It"
+authors: "Andy Hertzfeld"
+tags:
+- Copy
+- Versioning
+
+site: "Folklore.org"
+address: "https://www.folklore.org/StoryView.py?project=Macintosh&story=Do_It.txt"
+---
+
+Finally, the team noticed one user that was particularly flummoxed by the dialog box, who even seemed to be getting a bit angry. The moderator interrupted the test and asked him what the problem was. He replied, “I’m not a dolt, why is the software calling me a dolt?”
