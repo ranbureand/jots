@@ -1,0 +1,18 @@
+---
+number: 328
+date: 2022-04-26 22:00:00
+
+title: "Stagnation and Scientific Incentives"
+authors:
+- Jay Bhattacharya
+- Mikko Packalen
+tags:
+- Citations
+- Stagnation
+
+publisher: "National Bureau of Economic Research"
+year: "2020"
+pages: "4"
+---
+
+Given this crucial aspect of scientific production—that early exploration is indispensable but typically has little impact on the wider scientific community—an excessive reliance on citations in the evaluation of scientists effectively punishes the exploration of new ideas.
