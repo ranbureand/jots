@@ -1,0 +1,17 @@
+---
+number: 327
+date: 2022-04-26 21:30:00
+
+title: "On the Internet, We’re Always Famous"
+authors: "Chris Hayes"
+tags:
+- Celebrity
+- Experience
+
+site: "The New Yorker"
+address: "https://www.newyorker.com/news/essay/on-the-internet-were-always-famous"
+---
+
+For the vast majority of our species’ history, those were the two principal categories of human relations: kin and gods. Those we know who know us, grounded in mutual social interaction, and those we know who don’t know us, grounded in our imaginative powers.
+
+But now consider a third category: people *we* don’t know and who somehow know *us*. They pop up in mentions, comments, and replies; on subreddits, message boards, or dating apps.
