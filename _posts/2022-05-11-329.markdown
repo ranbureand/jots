@@ -1,0 +1,15 @@
+---
+number: 329
+date: 2022-05-11 09:10:00
+
+title: "103 Bits of Advice I Wish I Had Known"
+authors: "Kevin Kelly"
+tags:
+- Advices
+- Bits
+
+site: "The Technium"
+address: "https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/"
+---
+
+The biggest lie we tell ourselves is “I dont need to write this down because I will remember it”.
