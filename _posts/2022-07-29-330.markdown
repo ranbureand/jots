@@ -1,0 +1,15 @@
+---
+number: 330
+date: 2022-07-29 10:20:00
+
+title: "File Not Found"
+authors: "Monica Chin"
+tags:
+- Directory structure
+- Search
+
+site: "The Verge"
+address: "https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z"
+---
+
+“I tend to think an item lives in a particular folder. It lives in one place, and I have to go to that folder to find it,” Garland says. “They see it like one bucket, and everything’s in the bucket.”
