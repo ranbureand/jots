@@ -1,0 +1,15 @@
+---
+number: 331
+date: 2023-02-01 11:30:00
+
+title: "Visual design rules you can safely follow every time"
+authors: "Anthony Hobday"
+tags:
+- Tips & tricks
+- Visual design
+
+site: "Anthony Hobday’s site"
+address: "https://anthonyhobday.com/sideprojects/saferules/"
+---
+
+This is vague, but important. You should be deliberate about absolutely everything in your design. This means whitespace, alignment, size, spacing, colour, shadows. Everything. If I point at a random part of your design and you don't have an explanation for why it looks that way, you’re not finished.
