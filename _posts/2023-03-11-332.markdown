@@ -12,4 +12,4 @@ site: "Game Maker’s Toolkit"
 address: "https://www.youtube.com/watch?v=rJZyPdYIbZI"
 ---
 
-Like that first solution with the diluted potions, designer Wyatt Cheng says “we weren’t totally thrilled with this solution as we were putting it in, but we did it anyway. We knew that even though this might not be a solution that we’re willing it was something that was going to teach us a lot more about the problem.
+Like that first solution with the diluted potions, designer Wyatt Cheng says “we weren’t totally thrilled with this solution as we were putting it in, but we did it anyway. We knew that even though this might not be a solution that we’re willing it was something that was going to teach us a lot more about the problem”.
