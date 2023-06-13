@@ -2,7 +2,7 @@
 number: 332
 date: 2023-03-11 10:50:00
 
-title: "How Game Designers Solved These 11 Problems "
+title: "How Game Designers Solved These 11 Problems"
 authors: "Mark Brown"
 tags:
 - Problems
