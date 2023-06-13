@@ -1,0 +1,15 @@
+---
+number: 333
+date: 2023-06-13 10:30:00
+
+title: "Generative Tech Begins"
+authors: "James Currier"
+tags:
+- First Draft
+- Generative AI
+
+site: "NFX"
+address: "https://www.nfx.com/post/generative-tech"
+---
+
+But these new generative tools help you with the first half of the process, taking you from nearly zero to a lot of initial ideas.
