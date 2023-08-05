@@ -1,0 +1,15 @@
+---
+number: 334
+date: 2023-08-05 12:05:00
+
+title: "Pluralistic: Tiktok's enshittification"
+authors: "Cory Doctorow"
+tags:
+- Enshittification
+- Platform lifecycle
+
+site: "Pluralistic: Daily links from Cory Doctorow"
+address: "https://pluralistic.net/2023/01/21/potemkin-ai/"
+---
+
+This is enshittification: surpluses are first directed to users; then, once they're locked in, surpluses go to suppliers; then once they're locked in, the surplus is handed to shareholders and the platform becomes a useless pile of shit.
