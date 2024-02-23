@@ -1,0 +1,15 @@
+---
+number: 337
+date: 2024-02-22 20:30:00
+
+title: " HUG CSS, how I approach CSS architecture "
+authors: "Chris Ferdinandi"
+tags:
+- architecture
+- CSS
+
+site: "Go Make Things"
+address: "https://gomakethings.com/hug-css-how-i-approach-css-architecture/"
+---
+
+You could use a collection of utility classes for that, but I find creating a group class is just more practical.

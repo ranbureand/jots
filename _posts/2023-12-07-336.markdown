@@ -1,0 +1,15 @@
+---
+number: 336
+date: 2023-12-07 11:00:00
+
+title: "Four color theorem"
+authors: "Ted Goas"
+tags:
+- Design
+- Strategy
+
+site: "Wikipedia"
+address: "https://en.wikipedia.org/wiki/Four_color_theorem"
+---
+
+In mathematics, the four color theorem, or the four color map theorem, states that no more than four colors are required to color the regions of any map so that no two adjacent regions have the same color.

@@ -1,0 +1,15 @@
+---
+number: 335
+date: 2023-08-14 15:30:00
+
+title: "“Doing strategy” as a product designer"
+authors: "Ted Goas"
+tags:
+- Design
+- Strategy
+
+site: "UX Collective on Medium"
+address: "https://uxdesign.cc/doing-strategy-as-a-product-designer-902e0cc64858"
+---
+
+Design leaders need more than just design skills. Understanding business and strategy is one the most impactful things designers can learn to lead teams and attain meaningful results.
