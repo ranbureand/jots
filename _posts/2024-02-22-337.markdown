@@ -2,7 +2,7 @@
 number: 337
 date: 2024-02-22 20:30:00
 
-title: " HUG CSS, how I approach CSS architecture "
+title: "HUG CSS, how I approach CSS architecture"
 authors: "Chris Ferdinandi"
 tags:
 - architecture

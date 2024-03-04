@@ -2,7 +2,7 @@
 number: 338
 date: 2024-02-22 20:40:00
 
-title: " HUG CSS, how I approach CSS architecture "
+title: "Tailwind marketing and misinformation engine"
 authors: "Tero Piirainen"
 tags:
 - marketing
@@ -12,6 +12,6 @@ site: "Nue"
 address: "https://nuejs.org/blog/tailwind-misinformation-engine/"
 ---
 
-Most importantly: how is this wall of text more maintainable than a class name like "primary"?
+Most importantly: how is this wall of text more maintainable than a class name like “primary”?
 
 Do I need another wall for the white button?
