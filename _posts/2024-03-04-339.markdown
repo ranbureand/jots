@@ -12,4 +12,4 @@ site: "First Round Review"
 address: "https://review.firstround.com/airtables-path-to-product-market-fit-lessons-for-building-horizontal-products"
 ---
 
-“This work in the alpha phase would have been really hard to parallelize. You can’t hire a bunch of engineers to make that go faster. It actually would’ve been counterproductive to try to scale it up a lot more because we needed to nail that foundation of the database. Hiring a bunch of people would have made it harder to be nimble and change the direction of that foundation,” he says.
+“This work in the alpha phase would have been really hard to parallelize. You can’t hire a bunch of engineers to make that go faster […]. Hiring a bunch of people would have made it harder to be nimble and change the direction of that foundation,” he says.
