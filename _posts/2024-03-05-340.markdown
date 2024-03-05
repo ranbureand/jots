@@ -1,0 +1,15 @@
+---
+number: 340
+date: 2024-03-05 23:10:00
+
+title: "Shipping quality software in hostile environments"
+authors: "Luka Kladaric"
+tags:
+- tech bankruptcy
+- tech debt
+
+site: "Luka Kladaric’s site"
+address: "https://chaos.guru/essays/2024/hostile-environments/"
+---
+
+It became a hidden project in our task-tracking system called Monsters Under the Bed, and whenever we’d have a few minutes, we’d open the Monsters, contemplate one of them, and find a novel way to kill it.

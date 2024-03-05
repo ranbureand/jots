@@ -2,7 +2,7 @@
 number: 339
 date: 2024-03-04 10:40:00
 
-title: "Airtable's Path to Product-Market Fit — Lessons for Building Horizontal Products"
+title: "Airtable's Path to Product-Market Fit—Lessons for Building Horizontal Products"
 authors: "Todd Jackson, Andrew Ofstad"
 tags:
 - ideal customer profile
