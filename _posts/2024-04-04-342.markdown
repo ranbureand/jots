@@ -1,0 +1,15 @@
+---
+number: 342
+date: 2024-04-04 18:30:00
+
+title: "GD Column 17: Water Finds a Crack"
+authors: "Soren Johnson"
+tags:
+- no fun
+- videogames
+
+site: "Designer Notes"
+address: "https://www.designer-notes.com/game-developer-column-17-water-finds-a-crack/"
+---
+
+Given the opportunity, players will optimize the fun out of a game.
