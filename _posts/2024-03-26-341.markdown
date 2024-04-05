@@ -1,0 +1,15 @@
+---
+number: 341
+date: 2024-03-26 10:05:00
+
+title: "I’m a programmer and I’m stupid"
+authors: "Anton Golang"
+tags:
+- stupidity
+- simplicity
+
+site: "Anton Golang’s site"
+address: "https://antonz.org/stupid/"
+---
+
+The software I build seems to work okay. It won’t impress a Google engineer, that’s for sure. But it serves its users and the business reasonably well.
