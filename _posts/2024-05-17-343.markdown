@@ -1,0 +1,15 @@
+---
+number: 343
+date: 2024-05-17 10:15:00
+
+title: "Improving GPT-4’s Function Calling with an Explanation Parameter"
+authors: "Pierce Lamb"
+tags:
+- GPT functions
+- rationales
+
+site: "Pierce Lamb’s Medium"
+address: "https://pierce-lamb.medium.com/improving-gpt-4-function-calling-with-an-explanation-parameter-4fba06a4c6bb"
+---
+
+We just add a second parameter to the function call called “explanation” and give it a succinct description. GPT will create an answer to our new question, fill it in the `answer` parameter and then explain how it arrived at that answer in the `explanation` parameter.
