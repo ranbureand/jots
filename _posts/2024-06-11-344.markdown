@@ -1,0 +1,15 @@
+---
+number: 344
+date: 2024-06-11 18:00:00
+
+title: "The Web’s Grain"
+authors: "Frank Chimero"
+tags:
+- flow
+- Web
+
+site: "Frank Chimero’s Site"
+address: "https://frankchimero.com/blog/2015/the-webs-grain/"
+---
+
+“Listen bub,” I say, “it is very impressive that you can teach a bear to ride a bicycle, and it is fascinating and novel. But perhaps it’s cruel? Because that’s not what bears are supposed to do. And look, pal, that bear will never actually be good at riding a bicycle.”
