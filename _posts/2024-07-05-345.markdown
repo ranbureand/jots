@@ -12,6 +12,8 @@ site: "Farnam Street"
 address: "https://fs.blog/how-to-read-a-book/"
 ---
 
-When reading to master something, there are four keys to keep in mind […].
+When reading to master something, there are four keys to keep in mind.
 
-3. Translate and synthesize: Instead of using the author’s language, establish your own terms. This exercise in translation bridges different authors’ concepts and arguments.
+[…]
+
+Translate and synthesize: Instead of using the author’s language, establish your own terms. This exercise in translation bridges different authors’ concepts and arguments.
