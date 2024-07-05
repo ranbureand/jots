@@ -1,6 +1,6 @@
 ---
 number: 345
-date: 2024-06-11 17:10:00
+date: 2024-07-05 17:10:00
 
 title: "The Best Summary of How to Read a Book by Mortimer Adler"
 authors: "Shane Parrish"
