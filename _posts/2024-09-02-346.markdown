@@ -1,0 +1,18 @@
+---
+number: 346
+date: 2024-09-02 00:10:00
+
+title: "How to be a graphic designer, without losing your soul"
+authors:
+- Misha Black
+- Adrian Shaughnessy
+tags:
+- mediocrity
+- second-class design
+
+publisher: "Laurence King Publishing"
+year: "2005"
+pages: "105"
+---
+
+“In the second-class design office, where expediency controls honesty, the influence of the client is decisive. No more time is spent on the job than the minimum necessary to satisfy the client, and if the client is incapable of judging between a solution that is properly and one that is only partially resolved, then it is the latter that he receives This is the path of mediocrity, to the rapid deterioration of standards, and, for the designer, to an insistent sense of dissatisfaction not compensated by the increasing bank balance that often results from a willingness to produce shoddy work.”
