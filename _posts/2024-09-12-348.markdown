@@ -1,0 +1,17 @@
+---
+number: 348
+date: 2024-09-12 15:10:00
+
+title: "The LLM honeymoon phase is about to end"
+authors: "Baldur Bjarnason"
+tags:
+- Honeymoon
+- LLM Optimization
+
+site: "Baldur Bjarnason’s site"
+address: "https://www.baldurbjarnason.com/2024/the-llm-honeymoon-phase/"
+---
+
+And as the LLM-Optimisation industry (LLMO) assembles its tools, the utility of existing LLMs will plummet like AltaVista’s, until the only way out is to either abandon them or invent a completely new and more secure kind of model.
+
+Either way, this is the end of the honeymoon period for LLMs, even if it might take the industry a long while to notice it.
