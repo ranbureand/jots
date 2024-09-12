@@ -1,0 +1,15 @@
+---
+number: 347
+date: 2024-09-12 09:35:00
+
+title: "Prompts are unsafe, and that means language models are not fit for purpose"
+authors: "Baldur Bjarnason"
+tags:
+- prompts
+- security
+
+site: "Out of the Software Crisis"
+address: "https://softwarecrisis.dev/letters/prompts-are-not-fit-for-purpose/"
+---
+
+The control prompt usually included language that tells the model not to listen to control statements in the input, but because it’s all input into the model as one big slop, there’s nothing really to prevent an adversarial end-user from finding ways to countermand the commands in the developer portion of the prompt.
