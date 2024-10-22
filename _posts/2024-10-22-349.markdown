@@ -1,0 +1,17 @@
+---
+number: 349
+date: 2024-10-22 08:40:00
+
+title: "Are We Too Impatient to Be Intelligent?"
+authors: "Rory Sutherland"
+tags:
+- Problem space
+- Single right answer
+
+site: "Behavioral Scientist"
+address: "https://behavioralscientist.org/are-we-too-impatient-to-be-intelligent/"
+---
+
+What you do is pretend this is a high school math problem with a single right answer, you solve for the right answer using high school math, and then nobody can argue with you because apparently you haven’t made a decision. You’ve simply followed the data.
+
+This is a massive problem in decision-making. We try to close down the solution space of any problem in order to arrive at a single right answer that is difficult to argue with.
