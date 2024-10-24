@@ -1,0 +1,15 @@
+---
+number: 350
+date: 2024-10-24 10:20:00
+
+title: " Naming Conventions That Need to Die"
+authors: "Will Crichton"
+tags:
+- conventions
+- bad naming
+
+site: "&Notepad"
+address: "https://willcrichton.net/notes/naming-conventions-that-need-to-die/"
+---
+
+Look, I’m all for recognizing the people who make contributions to math and science. But don’t let them (or others) name their discoveries after the discoverer. That comes at the expense of every person thereafter who needs to use the created/discovered concept.
