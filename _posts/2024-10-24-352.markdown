@@ -1,0 +1,15 @@
+---
+number: 352
+date: 2024-10-24 11:50:00
+
+title: "How to avoid death By PowerPoint"
+authors: "David JP Phillips"
+tags:
+- PowerPoint
+- slides
+
+site: "YouTube"
+address: "https://www.youtube.com/watch?v=Iwpi1Lm6dFo"
+---
+
+I want to make one thing clear here, and that is that the amount of slides in your Power Point has never been the problem. It is the amount of objects per slide which has been the problem.
