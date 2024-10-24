@@ -2,14 +2,14 @@
 number: 351
 date: 2024-10-24 11:40:00
 
-title: "How to avoid death By PowerPoint"
-authors: "David JP Phillips"
+title: "How to Create, Structure, Design, Prepare and Hold a Great Presentation "
+authors: "iA"
 tags:
-- PowerPoint
-- slides
+- 5 principles
+- presentation
 
-site: "YouTube"
-address: "https://www.youtube.com/watch?v=Iwpi1Lm6dFo"
+site: "iA Newsletter"
+address: "https://ia.net/topics/five-canons-of-rhetoric"
 ---
 
-I want to make one thing clear here, and that is that the amount of slides in your Power Point has never been the problem. It is the amount of objects per slide which has been the problem.
+But do not shuffle around slides randomly hoping that they somehow make sense. Your slides are not puzzle pieces that can be shifted and turned until they make sense because they were always meant to fit together. You tear the fabric of your speech if structure by trial and error.
